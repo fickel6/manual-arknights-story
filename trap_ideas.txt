@@ -1,0 +1,8 @@
+-1 deployment limit
+-1 squad limit
+remove a usable operator
+nicheknights
+ - snipers only / force 3 snipers
+ - caster only / force 3 casters
+ - 5-star only / force only 5 stars
+ - libery only / force 3 libery operators 

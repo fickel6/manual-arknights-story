@@ -1,0 +1,126 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": [
+                "How to End your Randomized playthrough."
+        ],
+            "aliases": {"ending1 is2": 0, "ending2 is2": 1, "ending3 is2": 2, "ending4 is2": 3,
+                        "ending1 is3": 4, "ending2 is3": 5, "ending3 is3": 6, "ending4 is3": 7,
+                        "ending1 is4": 8, "ending2 is4": 9, "ending3 is4": 10, "ending4 is4": 11,
+                        "ending1 is5": 12, "ending2 is5": 13, "ending3 is5": 14, "ending4 is5": 15, "ending5 is5": 16,
+                        "ending1 is6": 17, "ending2 is6": 18, "ending3 is6": 19
+                    },
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        },
+        "filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "values": {
+                "recommended": 0
+            },
+            "hidden": true
+        }
+    },
+    "user": {
+        "include 6 stars":{
+            "description": [
+                "include or exclude all six stars from the randomizer.",
+                "if excluded (false), you can't play any 6 stars. in all the runs.",
+                "in the template yaml, you can also choose which individual 6 star should be removed.",
+                "This is done, becuase there is no way to do ti via the json file (yet)."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "operator options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "complex_ui"
+            ]
+        },
+        "include 5 stars":{
+            "description": [
+                "how the 5 stars will be randomised",
+                "'as individual items': all 5 stars are individual items. When you get this, you instantly get access to e2",
+                "'progressive items': all 5 stars are progressive items. first item, you unlock all 5 stars. Second progressive item unlocks e2",
+                "'exclude': no 5 stars will be included. Alternatively could be used as you can always use 5 stars"
+            ],
+            "type": "Choice",
+            "values": {
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
+            },
+            "group": "operator options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "complex_ui"
+            ]
+        },
+        "_include 4 stars":{
+            "description": [
+                "how the 4 stars will be randomised",
+                "'progressive items': all 4 stars are progressive items. first item, you unlock all 4 stars. Second progressive item unlocks e2",
+                "'exclude': no 4 stars will be included. Alternatively could be used as you can always use 4 stars"
+            ],
+            "type": "Choice",
+            "values": {
+                "progressive items": 0,
+                "exclude": 1
+            },
+            "group": "operator options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "complex_ui"
+            ]
+        },
+        "_include 3 stars":{
+            "description": [
+                "how the 3 stars will be randomised",
+                "'progressive items': all 3 stars are progressive items. first item, you unlock all 3 stars. Second progressive item unlocks e2",
+                "'exclude': no 3 stars will be included. Alternatively could be used as you can always use 3 stars"
+            ],
+            "type": "Choice",
+            "values": {
+                "progressive items": 0,
+                "exclude": 1
+            },
+            "group": "operator options",
+            "visibility": [
+                "template",
+                "simple_ui",
+                "complex_ui"
+            ]
+        },
+        "no leak sanity": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "beat all the selected stages without any leaks."
+            ],
+            "group": "sanities"
+        },
+        "include random operators": {
+            "type": "Range",
+            "default": 1,
+            "range_start": 0,
+            "range_end": 20,
+            "description": [
+                "add a item for unlocking random operators.",
+                "use websites like https://akgcc.github.io/randomizer/ to choose what operator you can use.",
+                "alternatively, use this as 'unlock a character you want' item"
+            ],
+            "group": "operator options"
+        }
+    }
+}

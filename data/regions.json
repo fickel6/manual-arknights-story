@@ -1,0 +1,22 @@
+{
+  "chapter0-4": {
+    "connects_to": [],
+    "requires": "|is2 key|"
+  },
+  "chapter5-8": {
+    "connects_to": ["chapter0-4"],
+    "requires": "|is3 key|"
+  },
+  "chapter6-12": {
+    "connects_to": ["chapter5-8"],
+    "requires": "|is4 key|"
+  },
+  "events": {
+    "connects_to": [],
+    "requires": "|is5 key|"
+  },
+  "reading_events": {
+    "connects_to": [],
+    "requires": "|is6 key|"
+  }
+}
