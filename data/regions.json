@@ -1,19 +1,23 @@
 {
-  "chapter0-4": {
+  "act 0": {
     "connects_to": [],
     "requires": "|is2 key|"
   },
-  "chapter5-8": {
-    "connects_to": ["chapter0-4"],
+  "act 1": {
+    "connects_to": [],
     "requires": "|is3 key|"
   },
-  "chapter6-12": {
-    "connects_to": ["chapter5-8"],
+  "act 2": {
+    "connects_to": [],
     "requires": "|is4 key|"
   },
-  "events": {
+  "act 3": {
     "connects_to": [],
     "requires": "|is5 key|"
+  },
+  "the ark": {
+    "connects_to": [],
+    "requires": "|is6 key|"
   },
   "reading_events": {
     "connects_to": [],

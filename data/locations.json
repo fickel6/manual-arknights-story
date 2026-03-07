@@ -1,3 +1,134 @@
 [
-  
+  {
+    "name": "0-1 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-1 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-2 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-2 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-3 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-3 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-4 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-4 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-5 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-5 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-6 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-6 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-7 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-7 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-8 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-8 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-9 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-9 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-10 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-10 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-11 clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  },
+  {
+    "name": "0-11 3-star clear",
+    "category": ["main story", "act 0"],
+    "region": "chapter 0",
+    "requires": "|chapter 0 unlock|"
+  }
 ]
