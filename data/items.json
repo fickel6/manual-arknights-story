@@ -3994,5 +3994,101 @@
       "progressive characters"
     ],
     "useful": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 0 boss clear",
+    "category": ["boss clear", "chapter 0"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 1 boss clear",
+    "category": ["boss clear", "chapter 1"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 2 boss clear",
+    "category": ["boss clear", "chapter 2"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 3 boss clear",
+    "category": ["boss clear", "chapter 3"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 4 boss clear",
+    "category": ["boss clear", "chapter 4"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 5 boss clear",
+    "category": ["boss clear", "chapter 5"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 6 boss clear",
+    "category": ["boss clear", "chapter 6"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 boss clear",
+    "category": ["boss clear", "chapter 7"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 boss clear",
+    "category": ["boss clear", "chapter 8"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 9 boss clear",
+    "category": ["boss clear", "chapter 9"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 boss clear",
+    "category": ["boss clear", "chapter 10"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 11 boss clear",
+    "category": ["boss clear", "chapter 11"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 boss clear",
+    "category": ["boss clear", "chapter 12"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 13 boss clear",
+    "category": ["boss clear", "chapter 13"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 14 boss clear",
+    "category": ["boss clear", "chapter 14"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 15 boss clear",
+    "category": ["boss clear", "chapter 15"],
+    "progression": true
   }
 ]
