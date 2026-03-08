@@ -7,5 +7,35 @@
     },
     "5 star":{
         "hidden": true
+    },
+    "4 star":{
+        "hidden": true
+    },
+    "3 star":{
+        "hidden": true
+    },
+    "low star":{
+        "hidden": true
+    },
+    "character": {
+        "hidden": true
+    },
+    "main story": {
+        "hidden": true
+    },
+    "sub operations": {
+        "hidden": true
+    },
+    "act 0": {
+        "hidden": true
+    },
+    "act 1": {
+        "hidden": true
+    },
+    "act 2": {
+        "hidden": true
+    },
+    "act 3": {
+        "hidden": true
     }
 }

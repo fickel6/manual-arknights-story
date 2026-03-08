@@ -8,10 +8,8 @@
             "https://github.com/ArchipelagoMW/Archipelago/blob/main/docs/world%20api.md#webworld-class"
         ],
         "apworld_description": [
-            "Arknights is a tower defence gacha game. This manual is focused on the gamemode Integrated Strategies(IS)",
-            "IS is a roquelike variant of the normal gameplay. Get operators with 'hope' and clear the required ending to win!",
-            "checks are every operation stage (including emergency) and every character are items",
-            "some key items to get a ending is also behind a check."
+            "Arknights is a tower defence gacha game. This manual is focused on the main story + side stories",
+            "all the individual chapters are locked behind keys and must be found to continue the game"
         ],
         "web": {
             "_comment": [
