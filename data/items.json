@@ -3064,5 +3064,935 @@
       "character unlock"
     ],
     "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Aciddrop",
+    "category": [
+      "character",
+      "4 star",
+      "Sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Ambriel",
+    "category": [
+      "character",
+      "4 star",
+      "Sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Arene",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Beanstalk",
+    "category": [
+      "character",
+      "4 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Beehunter",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Bubble",
+    "category": [
+      "character",
+      "4 star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Caper",
+    "category": [
+      "character",
+      "4 star",
+      "Sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Chestnut",
+    "category": [
+      "character",
+      "4 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Click",
+    "category": [
+      "character",
+      "4 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Contrail",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Conviction",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Courier",
+    "category": [
+      "character",
+      "4 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Cuora",
+    "category": [
+      "character",
+      "4 star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Cutter",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Deepcolor",
+    "category": [
+      "character",
+      "4 star",
+      "supporter"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Dobermann",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Dur-nar",
+    "category": [
+      "character",
+      "4 star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Earthspirit",
+    "category": [
+      "character",
+      "4 star",
+      "supporter"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Estelle",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Ethan",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Frostleaf",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Gavial",
+    "category": [
+      "character",
+      "4 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Gitano",
+    "category": [
+      "character",
+      "4 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Gravel",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Greyy",
+    "category": [
+      "character",
+      "4 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Gummy",
+    "category": [
+      "character",
+      "4 star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Haze",
+    "category": [
+      "character",
+      "4 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Humus",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Indigo",
+    "category": [
+      "character",
+      "4 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Jackie",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Jaye",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Jessica",
+    "category": [
+      "character",
+      "4 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Luo Xiaohei",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Lutonada",
+    "category": [
+      "character",
+      "4 star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Matoimaru",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "matterhorn",
+    "category": [
+      "character",
+      "4 star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "May",
+    "category": [
+      "character",
+      "4 star",
+      "Sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Meteor",
+    "category": [
+      "character",
+      "4 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Mousse",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Myrrh",
+    "category": [
+      "character",
+      "4 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Myrtle",
+    "category": [
+      "character",
+      "4 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Perfumer",
+    "category": [
+      "character",
+      "4 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Pinecone",
+    "category": [
+      "character",
+      "4 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Podenco",
+    "category": [
+      "character",
+      "4 star",
+      "supporter"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Pudding",
+    "category": [
+      "character",
+      "4 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Purestream",
+    "category": [
+      "character",
+      "4 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Quartz",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Roberta",
+    "category": [
+      "character",
+      "4 star",
+      "supporter"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Rope",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Scavenger",
+    "category": [
+      "character",
+      "4 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Shaw",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Shirayuki",
+    "category": [
+      "character",
+      "4 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Sussurro",
+    "category": [
+      "character",
+      "4 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Totter",
+    "category": [
+      "character",
+      "4 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Utage",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Verdant",
+    "category": [
+      "character",
+      "4 star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Vermeil",
+    "category": [
+      "character",
+      "4 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Vigna",
+    "category": [
+      "character",
+      "4 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Windscoot",
+    "category": [
+      "character",
+      "4 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Adnachiel",
+    "category": [
+      "character",
+      "3 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Ansel",
+    "category": [
+      "character",
+      "3 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Beagle",
+    "category": [
+      "character",
+      "3 star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Cardigan",
+    "category": [
+      "character",
+      "3 star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Catapult",
+    "category": [
+      "character",
+      "3 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Fang",
+    "category": [
+      "character",
+      "3 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Hibiscus",
+    "category": [
+      "character",
+      "3 star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Kroos",
+    "category": [
+      "character",
+      "3 star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Lava",
+    "category": [
+      "character",
+      "3 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Melantha",
+    "category": [
+      "character",
+      "3 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Midnight",
+    "category": [
+      "character",
+      "3 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Orchid",
+    "category": [
+      "character",
+      "3 star",
+      "supporter"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Plume",
+    "category": [
+      "character",
+      "3 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Popukar",
+    "category": [
+      "character",
+      "3 star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Spot",
+    "category": [
+      "character",
+      "3 star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Steward",
+    "category": [
+      "character",
+      "3 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Vanilla",
+    "category": [
+      "character",
+      "3 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "12F",
+    "category": [
+      "character",
+      "low star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Durin",
+    "category": [
+      "character",
+      "low star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Noir Corne",
+    "category": [
+      "character",
+      "low star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Rangers",
+    "category": [
+      "character",
+      "low star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "CONFESS-47",
+    "category": [
+      "character",
+      "low star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Castle-3",
+    "category": [
+      "character",
+      "low star",
+      "guard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Friston-3",
+    "category": [
+      "character",
+      "low star",
+      "defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Justice Knight",
+    "category": [
+      "character",
+      "low star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Lancet-2",
+    "category": [
+      "character",
+      "low star",
+      "medic"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "PhonoR-0",
+    "category": [
+      "character",
+      "low star",
+      "supporter"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "THRM-EX",
+    "category": [
+      "character",
+      "low star",
+      "specialist"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Terra Research Commission",
+    "category": [
+      "character",
+      "low star",
+      "sniper"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "U-Official",
+    "category": [
+      "character",
+      "low star",
+      "supporter"
+    ],
+    "useful": true
+  },
+  {
+    "count": "12",
+    "name": "progressive 6 star",
+    "category": [
+      "progressive characters"
+    ],
+    "useful": true
+  },
+  {
+    "count": "12",
+    "name": "progressive 5 star",
+    "category": [
+      "progressive characters"
+    ],
+    "useful": true
+  },
+  {
+    "count": "2",
+    "name": "progressive 4 star",
+    "category": [
+      "progressive characters"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "progressive 3 star",
+    "category": [
+      "progressive characters"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "progressive low star",
+    "category": [
+      "progressive characters"
+    ],
+    "useful": true
   }
 ]
