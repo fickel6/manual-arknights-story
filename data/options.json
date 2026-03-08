@@ -66,7 +66,7 @@
                 "complex_ui"
             ]
         },
-        "_include 4 stars":{
+        "include 4 stars":{
             "description": [
                 "how the 4 stars will be randomised",
                 "'progressive items': all 4 stars are progressive items. first item, you unlock all 4 stars. Second progressive item unlocks e2",
@@ -84,7 +84,7 @@
                 "complex_ui"
             ]
         },
-        "_include 3 stars":{
+        "include 3 stars":{
             "description": [
                 "how the 3 stars will be randomised",
                 "'progressive items': all 3 stars are progressive items. first item, you unlock all 3 stars. Second progressive item unlocks e2",
@@ -102,14 +102,6 @@
                 "complex_ui"
             ]
         },
-        "no leak sanity": {
-            "type": "Toggle",
-            "default": false,
-            "description": [
-                "beat all the selected stages without any leaks."
-            ],
-            "group": "sanities"
-        },
         "include random operators": {
             "type": "Range",
             "default": 1,
@@ -121,6 +113,34 @@
                 "alternatively, use this as 'unlock a character you want' item"
             ],
             "group": "operator options"
+        },
+        "sub operations sanity": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "include all the sub operations.",
+                "these are all the stages with s infront."
+            ],
+            "group": "operations options"
+        },
+        "challenge sanity": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "include all the challenge operations.",
+                "adverse environment are also included as 'challenge operations'."
+            ],
+            "group": "operations options"
+        },
+        "strategic sanity": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "the new main story has a new difficulty called strategic simulation.",
+                "Add these operations in the randomizer. The two floors are separate locations,",
+                "and have two different keys to unlock."
+            ],
+            "group": "operations options"
         }
     }
 }
