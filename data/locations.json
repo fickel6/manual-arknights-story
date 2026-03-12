@@ -134,595 +134,595 @@
   {
     "name": "1-1 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-1 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-2 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-2 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-3 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-3 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-4 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-4 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-5 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-5 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-6 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-6 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-7 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-7 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-8 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-8 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-9 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-9 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-10 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-10 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-11 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-11 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-11 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-12 clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "1-12 3-star clear",
     "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 1",
+    "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
   {
     "name": "2-1 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-1 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-2 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-2 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-3 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-3 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-4 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-4 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-5 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-5 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-6 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-6 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-7 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-7 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-8 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-8 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-9 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-9 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-10 clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-10 3-star clear",
     "category": ["main story", "act 0", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-1 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-1 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-2 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-2 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-3 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-3 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-4 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-4 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-5 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-5 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-6 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-6 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-7 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-7 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-8 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-8 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-9 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-9 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-10 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-10 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-11 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-11 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-12 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "S2-12 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 2"],
-    "region": "act 2",
+    "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "3-1 clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-1 3-star clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-2 clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-2 3-star clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-3 clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-3 3-star clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-4 clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-4 3-star clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-5 clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-5 3-star clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-6 clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-6 3-star clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-7 clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-7 3-star clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-8 clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "3-8 3-star clear",
     "category": ["main story", "act 0", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-1 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-1 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-2 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-2 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-3 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-3 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-4 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-4 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-5 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-5 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-6 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-6 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-7 clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
     "name": "S3-7 3-star clear",
     "category": ["main story", "act 0", "sub operations", "chapter 3"],
-    "region": "act 3",
+    "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
   {
@@ -731,6 +731,1122 @@
     "region": "act 0",
     "requires": "|chapter 0 boss clear|",
     "victory": true
+  },
+  {
+    "name": "4-1 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-1 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-2 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-2 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-3 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-3 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-4 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-4 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-5 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-5 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-6 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-6 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-7 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-7 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-8 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-8 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-9 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-9 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-10 clear",
+    "category": ["main story", "act 0", "chapter 4"],
+    "region": "act 0",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "4-10 3-star clear",
+    "category": ["main story", "act 1", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-1 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-1 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-2 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-2 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-3 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-3 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-4 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-4 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-5 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-5 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-6 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-6 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-7 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-7 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-8 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-8 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-9 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-9 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-10 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "S4-10 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 4"],
+    "region": "act 1",
+    "requires": "|chapter 4 unlock|"
+  },
+  {
+    "name": "5-1 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-1 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-2 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-2 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-3 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-3 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-4 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-4 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-5 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-5 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-6 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-6 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-7 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-7 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-8 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-8 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-9 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-9 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-10 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-10 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-11 clear",
+    "category": ["main story", "act 0", "chapter 5"],
+    "region": "act 0",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "5-11 3-star clear",
+    "category": ["main story", "act 1", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-1 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-1 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-2 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-2 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-3 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-3 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-4 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-4 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-5 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-5 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-6 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-6 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-7 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-7 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-8 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-8 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-9 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "S5-9 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "H5-1 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "H5-1 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "H5-2 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "H5-2 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "H5-3 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "H5-3 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "H5-4 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "H5-4 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 5"],
+    "region": "act 1",
+    "requires": "|chapter 5 unlock|"
+  },
+  {
+    "name": "6-1 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-1 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-2 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-2 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-3 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-3 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-4 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-4 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-5 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-5 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-6 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-6 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-7 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-7 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-8 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-8 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-9 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-9 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-10 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-10 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-11 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-11 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-12 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-12 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-13 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-13 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-14 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-14 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-15 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-15 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-16 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-16 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-17 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-17 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-18 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "6-18 3-star clear",
+    "category": ["main story", "act 1", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "S6-1 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "S6-1 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "S6-2 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "S6-2 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "S6-3 clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "S6-3 3-star clear",
+    "category": ["main story", "act 1", "sub operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "H6-1 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "H6-1 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "H6-2 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "H6-2 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "H6-3 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "H6-3 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "H6-4 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "H6-4 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 6"],
+    "region": "act 1",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-1 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-1 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-2 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-2 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-3 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-3 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-4 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-4 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-5 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-5 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-6 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-6 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-7 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-7 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-8 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-8 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-9 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-9 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-10 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-10 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-11 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-11 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-12 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-12 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-13 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-13 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-14 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-14 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-15 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-15 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-16 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-16 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-17 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-17 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-18 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-18 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-19 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-19 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "7-20 clear",
+    "category": ["main story", "act 0", "chapter 6"],
+    "region": "act 0",
+    "requires": "|chapter 6 unlock|"
+  },
+  {
+    "name": "7-20 3-star clear",
+    "category": ["main story", "act 1", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "H7-1 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "H7-1 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "H7-1 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "H7-1 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "H7-1 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "H7-1 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "H7-1 clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
+  },
+  {
+    "name": "H7-1 3-star clear",
+    "category": ["main story", "act 1", "extreme operations", "chapter 7"],
+    "region": "act 1",
+    "requires": "|chapter 7 unlock|"
   },
   {
     "name": "act1 boss",
