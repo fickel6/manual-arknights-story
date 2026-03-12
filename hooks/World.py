@@ -54,60 +54,6 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
-    if world.options.include_is2 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "is2 boss" in i.get("category", [])
-        ])
-    if world.options.include_is3 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "is3 boss" in i.get("category", [])
-        ])
-    if world.options.include_is4 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "is4 boss" in i.get("category", [])
-        ])
-    if world.options.include_is5 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "is5 boss" in i.get("category", [])
-        ])
-    if world.options.include_is6 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "is6 boss" in i.get("category", [])
-        ])
-    if world.options.include_ed1 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "ed1" in i.get("category", [])
-        ])
-    if world.options.include_ed2 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "ed2" in i.get("category", [])
-        ])
-    if world.options.include_ed3 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "ed3" in i.get("category", [])
-        ])
-    if world.options.include_ed4 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "ed4" in i.get("category", [])
-        ])
-    if world.options.include_ed5 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "ed5" in i.get("category", [])
-        ])
-    if world.options.include_ed3 == False and world.options.include_ed4 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "floor 6 checks" in i.get("category", [])
-        ])
-    if world.options.include_ed3 == False and world.options.include_ed4 == False and world.options.include_ed5 == False:
-        locationNamesToRemove.extend([
-            name for name, i in world.location_name_to_location.items() if "floor 6 is5" in i.get("category", [])
-        ])
-
-    print("found locations to remove: [%s]" % ', '.join(map(str, locationNamesToRemove)))
-    #should only be unique locations, also because there are only 1 location and there is a chance there are doubles
-    locationNamesToRemove = list(set(locationNamesToRemove))
-    # Add your code here to calculate which locations to remove
-
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
@@ -315,6 +261,23 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
+    victory_name = next(
+        iter([
+            name for name, location in world.location_name_to_location.items() if location.get('victory') == True
+        ])
+    )
+    victory_location = multiworld.get_location(victory_name, player)
+    if victory_name == "act0 boss":
+        end_boss_location = world.options.act_0_boss_clear
+    elif victory_name == "act1 boss":
+        end_boss_location = world.options.act_1_boss_clear
+    elif victory_name == "act2 boss":
+        end_boss_location = world.options.act_2_boss_clear
+    elif victory_name == "act3 boss":
+        end_boss_location = world.options.act_3_boss_clear
+    elif victory_name == "beat x bosses":
+        amount_bosses = world.options.amount_boss
+        
 
     def Example_Rule(state: CollectionState) -> bool:
         # Calculated rules take a CollectionState object and return a boolean
