@@ -10,12 +10,7 @@
             "description": [
                 "How to End your Randomized playthrough."
         ],
-            "aliases": {"ending1 is2": 0, "ending2 is2": 1, "ending3 is2": 2, "ending4 is2": 3,
-                        "ending1 is3": 4, "ending2 is3": 5, "ending3 is3": 6, "ending4 is3": 7,
-                        "ending1 is4": 8, "ending2 is4": 9, "ending3 is4": 10, "ending4 is4": 11,
-                        "ending1 is5": 12, "ending2 is5": 13, "ending3 is5": 14, "ending4 is5": 15, "ending5 is5": 16,
-                        "ending1 is6": 17, "ending2 is6": 18, "ending3 is6": 19
-                    },
+            "aliases": {},
             "hidden": false
         },
         "death_link": {
@@ -30,6 +25,73 @@
         }
     },
     "user": {
+        "act 0 boss clear": {
+            "description": [
+                "choose what boss you need to defeat to win this manual",
+                "if the chosen boss isn't from act 0, then this option doesn't do anything"
+            ],
+            "type": "Choice",
+            "default": 0,
+            "values": {
+                "chapter 0 boss": 0,
+                "chapter 1 boss": 1,
+                "chapter 2 boss": 2,
+                "chapter 3 boss": 3
+            }
+        },
+        "act 1 boss clear": {
+            "description": [
+                "choose what boss you need to defeat to win this manual",
+                "if the chosen boss isn't from act 1, then this option doesn't do anything"
+            ],
+            "type": "Choice",
+            "default": 0,
+            "values": {
+                "chapter 4 boss": 0,
+                "chapter 5 boss": 1,
+                "chapter 6 boss": 2,
+                "chapter 7 boss": 3,
+                "chapter 8 boss": 3
+            }
+        },
+        "act 2 boss clear": {
+            "description": [
+                "choose what boss you need to defeat to win this manual",
+                "if the chosen boss isn't from act 2, then this option doesn't do anything"
+            ],
+            "type": "Choice",
+            "default": 0,
+            "values": {
+                "chapter 9 boss": 0,
+                "chapter 10 boss": 1,
+                "chapter 11 boss": 2,
+                "chapter 12 boss": 3,
+                "chapter 13 boss": 4,
+                "chapter 14 boss": 5
+            }
+        },
+        "act 3 boss clear": {
+            "description": [
+                "choose what boss you need to defeat to win this manual",
+                "if the chosen boss isn't from act 3, then this option doesn't do anything"
+            ],
+            "type": "Choice",
+            "default": 0,
+            "values": {
+                "chapter 15 boss": 0
+            }
+        },
+        "amount boss": {
+            "description": [
+                "choose how many bosses you need to defeat to win the manual",
+                "if the chosen goal isn't beat x amount of bosses",
+                "then this option won't do anything"
+            ],
+            "type": "Range",
+            "default": 5,
+            "range_start": 1,
+            "range_end": 16
+        },
         "include 6 stars":{
             "description": [
                 "include or exclude all six stars from the randomizer.",

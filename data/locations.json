@@ -2800,6 +2800,12 @@
     "victory": true
   },
   {
+    "name": "beat x bosses",
+    "category": ["goal"],
+    "requires": "|act 3 unlock|",
+    "victory": true
+  },
+  {
     "name": "The ark boss",
     "category": ["main story", "some"],
     "region": "somesome",

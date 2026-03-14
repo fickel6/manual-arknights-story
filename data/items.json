@@ -4090,5 +4090,11 @@
     "name": "chapter 15 boss clear",
     "category": ["boss clear", "chapter 15"],
     "progression": true
+  },
+  {
+    "count": "16",
+    "name": "defeated bosses",
+    "category": ["boss clear"],
+    "progression": true
   }
 ]
