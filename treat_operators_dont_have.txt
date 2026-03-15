@@ -1,0 +1,3 @@
+not gotten operators are 'generic tokens'. 
+  every 5 5-star = pick yourself 5-star
+  every 4 6-star = pick yourself 6-star

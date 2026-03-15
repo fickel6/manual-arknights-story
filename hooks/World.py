@@ -258,14 +258,16 @@ def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, pl
 def before_set_rules(world: World, multiworld: MultiWorld, player: int):
     pass
 
+victory_name_s: any
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
-    victory_name = next(
+    victory_name_s = next(
         iter([
             name for name, location in world.location_name_to_location.items() if location.get('victory') == True
         ])
     )
+    victory_name = victory_name_s
     victory_location = multiworld.get_location(victory_name, player)
     if victory_name == "act0 boss":
         end_boss_location = world.options.act_0_boss_clear
@@ -277,6 +279,9 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         end_boss_location = world.options.act_3_boss_clear
     elif victory_name == "beat x bosses":
         amount_bosses = world.options.amount_boss
+        
+        # cat for i in world.item_name_to_item.values()
+        #     for cat in i.get('category', []) if i.get('progression') == True
         
 
     def Example_Rule(state: CollectionState) -> bool:
@@ -305,6 +310,41 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
+    victory_name = victory_name_s
+    amount_boss = world.item_name_to_item.values().get('name') == "defeated bosses"
+    boss_locations
+    print(amount_boss)
+    if victory_name == "act0 boss":
+        end_boss_location = world.options.act_0_boss_clear
+        match end_boss_location:
+            case 0:
+                boss_location = world.item_name_to_item.values()
+                #... find the specifiek location
+                boss_location.place_locked_item(amount_boss)
+                multiworld.itempool.remove(amount_boss)
+    elif victory_name == "act1 boss":
+        end_boss_location = world.options.act_1_boss_clear
+    elif victory_name == "act2 boss":
+        end_boss_location = world.options.act_2_boss_clear
+    elif victory_name == "act3 boss":
+        end_boss_location = world.options.act_3_boss_clear
+    elif victory_name == "beat x bosses":
+        #find all the boss locations. All the bosses has the category 'boss' in it, so search for that
+        boss_locations = [
+            l for l in world.location_name_to_location.values()
+                if "boss" in l.get('category', []) 
+        ]
+        print(boss_locations)
+        #just to test. find the item 'defeated bosses'
+        #otherwise, just hardcode the name defeated bosses
+        amount_boss = world.item_name_to_item.values().get('name') == "defeated bosses"
+
+    print(amount_boss)
+    #we won't randomize these, because the bosses now only will have this token, which is needed to win the game.
+    for location in boss_locations:
+        location.place_locked_item(amount_boss)
+        multiworld.itempool.remove(amount_boss)
+    raise Exception("just to test")
     pass
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs

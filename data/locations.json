@@ -121,7 +121,7 @@
   },
   {
     "name": "0-11 clear",
-    "category": ["main story", "act 0", "chapter 0"],
+    "category": ["main story", "act 0", "chapter 0", "boss"],
     "region": "act 0",
     "requires": "|chapter 0 unlock|"
   },
@@ -271,7 +271,7 @@
   },
   {
     "name": "1-12 clear",
-    "category": ["main story", "act 0", "chapter 1"],
+    "category": ["main story", "act 0", "chapter 1", "boss"],
     "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
@@ -397,7 +397,7 @@
   },
   {
     "name": "2-10 3-star clear",
-    "category": ["main story", "act 0", "chapter 2"],
+    "category": ["main story", "act 0", "chapter 2", "boss"],
     "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
@@ -631,7 +631,7 @@
   },
   {
     "name": "3-8 clear",
-    "category": ["main story", "act 0", "chapter 3"],
+    "category": ["main story", "act 0", "chapter 3", "boss"],
     "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
@@ -842,7 +842,7 @@
   },
   {
     "name": "4-10 clear",
-    "category": ["main story", "act 1", "chapter 4"],
+    "category": ["main story", "act 1", "chapter 4", "boss"],
     "region": "act 1",
     "requires": "|chapter 4 unlock|"
   },
@@ -1094,7 +1094,7 @@
   },
   {
     "name": "5-11 clear",
-    "category": ["main story", "act 1", "chapter 5"],
+    "category": ["main story", "act 1", "chapter 5", "boss"],
     "region": "act 1",
     "requires": "|chapter 5 unlock|"
   },
@@ -1472,7 +1472,7 @@
   },
   {
     "name": "6-18 3-star clear",
-    "category": ["main story", "act 1", "chapter 6"],
+    "category": ["main story", "act 1", "chapter 6", "boss"],
     "region": "act 1",
     "requires": "|chapter 6 unlock|"
   },
@@ -1790,7 +1790,7 @@
   },
   {
     "name": "7-20 clear",
-    "category": ["main story", "act 1", "chapter 7"],
+    "category": ["main story", "act 1", "chapter 7", "boss"],
     "region": "act 1",
     "requires": "|chapter 7 unlock|"
   },
@@ -2048,7 +2048,7 @@
   },
   {
     "name": "JT8-2 3-star clear",
-    "category": ["main story", "act 1", "chapter 8"],
+    "category": ["main story", "act 1", "chapter 8", "boss"],
     "region": "act 1",
     "requires": "|chapter 8 unlock|"
   },
@@ -2391,7 +2391,7 @@
   },
   {
     "name": "9-21 clear",
-    "category": ["main story", "act 2", "chapter 9"],
+    "category": ["main story", "act 2", "chapter 9", "boss"],
     "region": "act 1",
     "requires": "|chapter 9 unlock|"
   },
@@ -2739,7 +2739,7 @@
   },
   {
     "name": "10-19 clear",
-    "category": ["main story", "act 2", "chapter 10"],
+    "category": ["main story", "act 2", "chapter 10", "boss"],
     "region": "act 2",
     "requires": "|chapter 10 unlock|"
   },
