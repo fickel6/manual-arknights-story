@@ -121,7 +121,7 @@
   },
   {
     "name": "0-11 clear",
-    "category": ["main story", "act 0", "chapter 0", "boss"],
+    "category": ["main story", "act 0", "chapter 0", "boss stage"],
     "region": "act 0",
     "requires": "|chapter 0 unlock|"
   },
@@ -271,7 +271,7 @@
   },
   {
     "name": "1-12 clear",
-    "category": ["main story", "act 0", "chapter 1", "boss"],
+    "category": ["main story", "act 0", "chapter 1", "boss stage"],
     "region": "act 0",
     "requires": "|chapter 1 unlock|"
   },
@@ -397,7 +397,7 @@
   },
   {
     "name": "2-10 3-star clear",
-    "category": ["main story", "act 0", "chapter 2", "boss"],
+    "category": ["main story", "act 0", "chapter 2", "boss stage"],
     "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
@@ -631,7 +631,7 @@
   },
   {
     "name": "3-8 clear",
-    "category": ["main story", "act 0", "chapter 3", "boss"],
+    "category": ["main story", "act 0", "chapter 3", "boss stage"],
     "region": "act 0",
     "requires": "|chapter 3 unlock|"
   },
@@ -729,7 +729,7 @@
     "name": "act0 boss",
     "category": ["main story", "act 0", "goal"],
     "region": "act 0",
-    "requires": "|chapter 0 boss clear|",
+    "requires": "|defeated bosses|",
     "victory": true
   },
   {
@@ -842,7 +842,7 @@
   },
   {
     "name": "4-10 clear",
-    "category": ["main story", "act 1", "chapter 4", "boss"],
+    "category": ["main story", "act 1", "chapter 4", "boss stage"],
     "region": "act 1",
     "requires": "|chapter 4 unlock|"
   },
@@ -1094,7 +1094,7 @@
   },
   {
     "name": "5-11 clear",
-    "category": ["main story", "act 1", "chapter 5", "boss"],
+    "category": ["main story", "act 1", "chapter 5", "boss stage"],
     "region": "act 1",
     "requires": "|chapter 5 unlock|"
   },
@@ -1472,7 +1472,7 @@
   },
   {
     "name": "6-18 3-star clear",
-    "category": ["main story", "act 1", "chapter 6", "boss"],
+    "category": ["main story", "act 1", "chapter 6", "boss stage"],
     "region": "act 1",
     "requires": "|chapter 6 unlock|"
   },
@@ -1796,7 +1796,7 @@
   },
   {
     "name": "7-20 3-star clear",
-    "category": ["main story", "act 1", "chapter 7"],
+    "category": ["main story", "act 1", "chapter 7", "boss stage"],
     "region": "act 1",
     "requires": "|chapter 7 unlock|"
   },
@@ -2096,7 +2096,19 @@
   },
   {
     "name": "JT8-2 3-star clear",
-    "category": ["main story", "act 1", "chapter 8", "boss"],
+    "category": ["main story", "act 1", "chapter 8"],
+    "region": "act 1",
+    "requires": "|chapter 8 unlock|"
+  },
+  {
+    "name": "JT8-3 clear",
+    "category": ["main story", "act 1", "chapter 8", "boss stage"],
+    "region": "act 1",
+    "requires": "|chapter 8 unlock|"
+  },
+  {
+    "name": "JT8-3 3-star clear",
+    "category": ["main story", "act 1", "chapter 8"],
     "region": "act 1",
     "requires": "|chapter 8 unlock|"
   },
@@ -2194,7 +2206,7 @@
     "name": "act1 boss",
     "category": ["main story", "act 1", "goal"],
     "region": "act 1",
-    "requires": "|act 1 unlock|",
+    "requires": "|defeated bosses|",
     "victory": true
   },
   {
@@ -2439,7 +2451,7 @@
   },
   {
     "name": "9-21 clear",
-    "category": ["main story", "act 2", "chapter 9", "boss"],
+    "category": ["main story", "act 2", "chapter 9", "boss stage"],
     "region": "act 1",
     "requires": "|chapter 9 unlock|"
   },
@@ -2787,7 +2799,7 @@
   },
   {
     "name": "10-19 clear",
-    "category": ["main story", "act 2", "chapter 10", "boss"],
+    "category": ["main story", "act 2", "chapter 10", "boss stage"],
     "region": "act 2",
     "requires": "|chapter 10 unlock|"
   },
@@ -3075,7 +3087,7 @@
   },
   {
     "name": "11-21 clear",
-    "category": ["main story", "act 2", "chapter 11"],
+    "category": ["main story", "act 2", "chapter 11", "boss stage"],
     "region": "act 2",
     "requires": "|chapter 11 unlock|"
   },
@@ -3375,7 +3387,7 @@
   },
   {
     "name": "12-21 clear",
-    "category": ["main story", "act 2", "chapter 12"],
+    "category": ["main story", "act 2", "chapter 12", "boss stage"],
     "region": "act 2",
     "requires": "|chapter 12 unlock|"
   },
@@ -3686,13 +3698,13 @@
     "requires": "|chapter 13 unlock|"
   },
   {
-    "name": "13-1 clear",
-    "category": ["main story", "act 2", "chapter 13"],
+    "name": "13-22 clear",
+    "category": ["main story", "act 2", "chapter 13", "boss stage"],
     "region": "act 2",
     "requires": "|chapter 13 unlock|"
   },
   {
-    "name": "13-1 3-star clear",
+    "name": "13-22 3-star clear",
     "category": ["main story", "act 2", "chapter 13"],
     "region": "act 2",
     "requires": "|chapter 13 unlock|"
@@ -4011,7 +4023,7 @@
   },
   {
     "name": "14-23 clear",
-    "category": ["main story", "act 2", "chapter 14"],
+    "category": ["main story", "act 2", "chapter 14", "boss stage"],
     "region": "act 2",
     "requires": "|chapter 14 unlock|"
   },
@@ -4079,7 +4091,7 @@
     "name": "act2 boss",
     "category": ["main story", "act 2", "goal"],
     "region": "act 2",
-    "requires": "|act 2 unlock|",
+    "requires": "|defeated bosses|",
     "victory": true
   },
   {
@@ -4324,7 +4336,7 @@
   },
   {
     "name": "15-21 clear",
-    "category": ["main story", "act 2", "chapter 15"],
+    "category": ["main story", "act 2", "chapter 15", "boss stage"],
     "region": "act 3",
     "requires": "|chapter 15 unlock|"
   },
@@ -4386,20 +4398,13 @@
     "name": "act3 boss",
     "category": ["main story", "act 3", "goal"],
     "region": "act 3",
-    "requires": "|act 3 unlock|",
+    "requires": "|defeated bosses|",
     "victory": true
   },
   {
     "name": "beat x bosses",
     "category": ["goal"],
     "requires": "|act 3 unlock|",
-    "victory": true
-  },
-  {
-    "name": "The ark boss",
-    "category": ["main story", "some"],
-    "region": "somesome",
-    "requires": "something",
     "victory": true
   }
 ]

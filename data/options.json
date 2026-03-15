@@ -51,7 +51,7 @@
                 "chapter 5 boss": 1,
                 "chapter 6 boss": 2,
                 "chapter 7 boss": 3,
-                "chapter 8 boss": 3
+                "chapter 8 boss": 4
             }
         },
         "act 2 boss clear": {
@@ -94,13 +94,17 @@
         },
         "include 6 stars":{
             "description": [
-                "include or exclude all six stars from the randomizer.",
-                "if excluded (false), you can't play any 6 stars. in all the runs.",
-                "in the template yaml, you can also choose which individual 6 star should be removed.",
-                "This is done, becuase there is no way to do ti via the json file (yet)."
+                "how the 6 stars will be randomised",
+                "'as individual items': all 6 stars are individual items. When you get this, you instantly get access to e2",
+                "'progressive items': all 6 stars are progressive items. first item, you unlock all 6 stars. Second progressive item unlocks e2",
+                "'exclude': no 6 stars will be included. Alternatively could be used as you can always use 6 stars"
             ],
-            "type": "Toggle",
-            "default": true,
+            "type": "Choice",
+            "values": {
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
+            },
             "group": "operator options",
             "visibility": [
                 "template",
@@ -178,7 +182,7 @@
         },
         "sub operations sanity": {
             "type": "Toggle",
-            "default": false,
+            "default": true,
             "description": [
                 "include all the sub operations.",
                 "these are all the stages with s infront."
@@ -201,6 +205,42 @@
                 "the new main story has a new difficulty called strategic simulation.",
                 "Add these operations in the randomizer. The two floors are separate locations,",
                 "and have two different keys to unlock."
+            ],
+            "group": "operations options"
+        },
+        "include act 0": {
+            "type": "Toggle",
+            "default": true,
+            "description": [
+                "include all the stages from act 0.",
+                "these are the chapters 0 to chapter 3."
+            ],
+            "group": "operations options"
+        },
+        "include act 1": {
+            "type": "Toggle",
+            "default": true,
+            "description": [
+                "include all the stages from act 1.",
+                "these are the chapters 4 to 8."
+            ],
+            "group": "operations options"
+        },
+        "include act 2": {
+            "type": "Toggle",
+            "default": true,
+            "description": [
+                "include all the stages from act 2.",
+                "these are the chapters 9 to 14."
+            ],
+            "group": "operations options"
+        },
+        "include act 3": {
+            "type": "Toggle",
+            "default": true,
+            "description": [
+                "include all the stages from act 3.",
+                "these are the chapter 15."
             ],
             "group": "operations options"
         }

@@ -3058,14 +3058,6 @@
     "useful": true
   },
   {
-    "count": "20",
-    "name": "random unit unlock",
-    "category": [
-      "character unlock"
-    ],
-    "useful": true
-  },
-  {
     "count": "1",
     "name": "Aciddrop",
     "category": [
@@ -3996,105 +3988,137 @@
     "useful": true
   },
   {
-    "count": "1",
-    "name": "chapter 0 boss clear",
-    "category": ["boss clear", "chapter 0"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 1 boss clear",
-    "category": ["boss clear", "chapter 1"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 2 boss clear",
-    "category": ["boss clear", "chapter 2"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 3 boss clear",
-    "category": ["boss clear", "chapter 3"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 4 boss clear",
-    "category": ["boss clear", "chapter 4"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 5 boss clear",
-    "category": ["boss clear", "chapter 5"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 6 boss clear",
-    "category": ["boss clear", "chapter 6"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 7 boss clear",
-    "category": ["boss clear", "chapter 7"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 8 boss clear",
-    "category": ["boss clear", "chapter 8"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 9 boss clear",
-    "category": ["boss clear", "chapter 9"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 10 boss clear",
-    "category": ["boss clear", "chapter 10"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 11 boss clear",
-    "category": ["boss clear", "chapter 11"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 12 boss clear",
-    "category": ["boss clear", "chapter 12"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 13 boss clear",
-    "category": ["boss clear", "chapter 13"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 14 boss clear",
-    "category": ["boss clear", "chapter 14"],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 15 boss clear",
-    "category": ["boss clear", "chapter 15"],
-    "progression": true
+    "count": "20",
+    "name": "random unit unlock",
+    "category": [
+      "character unlock"
+    ],
+    "useful": true
   },
   {
     "count": "16",
     "name": "defeated bosses",
     "category": ["boss clear"],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 0 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 1 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 2 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 3 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 4 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 5 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 6 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 9 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 11 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 13 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 14 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 15 unlock",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "act0 key",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "act1 key",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "act2 key",
+    "category": "chapter unlock",
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "act3 key",
+    "category": "chapter unlock",
     "progression": true
   }
 ]

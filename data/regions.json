@@ -1,26 +1,21 @@
 {
   "act 0": {
     "connects_to": [],
-    "requires": "|is2 key|"
+    "requires": "|act0 key|"
   },
   "act 1": {
     "connects_to": [],
-    "requires": "|is3 key|"
+    "requires": "|act1 key|"
   },
   "act 2": {
     "connects_to": [],
-    "requires": "|is4 key|"
+    "requires": "|act2 key|"
   },
   "act 3": {
     "connects_to": [],
-    "requires": "|is5 key|"
-  },
-  "the ark": {
-    "connects_to": [],
-    "requires": "|is6 key|"
+    "requires": "|act3 key|"
   },
   "reading_events": {
-    "connects_to": [],
-    "requires": "|is6 key|"
+    "connects_to": []
   }
 }

@@ -77,164 +77,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    # choose which is you start with
-    # 0 = is2
-    # 1 = is3
-    # 2 = is4
-    # 3 = is5
-    # 4 = is6
-    item = []
-    starting_is = world.options.starting_region.value
-    if starting_is == 0:
-        item.append(next(i for i in item_pool if i.name == "is2 key"))
-        if world.options.quick_start == True:
-            item.append(next(i for i in item_pool if i.name == "floor2 key is2"))
-        starting_is = "is2"
-    elif starting_is == 1:
-        item.append(next(i for i in item_pool if i.name == "is3 key"))
-        if world.options.quick_start == True:
-            item.append(next(i for i in item_pool if i.name == "floor2 key is3"))
-        starting_is = "is3"
-    elif starting_is == 2:
-        item.append(next(i for i in item_pool if i.name == "is4 key"))
-        if world.options.quick_start == True:
-            item.append(next(i for i in item_pool if i.name == "floor2 key is4"))
-        starting_is = "is4"
-    elif starting_is == 3:
-        item.append(next(i for i in item_pool if i.name == "is5 key"))
-        if world.options.quick_start == True:
-            item.append(next(i for i in item_pool if i.name == "floor2 key is5"))
-        starting_is = "is5"
-    elif starting_is == 4:
-        item.append(next(i for i in item_pool if i.name == "is6 key"))
-        if world.options.quick_start == True:
-            item.append(next(i for i in item_pool if i.name == "floor2 key is6"))
-        starting_is = "is6"
-    else:
-        raise Exception("not a valid starting is")
-    for i in item:
-        multiworld.push_precollected(i)
-        item_pool.remove(i)
-    # choose a starting squad, voucher (3 rand. ops is later)
-    # added a random variable for future proofing 
-    # later the amount of starting squads + starting_vouchers can be randomised with options (needed?)
-    starting_items_choice = [
-        {
-            "item_categories": ["squad"],
-            "random":1
-        },
-        {
-            "item_categories": ["starting voucher"],
-            "random":1
-        }
-    ]
-    for starting in starting_items_choice:
-        possible_item_names = []
-
-        for category in starting["item_categories"]:
-            possible_item_names.extend(
-                [name for name, i in world.item_name_to_item.items() if category in i.get("category", []) and starting_is in i.get("category", [])] #accounts for the key not existing
-            )
-
-        possible_items = [
-            i for i in item_pool if i.name in possible_item_names 
-        ]
-        for _ in range(starting["random"]): 
-            random_starting_item = world.random.choice(possible_items)
-            multiworld.push_precollected(random_starting_item)
-            possible_items.remove(random_starting_item)
-            item_pool.remove(random_starting_item)
-            match random_starting_item:
-                case "First Move Advantage":
-                    starting_items = ["sniper", "specialist", "vanguard"]
-                case "Slow and Steady Wins the Race":
-                    starting_items = ["Caster", "Defender", "Sniper"] # bug where a 6 star specialist can be chosen
-                case "Overcoming your Weaknesses":
-                    starting_items = ["Guard", "Medic", "Supporter"]
-                case "Flexible Deployment":
-                    starting_items = ["Vanguard", "Supporter", "Specialist"]
-                case "Indestructible":
-                    starting_items = ["Defender", "Caster", "Medic"]
-                case _: # it will default to 'First Move Advantage' voucher I.E. begin with sniper, specialist and vanguard 
-                    starting_items = ["sniper", "specialist", "vanguard"]
-
-    # now that the starting_voucher is chosen, the operators will be chosen
-    # amount of 5 stars is is dependent, because they changed the hope requirement
-    # the rest will be filled with 1 to 4 stars (not randomised)
-    # also randomise 4 and 3 stars?
-    if world.options.include_5_stars == 0:
-        item_pool.remove(next(i for i in item_pool if i.name == "progressive 5 star"))
-        item_pool.remove(next(i for i in item_pool if i.name == "progressive 5 star"))
-    elif world.options.include_5_stars == 1:
-        delete_character = []
-        delete_character.extend([name for name, i in world.item_name_to_item.items() if "5 star" in i.get("category", [])])
-        delete_character = [i for i in item_pool if i.name in delete_character]
-        for name in delete_character:
-            item_pool.remove(name)
-    else:
-        delete_all = []
-        delete_all.extend([name for name, i in world.item_name_to_item.items() if "5 star" in i.get("category", [])])
-        delete_all.extend([name for name, i in world.item_name_to_item.items() if "progressive 5 star" in i.get("category", [])])
-        delete_all = [i for i in item_pool if i.name in delete_all]
-        for name in delete_all:
-            item_pool.remove(name)
-
-    max_amount_operators = 3
-    if starting_is == "is2" or "is3" or "is4":
-        random_variation = world.random.choice([[1,0], [0,2], [0,1]])
-    else: 
-        random_variation = world.random.choice([[1,0], [0,3], [0,2], [0, 1]])
-    # print("there are "+ str(random_variation[0])+" 6 stars and "+ str(random_variation[1]) + " 5 stars")
-    # print("chosen voucher is: [%s]" % ','.join(map(str, starting_items)))
-    if random_variation[0] >=1 and world.options.include_6_stars == True:
-        type_operator = world.random.randrange(0, 2)
-        possible_operators_choice = [name for name, i in world.item_name_to_item.items() if starting_items[type_operator] in i.get("category", []) and "6 star" in i.get("category", [])]
-        possible_operators = [i for i in item_pool if i.name in possible_operators_choice]
-        random_operator = world.random.choice(possible_operators)
-        multiworld.push_precollected(random_operator)
-        item_pool.remove(random_operator)
-    #if no six star, how should the amount of vouchers be distributed?)
-    elif random_variation[1] >1 and world.options.include_5_stars == 0:
-        random_variation_5_star = [0,0,0]
-        for i in range(len(starting_items)):
-            if random_variation[1] >0:
-                random_variation_5_star[i] = 1
-                random_variation[1] -= 1
-            else:
-                random_variation_5_star[i] = 0
-        
-        random_variation_5_star = list(set(itertools.permutations(random_variation_5_star)))
-        random_variation_5_star = world.random.choice(random_variation_5_star)
-        starting_5_star = [
-            {
-                "item_categories": [starting_items[0]],
-                "random": random_variation_5_star[0]
-            },
-            {
-                "item_categories": [starting_items[1]],
-                "random": random_variation_5_star[1]
-            },
-            {
-                "item_categories": [starting_items[2]],
-                "random": random_variation_5_star[2]
-            },
-        ]
-        for starting in starting_5_star:
-            possible_operators_choice = []
-            for category in starting["item_categories"]:
-                possible_operators_choice.extend(
-                    [name for name, i in world.item_name_to_item.items() if category in i.get("category", []) and "5 star" in i.get("category", [])] #accounts for the key not existing
-                )
-
-            possible_operators = [
-                i for i in item_pool if i.name in possible_operators_choice 
-            ]
-            # print("[%s]"%", ".join(map(str, possible_operators)))
-            if starting["random"] == 1: 
-                random_starting_operator = world.random.choice(possible_operators)
-                # print("chosen 5 star: " + str(random_starting_operator))
-                multiworld.push_precollected(random_starting_operator)
-                item_pool.remove(random_starting_operator)
     # remove the amount of random unlockable items
     max_amount_random_unlock = 20
     for _ in range(max_amount_random_unlock - world.options.include_random_operators):
@@ -267,28 +109,26 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             name for name, location in world.location_name_to_location.items() if location.get('victory') == True
         ])
     )
+    # actx bosses are done with 'defeat boss' item. 
+    # this means that we only need to force this item to the correct boss
+    # and we don't have to change the requirement
     victory_name = victory_name_s
     victory_location = multiworld.get_location(victory_name, player)
-    if victory_name == "act0 boss":
-        end_boss_location = world.options.act_0_boss_clear
-    elif victory_name == "act1 boss":
-        end_boss_location = world.options.act_1_boss_clear
-    elif victory_name == "act2 boss":
-        end_boss_location = world.options.act_2_boss_clear
-    elif victory_name == "act3 boss":
-        end_boss_location = world.options.act_3_boss_clear
-    elif victory_name == "beat x bosses":
-        amount_bosses = world.options.amount_boss
-        
-        # cat for i in world.item_name_to_item.values()
-        #     for cat in i.get('category', []) if i.get('progression') == True
-        
+    if victory_name != "beat x bosses":
+        return None
+    amount_bosses = world.options.amount_boss
 
-    def Example_Rule(state: CollectionState) -> bool:
-        # Calculated rules take a CollectionState object and return a boolean
-        # True if the player can access the location
-        # CollectionState is defined in BaseClasses
-        return True
+    def check_boss_amount(state: CollectionState):
+        #really simple. just check how many boss amount is collected
+        return state.has_group("boss clear", player, amount_bosses)
+    
+    victory_location.access_rule = lambda state: check_boss_amount(state)
+
+    # def Example_Rule(state: CollectionState) -> bool:
+    #     # Calculated rules take a CollectionState object and return a boolean
+    #     # True if the player can access the location
+    #     # CollectionState is defined in BaseClasses
+    #     return True
 
     ## Common functions:
     # location = world.get_location(location_name, player)
@@ -312,32 +152,56 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
     victory_name = victory_name_s
     amount_boss = world.item_name_to_item.values().get('name') == "defeated bosses"
-    boss_locations
+    boss_locations = []
     print(amount_boss)
-    if victory_name == "act0 boss":
-        end_boss_location = world.options.act_0_boss_clear
-        match end_boss_location:
-            case 0:
-                boss_location = world.item_name_to_item.values()
-                #... find the specifiek location
-                boss_location.place_locked_item(amount_boss)
-                multiworld.itempool.remove(amount_boss)
-    elif victory_name == "act1 boss":
-        end_boss_location = world.options.act_1_boss_clear
-    elif victory_name == "act2 boss":
-        end_boss_location = world.options.act_2_boss_clear
-    elif victory_name == "act3 boss":
-        end_boss_location = world.options.act_3_boss_clear
-    elif victory_name == "beat x bosses":
-        #find all the boss locations. All the bosses has the category 'boss' in it, so search for that
-        boss_locations = [
-            l for l in world.location_name_to_location.values()
-                if "boss" in l.get('category', []) 
-        ]
-        print(boss_locations)
-        #just to test. find the item 'defeated bosses'
-        #otherwise, just hardcode the name defeated bosses
-        amount_boss = world.item_name_to_item.values().get('name') == "defeated bosses"
+    match victory_name:
+        case "act0 boss":
+            match world.options.act_0_boss_clear:
+                case 0:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "0-11 clear")
+                case 1:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "1-12 clear")
+                case 2:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "2-10 clear")
+                case 3:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "3-8 clear")
+        case "act1 boss":
+            match world.options.act_1_boss_clear:
+                case 0:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "4-10 clear")
+                case 1:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "5-11 clear")
+                case 2:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "6-18 clear")
+                case 3:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "7-20 clear")
+                case 4:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "JT8-3 clear")
+        case "act2 boss":
+            match world.options.act_2_boss_clear:
+                case 0:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "9-21 clear")
+                case 1:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "10-19 clear")
+                case 2:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "11-21 clear")
+                case 3:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "12-21 clear")
+                case 4:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "13-22 clear")
+                case 5:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "14-23 clear")
+        case "act3 boss":
+            match world.options.act_3_boss_clear:
+                case 0:
+                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "15-21 clear")
+        case "beat x bosses":
+            boss_locations.extend([name for name, i in world.location_name_to_location .items() if "boss stage" in i.get("category", [])])
+
+    print(boss_locations)
+    #just to test. find the item 'defeated bosses'
+    #otherwise, just hardcode the name defeated bosses
+    amount_boss = world.item_name_to_item.values().get('name') == "defeated bosses"
 
     print(amount_boss)
     #we won't randomize these, because the bosses now only will have this token, which is needed to win the game.
@@ -345,7 +209,6 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
         location.place_locked_item(amount_boss)
         multiworld.itempool.remove(amount_boss)
     raise Exception("just to test")
-    pass
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
 def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
