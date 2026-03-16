@@ -73,14 +73,23 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    victory_name = next(
+        iter([
+            name for name, location in world.location_name_to_location.items() if location.get('victory') == True
+        ])
+    )
+    max_amount_bosses = 16
+    if victory_name != "beat x bosses":
+        for _ in range(max_amount_bosses - 1):
+            item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
+    else:
+        for _ in range(max_amount_bosses - world.options.amount_boss):
+            item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
+
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    # remove the amount of random unlockable items
-    max_amount_random_unlock = 20
-    for _ in range(max_amount_random_unlock - world.options.include_random_operators):
-        item_pool.remove(next(i for i in item_pool if i.name == "random unit unlock"))
 
     return item_pool
 
@@ -100,11 +109,10 @@ def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, pl
 def before_set_rules(world: World, multiworld: MultiWorld, player: int):
     pass
 
-victory_name_s: any
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
-    victory_name_s = next(
+    victory_name = next(
         iter([
             name for name, location in world.location_name_to_location.items() if location.get('victory') == True
         ])
@@ -112,7 +120,6 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # actx bosses are done with 'defeat boss' item. 
     # this means that we only need to force this item to the correct boss
     # and we don't have to change the requirement
-    victory_name = victory_name_s
     victory_location = multiworld.get_location(victory_name, player)
     if victory_name != "beat x bosses":
         return None
@@ -150,65 +157,64 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
-    victory_name = victory_name_s
-    amount_boss = world.item_name_to_item.values().get('name') == "defeated bosses"
+    victory_name = next(
+        iter([
+            name for name, location in world.location_name_to_location.items() if location.get('victory') == True
+        ])
+    )
+    beat_boss = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
+    print(beat_boss)
     boss_locations = []
-    print(amount_boss)
     match victory_name:
         case "act0 boss":
             match world.options.act_0_boss_clear:
                 case 0:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "0-11 clear")
+                    boss_locations.append("0-11 clear")
                 case 1:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "1-12 clear")
+                    boss_locations.append("1-12 clear")
                 case 2:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "2-10 clear")
+                    boss_locations.append("2-10 clear")
                 case 3:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "3-8 clear")
+                    boss_locations.append("3-8 clear")
         case "act1 boss":
             match world.options.act_1_boss_clear:
                 case 0:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "4-10 clear")
+                    boss_locations.append("4-10 clear")
                 case 1:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "5-11 clear")
+                    boss_locations.append("5-11 clear")
                 case 2:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "6-18 clear")
+                    boss_locations.append("6-18 clear")
                 case 3:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "7-20 clear")
+                    boss_locations.append("7-20 clear")
                 case 4:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "JT8-3 clear")
+                    boss_locations.append("JT8-3 clear")
         case "act2 boss":
             match world.options.act_2_boss_clear:
                 case 0:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "9-21 clear")
+                    boss_locations.append("9-21 clear")
                 case 1:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "10-19 clear")
+                    boss_locations.append("10-19 clear")
                 case 2:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "11-21 clear")
+                    boss_locations.append("11-21 clear")
                 case 3:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "12-21 clear")
+                    boss_locations.append("12-21 clear")
                 case 4:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "13-22 clear")
+                    boss_locations.append("13-22 clear")
                 case 5:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "14-23 clear")
+                    boss_locations.append("14-23 clear")
         case "act3 boss":
             match world.options.act_3_boss_clear:
                 case 0:
-                    boss_locations.append(name for name, i in world.location_name_to_location  if i.get("name") == "15-21 clear")
+                    boss_locations.append("15-21 clear")
         case "beat x bosses":
-            boss_locations.extend([name for name, i in world.location_name_to_location .items() if "boss stage" in i.get("category", [])])
+            boss_locations.extend([name for name, i in world.location_name_to_location.items() if "boss stage" in i.get("category", [])])
 
-    print(boss_locations)
-    #just to test. find the item 'defeated bosses'
-    #otherwise, just hardcode the name defeated bosses
-    amount_boss = world.item_name_to_item.values().get('name') == "defeated bosses"
-
-    print(amount_boss)
-    #we won't randomize these, because the bosses now only will have this token, which is needed to win the game.
+    # print("boss locations: " + boss_locations)
+    #Force place the 'defeated boss' in the boss_locations just found.
     for location in boss_locations:
-        location.place_locked_item(amount_boss)
-        multiworld.itempool.remove(amount_boss)
-    raise Exception("just to test")
+        placed_location = multiworld.get_location("0-11 clear", player)
+        placed_location.place_locked_item(beat_boss)
+        multiworld.itempool.remove(beat_boss)
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
 def after_generate_basic(world: World, multiworld: MultiWorld, player: int):

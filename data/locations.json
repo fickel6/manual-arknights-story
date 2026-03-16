@@ -258,18 +258,6 @@
     "requires": "|chapter 1 unlock|"
   },
   {
-    "name": "1-11 3-star clear",
-    "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 0",
-    "requires": "|chapter 1 unlock|"
-  },
-  {
-    "name": "1-11 clear",
-    "category": ["main story", "act 0", "chapter 1"],
-    "region": "act 0",
-    "requires": "|chapter 1 unlock|"
-  },
-  {
     "name": "1-12 clear",
     "category": ["main story", "act 0", "chapter 1", "boss stage"],
     "region": "act 0",
@@ -4404,7 +4392,7 @@
   {
     "name": "beat x bosses",
     "category": ["goal"],
-    "requires": "|act 3 unlock|",
+    "requires": "|defeated bosses:ALL|",
     "victory": true
   }
 ]
