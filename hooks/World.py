@@ -241,7 +241,7 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
     # print("boss locations: " + boss_locations)
     #Force place the 'defeated boss' in the boss_locations just found.
     for location in boss_locations:
-        placed_location = multiworld.get_location("0-11 clear", player)
+        placed_location = multiworld.get_location(location, player)
         placed_location.place_locked_item(beat_boss)
         multiworld.itempool.remove(beat_boss)
 

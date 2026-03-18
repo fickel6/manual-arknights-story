@@ -4100,25 +4100,25 @@
   {
     "count": "1",
     "name": "act0 key",
-    "category": "chapter unlock",
+    "category": "region unlock",
     "progression": true
   },
   {
     "count": "1",
     "name": "act1 key",
-    "category": "chapter unlock",
+    "category": "region unlock",
     "progression": true
   },
   {
     "count": "1",
     "name": "act2 key",
-    "category": "chapter unlock",
+    "category": "region unlock",
     "progression": true
   },
   {
     "count": "1",
     "name": "act3 key",
-    "category": "chapter unlock",
+    "category": "region unlock",
     "progression": true
   }
 ]
