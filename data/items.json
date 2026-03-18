@@ -4157,19 +4157,28 @@
   {
     "count": "1",
     "name": "act1 key",
-    "category": "region unlock",
+    "category": [
+      "region unlock",
+      "act 1"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "act2 key",
-    "category": "region unlock",
+    "category": [
+      "region unlock",
+      "act 2"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "act3 key",
-    "category": "region unlock",
+    "category": [
+      "region unlock",
+      "act 3"
+    ],
     "progression": true
   }
 ]
