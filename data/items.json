@@ -4004,103 +4004,154 @@
   {
     "count": "1",
     "name": "chapter 0 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 1 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 2 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 3 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 4 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 5 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 6 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 7 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 8 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 9 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 10 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 11 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 12 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 13 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 14 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "chapter 15 unlock",
-    "category": "chapter unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
     "progression": true
   },
   {
     "count": "1",
     "name": "act0 key",
-    "category": "region unlock",
+    "category": [
+      "region unlock",
+      "act 0"
+    ],
     "progression": true
   },
   {
