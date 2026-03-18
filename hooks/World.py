@@ -105,10 +105,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             for name in delete_all:
                 item_pool.remove(name)
 
-    remove_character("progressive 6 star", "6 star", 2, world.options.include_6_stars)
-    remove_character("progressive 5 star", "5 star", 2, world.options.include_5_stars)
+    remove_character("progressive 6 star", "6 star", 13, world.options.include_6_stars)
+    remove_character("progressive 5 star", "5 star", 13, world.options.include_5_stars)
     remove_character("progressive 4 star", "4 star", 2, world.options.include_4_stars)
-    remove_character("progressive 3 star", "3 star", 1, world.options.include_3_stars)
+    remove_character("progressive 3 star", "3 star", 2, world.options.include_3_stars)
     remove_character("progressive low star", "low star", 1, world.options.include_1_and_2_stars)
     # remove the amount of random unlockable items
     max_amount_random_unlock = 20

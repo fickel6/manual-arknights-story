@@ -95,8 +95,8 @@
         "include 6 stars":{
             "description": [
                 "how the 6 stars will be randomised",
-                "'as individual items': all 6 stars are individual items. When you get this, you instantly get access to e2",
-                "'progressive items': all 6 stars are progressive items. first item, you unlock all 6 stars. Second progressive item unlocks e2",
+                "'as individual items': all 6 stars are individual items.",
+                "'progressive items': all 6 stars are progressive items. every progressive item is a slot in your squad and the thirteenth is the support unit",
                 "'exclude': no 6 stars will be included. Alternatively could be used as you can always use 6 stars"
             ],
             "type": "Choice",
@@ -110,8 +110,8 @@
         "include 5 stars":{
             "description": [
                 "how the 5 stars will be randomised",
-                "'as individual items': all 5 stars are individual items. When you get this, you instantly get access to e2",
-                "'progressive items': all 5 stars are progressive items. first item, you unlock all 5 stars. Second progressive item unlocks e2",
+                "'as individual items': all 5 stars are individual items.",
+                "'progressive items': all 5 stars are progressive items. every progressive item is a slot in your squad and the thirteenth is the support unit",
                 "'exclude': no 5 stars will be included. Alternatively could be used as you can always use 5 stars"
             ],
             "type": "Choice",
@@ -125,7 +125,8 @@
         "include 4 stars":{
             "description": [
                 "how the 4 stars will be randomised",
-                "'progressive items': all 4 stars are progressive items. first item, you unlock all 4 stars. Second progressive item unlocks e2",
+                "'as individual items': all 4 stars are individual items.",
+                "'progressive items': all 4 stars are progressive items. every progressive item gets you 6 operators (half your squad) of 4 stars",
                 "'exclude': no 4 stars will be included. Alternatively could be used as you can always use 4 stars"
             ],
             "type": "Choice",
@@ -138,7 +139,8 @@
         "include 3 stars":{
             "description": [
                 "how the 3 stars will be randomised",
-                "'progressive items': all 3 stars are progressive items. first item, you unlock all 3 stars. Second progressive item unlocks e2",
+                "'as individual items': all 3 stars are individual items.",
+                "'progressive items': all 3 stars are progressive items. every progressive item gets you 6 operators (half your squad) of 3 stars",
                 "'exclude': no 3 stars will be included. Alternatively could be used as you can always use 3 stars"
             ],
             "type": "Choice",
@@ -153,7 +155,7 @@
                 "how the 1 and 2 stars will be randomised. 1 and 2 stars aren't used that much, so these two are combined.",
                 "the 1 and 2 stars also can't be e2.",
                 "'as individual items': all 1 and 2 stars are individual items.",
-                "'progressive items': all 3 stars are progressive items.",
+                "'progressive items': all 1 and 2 stars are progressive items. after getting it, you can use them all",
                 "'exclude': no 1 and 2 stars will be included. Alternatively could be used as you can always use 1 and 2 stars"
             ],
             "type": "Choice",
