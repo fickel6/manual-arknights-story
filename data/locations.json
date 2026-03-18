@@ -27,49 +27,49 @@
     "name": "0-3 clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1|"
   },
   {
     "name": "0-3 3-star clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1|"
   },
   {
     "name": "0-4 clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1|"
   },
   {
     "name": "0-4 3-star clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1|"
   },
   {
     "name": "0-5 clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1|"
   },
   {
     "name": "0-5 3-star clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1|"
   },
   {
     "name": "0-6 clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1| AND |block:1|"
   },
   {
     "name": "0-6 3-star clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1| AND |block:1|"
   },
   {
     "name": "0-7 clear",
@@ -111,97 +111,85 @@
     "name": "0-10 clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1| AND |block:1|"
   },
   {
     "name": "0-10 3-star clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |ranged:1| AND |block:1|"
   },
   {
     "name": "0-11 clear",
     "category": ["main story", "act 0", "chapter 0", "boss stage"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |characters:5|"
   },
   {
     "name": "0-11 3-star clear",
     "category": ["act 0", "chapter 0"],
     "region": "act 0",
-    "requires": "|chapter 0 unlock|"
+    "requires": "|chapter 0 unlock| AND |characters:5|"
   },
   {
     "name": "1-1 clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:1|"
   },
   {
     "name": "1-1 3-star clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
-  },
-  {
-    "name": "1-2 clear",
-    "category": ["act 0", "chapter 1"],
-    "region": "act 0",
-    "requires": "|chapter 1 unlock|"
-  },
-  {
-    "name": "1-2 3-star clear",
-    "category": ["act 0", "chapter 1"],
-    "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:1|"
   },
   {
     "name": "1-3 clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:2|"
   },
   {
     "name": "1-3 3-star clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:2|"
   },
   {
     "name": "1-4 clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:3|"
   },
   {
     "name": "1-4 3-star clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:3|"
   },
   {
     "name": "1-5 clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:4|"
   },
   {
     "name": "1-5 3-star clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:4|"
   },
   {
     "name": "1-6 clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:1|"
   },
   {
     "name": "1-6 3-star clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:1|"
   },
   {
     "name": "1-7 clear",
@@ -219,13 +207,13 @@
     "name": "1-8 clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |characters:5| AND |block:2|"
   },
   {
     "name": "1-8 3-star clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |characters:5| AND |block:1|"
   },
   {
     "name": "1-9 clear",
@@ -243,31 +231,25 @@
     "name": "1-10 clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |block:2|"
   },
   {
     "name": "1-10 3-star clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
-  },
-  {
-    "name": "1-11 clear",
-    "category": ["act 0", "chapter 1"],
-    "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |ranged:1| AND |block:2|"
   },
   {
     "name": "1-12 clear",
     "category": ["main story", "act 0", "chapter 1", "boss stage"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |characters:7| AND |ranged:3| AND |block:1|"
   },
   {
     "name": "1-12 3-star clear",
     "category": ["act 0", "chapter 1"],
     "region": "act 0",
-    "requires": "|chapter 1 unlock|"
+    "requires": "|chapter 1 unlock| AND |characters:7| AND |ranged:3| AND |block:1|"
   },
   {
     "name": "2-1 clear",

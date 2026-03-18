@@ -254,6 +254,15 @@
                 "these are the chapter 15."
             ],
             "group": "operations options"
+        },
+        "include the story": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "reading all the story is also a check",
+                "you may NOT skip, but speeding is allowed"
+            ],
+            "group": "operations options"
         }
     }
 }
