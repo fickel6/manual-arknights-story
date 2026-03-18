@@ -124,7 +124,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         name for name, i in world.item_name_to_item.items() if "region unlock" in i.get("category", [])
     )
     random_starting_region = world.random.choice(starting_region)
-    print("found region: " + random_starting_region)
     collect_region = next(i for i in item_pool if i.name == random_starting_region)
     multiworld.push_precollected(collect_region)
     item_pool.remove(collect_region)
@@ -149,12 +148,87 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     possible_starting_chapter = [
         i for i in item_pool if i.name in starting_chapter
     ]
-    print("[%s]"%", ".join(map(str, starting_region)))
-    print("[%s]"%", ".join(map(str, starting_chapter)))
     random_starting_chapter = world.random.choice(possible_starting_chapter)
     multiworld.push_precollected(random_starting_chapter)
     item_pool.remove(random_starting_chapter)
-    #need to add some characters. 
+    
+    possible_characters = []
+    possible_characters.extend(
+        name for name, i in world.item_name_to_item.items() if "character" in i.get("category", [])
+    )
+    possible_characters.extend(
+        name for name, i in world.item_name_to_item.items() if "progressive characters" in i.get("category", [])
+    )
+    amount_operators = world.options.starting_squad_range
+    def rarity(name_i: str, rarity:str, prog_rarity: str) ->tuple[bool, bool]:
+        try:
+            next(
+                name for name, i in world.item_name_to_item.items() if rarity in i.get("category", []) and name_i in i.get("name", [])
+            )
+        except:
+            #its not a x star, so check if its a progressive item
+            try:
+                next(
+                    name for name, i in world.item_name_to_item.items() if prog_rarity in i.get("category", [])
+                )
+            except:
+                #its not a progressive character or a rarity, so it must be a excluded rarity or not this rarity
+                return (False, False)
+            else:
+                #its a progressive character, so it must be a progressive character
+                return (False, True)
+        else:
+            #it is this rarity
+            return (True, False)
+    
+    def remove_amount(name:str) ->int:
+        amount_operators = 0
+        detemined_rarity = rarity(name, "6 star", "progressive 6 star")
+        #the rarity was 6 star. if not, we continue searching
+        if detemined_rarity[0] == True or detemined_rarity[1] == True:
+            # print("found a 6 star")
+            return 4
+        
+        detemined_rarity = rarity(name, "5 star", "progressive 5 star")
+        #the rarity was 6 star. if not, we continue searching
+        if detemined_rarity[0] == True or detemined_rarity[1] == True:
+            # print("found a 5 star")
+            return 2
+        
+        detemined_rarity = rarity(name, "4 star", "progressive 4 star")
+        #the rarity was 6 star. if not, we continue searching
+        if detemined_rarity[0] == True or detemined_rarity[1] == True:
+            # print("found a 4 star")
+            return 1
+        
+        detemined_rarity = rarity(name, "low star", "progressive low star")
+        #the rarity was 6 star. if not, we continue searching
+        if detemined_rarity[0] == True or detemined_rarity[1] == True:
+            # print("found a 6 star")
+            return 1
+        #if it didn't find anything, return 0
+        return 0
+
+    while amount_operators > 0:
+        if len(possible_characters) <=0:
+            #if the length of the possible characters (progressive or ops) smaller than 0
+            #then we just break and don't continue, it won't gen even if we want to
+            break
+        random_character = world.random.choice(possible_characters)
+        # print("found operator: " + random_character)
+        try:
+            remove_character = next(i for i in item_pool if i.name == random_character)
+        except:
+            #if it didn't find it in item_pool, it should be excluded by a earlier hook
+            pass
+        else:
+            #if it did find in the itempool, we must collect and remove from the itempool
+            #also need to determine the rarity to decrement our checked amount
+            multiworld.push_precollected(remove_character)
+            item_pool.remove(remove_character)
+            amount_operators -= remove_amount(random_character)
+        finally:
+            possible_characters.remove(random_character)
     return item_pool
 
     # Some other useful hook options:
@@ -227,7 +301,6 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
         ])
     )
     beat_boss = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
-    print(beat_boss)
     boss_locations = []
     match victory_name:
         case "act0 boss":

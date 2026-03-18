@@ -105,12 +105,7 @@
                 "progressive items": 1,
                 "exclude": 2
             },
-            "group": "operator options",
-            "visibility": [
-                "template",
-                "simple_ui",
-                "complex_ui"
-            ]
+            "group": "operator options"
         },
         "include 5 stars":{
             "description": [
@@ -125,12 +120,7 @@
                 "progressive items": 1,
                 "exclude": 2
             },
-            "group": "operator options",
-            "visibility": [
-                "template",
-                "simple_ui",
-                "complex_ui"
-            ]
+            "group": "operator options"
         },
         "include 4 stars":{
             "description": [
@@ -143,12 +133,7 @@
                 "progressive items": 0,
                 "exclude": 1
             },
-            "group": "operator options",
-            "visibility": [
-                "template",
-                "simple_ui",
-                "complex_ui"
-            ]
+            "group": "operator options"
         },
         "include 3 stars":{
             "description": [
@@ -161,12 +146,7 @@
                 "progressive items": 0,
                 "exclude": 1
             },
-            "group": "operator options",
-            "visibility": [
-                "template",
-                "simple_ui",
-                "complex_ui"
-            ]
+            "group": "operator options"
         },
         "include 1 and 2 stars":{
             "description": [
@@ -183,12 +163,7 @@
                 "exclude": 2
             },
             "default": 2,
-            "group": "operator options",
-            "visibility": [
-                "template",
-                "simple_ui",
-                "complex_ui"
-            ]
+            "group": "operator options"
         },
         "include random operators": {
             "type": "Range",
@@ -199,6 +174,18 @@
                 "add a item for unlocking random operators.",
                 "use websites like https://akgcc.github.io/randomizer/ to choose what operator you can use.",
                 "alternatively, use this as 'unlock a character you want' item"
+            ],
+            "group": "operator options"
+        },
+        "starting squad range": {
+            "type": "Range",
+            "default": 1,
+            "range_start": 1,
+            "range_end": 13,
+            "description": [
+                "choose how many operators you can start with. the 13th is the support unit.",
+                "to keep things more balanced, 6 stars will count for 3 units and 5 stars for 2.",
+                "if the squad is 1 and there is a 6 or 5 star chosen, then there will 1 operator chosen"
             ],
             "group": "operator options"
         },
