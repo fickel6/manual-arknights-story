@@ -3948,6 +3948,46 @@
     "useful": true
   },
   {
+    "count": "1",
+    "name": "Yato",
+    "category": [
+      "character",
+      "low star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Mantra",
+    "category": [
+      "character",
+      "6 star",
+      "caster"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Vetochki",
+    "category": [
+      "character",
+      "5 star",
+      "Defender"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Snegurochka",
+    "category": [
+      "character",
+      "4 star",
+      "vanguard"
+    ],
+    "useful": true
+  },
+  {
     "count": "13",
     "name": "progressive 6 star",
     "category": [
