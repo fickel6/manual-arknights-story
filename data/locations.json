@@ -267,25 +267,26 @@
     "name": "2-2 clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1|"
   },
   {
     "name": "2-2 3-star clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1|"
   },
   {
     "name": "2-3 clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1| AND |ranged:1|",
+    "_comment": "could be mean and let there be no requirement. be good ad roadblock stalling lmao"
   },
   {
     "name": "2-3 3-star clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1| AND |ranged:1|"
   },
   {
     "name": "2-4 clear",
@@ -309,31 +310,31 @@
     "name": "2-5 3-star clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1|"
   },
   {
     "name": "2-6 clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1|"
   },
   {
     "name": "2-6 3-star clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:2|"
   },
   {
     "name": "2-7 clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:2|"
   },
   {
     "name": "2-7 3-star clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:2|"
   },
   {
     "name": "2-8 clear",
@@ -345,13 +346,13 @@
     "name": "2-8 3-star clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:2| AND |ranged:1|"
   },
   {
     "name": "2-9 clear",
     "category": ["act 0", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:2| AND |characters:4|"
   },
   {
     "name": "2-9 3-star clear",
@@ -369,55 +370,55 @@
     "name": "2-10 3-star clear",
     "category": ["main story", "act 0", "chapter 2", "boss stage"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |characters:6| AND |ranged:1| AND |block:2|"
   },
   {
     "name": "S2-1 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1|"
   },
   {
     "name": "S2-1 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1|"
   },
   {
     "name": "S2-2 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:2|"
   },
   {
     "name": "S2-2 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:2|"
   },
   {
     "name": "S2-3 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1|"
   },
   {
     "name": "S2-3 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1|"
   },
   {
     "name": "S2-4 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1|"
   },
   {
     "name": "S2-4 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:1|"
   },
   {
     "name": "S2-5 clear",
@@ -435,85 +436,86 @@
     "name": "S2-6 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:2| AND |ranged:2|"
   },
   {
     "name": "S2-6 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:2| AND |ranged:2|"
   },
   {
     "name": "S2-7 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:2| AND |ranged:2|",
+    "_comment": "could still be really hard with 2 block and 2 ranged"
   },
   {
     "name": "S2-7 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |block:2| AND |ranged:2|"
   },
   {
     "name": "S2-8 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1| AND |block:2|"
   },
   {
     "name": "S2-8 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1| AND |block:2|"
   },
   {
     "name": "S2-9 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1| AND |block:2|"
   },
   {
     "name": "S2-9 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1| AND |block:2|"
   },
   {
     "name": "S2-10 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1| AND |block:2|"
   },
   {
     "name": "S2-10 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1| AND |block:2|"
   },
   {
     "name": "S2-11 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1| AND |block:3|"
   },
   {
     "name": "S2-11 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:1| AND |block:3|"
   },
   {
     "name": "S2-12 clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:2| AND |block:2|"
   },
   {
     "name": "S2-12 3-star clear",
     "category": ["act 0", "sub operations", "chapter 2"],
     "region": "act 0",
-    "requires": "|chapter 2 unlock|"
+    "requires": "|chapter 2 unlock| AND |ranged:2| AND |block:2|"
   },
   {
     "name": "3-1 clear",
