@@ -362,13 +362,13 @@
   },
   {
     "name": "2-10 clear",
-    "category": ["act 0", "chapter 2"],
+    "category": ["act 0", "chapter 2", "boss stage"],
     "region": "act 0",
     "requires": "|chapter 2 unlock|"
   },
   {
     "name": "2-10 3-star clear",
-    "category": ["main story", "act 0", "chapter 2", "boss stage"],
+    "category": ["main story", "act 0", "chapter 2"],
     "region": "act 0",
     "requires": "|chapter 2 unlock| AND |characters:6| AND |ranged:1| AND |block:2|"
   },
@@ -1438,13 +1438,13 @@
   },
   {
     "name": "6-18 clear",
-    "category": ["act 1", "chapter 6"],
+    "category": ["act 1", "chapter 6", "boss stage"],
     "region": "act 1",
     "requires": "|chapter 6 unlock|"
   },
   {
     "name": "6-18 3-star clear",
-    "category": ["main story", "act 1", "chapter 6", "boss stage"],
+    "category": ["main story", "act 1", "chapter 6"],
     "region": "act 1",
     "requires": "|chapter 6 unlock|"
   },
@@ -1762,13 +1762,13 @@
   },
   {
     "name": "7-20 clear",
-    "category": ["main story", "act 1", "chapter 7", "boss"],
+    "category": ["main story", "act 1", "chapter 7", "boss stage"],
     "region": "act 1",
     "requires": "|chapter 7 unlock|"
   },
   {
     "name": "7-20 3-star clear",
-    "category": ["main story", "act 1", "chapter 7", "boss stage"],
+    "category": ["main story", "act 1", "chapter 7"],
     "region": "act 1",
     "requires": "|chapter 7 unlock|"
   },

@@ -44,6 +44,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
+    # using this hook to make some global variables 
+    global victory_name
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -73,17 +75,13 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    victory_name = next(
-        iter([
-            name for name, location in world.location_name_to_location.items() if location.get('victory') == True
-        ])
-    )
-    max_amount_bosses = 16
+    victory_names = [name for name, location in world.location_name_to_location.items() if location.get('victory') == True]
+    global victory_name
+    victory_name = victory_names[world.options.goal]
+
+    max_amount_bosses = 17
     if victory_name != "beat x bosses":
         for _ in range(max_amount_bosses - 1):
-            item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
-    else:
-        for _ in range(max_amount_bosses - world.options.amount_boss):
             item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
     #remove all the excluded operators
     def remove_character(prog_item, item_name, amount_progressive, option):
@@ -250,14 +248,12 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
-    victory_name = next(
-        iter([
-            name for name, location in world.location_name_to_location.items() if location.get('victory') == True
-        ])
-    )
+
+    global victory_name 
     # actx bosses are done with 'defeat boss' item. 
     # this means that we only need to force this item to the correct boss
     # and we don't have to change the requirement
+    # print("victory name: " + victory_name)
     victory_location = multiworld.get_location(victory_name, player)
     if victory_name != "beat x bosses":
         return None
@@ -295,12 +291,6 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
-    victory_name = next(
-        iter([
-            name for name, location in world.location_name_to_location.items() if location.get('victory') == True
-        ])
-    )
-    beat_boss = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
     boss_locations = []
     match victory_name:
         case "act0 boss":
@@ -346,9 +336,11 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
         case "beat x bosses":
             boss_locations.extend([name for name, i in world.location_name_to_location.items() if "boss stage" in i.get("category", [])])
 
-    # print("boss locations: " + boss_locations)
+    print("boss locations: [%s]" % ", ".join(boss_locations))
     #Force place the 'defeated boss' in the boss_locations just found.
     for location in boss_locations:
+        beat_boss = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
+        print("placing: " + location)
         placed_location = multiworld.get_location(location, player)
         placed_location.place_locked_item(beat_boss)
         multiworld.itempool.remove(beat_boss)
