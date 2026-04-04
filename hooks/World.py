@@ -184,25 +184,21 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         detemined_rarity = rarity(name, "6 star", "progressive 6 star")
         #the rarity was 6 star. if not, we continue searching
         if detemined_rarity[0] == True or detemined_rarity[1] == True:
-            # print("found a 6 star")
             return 4
         
         detemined_rarity = rarity(name, "5 star", "progressive 5 star")
         #the rarity was 6 star. if not, we continue searching
         if detemined_rarity[0] == True or detemined_rarity[1] == True:
-            # print("found a 5 star")
             return 2
         
         detemined_rarity = rarity(name, "4 star", "progressive 4 star")
         #the rarity was 6 star. if not, we continue searching
         if detemined_rarity[0] == True or detemined_rarity[1] == True:
-            # print("found a 4 star")
             return 1
         
         detemined_rarity = rarity(name, "low star", "progressive low star")
         #the rarity was 6 star. if not, we continue searching
         if detemined_rarity[0] == True or detemined_rarity[1] == True:
-            # print("found a 6 star")
             return 1
         #if it didn't find anything, return 0
         return 0
@@ -333,14 +329,15 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
             match world.options.act_3_boss_clear:
                 case 0:
                     boss_locations.append("15-21 clear")
+                case 1:
+                    boss_locations.append("16-16 clear")
         case "beat x bosses":
             boss_locations.extend([name for name, i in world.location_name_to_location.items() if "boss stage" in i.get("category", [])])
 
-    print("boss locations: [%s]" % ", ".join(boss_locations))
+    # print("boss locations: [%s]" % ", ".join(boss_locations))
     #Force place the 'defeated boss' in the boss_locations just found.
     for location in boss_locations:
         beat_boss = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
-        print("placing: " + location)
         placed_location = multiworld.get_location(location, player)
         placed_location.place_locked_item(beat_boss)
         multiworld.itempool.remove(beat_boss)

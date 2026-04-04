@@ -4532,6 +4532,15 @@
   },
   {
     "count": "1",
+    "name": "chapter 16 unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "act0 key",
     "category": [
       "region unlock",
