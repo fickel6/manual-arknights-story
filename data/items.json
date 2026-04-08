@@ -431,6 +431,17 @@
   },
   {
     "count": "1",
+    "name": "Haruka",
+    "category": [
+      "character",
+      "6 star",
+      "supporter"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Hellagur",
     "category": [
       "character",
@@ -509,8 +520,7 @@
     "category": [
       "character",
       "6 star",
-      "caster",
-      "ranged"
+      "caster"
     ],
     "useful": true,
     "progression": true
@@ -793,7 +803,8 @@
       "6 star",
       "limited",
       "vanguard",
-      "block"
+      "block",
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -1266,6 +1277,18 @@
     "progression": true
   },
   {
+    "name": "Togawa Sakiko",
+    "count": 1,
+    "category": [
+      "6 star", 
+      "guard",
+      "block",
+      "limited"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
     "count": "1",
     "name": "Tragodia",
     "category": [
@@ -1428,18 +1451,6 @@
   },
   {
     "count": "1",
-    "name": "Haruka",
-    "category": [
-      "character",
-      "6 star",
-      "supporter",
-      "ranged"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
     "name": "Absinthe",
     "category": [
       "character",
@@ -1469,7 +1480,7 @@
       "character",
       "5 star",
       "supporter",
-      "ranged"
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -1566,8 +1577,7 @@
     "category": [
       "character",
       "5 star", 
-      "caster",
-      "ranged"
+      "caster"
     ],
     "useful": true,
     "progression": true
@@ -1578,7 +1588,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1590,7 +1600,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1626,7 +1636,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1650,7 +1660,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1698,7 +1708,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1710,7 +1720,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -1723,7 +1733,7 @@
       "character",
       "5 star",
       "limited",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1758,8 +1768,7 @@
     "name": "Breeze",
     "category": [
       "character",
-      "5 star", 
-      "wellfare",
+      "5 star",
       "medic"
     ],
     "useful": true,
@@ -1771,7 +1780,6 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
       "sniper",
       "ranged"
     ],
@@ -1784,8 +1792,8 @@
     "category": [
       "character",
       "5 star",
-       "guard",
-      "ranged"
+      "guard",
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -1796,7 +1804,6 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
       "guard",
       "block"
     ],
@@ -1809,7 +1816,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -1822,7 +1829,7 @@
       "character",
       "5 star",
       "supporter",
-      "ranged"
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -1833,7 +1840,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1845,7 +1852,6 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
       "medic"
     ],
     "useful": true,
@@ -1857,7 +1863,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -1870,7 +1876,7 @@
       "character",
       "5 star",
       "limited",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -1906,8 +1912,7 @@
     "category": [
       "character",
       "5 star",
-      "caster",
-      "ranged"
+      "caster"
     ],
     "useful": true,
     "progression": true
@@ -1918,7 +1923,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1931,7 +1936,7 @@
       "character",
       "5 star",
       "wellfare",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1993,7 +1998,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -2041,7 +2046,7 @@
     "category": [
       "character",
       "5 star",
-       "vanguard",
+      "vanguard",
       "ranged"
     ],
     "useful": true,
@@ -2089,7 +2094,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -2150,7 +2155,7 @@
       "5 star",
       "limited",
       "specialist",
-      "block"
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -2210,8 +2215,7 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -2259,7 +2263,6 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
       "medic"
     ],
     "useful": true,
@@ -2271,7 +2274,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -2332,7 +2335,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -2393,8 +2396,8 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
-      "block"
+      "supporter",
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -2441,7 +2444,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -2537,7 +2540,6 @@
     "category": [
       "character",
       "5 star", 
-      "wellfare",
       "alter",
       "caster",
       "ranged"
@@ -2575,7 +2577,6 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
       "guard",
       "block"
     ],
@@ -2588,7 +2589,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -2635,8 +2636,7 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -2649,7 +2649,8 @@
       "character",
       "5 star",
       "supporter",
-      "ranged"
+      "ranged",
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -2684,7 +2685,6 @@
     "category": [
       "character",
       "5 star", 
-      "wellfare",
       "caster",
       "ranged"
     ],
@@ -2716,13 +2716,26 @@
     "progression": true
   },
   {
+    "name": "Misumi Uika",
+    "count": 1,
+    "category": [
+      "5 star", 
+      "supporter",
+      "ranged",
+      "limited"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
     "count": "1",
     "name": "Mitm",
     "category": [
       "character",
       "5 star",
-      "specialist",
-      "block"
+      "vanguard",
+      "block",
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -2768,7 +2781,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -2793,8 +2806,7 @@
       "character",
       "5 star", 
       "limited",
-      "supporter",
-      "ranged"
+      "supporter"
     ],
     "useful": true,
     "progression": true
@@ -2850,9 +2862,8 @@
     "name": "Philae",
     "category": [
       "character",
-      "5 star", 
-      "wellfare",
-      "specialist",
+      "5 star",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -2876,7 +2887,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -2947,7 +2958,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -3007,7 +3018,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -3019,68 +3030,7 @@
     "category": [
       "character",
       "6 star",
-      "wellfare",
-      "specialist",
-      "block"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "name": "Togawa Sakiko",
-    "count": 1,
-    "category": [
-      "6 star", 
-      "guard",
-      "block",
-      "limited"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "name": "Misumi Uika",
-    "count": 1,
-    "category": [
-      "5 star", 
-      "supporter",
-      "ranged",
-      "limited"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "name": "Wakaba Mutsumi",
-    "count": 1,
-    "category": [
-      "5 star", 
-      "guard",
-      "block",
-      "limited"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "name": "Yahata Umiri",
-    "count": 1,
-    "category": [
-      "5 star", 
-      "specialist",
-      "limited"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "name": "Yutenji Nyamu",
-    "count": 1,
-    "category": [
-      "5 star", 
-      "guard",
-      "block",
-      "limited"
+      "specialist"
     ],
     "useful": true,
     "progression": true
@@ -3151,7 +3101,7 @@
       "character",
       "5 star",
       "supporter",
-      "ranged"
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -3163,7 +3113,7 @@
       "character",
       "5 star", 
       "limited",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -3187,7 +3137,7 @@
     "category": [
       "character",
       "5 star", 
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -3234,7 +3184,7 @@
     "category": [
       "character",
       "5 star",
-       "caster",
+      "caster",
       "ranged"
     ],
     "useful": true,
@@ -3258,8 +3208,7 @@
     "category": [
       "character",
       "5 star",
-      "supporter",
-      "ranged"
+      "supporter"
     ],
     "useful": true,
     "progression": true
@@ -3283,7 +3232,7 @@
       "character",
       "5 star",
       "specialist",
-      "block"
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -3294,7 +3243,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -3355,7 +3304,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -3369,7 +3318,7 @@
       "5 star", 
       "wellfare",
       "specialist",
-      "block"
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -3416,8 +3365,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
-      "block"
+      "specialist"
     ],
     "useful": true,
     "progression": true
@@ -3439,8 +3387,8 @@
     "category": [
       "character",
       "5 star",
-      "caster",
-      "ranged"
+      "defender",
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -3474,7 +3422,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -3493,12 +3441,24 @@
     "progression": true
   },
   {
+    "name": "Wakaba Mutsumi",
+    "count": 1,
+    "category": [
+      "5 star", 
+      "specialist",
+      "block",
+      "limited"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
     "count": "1",
     "name": "Wanqing",
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -3556,7 +3516,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -3581,7 +3541,7 @@
       "character",
       "5 star",
       "supporter",
-      "ranged"
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -3592,8 +3552,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
-      "block"
+      "specialist"
     ],
     "useful": true,
     "progression": true
@@ -3604,8 +3563,30 @@
     "category": [
       "character",
       "5 star",
-      "supporter",
-      "ranged"
+      "supporter"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "name": "Yahata Umiri",
+    "count": 1,
+    "category": [
+      "5 star", 
+      "specialist",
+      "limited"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "name": "Yutenji Nyamu",
+    "count": 1,
+    "category": [
+      "5 star", 
+      "guard",
+      "block",
+      "limited"
     ],
     "useful": true,
     "progression": true
@@ -3616,7 +3597,7 @@
     "category": [
       "character",
       "5 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
