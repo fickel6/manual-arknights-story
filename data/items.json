@@ -6,7 +6,7 @@
       "character",
       "6 star",
       "specialist",
-      "block"
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -41,8 +41,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
-      "block"
+      "specialist"
     ],
     "useful": true,
     "progression": true
@@ -54,7 +53,6 @@
       "character",
       "6 star",
       "limited",
-      "crossover",
       "sniper",
       "ranged"
     ],
@@ -67,7 +65,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -104,7 +102,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -178,7 +176,6 @@
     "category": [
       "character",
       "6 star", 
-      "wellfare", 
       "supporter",
       "ranged"
     ],
@@ -191,7 +188,6 @@
     "category": [
       "character",
       "6 star",
-      "wellfare",
       "specialist",
       "block"
     ],
@@ -217,7 +213,7 @@
       "character",
       "6 star",
       "specialist",
-      "block"
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -253,10 +249,9 @@
     "category": [
       "character",
       "6 star",
-      "crossover",
       "limited",
       "specialist",
-      "block"
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -279,7 +274,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -317,7 +312,7 @@
       "6 star", 
       "alter",
       "limited",
-       "specialist",
+      "specialist",
       "ranged"
     ],
     "useful": true,
@@ -378,7 +373,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -404,7 +399,6 @@
     "category": [
       "character",
       "6 star",
-      "wellfare",
       "specialist",
       "block"
     ],
@@ -477,7 +471,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -489,7 +483,21 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "defender",
+      "block"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Hoshiguma the Breacher",
+    "category": [
+      "character",
+      "6 star",
+      "limited",
+      "alter",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -513,7 +521,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -539,7 +547,7 @@
       "6 star",
       "limited",
       "alter", 
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -551,7 +559,8 @@
     "category": [
       "character",
       "6 star",
-      "medic"
+      "medic", 
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -563,7 +572,6 @@
       "character",
       "6 star",
       "alter",
-      "crossover",
       "limited",
       "specialist",
       "block"
@@ -616,7 +624,7 @@
     "category": [
       "character",
       "6 star",
-       "sniper",
+      "sniper",
       "ranged"
     ],
     "useful": true,
@@ -628,8 +636,8 @@
     "category": [
       "character",
       "6 star",
-       "guard",
-      "ranged"
+      "guard",
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -654,7 +662,8 @@
       "6 star",
       "limited",
       "supporter",
-      "ranged"
+      "ranged",
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -677,8 +686,7 @@
     "category": [
       "character",
       "6 star",
-      "medic",
-      "wellfare"
+      "medic"
     ],
     "useful": true,
     "progression": true
@@ -697,11 +705,22 @@
   },
   {
     "count": "1",
+    "name": "Mantra",
+    "category": [
+      "character",
+      "6 star",
+      "caster",
+      "ranged"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Marcille",
     "category": [
       "character",
       "6 star",
-      "crossover",
       "caster",
       "ranged"
     ],
@@ -760,7 +779,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -773,7 +792,7 @@
       "character",
       "6 star",
       "limited",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -836,7 +855,7 @@
       "character",
       "6 star",
       "limited",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -895,7 +914,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -958,7 +977,8 @@
       "6 star",
       "wellfare",
       "supporter",
-      "ranged"
+      "ranged",
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -1018,7 +1038,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -1030,7 +1050,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -1042,8 +1062,7 @@
     "category": [
       "character",
       "6 star",
-      "wellfare",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1055,7 +1074,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1090,7 +1109,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -1104,8 +1123,7 @@
       "6 star",
       "limited",
       "wellfare",
-      "supporter",
-      "ranged"
+      "supporter"
     ],
     "useful": true,
     "progression": true
@@ -1128,7 +1146,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "guard",
       "block"
     ],
     "useful": true,
@@ -1166,8 +1184,7 @@
     "category": [
       "character",
       "6 star",
-      "supporter",
-      "ranged"
+      "supporter"
     ],
     "useful": true,
     "progression": true
@@ -1243,7 +1260,7 @@
       "6 star",
       "alter",
       "specialist",
-      "block"
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -1291,8 +1308,7 @@
     "category": [
       "character",
       "6 star",
-      "wellfare",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -1342,7 +1358,7 @@
     "category": [
       "character",
       "6 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -1367,8 +1383,7 @@
     "category": [
       "character",
       "6 star",
-      "sniper",
-      "ranged"
+      "sniper"
     ],
     "useful": true,
     "progression": true
@@ -1393,7 +1408,7 @@
       "character",
       "6 star",
       "limited",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -1419,20 +1434,6 @@
       "6 star",
       "supporter",
       "ranged"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "Hoshiguma the Breacher",
-    "category": [
-      "character",
-      "6 star",
-      "limited",
-      "alter",
-      "specialist",
-      "block"
     ],
     "useful": true,
     "progression": true
@@ -4685,17 +4686,6 @@
       "character",
       "low star",
       "vanguard"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "Mantra",
-    "category": [
-      "character",
-      "6 star",
-      "caster"
     ],
     "useful": true,
     "progression": true
