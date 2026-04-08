@@ -3418,6 +3418,18 @@
   },
   {
     "count": "1",
+    "name": "Vetochki",
+    "category": [
+      "character",
+      "5 star",
+      "Defender",
+      "block"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Vulcan",
     "category": [
       "character",
@@ -3645,7 +3657,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -3669,7 +3681,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -3728,8 +3740,7 @@
     "category": [
       "character",
       "4 star",
-      "guard",
-      "block"
+      "guard"
     ],
     "useful": true,
     "progression": true
@@ -3740,7 +3751,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -3752,7 +3763,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -3777,7 +3788,7 @@
       "character",
       "4 star",
       "supporter",
-      "ranged"
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -3800,7 +3811,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -3906,7 +3917,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -4002,7 +4013,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -4026,7 +4037,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -4085,8 +4096,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
-      "block"
+      "vanguard"
     ],
     "useful": true,
     "progression": true
@@ -4168,7 +4178,7 @@
       "character",
       "4 star",
       "supporter",
-      "ranged"
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -4191,7 +4201,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -4217,6 +4227,18 @@
       "4 star",
       "sniper",
       "ranged"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Snegurochka",
+    "category": [
+      "character",
+      "4 star",
+      "vanguard",
+      "block"
     ],
     "useful": true,
     "progression": true
@@ -4286,7 +4308,7 @@
     "category": [
       "character",
       "4 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -4333,7 +4355,7 @@
     "category": [
       "character",
       "3 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -4345,7 +4367,7 @@
     "category": [
       "character",
       "3 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -4369,7 +4391,7 @@
     "category": [
       "character",
       "3 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -4452,7 +4474,7 @@
     "category": [
       "character",
       "3 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -4476,7 +4498,7 @@
     "category": [
       "character",
       "3 star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -4500,7 +4522,7 @@
     "category": [
       "character",
       "3 star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -4536,7 +4558,7 @@
     "category": [
       "character",
       "low star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -4556,11 +4578,23 @@
   },
   {
     "count": "1",
+    "name": "Yato",
+    "category": [
+      "character",
+      "low star",
+      "vanguard",
+      "block"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "CONFESS-47",
     "category": [
       "character",
       "low star",
-      "specialist",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -4584,7 +4618,7 @@
     "category": [
       "character",
       "low star",
-      "specialist",
+      "defender",
       "block"
     ],
     "useful": true,
@@ -4631,8 +4665,7 @@
     "category": [
       "character",
       "low star",
-      "specialist",
-      "block"
+      "specialist"
     ],
     "useful": true,
     "progression": true
@@ -4654,41 +4687,7 @@
     "category": [
       "character",
       "low star",
-      "supporter",
-      "ranged"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "Yato",
-    "category": [
-      "character",
-      "low star",
-      "vanguard"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "Vetochki",
-    "category": [
-      "character",
-      "5 star",
-      "Defender"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "Snegurochka",
-    "category": [
-      "character",
-      "4 star",
-      "vanguard"
+      "supporter"
     ],
     "useful": true,
     "progression": true
