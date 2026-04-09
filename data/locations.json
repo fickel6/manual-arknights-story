@@ -2146,31 +2146,31 @@
   },
   {
     "name": "EG-1 read",
-    "category": ["act 1", "extreme operations", "chapter 8"],
+    "category": ["act 1", "reading", "chapter 8"],
     "region": "act 1",
     "requires": "|chapter 8 unlock|"
   },
   {
     "name": "EG-2 read",
-    "category": ["act 1", "extreme operations", "chapter 8"],
+    "category": ["act 1", "reading", "chapter 8"],
     "region": "act 1",
     "requires": "|chapter 8 unlock|"
   },
   {
     "name": "EG-3 read",
-    "category": ["act 1", "extreme operations", "chapter 8"],
+    "category": ["act 1", "reading", "chapter 8"],
     "region": "act 1",
     "requires": "|chapter 8 unlock|"
   },
   {
     "name": "EG-4 read",
-    "category": ["act 1", "extreme operations", "chapter 8"],
+    "category": ["act 1", "reading", "chapter 8"],
     "region": "act 1",
     "requires": "|chapter 8 unlock|"
   },
   {
     "name": "EG-5 read",
-    "category": ["act 1", "extreme operations", "chapter 8"],
+    "category": ["act 1", "reading", "chapter 8"],
     "region": "act 1",
     "requires": "|chapter 8 unlock|"
   },
@@ -2184,7 +2184,7 @@
   {
     "name": "9-1 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2196,7 +2196,7 @@
   {
     "name": "9-2 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2208,7 +2208,7 @@
   {
     "name": "9-3 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2220,7 +2220,7 @@
   {
     "name": "9-4 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2232,7 +2232,7 @@
   {
     "name": "9-5 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2244,7 +2244,7 @@
   {
     "name": "9-6 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2256,7 +2256,7 @@
   {
     "name": "9-7 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2268,7 +2268,7 @@
   {
     "name": "9-8 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2280,7 +2280,7 @@
   {
     "name": "9-9 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2292,7 +2292,7 @@
   {
     "name": "9-10 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2304,7 +2304,7 @@
   {
     "name": "9-11 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2316,7 +2316,7 @@
   {
     "name": "9-12 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2328,7 +2328,7 @@
   {
     "name": "9-13 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2340,7 +2340,7 @@
   {
     "name": "9-14 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2352,7 +2352,7 @@
   {
     "name": "9-15 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2364,7 +2364,7 @@
   {
     "name": "9-16 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2376,7 +2376,7 @@
   {
     "name": "9-17 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2388,7 +2388,7 @@
   {
     "name": "9-18 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2400,7 +2400,7 @@
   {
     "name": "9-19 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2412,7 +2412,7 @@
   {
     "name": "9-20 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
@@ -2424,7 +2424,7 @@
   {
     "name": "9-21 clear",
     "category": ["main story", "act 2", "chapter 9", "boss stage"],
-    "region": "act 1",
+    "region": "act 2",
     "requires": "|chapter 9 unlock|"
   },
   {
