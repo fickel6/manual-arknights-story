@@ -3,7 +3,12 @@
   "game": "Arknights_story",
   "creator": "Fickel",
   "filler_item_name": "LMD",
-  "starting_items": [],
+  "starting_items": [
+    {
+      "item_categories": ["act 0", "act 1", "act 2", "act 3"],
+      "random": 1
+    }
+  ],
   "death_link": true
 
 }

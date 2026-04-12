@@ -1,19 +1,57 @@
 {
-  "act 0": {
-    "connects_to": [],
-    "requires": "|act0 key|"
+  "chapter 0": {
+    "requires": "|chapter 0 unlock|"
   },
-  "act 1": {
-    "connects_to": [],
-    "requires": "|act1 key|"
+  "chapter 1": {
+    "requires": "|chapter 1 unlock|"
   },
-  "act 2": {
-    "connects_to": [],
-    "requires": "|act2 key|"
+  "chapter 2": {
+    "requires": "|chapter 2 unlock|"
   },
-  "act 3": {
-    "connects_to": [],
-    "requires": "|act3 key|"
+  "chapter 3": {
+    "requires": "|chapter 3 unlock|"
+  },
+  "chapter 4": {
+    "requires": "|chapter 4 unlock|"
+  },
+  "chapter 5": {
+    "requires": "|chapter 5 unlock|"
+  },
+  "chapter 6": {
+    "requires": "|chapter 6 unlock|"
+  },
+  "chapter 7": {
+    "requires": "|chapter 7 unlock|"
+  },
+  "chapter 8": {
+    "requires": "|chapter 8 unlock|"
+  },
+  "chapter 9": {
+    "requires": "|chapter 9 unlock|"
+  },
+  "chapter 10": {
+    "requires": "|chapter 10 unlock|"
+  },
+  "chapter 11": {
+    "requires": "|chapter 11 unlock|"
+  },
+  "chapter 12": {
+    "requires": "|chapter 12 unlock|"
+  },
+  "chapter 13": {
+    "requires": "|chapter 13 unlock|"
+  },
+  "chapter 14": {
+    "requires": "|chapter 14 unlock|"
+  },
+  "chapter 15": {
+    "requires": "|chapter 15 unlock|"
+  },
+  "chapter 16": {
+    "requires": "|chapter 16 unlock|",
+    "exit_requires": {
+      "chapter 16 second half": "|chapter 16 second half unlock|"
+    }
   },
   "reading_events": {
     "connects_to": []
