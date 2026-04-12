@@ -1,53 +1,100 @@
 {
   "chapter 0": {
+    "starting": true,
     "requires": "|chapter 0 unlock|"
   },
   "chapter 1": {
+    "starting": true,
     "requires": "|chapter 1 unlock|"
   },
   "chapter 2": {
+    "starting": true,
     "requires": "|chapter 2 unlock|"
   },
   "chapter 3": {
+    "starting": true,
     "requires": "|chapter 3 unlock|"
   },
   "chapter 4": {
+    "starting": true,
     "requires": "|chapter 4 unlock|"
   },
   "chapter 5": {
+    "starting": true,
     "requires": "|chapter 5 unlock|"
   },
-  "chapter 6": {
-    "requires": "|chapter 6 unlock|"
+  "chapter 6 first half": {
+    "starting": true,
+    "requires": "|chapter 6 first half unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 6 second half unlock|"
+    }
   },
-  "chapter 7": {
-    "requires": "|chapter 7 unlock|"
+  "chapter 7 first half": {
+    "starting": true,
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 7 second half unlock|"
+    }
   },
-  "chapter 8": {
-    "requires": "|chapter 8 unlock|"
+  "chapter 8 first half": {
+    "starting": true,
+    "requires": "|chapter 8 unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 8 second half unlock|"
+    }
   },
-  "chapter 9": {
-    "requires": "|chapter 9 unlock|"
+  "chapter 9 first half": {
+    "starting": true,
+    "requires": "|chapter 9 unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 9 second half unlock|"
+    }
   },
-  "chapter 10": {
-    "requires": "|chapter 10 unlock|"
+  "chapter 10 first half": {
+    "starting": true,
+    "requires": "|chapter 10 unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 10 second half unlock|"
+    }
   },
-  "chapter 11": {
-    "requires": "|chapter 11 unlock|"
+  "chapter 11 first half": {
+    "starting": true,
+    "requires": "|chapter 11 unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 11 second half unlock|"
+    }
   },
-  "chapter 12": {
-    "requires": "|chapter 12 unlock|"
+  "chapter 12 first half": {
+    "starting": true,
+    "requires": "|chapter 12 unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 12 second half unlock|"
+    }
   },
-  "chapter 13": {
-    "requires": "|chapter 13 unlock|"
+  "chapter 13 first half": {
+    "starting": true,
+    "requires": "|chapter 13 unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 13 second half unlock|"
+    }
   },
-  "chapter 14": {
-    "requires": "|chapter 14 unlock|"
+  "chapter 14 first half": {
+    "starting": true,
+    "requires": "|chapter 14 unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 14 second half unlock|"
+    }
   },
-  "chapter 15": {
-    "requires": "|chapter 15 unlock|"
+  "chapter 15 first half": {
+    "starting": true,
+    "requires": "|chapter 15 unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 15 second half unlock|"
+    }
   },
-  "chapter 16": {
+  "chapter 16 first half": {
+    "starting": true,
     "requires": "|chapter 16 unlock|",
     "exit_requires": {
       "chapter 16 second half": "|chapter 16 second half unlock|"
