@@ -79,7 +79,7 @@
             "default": 0,
             "values": {
                 "chapter 15 boss": 0,
-                "chapter 16 boss": 0
+                "chapter 16 boss": 1
             }
         },
         "amount boss": {
