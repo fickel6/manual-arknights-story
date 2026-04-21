@@ -1059,6 +1059,17 @@
   },
   {
     "count": "1",
+    "name": "SilverAsh the Reignfrost",
+    "category": [
+      "character",
+      "6 star",
+      "vanguard",
+      "block"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Skadi",
     "category": [
       "character",
@@ -1492,8 +1503,19 @@
     "category": [
       "character",
       "5 star", 
-      "guard",
-      "block"
+      "caster",
+      "ranged"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Astgenne the Lightchaser",
+    "category": [
+      "character",
+      "6 star", 
+      "supporter",
+      "ranged"
     ],
     "progression": true
   },
@@ -2668,6 +2690,17 @@
   },
   {
     "count": "1",
+    "name": "Pramanix the Prerita",
+    "category": [
+      "character",
+      "6 star",
+      "caster",
+      "ranged"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Projekt Red",
     "category": [
       "character",
@@ -2923,6 +2956,17 @@
       "character",
       "5 star",
       "caster",
+      "ranged"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Snow Hunter",
+    "category": [
+      "character",
+      "5 star",
+      "sniper",
       "ranged"
     ],
     "progression": true
@@ -4358,7 +4402,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 0 unlock",
+    "name": "chapter 0 first half unlock",
     "category": [
       "chapter unlock",
       "act 0"
@@ -4367,7 +4411,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 1 unlock",
+    "name": "chapter 0 second half unlock",
     "category": [
       "chapter unlock",
       "act 0"
@@ -4376,7 +4420,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 2 unlock",
+    "name": "chapter 1 first half unlock",
     "category": [
       "chapter unlock",
       "act 0"
@@ -4385,7 +4429,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 3 unlock",
+    "name": "chapter 1 second half unlock",
     "category": [
       "chapter unlock",
       "act 0"
@@ -4394,7 +4438,43 @@
   },
   {
     "count": "1",
-    "name": "chapter 4 unlock",
+    "name": "chapter 2 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 2 second halfunlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 3 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 3 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 4 first halfunlock",
     "category": [
       "chapter unlock",
       "act 1"
@@ -4403,7 +4483,25 @@
   },
   {
     "count": "1",
-    "name": "chapter 5 unlock",
+    "name": "chapter 4 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 5 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 5 second half unlock",
     "category": [
       "chapter unlock",
       "act 1"
