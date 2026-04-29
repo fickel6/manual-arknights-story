@@ -95,18 +95,18 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     def remove_character(prog_item, item_name, amount_progressive, option):
         # print(option)
         if option == 0:
-            print("deleting progressive characters")
+            # print("deleting progressive characters")
             for _ in range(amount_progressive):
                 item_pool.remove(next(i for i in item_pool if i.name == prog_item))
         elif option == 1:
-            print("deleting characters")
+            # print("deleting characters")
             delete_character = []
             delete_character.extend([name for name, i in world.item_name_to_item.items() if item_name in i.get("category", [])])
             delete_character = [i for i in item_pool if i.name in delete_character]
             for name in delete_character:
                 item_pool.remove(name)
         else:
-            print("deleting everything")
+            # print("deleting everything")
             for _ in range(amount_progressive):
                 item_pool.remove(next(i for i in item_pool if i.name == prog_item))
             delete_all = []
@@ -133,9 +133,17 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     starting_region.extend(
         name for name, i in world.item_name_to_item.items() if "region unlock" in i.get("category", [])
     )
-    random_starting_region = world.random.choice(starting_region)
-    print(random_starting_region)
-    collect_region = next(i for i in item_pool if i.name == random_starting_region)
+    while True:
+        try:
+            random_starting_region = world.random.choice(starting_region)
+            print("trying to find " + random_starting_region)
+            collect_region = next(i for i in item_pool if i.name == random_starting_region)
+        except:
+            starting_region.remove(random_starting_region)
+            continue
+        else:
+            break
+
     multiworld.push_precollected(collect_region)
     item_pool.remove(collect_region)
 
