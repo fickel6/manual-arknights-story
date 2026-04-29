@@ -117,6 +117,39 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    starting_region = []
+    starting_region.extend(
+        name for name, i in world.item_name_to_item.items() if "region unlock" in i.get("category", [])
+    )
+    random_starting_region = world.random.choice(starting_region)
+    collect_region = next(i for i in item_pool if i.name == random_starting_region)
+    multiworld.push_precollected(collect_region)
+    item_pool.remove(collect_region)
+
+    starting_chapter = []
+    if random_starting_region == "act0 key":
+        starting_chapter.extend(
+            name for name, i in world.item_name_to_item.items() if "act 0" in i.get("category", [])
+        )
+    elif random_starting_region == "act1 key":
+        starting_chapter.extend(
+            name for name, i in world.item_name_to_item.items() if "act 1" in i.get("category", [])
+        )
+    elif random_starting_region == "act2 key":
+        starting_chapter.extend(
+            name for name, i in world.item_name_to_item.items() if "act 2" in i.get("category", [])
+        )
+    elif random_starting_region == "act3 key":
+        starting_chapter.extend(
+            name for name, i in world.item_name_to_item.items() if "act 3" in i.get("category", [])
+        )
+    possible_starting_chapter = [
+        i for i in item_pool if i.name in starting_chapter
+    ]
+    random_starting_chapter = world.random.choice(possible_starting_chapter)
+    multiworld.push_precollected(random_starting_chapter)
+    item_pool.remove(random_starting_chapter)
+    
     possible_characters = []
     possible_characters.extend(
         name for name, i in world.item_name_to_item.items() if "character" in i.get("category", [])

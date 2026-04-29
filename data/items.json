@@ -8,6 +8,7 @@
       "specialist",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -19,6 +20,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -30,6 +32,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -40,6 +43,7 @@
       "6 star",
       "specialist"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -52,6 +56,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -63,6 +68,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -74,6 +80,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -86,6 +93,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -97,6 +105,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -108,6 +117,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -119,6 +129,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -130,6 +141,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -142,6 +154,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -154,6 +167,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -165,6 +179,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -176,6 +191,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -187,6 +203,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -198,6 +215,7 @@
       "specialist",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -210,6 +228,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -221,6 +240,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -233,6 +253,7 @@
       "specialist",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -244,6 +265,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -255,6 +277,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -266,6 +289,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -277,6 +301,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -290,6 +315,7 @@
       "specialist",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -301,6 +327,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -313,6 +340,7 @@
       "alter",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -324,6 +352,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -335,6 +364,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -346,6 +376,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -359,6 +390,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -370,6 +402,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -381,6 +414,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -392,6 +426,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -402,6 +437,7 @@
       "6 star",
       "supporter"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -413,6 +449,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -424,6 +461,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -435,6 +473,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -446,6 +485,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -457,6 +497,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -470,6 +511,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -480,6 +522,7 @@
       "6 star",
       "caster"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -491,6 +534,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -502,6 +546,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -515,6 +560,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -526,6 +572,7 @@
       "medic", 
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -539,6 +586,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -552,6 +600,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -563,6 +612,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -575,6 +625,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -586,6 +637,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -597,6 +649,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -608,6 +661,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -621,6 +675,7 @@
       "ranged",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -632,6 +687,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -642,6 +698,7 @@
       "6 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -653,6 +710,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -664,6 +722,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -675,6 +734,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -685,6 +745,7 @@
       "6 star",
       "specialist"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -695,6 +756,7 @@
       "6 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -706,6 +768,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -717,6 +780,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -728,6 +792,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -741,6 +806,7 @@
       "block",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -752,6 +818,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -763,6 +830,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -776,6 +844,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -787,6 +856,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -799,6 +869,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -809,6 +880,7 @@
       "6 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -820,6 +892,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -831,6 +904,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -842,6 +916,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -853,6 +928,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -865,6 +941,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -876,6 +953,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -887,6 +965,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -898,6 +977,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -911,6 +991,7 @@
       "ranged",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -922,6 +1003,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -934,6 +1016,7 @@
       "medic",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -945,6 +1028,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -956,6 +1040,7 @@
       "limited",
       "sniper"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -967,6 +1052,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -978,6 +1064,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -989,6 +1076,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1000,6 +1088,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1011,6 +1100,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1021,6 +1111,7 @@
       "6 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1032,6 +1123,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1044,6 +1136,7 @@
       "wellfare",
       "supporter"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1055,6 +1148,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1066,6 +1160,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1077,6 +1172,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1090,6 +1186,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1100,6 +1197,7 @@
       "6 star",
       "supporter"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1111,6 +1209,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1122,6 +1221,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1134,6 +1234,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1147,6 +1248,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1158,6 +1260,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1170,6 +1273,7 @@
       "specialist",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1181,6 +1285,7 @@
       "block",
       "limited"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1193,6 +1298,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1204,6 +1310,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1215,6 +1322,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1226,6 +1334,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1238,6 +1347,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1250,6 +1360,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1261,6 +1372,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1272,6 +1384,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1284,6 +1397,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1294,6 +1408,7 @@
       "6 star",
       "sniper"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1306,6 +1421,7 @@
       "alter",
       "sniper"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1318,6 +1434,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1329,6 +1446,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1340,6 +1458,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1351,6 +1470,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1362,6 +1482,7 @@
       "supporter",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1373,6 +1494,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1384,6 +1506,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1396,6 +1519,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1408,6 +1532,7 @@
       "medic",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1419,6 +1544,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1430,6 +1556,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1441,6 +1568,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1451,6 +1579,7 @@
       "5 star", 
       "caster"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1462,6 +1591,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1473,6 +1603,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1484,6 +1615,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1495,6 +1627,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1506,6 +1639,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1517,6 +1651,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1528,6 +1663,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1539,6 +1675,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1550,6 +1687,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1561,6 +1699,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1572,6 +1711,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1583,6 +1723,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1595,6 +1736,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1606,6 +1748,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1617,6 +1760,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1627,6 +1771,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1638,6 +1783,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1649,6 +1795,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1660,6 +1807,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1671,6 +1819,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1682,6 +1831,7 @@
       "supporter",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1693,6 +1843,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1703,6 +1854,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1714,6 +1866,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1726,6 +1879,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1737,6 +1891,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1748,6 +1903,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1758,6 +1914,7 @@
       "5 star",
       "caster"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1769,6 +1926,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1781,6 +1939,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1792,6 +1951,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1804,6 +1964,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1815,6 +1976,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1827,6 +1989,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1838,6 +2001,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1849,6 +2013,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1860,6 +2025,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1871,6 +2037,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1882,6 +2049,7 @@
       "vanguard",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1893,6 +2061,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1904,6 +2073,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1915,6 +2085,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1926,6 +2097,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1937,6 +2109,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1948,6 +2121,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1958,6 +2132,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1969,6 +2144,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1981,6 +2157,7 @@
       "specialist",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -1993,6 +2170,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2004,6 +2182,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2015,6 +2194,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2026,6 +2206,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2037,6 +2218,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2048,6 +2230,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2059,6 +2242,7 @@
       "alter", 
       "sniper"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2070,6 +2254,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2080,6 +2265,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2091,6 +2277,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2103,6 +2290,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2115,6 +2303,7 @@
       "medic",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2125,6 +2314,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2136,6 +2326,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2147,6 +2338,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2159,6 +2351,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2170,6 +2363,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2181,6 +2375,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2192,6 +2387,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2203,6 +2399,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2214,6 +2411,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2225,6 +2423,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2236,6 +2435,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2247,6 +2447,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2258,6 +2459,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2268,6 +2470,7 @@
       "5 star",
       "specialist"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2279,6 +2482,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2291,6 +2495,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2302,6 +2507,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2313,6 +2519,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2324,6 +2531,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2336,6 +2544,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2347,6 +2556,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2358,6 +2568,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2369,6 +2580,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2380,6 +2592,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2391,6 +2604,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2402,6 +2616,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2412,6 +2627,7 @@
       "5 star",
       "specialist"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2423,6 +2639,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2435,6 +2652,7 @@
       "ranged",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2446,6 +2664,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2457,6 +2676,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2468,6 +2688,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2479,6 +2700,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2490,6 +2712,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2501,6 +2724,7 @@
       "ranged",
       "limited"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2513,6 +2737,7 @@
       "block",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2524,6 +2749,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2535,6 +2761,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2545,6 +2772,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2556,6 +2784,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2567,6 +2796,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2578,6 +2808,7 @@
       "limited",
       "supporter"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2588,6 +2819,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2599,6 +2831,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2609,6 +2842,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2620,6 +2854,7 @@
       "wellfare",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2631,6 +2866,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2642,6 +2878,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2653,6 +2890,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2664,6 +2902,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2675,6 +2914,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2686,6 +2926,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2697,6 +2938,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2707,6 +2949,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2718,6 +2961,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2730,6 +2974,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2741,6 +2986,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2752,6 +2998,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2762,6 +3009,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2773,6 +3021,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2783,6 +3032,7 @@
       "6 star",
       "specialist"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2794,6 +3044,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2804,6 +3055,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2815,6 +3067,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2826,6 +3079,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2837,6 +3091,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2848,6 +3103,7 @@
       "supporter",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2860,6 +3116,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2871,6 +3128,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2882,6 +3140,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2893,6 +3152,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2904,6 +3164,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2914,6 +3175,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2925,6 +3187,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2936,6 +3199,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2946,6 +3210,7 @@
       "5 star",
       "supporter"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2957,6 +3222,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2968,6 +3234,7 @@
       "specialist",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2979,6 +3246,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -2990,6 +3258,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3002,6 +3271,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3013,6 +3283,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3024,6 +3295,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3035,6 +3307,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3047,6 +3320,7 @@
       "specialist",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3058,6 +3332,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3069,6 +3344,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3080,6 +3356,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3090,6 +3367,7 @@
       "5 star",
       "specialist"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3100,6 +3378,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3111,6 +3390,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3122,6 +3402,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3132,6 +3413,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3143,6 +3425,7 @@
       "Defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3154,6 +3437,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3165,6 +3449,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3176,6 +3461,7 @@
       "block",
       "limited"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3187,6 +3473,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3197,6 +3484,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3208,6 +3496,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3219,6 +3508,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3229,6 +3519,7 @@
       "5 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3240,6 +3531,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3251,6 +3543,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3262,6 +3555,7 @@
       "supporter",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3272,6 +3566,7 @@
       "5 star",
       "specialist"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3282,6 +3577,7 @@
       "5 star",
       "supporter"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3292,6 +3588,7 @@
       "specialist",
       "limited"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3303,6 +3600,7 @@
       "block",
       "limited"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3314,6 +3612,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3325,6 +3624,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3336,6 +3636,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3347,6 +3648,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3358,6 +3660,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3369,6 +3672,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3380,6 +3684,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3391,6 +3696,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3401,6 +3707,7 @@
       "4 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3412,6 +3719,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3423,6 +3731,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3433,6 +3742,7 @@
       "4 star",
       "guard"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3444,6 +3754,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3455,6 +3766,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3466,6 +3778,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3477,6 +3790,7 @@
       "supporter",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3488,6 +3802,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3499,6 +3814,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3510,6 +3826,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3521,6 +3838,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3531,6 +3849,7 @@
       "4 star",
       "specialist"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3542,6 +3861,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3552,6 +3872,7 @@
       "4 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3563,6 +3884,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3574,6 +3896,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3585,6 +3908,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3596,6 +3920,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3607,6 +3932,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3618,6 +3944,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3629,6 +3956,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3640,6 +3968,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3651,6 +3980,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3662,6 +3992,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3673,6 +4004,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3684,6 +4016,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3695,6 +4028,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3706,6 +4040,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3717,6 +4052,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3728,6 +4064,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3739,6 +4076,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3749,6 +4087,7 @@
       "4 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3759,6 +4098,7 @@
       "4 star",
       "vanguard"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3769,6 +4109,7 @@
       "4 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3780,6 +4121,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3791,6 +4133,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3802,6 +4145,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3812,6 +4156,7 @@
       "4 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3823,6 +4168,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3834,6 +4180,7 @@
       "supporter",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3845,6 +4192,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3856,6 +4204,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3867,6 +4216,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3878,6 +4228,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3889,6 +4240,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3899,6 +4251,7 @@
       "4 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3910,6 +4263,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3921,6 +4275,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3932,6 +4287,7 @@
       "specialist",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3943,6 +4299,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3954,6 +4311,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3965,6 +4323,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3976,6 +4335,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3986,6 +4346,7 @@
       "3 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -3997,6 +4358,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4008,6 +4370,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4019,6 +4382,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4030,6 +4394,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4040,6 +4405,7 @@
       "3 star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4051,6 +4417,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4062,6 +4429,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4073,6 +4441,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4084,6 +4453,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4095,6 +4465,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4106,6 +4477,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4117,6 +4489,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4128,6 +4501,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4139,6 +4513,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4150,6 +4525,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4161,6 +4537,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4172,6 +4549,7 @@
       "caster",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4183,6 +4561,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4194,6 +4573,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4205,6 +4585,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4216,6 +4597,7 @@
       "vanguard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4227,6 +4609,7 @@
       "guard",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4238,6 +4621,7 @@
       "defender",
       "block"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4249,6 +4633,7 @@
       "sniper",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4259,6 +4644,7 @@
       "low star",
       "medic"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4270,6 +4656,7 @@
       "supporter",
       "ranged"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4280,6 +4667,7 @@
       "low star",
       "specialist"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4290,6 +4678,7 @@
       "low star",
       "sniper"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4300,6 +4689,7 @@
       "low star",
       "supporter"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4308,6 +4698,7 @@
     "category": [
       "progressive characters"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4316,6 +4707,7 @@
     "category": [
       "progressive characters"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4324,6 +4716,7 @@
     "category": [
       "progressive characters"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4332,6 +4725,7 @@
     "category": [
       "progressive characters"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4340,6 +4734,7 @@
     "category": [
       "progressive characters"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4348,6 +4743,7 @@
     "category": [
       "character unlock"
     ],
+    "useful": true,
     "progression": true
   },
   {
@@ -4505,6 +4901,42 @@
     "name": "chapter 16 unlock",
     "category": [
       "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "act0 key",
+    "category": [
+      "region unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "act1 key",
+    "category": [
+      "region unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "act2 key",
+    "category": [
+      "region unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "act3 key",
+    "category": [
+      "region unlock",
       "act 3"
     ],
     "progression": true

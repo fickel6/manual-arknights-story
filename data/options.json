@@ -256,7 +256,7 @@
             ],
             "group": "operations options"
         },
-        "_include the story": {
+        "include the story": {
             "type": "Toggle",
             "default": false,
             "description": [

@@ -35,19 +35,19 @@
         "hidden": true
     },
     "act 0": {
-        "yaml_option": ["act 0"],
+        "yaml_option": ["include act 0"],
         "hidden": true
     },
     "act 1": {
-        "yaml_option": ["act 1"],
+        "yaml_option": ["include act 1"],
         "hidden": true
     },
     "act 2": {
-        "yaml_option": ["act 2"],
+        "yaml_option": ["include act 2"],
         "hidden": true
     },
     "act 3": {
-        "yaml_option": ["act 3"],
+        "yaml_option": ["include act 3"],
         "hidden": true
     }
 }
