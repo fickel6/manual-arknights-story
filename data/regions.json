@@ -14,7 +14,11 @@
       "chapter 1 second half": "|chapter 1 second half unlock|"
     }
   },
-  "chapter 1 second half": {},
+  "chapter 1 second half": {
+    "exit_requires": {
+      "chapter 1 third half": "|chapter 1 third half unlock|"
+    }
+  },
   "chapter 2 first half": {
     "starting": true,
     "requires": "|chapter 2 first half unlock|",
@@ -22,7 +26,17 @@
       "chapter 2 second half": "|chapter 2 second half unlock|"
     }
   },
-  "chapter 2 second half": {},
+  "chapter 2 second half": {
+    "exit_requires": {
+      "chapter 2 third half": "|chapter 2 third half unlock|"
+    }
+  },
+  "chapter 2 third half": {
+    "exit_requires": {
+      "chapter 2 fourth half": "|chapter 2 fourth half unlock|"
+    }
+  },
+  "chapter 2 fourth half": {},
   "chapter 3 first half": {
     "starting": true,
     "requires": "|chapter 3 first half unlock|",
@@ -38,7 +52,12 @@
       "chapter 4 second half": "|chapter 4 second half unlock|"
     }
   },
-  "chapter 4 second half": {},
+  "chapter 4 second half": {
+    "exit_requires": {
+      "chapter 4 third half": "|chapter 4 third half unlock|"
+    }
+  },
+  "chapter 4 third half": {},
   "chapter 5 first half": {
     "starting": true,
     "requires": "|chapter 5 first half unlock|",

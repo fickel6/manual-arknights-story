@@ -1,363 +1,383 @@
 [
   {
     "name": "0-1 clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": ""
   },
   {
     "name": "0-1 3-star clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": ""
   },
   {
     "name": "0-2 clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": ""
   },
   {
     "name": "0-2 3-star clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": ""
   },
   {
     "name": "0-3 clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": "|@ranged:1|"
   },
   {
     "name": "0-3 3-star clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": "|@ranged:1|"
   },
   {
     "name": "0-4 clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": "|@ranged:1|"
   },
   {
     "name": "0-4 3-star clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": "|@ranged:1|"
   },
   {
     "name": "0-5 clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": "|@ranged:1|"
   },
   {
     "name": "0-5 3-star clear",
-    "category": ["act 0", "chapter 0 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 first half",
     "requires": "|@ranged:1|"
   },
   {
     "name": "0-6 clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": "|@ranged:1| AND |@block:1|"
   },
   {
     "name": "0-6 3-star clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": "|@ranged:1| AND |@block:1|"
   },
   {
     "name": "0-7 clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": ""
   },
   {
     "name": "0-7 3-star clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": ""
   },
   {
     "name": "0-8 clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": ""
   },
   {
     "name": "0-8 3-star clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": ""
   },
   {
     "name": "0-9 clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": ""
   },
   {
     "name": "0-9 3-star clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": ""
   },
   {
     "name": "0-10 clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": "|@ranged:1| AND |@block:1|"
   },
   {
     "name": "0-10 3-star clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": "|@ranged:1| AND |@block:1|"
   },
   {
     "name": "0-11 clear",
-    "category": ["main story", "act 0", "chapter 0 second half", "boss stage"],
+    "category": ["act 0", "chapter 0", "boss stage"],
     "region": "chapter 0 second half",
     "requires": "|@character:5|"
   },
   {
     "name": "0-11 3-star clear",
-    "category": ["act 0", "chapter 0 second half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 0 second half",
     "requires": "|@character:5|"
   },
   {
     "name": "1-1 clear",
-    "category": ["act 0", "chapter 1 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 1 first half",
     "requires": "|@block:1|"
   },
   {
     "name": "1-1 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 1 first half",
     "requires": "|@block:1|"
   },
   {
+    "name": "1-2 clear",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 first half"
+  },
+  {
+    "name": "1-2 3-star clear",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 first half"
+  },
+  {
     "name": "1-3 clear",
-    "category": ["act 0", "chapter 1 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 1 first half",
     "requires": "|@block:2|"
   },
   {
     "name": "1-3 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 1 first half",
     "requires": "|@block:2|"
   },
   {
     "name": "1-4 clear",
-    "category": ["act 0", "chapter 1 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 1 first half",
     "requires": "|@block:3|"
   },
   {
     "name": "1-4 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 1 first half",
     "requires": "|@block:3|"
   },
   {
     "name": "1-5 clear",
-    "category": ["act 0", "chapter 1 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 1 first half",
     "requires": "|@block:4|"
   },
   {
     "name": "1-5 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 1 first half",
     "requires": "|@block:4|"
   },
   {
     "name": "1-6 clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 second half",
     "requires": "|@block:1|"
   },
   {
     "name": "1-6 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 second half",
     "requires": "|@block:1|"
   },
   {
     "name": "1-7 clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 second half",
     "requires": ""
   },
   {
     "name": "1-7 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 second half",
     "requires": ""
   },
   {
     "name": "1-8 clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 second half",
     "requires": "|@character:5| AND |@block:2|"
   },
   {
     "name": "1-8 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 second half",
     "requires": "|@character:5| AND |@block:1|"
   },
   {
     "name": "1-9 clear",
-    "category": ["act 0", "chapter 1 first half"],
+    "category": ["act 0", "chapter 0"],
     "region": "chapter 1 first half",
     "requires": ""
   },
   {
     "name": "1-9 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 third half",
     "requires": ""
   },
   {
     "name": "1-10 clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 third half",
     "requires": "|@block:2|"
   },
   {
     "name": "1-10 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 third half",
     "requires": "|@ranged:1| AND |@block:2|"
   },
   {
+    "name": "1-11 clear",
+    "category": ["act 0", "chapter 1"],
+    "region": "chapter 1 third half"
+  },
+  {
+    "name": "1-11 3-star clear",
+    "category": ["act 0", "chapter 1"],
+    "region": "chapter 1 third half"
+  },
+  {
     "name": "1-12 clear",
-    "category": ["main story", "act 0", "chapter 1 first half", "boss stage"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 1", "boss stage"],
+    "region": "chapter 1 third half",
     "requires": "|@character:7| AND |@ranged:3| AND |@block:1|"
   },
   {
     "name": "1-12 3-star clear",
-    "category": ["act 0", "chapter 1 first half"],
-    "region": "chapter 1 first half",
+    "category": ["act 0", "chapter 0"],
+    "region": "chapter 1 third half",
     "requires": "|@character:7| AND |@ranged:3| AND |@block:1|"
   },
   {
     "name": "2-1 clear",
-    "category": ["act 0", "chapter 2 first half"],
+    "category": ["act 0", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": ""
   },
   {
     "name": "2-1 3-star clear",
-    "category": ["act 0", "chapter 2 first half"],
+    "category": ["act 0", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": ""
   },
   {
     "name": "2-2 clear",
-    "category": ["act 0", "chapter 2 first half"],
+    "category": ["act 0", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@block:1|"
   },
   {
     "name": "2-2 3-star clear",
-    "category": ["act 0", "chapter 2 first half"],
+    "category": ["act 0", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@block:1|"
   },
   {
     "name": "2-3 clear",
-    "category": ["act 0", "chapter 2 first half"],
+    "category": ["act 0", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@block:1| AND |@ranged:1|",
     "_comment": "could be mean and let there be no requirement. be good ad roadblock stalling lmao"
   },
   {
     "name": "2-3 3-star clear",
-    "category": ["act 0", "chapter 2 first half"],
+    "category": ["act 0", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "2-4 clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": ""
   },
   {
     "name": "2-4 3-star clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": ""
   },
   {
     "name": "2-5 clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": ""
   },
   {
     "name": "2-5 3-star clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": "|@block:1|"
   },
   {
     "name": "2-6 clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": "|@block:1|"
   },
   {
     "name": "2-6 3-star clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": "|@block:2|"
   },
   {
     "name": "2-7 clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": "|@block:2|"
   },
   {
     "name": "2-7 3-star clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": "|@ranged:2|"
   },
   {
     "name": "2-8 clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": ""
   },
   {
     "name": "2-8 3-star clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": "|@block:2| AND |@ranged:1|"
   },
   {
     "name": "2-9 clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 fourth half",
     "requires": "|@ranged:2| AND |@character:4|"
   },
   {
     "name": "2-9 3-star clear",
-    "category": ["act 0", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "chapter 2"],
+    "region": "chapter 2 fourth half",
     "requires": ""
   },
   {
@@ -368,333 +388,333 @@
   },
   {
     "name": "2-10 3-star clear",
-    "category": ["main story", "act 0", "chapter 2 first half"],
+    "category": ["act 0", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@character:6| AND |@ranged:1| AND |@block:2|"
   },
   {
     "name": "S2-1 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
+    "category": ["act 0", "sub operations", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@ranged:1|"
   },
   {
     "name": "S2-1 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
+    "category": ["act 0", "sub operations", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@ranged:1|"
   },
   {
     "name": "S2-2 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
+    "category": ["act 0", "sub operations", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@ranged:2|"
   },
   {
     "name": "S2-2 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
+    "category": ["act 0", "sub operations", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@ranged:2|"
   },
   {
     "name": "S2-3 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
+    "category": ["act 0", "sub operations", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@block:1|"
   },
   {
     "name": "S2-3 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
+    "category": ["act 0", "sub operations", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@block:1|"
   },
   {
     "name": "S2-4 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
+    "category": ["act 0", "sub operations", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@block:1|"
   },
   {
     "name": "S2-4 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
+    "category": ["act 0", "sub operations", "chapter 2"],
     "region": "chapter 2 first half",
     "requires": "|@block:1|"
   },
   {
     "name": "S2-5 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": ""
   },
   {
     "name": "S2-5 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": ""
   },
   {
     "name": "S2-6 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": "|@block:2| AND |@ranged:2|"
   },
   {
     "name": "S2-6 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": "|@block:2| AND |@ranged:2|"
   },
   {
     "name": "S2-7 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": "|@block:2| AND |@ranged:2|",
     "_comment": "could still be really hard with 2 @block and 2 @ranged"
   },
   {
     "name": "S2-7 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 second half",
     "requires": "|@block:2| AND |@ranged:2|"
   },
   {
     "name": "S2-8 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": "|@ranged:1| AND |@block:2|"
   },
   {
     "name": "S2-8 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": "|@ranged:1| AND |@block:2|"
   },
   {
     "name": "S2-9 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": "|@ranged:1| AND |@block:2|"
   },
   {
     "name": "S2-9 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 third half",
     "requires": "|@ranged:1| AND |@block:2|"
   },
   {
     "name": "S2-10 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 fourth half",
     "requires": "|@ranged:1| AND |@block:2|"
   },
   {
     "name": "S2-10 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 fourth half",
     "requires": "|@ranged:1| AND |@block:2|"
   },
   {
     "name": "S2-11 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 fourth half",
     "requires": "|@ranged:1| AND |@block:3|"
   },
   {
     "name": "S2-11 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 fourth half",
     "requires": "|@ranged:1| AND |@block:3|"
   },
   {
     "name": "S2-12 clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 fourth half",
     "requires": "|@ranged:2| AND |@block:2|"
   },
   {
     "name": "S2-12 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2 first half"],
-    "region": "chapter 2 first half",
+    "category": ["act 0", "sub operations", "chapter 2"],
+    "region": "chapter 2 fourth half",
     "requires": "|@ranged:2| AND |@block:2|"
   },
   {
     "name": "3-1 clear",
-    "category": ["act 0", "chapter 3 first half"],
+    "category": ["act 0", "chapter 3"],
      "region": "chapter 3 first half",
-    "requires": ""
+    "requires": "|@block:1| AND |@ranged:2|"
   },
   {
     "name": "3-1 3-star clear",
-    "category": ["act 0", "chapter 3 first half"],
+    "category": ["act 0", "chapter 3"],
      "region": "chapter 3 first half",
-    "requires": ""
+    "requires": "|@block:1| AND |@ranged:2|"
   },
   {
     "name": "3-2 clear",
-    "category": ["act 0", "chapter 3 first half"],
+    "category": ["act 0", "chapter 3"],
      "region": "chapter 3 first half",
-    "requires": ""
+    "requires": "|@block:3|"
   },
   {
     "name": "3-2 3-star clear",
-    "category": ["act 0", "chapter 3 first half"],
+    "category": ["act 0", "chapter 3"],
      "region": "chapter 3 first half",
-    "requires": ""
+    "requires": "|@block:3|"
   },
   {
     "name": "3-3 clear",
-    "category": ["act 0", "chapter 3 first half"],
+    "category": ["act 0", "chapter 3"],
      "region": "chapter 3 first half",
-    "requires": ""
+    "requires": "|@block:2| AND |@ranged:1|"
   },
   {
     "name": "3-3 3-star clear",
-    "category": ["act 0", "chapter 3 first half"],
+    "category": ["act 0", "chapter 3"],
      "region": "chapter 3 first half",
-    "requires": ""
+    "requires": "|@block:2| AND |@ranged:1|"
   },
   {
     "name": "3-4 clear",
-    "category": ["act 0", "chapter 3 first half"],
+    "category": ["act 0", "chapter 3"],
      "region": "chapter 3 first half",
-    "requires": ""
+    "requires": "|@vanguard:1| AND |@block:4| AND |@ranged:2|"
   },
   {
     "name": "3-4 3-star clear",
-    "category": ["act 0", "chapter 3 first half"],
+    "category": ["act 0", "chapter 3"],
      "region": "chapter 3 first half",
-    "requires": ""
+    "requires": "|@vanguard:1| AND |@block:4| AND |@ranged:2| AND |@medic:1|"
   },
   {
     "name": "3-5 clear",
-    "category": ["act 0", "chapter 3 first half"],
-     "region": "chapter 3 first half",
-    "requires": ""
+    "category": ["act 0", "chapter 3"],
+     "region": "chapter 3 second half",
+    "requires": "|@block:2| AND |@ranged:2|"
   },
   {
     "name": "3-5 3-star clear",
-    "category": ["act 0", "chapter 3 first half"],
-     "region": "chapter 3 first half",
-    "requires": ""
+    "category": ["act 0", "chapter 3"],
+     "region": "chapter 3 second half",
+    "requires": "|@block:2| AND |@ranged:2|"
   },
   {
     "name": "3-6 clear",
-    "category": ["act 0", "chapter 3 first half"],
-     "region": "chapter 3 first half",
-    "requires": ""
+    "category": ["act 0", "chapter 3"],
+     "region": "chapter 3 second half",
+    "requires": "|@block:1|"
   },
   {
     "name": "3-6 3-star clear",
-    "category": ["act 0", "chapter 3 first half"],
-     "region": "chapter 3 first half",
-    "requires": ""
+    "category": ["act 0", "chapter 3"],
+     "region": "chapter 3 second half",
+    "requires": "|@block:2|"
   },
   {
     "name": "3-7 clear",
-    "category": ["act 0", "chapter 3 first half"],
-     "region": "chapter 3 first half",
-    "requires": ""
+    "category": ["act 0", "chapter 3"],
+     "region": "chapter 3 second half",
+    "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "3-7 3-star clear",
-    "category": ["act 0", "chapter 3 first half"],
-     "region": "chapter 3 first half",
-    "requires": ""
+    "category": ["act 0", "chapter 3"],
+     "region": "chapter 3 second half",
+    "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "3-8 clear",
-    "category": ["main story", "act 0", "chapter 3 first half", "boss stage"],
-     "region": "chapter 3 first half",
-    "requires": ""
+    "category": ["act 0", "chapter 3", "boss stage"],
+     "region": "chapter 3 second half",
+    "requires": "|@block:2| AND |@ranged:2| AND |@medic:1|"
   },
   {
     "name": "3-8 3-star clear",
-    "category": ["act 0", "chapter 3 first half"],
-     "region": "chapter 3 first half",
-    "requires": ""
+    "category": ["act 0", "chapter 3"],
+     "region": "chapter 3 second half",
+    "requires": "|@block:2| AND |@ranged:2| AND |@medic:1|"
   },
   {
     "name": "S3-1 clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
+    "category": ["act 0", "sub operations", "chapter 3"],
      "region": "chapter 3 first half",
     "requires": ""
   },
   {
     "name": "S3-1 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
+    "category": ["act 0", "sub operations", "chapter 3"],
      "region": "chapter 3 first half",
     "requires": ""
   },
   {
     "name": "S3-2 clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
+    "category": ["act 0", "sub operations", "chapter 3"],
      "region": "chapter 3 first half",
     "requires": ""
   },
   {
     "name": "S3-2 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
+    "category": ["act 0", "sub operations", "chapter 3"],
      "region": "chapter 3 first half",
     "requires": ""
   },
   {
     "name": "S3-3 clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
     "name": "S3-3 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
     "name": "S3-4 clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
     "name": "S3-4 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
     "name": "S3-5 clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
     "name": "S3-5 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
     "name": "S3-6 clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
     "name": "S3-6 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
     "name": "S3-7 clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
     "name": "S3-7 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3 first half"],
-     "region": "chapter 3 first half",
+    "category": ["act 0", "sub operations", "chapter 3"],
+     "region": "chapter 3 second half",
     "requires": ""
   },
   {
@@ -706,242 +726,242 @@
   },
   {
     "name": "4-1 clear",
-    "category": ["act 1", "chapter 4 first half"],
+    "category": ["act 1", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "4-1 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
+    "category": ["act 1", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "4-2 clear",
-    "category": ["act 1", "chapter 4 first half"],
+    "category": ["act 1", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "4-2 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
+    "category": ["act 1", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "4-3 clear",
-    "category": ["act 1", "chapter 4 first half"],
+    "category": ["act 1", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "4-3 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
+    "category": ["act 1", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "4-4 clear",
-    "category": ["act 1", "chapter 4 first half"],
+    "category": ["act 1", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "4-4 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
+    "category": ["act 1", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "4-5 clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "4-5 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "4-6 clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "4-6 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "4-7 clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "4-7 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "4-8 clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "4-8 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "4-9 clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "4-9 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "4-10 clear",
     "category": ["main story", "act 1", "chapter 4 first half", "boss stage"],
-    "region": "chapter 4 first half",
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "4-10 3-star clear",
-    "category": ["act 1", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "S4-1 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
+    "category": ["act 1", "sub operations", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "S4-1 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
+    "category": ["act 1", "sub operations", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "S4-2 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
+    "category": ["act 1", "sub operations", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "S4-2 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
+    "category": ["act 1", "sub operations", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "S4-3 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
+    "category": ["act 1", "sub operations", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "S4-3 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
+    "category": ["act 1", "sub operations", "chapter 4"],
     "region": "chapter 4 first half",
     "requires": ""
   },
   {
     "name": "S4-4 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "S4-4 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "S4-5 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "S4-5 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "S4-6 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "S4-6 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 second half",
     "requires": ""
   },
   {
     "name": "S4-7 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "S4-7 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "S4-8 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "S4-8 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "S4-9 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "S4-9 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "S4-10 clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {
     "name": "S4-10 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4 first half"],
-    "region": "chapter 4 first half",
+    "category": ["act 1", "sub operations", "chapter 4"],
+    "region": "chapter 4 third half",
     "requires": ""
   },
   {

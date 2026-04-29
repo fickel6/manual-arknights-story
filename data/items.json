@@ -4438,6 +4438,15 @@
   },
   {
     "count": "1",
+    "name": "chapter 1 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "chapter 2 first half unlock",
     "category": [
       "chapter unlock",
@@ -4447,7 +4456,25 @@
   },
   {
     "count": "1",
-    "name": "chapter 2 second halfunlock",
+    "name": "chapter 2 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 2 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 2 fourth half unlock",
     "category": [
       "chapter unlock",
       "act 0"
@@ -4484,6 +4511,15 @@
   {
     "count": "1",
     "name": "chapter 4 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 4 third half unlock",
     "category": [
       "chapter unlock",
       "act 1"
