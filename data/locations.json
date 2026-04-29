@@ -699,7 +699,7 @@
   },
   {
     "name": "act0 boss",
-    "category": ["act 0", "goal"],
+    "category": ["goal"],
     "region": "act 0",
     "requires": "|defeated bosses|",
     "victory": true
@@ -2176,7 +2176,7 @@
   },
   {
     "name": "act1 boss",
-    "category": ["act 1", "goal"],
+    "category": ["goal"],
     "region": "act 1",
     "requires": "|defeated bosses|",
     "victory": true
@@ -4061,7 +4061,7 @@
   },
   {
     "name": "act2 boss",
-    "category": ["act 2", "goal"],
+    "category": ["goal"],
     "region": "act 2",
     "requires": "|defeated bosses|",
     "victory": true
@@ -4644,7 +4644,7 @@
   },
   {
     "name": "act3 boss",
-    "category": ["act 3", "goal"],
+    "category": ["goal"],
     "region": "act 3",
     "requires": "|defeated bosses|",
     "victory": true
