@@ -61,6 +61,18 @@
   },
   {
     "count": "1",
+    "name": "Astgenne the Lightchaser",
+    "category": [
+      "character",
+      "6 star",
+      "supporter",
+      "ranged"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Bagpipe",
     "category": [
       "character",
@@ -970,6 +982,18 @@
   },
   {
     "count": "1",
+    "name": "Pramanix the Prerita",
+    "category": [
+      "character",
+      "6 star",
+      "caster",
+      "ranged"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Qiubai",
     "category": [
       "character",
@@ -1146,6 +1170,18 @@
       "character",
       "6 star",
       "guard",
+      "block"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "SilverAsh the Reignfrost",
+    "category": [
+      "character",
+      "6 star",
+      "vanguard",
       "block"
     ],
     "useful": true,
@@ -2247,6 +2283,17 @@
   },
   {
     "count": "1",
+    "name": "Hadiya",
+    "category": [
+      "character",
+      "5 star",
+      "guard"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Harmonie",
     "category": [
       "character",
@@ -3192,6 +3239,18 @@
   },
   {
     "count": "1",
+    "name": "Snow Hunter",
+    "category": [
+      "character",
+      "5 star",
+      "hunter",
+      "ranged"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Snowsant",
     "category": [
       "character",
@@ -3622,6 +3681,18 @@
       "character",
       "4 star",
       "sniper",
+      "ranged"
+    ],
+    "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Akkord",
+    "category": [
+      "character",
+      "4 star",
+      "caster",
       "ranged"
     ],
     "useful": true,
