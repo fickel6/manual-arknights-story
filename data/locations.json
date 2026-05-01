@@ -4674,5 +4674,101 @@
     "category": ["goal"],
     "requires": "|defeated bosses:ALL|",
     "victory": true
-  }
+  },
+  {
+    "name": "DM-1 clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "DM-1 3-star clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "DM-2 clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "DM-2 3-star clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "DM-3 clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "DM-3 3-star clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "DM-4 clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "DM-4 3-star clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "DM-5 clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "DM-5 3-star clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "DM-6 clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "DM-6 3-star clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "DM-7 clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "DM-7 3-star clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "DM-8 clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "DM-8 3-star clear",
+    "category": ["The Ark", "Darknights memoir"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
 ]

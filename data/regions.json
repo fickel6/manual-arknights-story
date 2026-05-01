@@ -175,5 +175,29 @@
       "chapter 16 second half": "|chapter 16 second half unlock|"
     }
   },
-  "chapter 16 second half": {}
+  "chapter 16 second half": {},
+  "Darknights' Memoir first half": {
+    "starting": true,
+    "requires": "|Darknights' Memoir unlock|",
+    "exit_requires": {
+      "Darknights' memoir Second half": "|Darknights' memoir second half unlock|"
+    }
+  },
+  "Darknights' memoir second half": {
+    "exit_requires": {
+      "Darknights' memoir ex stages first half": "|Darknights' memoir ex stages first half unlock|"
+    }
+  },
+  "Darknights' memoir ex stages first half": {
+    "exit_requires": {
+      "Darknights' memoir ex stages first half": "|Darknights' memoir ex stages second half unlock|"
+    }
+  },
+  "Darknights' memoir ex stages second half": {
+    "exit_requires": {
+      "Darknights' memoir S stages half": "|Darknights' memoir S stages unlock|"
+    }
+  },
+  "Darknights' memoir S stages half": {}
+
 }
