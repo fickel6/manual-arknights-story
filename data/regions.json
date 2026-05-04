@@ -65,7 +65,17 @@
       "chapter 5 second half": "|chapter 5 second half unlock|"
     }
   },
-  "chapter 5 second half": {},
+  "chapter 5 second half": {
+    "exit_requires": {
+      "chapter 5 third half": "|chapter 5 third half unlock|"
+    }
+  },
+  "chapter 5 third half": {
+    "exit_requires": {
+      "chapter 5 H stages": "|chapter 5 H stages unlock|"
+    }
+  },
+  "chapter 5 H stages": {},
   "chapter 6 first half": {
     "starting": true,
     "requires": "|chapter 6 first half unlock|",

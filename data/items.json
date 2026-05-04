@@ -4501,7 +4501,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 4 first halfunlock",
+    "name": "chapter 4 first half unlock",
     "category": [
       "chapter unlock",
       "act 1"
@@ -4541,6 +4541,25 @@
     "category": [
       "chapter unlock",
       "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 5 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 5 H stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 1",
+      "H stage"
     ],
     "progression": true
   },
