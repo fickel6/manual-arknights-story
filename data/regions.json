@@ -83,7 +83,17 @@
       "chapter 6 second half": "|chapter 6 second half unlock|"
     }
   },
-  "chapter 6 second half": {},
+  "chapter 6 second half": {
+    "exit_requires": {
+      "chapter 6 third half": "|chapter 6 third half unlock|"
+    }
+  },
+  "chapter 6 third half": {
+    "exit_requires": {
+      "chapter 6 H stages"
+    }
+  },
+  "chapter 6 H stages": {},
   "chapter 7 first half": {
     "starting": true,
     "requires": "|chapter 7 unlock|",
