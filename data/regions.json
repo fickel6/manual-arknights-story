@@ -90,7 +90,7 @@
   },
   "chapter 6 third half": {
     "exit_requires": {
-      "chapter 6 H stages"
+      "chapter 6 H stages": "|chapter 6 H stages unlock|"
     }
   },
   "chapter 6 H stages": {},
@@ -101,7 +101,31 @@
       "chapter 7 second half": "|chapter 7 second half unlock|"
     }
   },
-  "chapter 7 second half": {},
+  "chapter 7 second half": {
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 7 third half": "|chapter 7 third half unlock|"
+    }
+  },
+  "chapter 7 third half": {
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 7 fourth half": "|chapter 7 fourth half unlock|"
+    }
+  },
+  "chapter 7 fourth half": {
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 7 fifth half": "|chapter 7 fifth half unlock|"
+    }
+  },
+  "chapter 7 fifth half": {
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 7 H stages": "|chapter 7 H stages unlock|"
+    }
+  },
+  "chapter 7 H stages": {},
   "chapter 8 past first half": {
     "starting": true,
     "requires": "|chapter 8 past unlock|",

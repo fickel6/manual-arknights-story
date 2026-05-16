@@ -4583,6 +4583,24 @@
   },
   {
     "count": "1",
+    "name": "chapter 6 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 6 H stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "chapter 7 first half unlock",
     "category": [
       "chapter unlock",
@@ -4593,6 +4611,42 @@
   {
     "count": "1",
     "name": "chapter 7 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 H-stages unlock",
     "category": [
       "chapter unlock",
       "act 1"

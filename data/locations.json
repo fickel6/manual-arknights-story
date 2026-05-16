@@ -1087,7 +1087,7 @@
   {
     "name": "5-11 read",
     "category": ["act 1", "chapter 5", "reading"],
-    "region": "chapter 5 first half"
+    "region": "chapter 5 third half"
   },
   {
     "name": "S5-1 clear",
@@ -1426,19 +1426,19 @@
   {
     "name": "6-17 clear",
     "category": ["act 1", "chapter 6", "fixed squad"],
-    "region": "chapter 6 first half",
+    "region": "chapter 6 third half",
     "requires": ""
   },
   {
     "name": "6-17 3-star clear",
     "category": ["act 1", "chapter 6", "fixed squad"],
-    "region": "chapter 6 first half",
+    "region": "chapter 6 third half",
     "requires": ""
   },
   {
     "name": "6-18 read",
-    "category": ["act 1", "chapter 6 first half", "reading"],
-    "region": "chapter 6 first half"
+    "category": ["act 1", "chapter 6", "reading"],
+    "region": "chapter 6 third half"
   },
   {
     "name": "S6-1 clear",
@@ -1537,292 +1537,268 @@
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:2|"
   },
   {
-    "name": "7-1 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
-  },
-  {
-    "name": "7-1 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "name": "7-1 read",
+    "category": ["act 1", "chapter 7", "reading"],
+    "region": "chapter 7 first half",
     "requires": ""
   },
   {
     "name": "7-2 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 first half",
     "requires": ""
   },
   {
     "name": "7-2 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 first half",
     "requires": ""
   },
   {
     "name": "7-3 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 first half",
     "requires": ""
   },
   {
     "name": "7-3 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 first half",
     "requires": ""
   },
   {
     "name": "7-4 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 first half",
     "requires": ""
   },
   {
     "name": "7-4 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 first half",
     "requires": ""
   },
   {
     "name": "7-5 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 first half",
     "requires": ""
   },
   {
     "name": "7-5 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 first half",
     "requires": ""
   },
   {
     "name": "7-6 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 second half",
     "requires": ""
   },
   {
     "name": "7-6 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 second half",
     "requires": ""
   },
   {
     "name": "7-7 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
-  },
-  {
-    "name": "7-7 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7", "reading"],
+    "region": "chapter 7 second half",
     "requires": ""
   },
   {
     "name": "7-8 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 second half",
     "requires": ""
   },
   {
     "name": "7-8 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 second half",
     "requires": ""
   },
   {
     "name": "7-9 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 second half",
     "requires": ""
   },
   {
     "name": "7-9 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 second half",
     "requires": ""
   },
   {
     "name": "7-10 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 third half",
     "requires": ""
   },
   {
     "name": "7-10 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 third half",
     "requires": ""
   },
   {
     "name": "7-11 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 third half",
     "requires": ""
   },
   {
     "name": "7-11 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 third half",
     "requires": ""
   },
   {
     "name": "7-12 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 third half",
     "requires": ""
   },
   {
     "name": "7-12 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 third half",
     "requires": ""
   },
   {
     "name": "7-13 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fourth half",
     "requires": ""
   },
   {
     "name": "7-13 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fourth half",
     "requires": ""
   },
   {
     "name": "7-14 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fourth half",
     "requires": ""
   },
   {
     "name": "7-14 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fourth half",
     "requires": ""
   },
   {
     "name": "7-15 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fourth half",
     "requires": ""
   },
   {
     "name": "7-15 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fourth half",
     "requires": ""
   },
   {
     "name": "7-16 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fourth half",
     "requires": ""
   },
   {
     "name": "7-16 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fourth half",
     "requires": ""
   },
   {
     "name": "7-17 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fifth half",
     "requires": ""
   },
   {
     "name": "7-17 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fifth half",
     "requires": ""
   },
   {
     "name": "7-18 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7"],
+    "region": "chapter 7 fifth half",
     "requires": ""
   },
   {
     "name": "7-18 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "category": ["act 1", "chapter 7", "boss stage"],
+    "region": "chapter 7 fifth half",
     "requires": ""
   },
   {
-    "name": "7-19 clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "name": "7-19 read",
+    "category": ["act 1", "chapter 7", "reading"],
+    "region": "chapter 7 fifth half",
     "requires": ""
   },
   {
-    "name": "7-19 3-star clear",
-    "category": ["act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
-  },
-  {
-    "name": "7-20 clear",
-    "category": ["main story", "act 1", "chapter 7 first half", "boss stage"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
-  },
-  {
-    "name": "7-20 3-star clear",
-    "category": ["main story", "act 1", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
+    "name": "7-20 read",
+    "category": ["act 1", "chapter 7", "reading"],
+    "region": "chapter 7 fifth half",
     "requires": ""
   },
   {
     "name": "H7-1 clear",
-    "category": ["act 1", "extreme operations", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
+    "category": ["act 1", "extreme operations", "chapter 7"],
+    "region": "chapter 7 H stages",
+    "requires": "|@block:4|"
   },
   {
     "name": "H7-1 3-star clear",
-    "category": ["act 1", "extreme operations", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
+    "category": ["act 1", "extreme operations", "chapter 7"],
+    "region": "chapter 7 H stages",
+    "requires": "|@block:4|"
   },
   {
     "name": "H7-2 clear",
-    "category": ["act 1", "extreme operations", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
+    "category": ["act 1", "extreme operations", "chapter 7"],
+    "region": "chapter 7 H stages",
+    "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "H7-2 3-star clear",
-    "category": ["act 1", "extreme operations", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
+    "category": ["act 1", "extreme operations", "chapter 7"],
+    "region": "chapter 7 H stages",
+    "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "H7-3 clear",
-    "category": ["act 1", "extreme operations", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
+    "category": ["act 1", "extreme operations", "chapter 7"],
+    "region": "chapter 7 H stages",
+    "requires": "|@block:3|"
   },
   {
     "name": "H7-3 3-star clear",
-    "category": ["act 1", "extreme operations", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
+    "category": ["act 1", "extreme operations", "chapter 7"],
+    "region": "chapter 7 H stages",
+    "requires": "|@block:3|"
   },
   {
     "name": "H7-4 clear",
-    "category": ["act 1", "extreme operations", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
+    "category": ["act 1", "extreme operations", "chapter 7"],
+    "region": "chapter 7 H stages",
+    "requires": "|@block:2|"
   },
   {
     "name": "H7-4 3-star clear",
-    "category": ["act 1", "extreme operations", "chapter 7 first half"],
-    "region": "chapter 7 first half first half",
-    "requires": ""
+    "category": ["act 1", "extreme operations", "chapter 7"],
+    "region": "chapter 7 H stages",
+    "requires": "|@block:2| AND |@6 star:2|"
   },
   {
     "name": "R8-1 clear",
