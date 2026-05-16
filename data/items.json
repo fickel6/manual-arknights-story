@@ -4718,6 +4718,15 @@
   },
   {
     "count": "1",
+    "name": "chapter 8 bonus reading unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "chapter 9 first half unlock",
     "category": [
       "chapter unlock",

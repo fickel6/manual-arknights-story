@@ -2091,31 +2091,31 @@
   {
     "name": "EG-1 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 bonus reading",
     "requires": ""
   },
   {
     "name": "EG-2 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 bonus reading",
     "requires": ""
   },
   {
     "name": "EG-3 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 bonus reading",
     "requires": ""
   },
   {
     "name": "EG-4 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 bonus reading",
     "requires": ""
   },
   {
     "name": "EG-5 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 bonus reading",
     "requires": ""
   },
   {

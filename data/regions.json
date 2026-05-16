@@ -155,10 +155,12 @@
   "chapter 8 last half": {
     "requires": "|chapter 8 past third half unlock| AND |chapter 8 present unlock|",
     "exit_requires": {
-      "chapter 8 H stages": "|chapter 8 H stages unlock|"
+      "chapter 8 H stages": "|chapter 8 H stages unlock|",
+      "chapter 8 bonus reading": "|chapter 8 bonus reading unlock|"
     }
   },
   "chapter 8 H stages": {},
+  "chapter 8 bonus reading": {},
   "chapter 9 first half": {
     "starting": true,
     "requires": "|chapter 9 unlock|",
