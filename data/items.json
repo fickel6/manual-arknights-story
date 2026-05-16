@@ -4655,7 +4655,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 8 first half unlock",
+    "name": "chapter 8 past unlock",
     "category": [
       "chapter unlock",
       "act 1"
@@ -4664,7 +4664,52 @@
   },
   {
     "count": "1",
-    "name": "chapter 8 second half unlock",
+    "name": "chapter 8 past second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 past third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 present unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 present reading unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 last half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 H stages unlock",
     "category": [
       "chapter unlock",
       "act 1"
