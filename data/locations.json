@@ -2150,14 +2150,8 @@
     "victory": true
   },
   {
-    "name": "9-1 clear",
-    "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
-  },
-  {
-    "name": "9-1 3-star clear",
-    "category": ["act 2", "chapter 9"],
+    "name": "9-1 read",
+    "category": ["act 2", "chapter 9", "reading"],
     "region": "chapter 9 first half",
     "requires": ""
   },
@@ -2224,302 +2218,284 @@
   {
     "name": "9-7 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 second half",
     "requires": ""
   },
   {
     "name": "9-7 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 second half",
     "requires": ""
   },
   {
-    "name": "9-8 clear",
-    "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
-  },
-  {
-    "name": "9-8 3-star clear",
-    "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "name": "9-8 read",
+    "category": ["act 2", "chapter 9", "reading"],
+    "region": "chapter 9 second half",
     "requires": ""
   },
   {
     "name": "9-9 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 second half",
     "requires": ""
   },
   {
     "name": "9-9 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 second half",
     "requires": ""
   },
   {
     "name": "9-10 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 second half",
     "requires": ""
   },
   {
     "name": "9-10 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 second half",
     "requires": ""
   },
   {
     "name": "9-11 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 third half",
     "requires": ""
   },
   {
     "name": "9-11 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 third half",
     "requires": ""
   },
   {
     "name": "9-12 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 third half",
     "requires": ""
   },
   {
     "name": "9-12 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 third half",
     "requires": ""
   },
   {
     "name": "9-13 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 third half",
     "requires": ""
   },
   {
     "name": "9-13 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 third half",
     "requires": ""
   },
   {
     "name": "9-14 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 third half",
     "requires": ""
   },
   {
     "name": "9-14 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 third half",
     "requires": ""
   },
   {
     "name": "9-15 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "9-15 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "9-16 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "9-16 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "9-17 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "9-17 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "9-18 clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "9-18 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "9-19 clear",
-    "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "category": ["act 2", "chapter 9", "boss stage"],
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "9-19 3-star clear",
     "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
-    "name": "9-20 clear",
-    "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "name": "9-20 read",
+    "category": ["act 2", "chapter 9", "reading"],
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
-    "name": "9-20 3-star clear",
-    "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
-  },
-  {
-    "name": "9-21 clear",
-    "category": ["main story", "act 2", "chapter 9", "boss stage"],
-    "region": "chapter 9 first half",
-    "requires": ""
-  },
-  {
-    "name": "9-21 3-star clear",
-    "category": ["act 2", "chapter 9"],
-    "region": "chapter 9 first half",
+    "name": "9-21 read",
+    "category": ["main story", "act 2", "chapter 9", "reading"],
+    "region": "chapter 9 fourth half",
     "requires": ""
   },
   {
     "name": "S9-1 clear",
     "category": ["act 2", "sub operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 third half",
+    "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "S9-1 3-star clear",
     "category": ["act 2", "sub operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 third half",
+    "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "S9-2 clear",
     "category": ["act 2", "sub operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 third half",
+    "requires": "|@block:2|"
   },
   {
     "name": "S9-2 3-star clear",
     "category": ["act 2", "sub operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 third half",
+    "requires": "|@block:2|"
   },
   {
     "name": "S9-3 clear",
     "category": ["act 2", "sub operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 third half",
+    "requires": "|@block:2|"
   },
   {
     "name": "S9-3 3-star clear",
     "category": ["act 2", "sub operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 third half",
+    "requires": "|@block:2|"
   },
   {
     "name": "S9-4 clear",
     "category": ["act 2", "sub operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 third half",
+    "requires": "|@block:2|"
   },
   {
     "name": "S9-4 3-star clear",
     "category": ["act 2", "sub operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 third half",
+    "requires": "|@block:2|"
   },
   {
     "name": "H9-1 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:2|"
   },
   {
     "name": "H9-1 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:2|"
   },
   {
     "name": "H9-2 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:3|"
   },
   {
     "name": "H9-2 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:3|"
   },
   {
     "name": "H9-3 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:3|"
   },
   {
     "name": "H9-3 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:3|"
   },
   {
     "name": "H9-4 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:3|"
   },
   {
     "name": "H9-4 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:3|"
   },
   {
     "name": "H9-5 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:2|"
   },
   {
     "name": "H9-5 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:2|"
   },
   {
     "name": "H9-6 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:3| AND |@6 star:1|"
   },
   {
     "name": "H9-6 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 first half",
-    "requires": ""
+    "region": "chapter 9 H stages",
+    "requires": "|@block:3| AND |@6 star:1|"
   },
   {
     "name": "10-1 clear",
