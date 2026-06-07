@@ -1200,49 +1200,49 @@
   {
     "name": "H5-1 clear",
     "category": ["act 1", "H operations", "H stage"],
-    "region": "chapter 5 H stages",
+    "region": "chapter 5 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H5-1 3-star clear",
     "category": ["act 1", "H operations", "H stage"],
-    "region": "chapter 5 H stages",
+    "region": "chapter 5 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H5-2 clear",
     "category": ["act 1", "H operations", "H stage"],
-    "region": "chapter 5 H stages",
+    "region": "chapter 5 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H5-2 3-star clear",
     "category": ["act 1", "H operations", "H stage"],
-    "region": "chapter 5 H stages",
+    "region": "chapter 5 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H5-3 clear",
     "category": ["act 1", "H operations", "H stage"],
-    "region": "chapter 5 H stages",
+    "region": "chapter 5 H-stages",
     "requires": "|@block:2| AND |@medic:2|"
   },
   {
     "name": "H5-3 3-star clear",
     "category": ["act 1", "H operations", "H stage"],
-    "region": "chapter 5 H stages",
+    "region": "chapter 5 H-stages",
     "requires": "|@block:2| AND |@medic:2|"
   },
   {
     "name": "H5-4 clear",
     "category": ["act 1", "H operations", "H stage"],
-    "region": "chapter 5 H stages",
+    "region": "chapter 5 H-stages",
     "requires": "|@block:2| AND |@medic:1|"
   },
   {
     "name": "H5-4 3-star clear",
     "category": ["act 1", "H operations", "H stage"],
-    "region": "chapter 5 H stages",
+    "region": "chapter 5 H-stages",
     "requires": "|@block:2| AND |@medic:1|"
   },
   {
@@ -1491,49 +1491,49 @@
   {
     "name": "H6-1 clear",
     "category": ["act 1", "extreme operations", "chapter 6"],
-    "region": "chapter 6 H stages",
+    "region": "chapter 6 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H6-1 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 6"],
-    "region": "chapter 6 H stages",
+    "region": "chapter 6 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H6-2 clear",
     "category": ["act 1", "extreme operations", "chapter 6"],
-    "region": "chapter 6 H stages",
+    "region": "chapter 6 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H6-2 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 6"],
-    "region": "chapter 6 H stages",
+    "region": "chapter 6 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H6-3 clear",
     "category": ["act 1", "extreme operations", "chapter 6"],
-    "region": "chapter 6 H stages",
+    "region": "chapter 6 H-stages",
     "requires": "|@block:1| AND |@ranged:2|"
   },
   {
     "name": "H6-3 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 6"],
-    "region": "chapter 6 H stages",
+    "region": "chapter 6 H-stages",
     "requires": "|@block:1| AND |@ranged:2|"
   },
   {
     "name": "H6-4 clear",
     "category": ["act 1", "extreme operations", "chapter 6"],
-    "region": "chapter 6 H stages",
+    "region": "chapter 6 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:2|"
   },
   {
     "name": "H6-4 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 6"],
-    "region": "chapter 6 H stages",
+    "region": "chapter 6 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:2|"
   },
   {
@@ -1755,49 +1755,49 @@
   {
     "name": "H7-1 clear",
     "category": ["act 1", "extreme operations", "chapter 7"],
-    "region": "chapter 7 H stages",
+    "region": "chapter 7 H-stages",
     "requires": "|@block:4|"
   },
   {
     "name": "H7-1 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 7"],
-    "region": "chapter 7 H stages",
+    "region": "chapter 7 H-stages",
     "requires": "|@block:4|"
   },
   {
     "name": "H7-2 clear",
     "category": ["act 1", "extreme operations", "chapter 7"],
-    "region": "chapter 7 H stages",
+    "region": "chapter 7 H-stages",
     "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "H7-2 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 7"],
-    "region": "chapter 7 H stages",
+    "region": "chapter 7 H-stages",
     "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "H7-3 clear",
     "category": ["act 1", "extreme operations", "chapter 7"],
-    "region": "chapter 7 H stages",
+    "region": "chapter 7 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H7-3 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 7"],
-    "region": "chapter 7 H stages",
+    "region": "chapter 7 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H7-4 clear",
     "category": ["act 1", "extreme operations", "chapter 7"],
-    "region": "chapter 7 H stages",
+    "region": "chapter 7 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H7-4 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 7"],
-    "region": "chapter 7 H stages",
+    "region": "chapter 7 H-stages",
     "requires": "|@block:2| AND |@6 star:2|"
   },
   {
@@ -2067,79 +2067,79 @@
   {
     "name": "H8-1 clear",
     "category": ["act 1", "extreme operations", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 H-stages",
     "requires": "|@block:1|"
   },
   {
     "name": "H8-1 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 H-stages",
     "requires": "|@block:1|"
   },
   {
     "name": "H8-2 clear",
     "category": ["act 1", "extreme operations", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 H-stages",
     "requires": "|@block:1| AND |@ranged:1| AND |@6 star:1|"
   },
   {
     "name": "H8-2 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 H-stages",
     "requires": "|@block:1| AND |@ranged:1| AND |@6 star:1|"
   },
   {
     "name": "H8-3 clear",
     "category": ["act 1", "extreme operations", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 H-stages",
     "requires": "|@block:1| AND |@6 star:1|"
   },
   {
     "name": "H8-3 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 H-stages",
     "requires": "|@block:1| AND |@6 star:1|"
   },
   {
     "name": "H8-4 clear",
     "category": ["act 1", "extreme operations", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "H8-4 3-star clear",
     "category": ["act 1", "extreme operations", "chapter 8"],
-    "region": "chapter 8 past first half",
+    "region": "chapter 8 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "EG-1 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 bonus reading",
+    "region": "chapter 8 H-stages",
     "requires": ""
   },
   {
     "name": "EG-2 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 bonus reading",
+    "region": "chapter 8 H-stages",
     "requires": ""
   },
   {
     "name": "EG-3 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 bonus reading",
+    "region": "chapter 8 H-stages",
     "requires": ""
   },
   {
     "name": "EG-4 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 bonus reading",
+    "region": "chapter 8 H-stages",
     "requires": ""
   },
   {
     "name": "EG-5 read",
     "category": ["act 1", "reading", "chapter 8"],
-    "region": "chapter 8 bonus reading",
+    "region": "chapter 8 H-stages",
     "requires": ""
   },
   {
@@ -2428,73 +2428,73 @@
   {
     "name": "H9-1 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H9-1 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H9-2 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-2 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-3 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-3 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-4 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-4 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-5 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H9-5 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H9-6 clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
   {
     "name": "H9-6 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 9"],
-    "region": "chapter 9 H stages",
+    "region": "chapter 9 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
   {

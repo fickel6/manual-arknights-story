@@ -4718,15 +4718,6 @@
   },
   {
     "count": "1",
-    "name": "chapter 8 bonus reading unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
     "name": "chapter 9 first half unlock",
     "category": [
       "chapter unlock",
@@ -4745,6 +4736,33 @@
   },
   {
     "count": "1",
+    "name": "chapter 9 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 9 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 9 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "chapter 10 first half unlock",
     "category": [
       "chapter unlock",
@@ -4755,6 +4773,42 @@
   {
     "count": "1",
     "name": "chapter 10 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 H-stages unlock",
     "category": [
       "chapter unlock",
       "act 2"
