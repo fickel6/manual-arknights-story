@@ -2691,7 +2691,7 @@
   },
   {
     "name": "10-17 clear",
-    "category": ["act 2", "chapter 10"],
+    "category": ["act 2", "chapter 10", "boss stage"],
     "region": "chapter 10 first half",
     "requires": ""
   },
@@ -2702,26 +2702,14 @@
     "requires": ""
   },
   {
-    "name": "10-18 clear",
-    "category": ["act 2", "chapter 10"],
+    "name": "10-18 read",
+    "category": ["act 2", "chapter 10", "reading"],
     "region": "chapter 10 first half",
     "requires": ""
   },
   {
-    "name": "10-18 3-star clear",
-    "category": ["act 2", "chapter 10"],
-    "region": "chapter 10 first half",
-    "requires": ""
-  },
-  {
-    "name": "10-19 clear",
-    "category": ["main story", "act 2", "chapter 10", "boss stage"],
-    "region": "chapter 10 first half",
-    "requires": ""
-  },
-  {
-    "name": "10-19 3-star clear",
-    "category": ["act 2", "chapter 10"],
+    "name": "10-19 read",
+    "category": ["main story", "act 2", "chapter 10"],
     "region": "chapter 10 first half",
     "requires": ""
   },
