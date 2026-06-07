@@ -217,7 +217,27 @@
       "chapter 11 second half": "|chapter 11 second half unlock|"
     }
   },
-  "chapter 11 second half": {},
+  "chapter 11 second half": {
+    "exit_requires": {
+      "chapter 11 third half": "|chapter 11 third half unlock|"
+    }
+  },
+  "chapter 11 third half": {
+    "exit_requires": {
+      "chapter 11 fourth half": "|chapter 11 fourth half unlock|"
+    }
+  },
+  "chapter 11 fourth half": {
+    "exit_requires": {
+      "chapter 11 fifth half": "|chapter 11 fifth half unlock|"
+    }
+  },
+  "chapter 11 fifth half": {
+    "exit_requires": {
+      "chapter 11 H-stages": "|chapter 11 H-stages unlock|"
+    }
+  },
+  "chapter 11 H-stages": {},
   "chapter 12 first half": {
     "starting": true,
     "requires": "|chapter 12 unlock|",
