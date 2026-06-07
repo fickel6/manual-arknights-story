@@ -72,10 +72,10 @@
   },
   "chapter 5 third half": {
     "exit_requires": {
-      "chapter 5 H stages": "|chapter 5 H stages unlock|"
+      "chapter 5 H-stages": "|chapter 5 H-stages unlock|"
     }
   },
-  "chapter 5 H stages": {},
+  "chapter 5 H-stages": {},
   "chapter 6 first half": {
     "starting": true,
     "requires": "|chapter 6 first half unlock|",
@@ -90,10 +90,10 @@
   },
   "chapter 6 third half": {
     "exit_requires": {
-      "chapter 6 H stages": "|chapter 6 H stages unlock|"
+      "chapter 6 H-stages": "|chapter 6 H-stages unlock|"
     }
   },
-  "chapter 6 H stages": {},
+  "chapter 6 H-stages": {},
   "chapter 7 first half": {
     "starting": true,
     "requires": "|chapter 7 unlock|",
@@ -122,10 +122,10 @@
   "chapter 7 fifth half": {
     "requires": "|chapter 7 unlock|",
     "exit_requires": {
-      "chapter 7 H stages": "|chapter 7 H stages unlock|"
+      "chapter 7 H-stages": "|chapter 7 H-stages unlock|"
     }
   },
-  "chapter 7 H stages": {},
+  "chapter 7 H-stages": {},
   "chapter 8 past first half": {
     "starting": true,
     "requires": "|chapter 8 past unlock|",
@@ -155,11 +155,11 @@
   "chapter 8 last half": {
     "requires": "|chapter 8 past third half unlock| AND |chapter 8 present unlock|",
     "exit_requires": {
-      "chapter 8 H stages": "|chapter 8 H stages unlock|",
+      "chapter 8 H-stages": "|chapter 8 H-stages unlock|",
       "chapter 8 bonus reading": "|chapter 8 bonus reading unlock|"
     }
   },
-  "chapter 8 H stages": {},
+  "chapter 8 H-stages": {},
   "chapter 8 bonus reading": {},
   "chapter 9 first half": {
     "starting": true,
@@ -176,7 +176,11 @@
       "chapter 10 second half": "|chapter 10 second half unlock|"
     }
   },
-  "chapter 10 second half": {},
+  "chapter 10 second half": {
+    "exit_requires": {
+      "chapter 10 second half": "|chapter 10 second half unlock|"
+    }
+  },
   "chapter 11 first half": {
     "starting": true,
     "requires": "|chapter 11 unlock|",
