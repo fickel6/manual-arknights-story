@@ -266,7 +266,7 @@
     }
    },
    "chapter 12 H-stages": {},
-   
+
   "chapter 13 first half": {
     "starting": true,
     "requires": "|chapter 13 unlock|",
@@ -274,7 +274,27 @@
       "chapter 13 second half": "|chapter 13 second half unlock|"
     }
   },
-  "chapter 13 second half": {},
+  "chapter 13 second half": {
+    "exit_requires": {
+      "chapter 13 third half": "|chapter 13 third half unlock|"
+    }
+  },
+  "chapter 13 third half": {
+    "exit_requires": {
+      "chapter 13 fourth half": "|chapter 13 fourth half unlock|"
+    }
+  },
+  "chapter 13 fourth half": {
+    "exit_requires": {
+      "chapter 13 fifth half": "|chapter 13 fifth half unlock|"
+    }
+  },
+  "chapter 13 fifth half": {
+    "exit_requires": {
+      "chapter 13 H-stages": "|chapter 13 H-stages unlock|"
+    }
+  },
+  "chapter 13 H-stages": {},
   "chapter 14 first half": {
     "starting": true,
     "requires": "|chapter 14 unlock|",
