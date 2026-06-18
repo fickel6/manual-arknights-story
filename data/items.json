@@ -4889,6 +4889,42 @@
   },
   {
     "count": "1",
+    "name": "chapter 12 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "chapter 13 first half unlock",
     "category": [
       "chapter unlock",

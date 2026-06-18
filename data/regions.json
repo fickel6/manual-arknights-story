@@ -245,7 +245,28 @@
       "chapter 12 second half": "|chapter 12 second half unlock|"
     }
   },
-   "chapter 12 second half": {},
+   "chapter 12 second half": {
+    "exit_requires": {
+      "chapter 12 third half": "|chapter 12 third half unlock|"
+    }
+   },
+   "chapter 12 third half": {
+    "exit_requires": {
+      "chapter 12 fourth half": "|chapter 12 fourth half unlock|"
+    }
+   },
+   "chapter 12 fourth half": {
+    "exit_requires": {
+      "chapter 12 fifth half": "|chapter 12 fifth half unlock|"
+    }
+   },
+   "chapter 12 fifth half": {
+    "exit_requires": {
+      "chapter 12 H-stages": "|chapter 12 H-stages unlock|"
+    }
+   },
+   "chapter 12 H-stages": {},
+   
   "chapter 13 first half": {
     "starting": true,
     "requires": "|chapter 13 unlock|",

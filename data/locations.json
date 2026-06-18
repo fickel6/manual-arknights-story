@@ -3020,14 +3020,8 @@
     "requires": "|@block:2| AND |@character:5| AND |@6 star:1|"
   },
   {
-    "name": "12-1 clear",
-    "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
-    "requires": ""
-  },
-  {
-    "name": "12-1 3-star clear",
-    "category": ["act 2", "chapter 12"],
+    "name": "12-1 read",
+    "category": ["act 2", "chapter 12", "reading"],
     "region": "chapter 12 first half",
     "requires": ""
   },
@@ -3070,253 +3064,241 @@
   {
     "name": "12-5 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 second half",
     "requires": ""
   },
   {
     "name": "12-5 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 second half",
     "requires": ""
   },
   {
     "name": "12-6 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 second half",
     "requires": ""
   },
   {
     "name": "12-6 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 second half",
     "requires": ""
   },
   {
     "name": "12-7 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 second half",
     "requires": ""
   },
   {
     "name": "12-7 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 second half",
     "requires": ""
   },
   {
     "name": "12-8 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-8 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-9 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-9 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-10 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-10 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
-    "name": "12-11 clear",
-    "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
-    "requires": ""
-  },
-  {
-    "name": "12-11 3-star clear",
-    "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "name": "12-11 read",
+    "category": ["act 2", "chapter 12", "reading"],
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-12 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-12 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-13 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-13 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 third half",
     "requires": ""
   },
   {
     "name": "12-14 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fourth half",
     "requires": ""
   },
   {
     "name": "12-14 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fourth half",
     "requires": ""
   },
   {
     "name": "12-15 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fourth half",
     "requires": ""
   },
   {
     "name": "12-15 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fourth half",
     "requires": ""
   },
   {
     "name": "12-16 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fourth half",
     "requires": ""
   },
   {
     "name": "12-16 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fourth half",
     "requires": ""
   },
   {
     "name": "12-17 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fifth half",
     "requires": ""
   },
   {
     "name": "12-17 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fifth half",
     "requires": ""
   },
   {
     "name": "12-18 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fifth half",
     "requires": ""
   },
   {
     "name": "12-18 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fifth half",
     "requires": ""
   },
   {
     "name": "12-19 clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fifth half",
     "requires": ""
   },
   {
     "name": "12-19 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fifth half",
     "requires": ""
   },
   {
     "name": "12-20 clear",
-    "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "category": ["act 2", "chapter 12", "boss stage"],
+    "region": "chapter 12 fifth half",
     "requires": ""
   },
   {
     "name": "12-20 3-star clear",
     "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 fifth half",
     "requires": ""
   },
   {
-    "name": "12-21 clear",
-    "category": ["act 2", "chapter 12", "boss stage"],
-    "region": "chapter 12 first half",
-    "requires": ""
-  },
-  {
-    "name": "12-21 3-star clear",
-    "category": ["act 2", "chapter 12"],
-    "region": "chapter 12 first half",
+    "name": "12-21 read",
+    "category": ["act 2", "chapter 12", "reading"],
+    "region": "chapter 12 fifth half",
     "requires": ""
   },
   {
     "name": "H12-1 clear",
     "category": ["act 2", "extreme operations", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 H-stages",
     "requires": ""
   },
   {
     "name": "H12-1 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 H-stages",
     "requires": ""
   },
   {
     "name": "H12-2 clear",
     "category": ["act 2", "extreme operations", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 H-stages",
     "requires": ""
   },
   {
     "name": "H12-2 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 H-stages",
     "requires": ""
   },
   {
     "name": "H12-3 clear",
     "category": ["act 2", "extreme operations", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 H-stages",
     "requires": ""
   },
   {
     "name": "H12-3 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 H-stages",
     "requires": ""
   },
   {
     "name": "H12-4 clear",
     "category": ["act 2", "extreme operations", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 H-stages",
     "requires": ""
   },
   {
     "name": "H12-4 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 12"],
-    "region": "chapter 12 first half",
+    "region": "chapter 12 H-stages",
     "requires": ""
   },
   {
