@@ -3915,26 +3915,20 @@
     "victory": true
   },
   {
-    "name": "15-1 clear",
-    "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
-    "requires": ""
-  },
-  {
-    "name": "15-1 3-star clear",
-    "category": ["act 3", "chapter 15"],
+    "name": "15-1 read",
+    "category": ["act 3", "chapter 15", "reading"],
     "region": "chapter 15 first half",
     "requires": ""
   },
   {
     "name": "15-2 clear",
-    "category": ["act 3", "chapter 15"],
+    "category": ["act 3", "chapter 15", "fixed squad"],
     "region": "chapter 15 first half",
     "requires": ""
   },
   {
     "name": "15-2 3-star clear",
-    "category": ["act 3", "chapter 15"],
+    "category": ["act 3", "chapter 15", "fixed squad"],
     "region": "chapter 15 first half",
     "requires": ""
   },
@@ -3977,241 +3971,223 @@
   {
     "name": "15-6 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-6 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-7 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-7 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-8 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-8 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-9 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-9 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-10 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-10 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 second half",
     "requires": ""
   },
   {
     "name": "15-11 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 third half",
     "requires": ""
   },
   {
     "name": "15-11 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 third half",
     "requires": ""
   },
   {
     "name": "15-12 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 third half",
     "requires": ""
   },
   {
     "name": "15-12 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 third half",
     "requires": ""
   },
   {
     "name": "15-13 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 third half",
     "requires": ""
   },
   {
     "name": "15-13 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 third half",
     "requires": ""
   },
   {
     "name": "15-14 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 third half",
     "requires": ""
   },
   {
     "name": "15-14 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 third half",
     "requires": ""
   },
   {
     "name": "15-15 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
     "name": "15-15 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
-    "name": "15-16 clear",
-    "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
-    "requires": ""
-  },
-  {
-    "name": "15-16 3-star clear",
-    "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "name": "15-16 read",
+    "category": ["act 3", "chapter 15", "reading"],
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
     "name": "15-17 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
     "name": "15-17 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
     "name": "15-18 clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
     "name": "15-18 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
     "name": "15-19 clear",
-    "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
-    "requires": ""
-  },
-  {
-    "name": "15-19 3-star clear",
-    "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "category": ["act 3", "chapter 15", "fixed squad"],
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
     "name": "15-20 clear",
-    "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "category": ["act 3", "chapter 15", "boss stage"],
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
     "name": "15-20 3-star clear",
     "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
-    "name": "15-21 clear",
-    "category": ["act 3", "chapter 15", "boss stage"],
-    "region": "chapter 15 first half",
-    "requires": ""
-  },
-  {
-    "name": "15-21 3-star clear",
-    "category": ["act 3", "chapter 15"],
-    "region": "chapter 15 first half",
+    "name": "15-21 read",
+    "category": ["act 3", "chapter 15", "reading"],
+    "region": "chapter 15 fourth half",
     "requires": ""
   },
   {
     "name": "H15-1 clear",
     "category": ["act 3", "extreme operations", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 H-stages",
     "requires": ""
   },
   {
     "name": "H15-1 3-star clear",
     "category": ["act 3", "extreme operations", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 H-stages",
     "requires": ""
   },
   {
     "name": "H15-2 clear",
     "category": ["act 3", "extreme operations", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 H-stages",
     "requires": ""
   },
   {
     "name": "H15-2 3-star clear",
     "category": ["act 3", "extreme operations", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 H-stages",
     "requires": ""
   },
   {
     "name": "H15-3 clear",
     "category": ["act 3", "extreme operations", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 H-stages",
     "requires": ""
   },
   {
     "name": "H15-3 3-star clear",
     "category": ["act 3", "extreme operations", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 H-stages",
     "requires": ""
   },
   {
     "name": "H15-4 clear",
     "category": ["act 3", "extreme operations", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 H-stages",
     "requires": ""
   },
   {
     "name": "H15-4 3-star clear",
     "category": ["act 3", "extreme operations", "chapter 15"],
-    "region": "chapter 15 first half",
+    "region": "chapter 15 H-stages",
     "requires": ""
   },
   {
