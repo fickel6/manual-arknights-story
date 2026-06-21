@@ -302,7 +302,27 @@
       "chapter 14 second half": "|chapter 14 second half unlock|"
     }
   },
-  "chapter 14 second half": {},
+  "chapter 14 second half": {
+    "exit_requires": {
+      "chapter 14 third half": "|chapter 14 third half unlock|"
+    }
+  },
+  "chapter 14 third half": {
+    "exit_requires": {
+      "chapter 14 fourth half": "|chapter 14 fourth half unlock|"
+    }
+  },
+  "chapter 14 fourth half": {
+    "exit_requires": {
+      "chapter 14 fifth half": "|chapter 14 fifth half unlock|"
+    }
+  },
+  "chapter 14 fifth half": {
+    "exit_requires": {
+      "chapter 14 H-stages": "|chapter 14 H-stages unlock|"
+    }
+  },
+  "chapter 14 H-stages": {},
   "chapter 15 first half": {
     "starting": true,
     "requires": "|chapter 15 unlock|",
