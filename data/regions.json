@@ -358,5 +358,20 @@
       "chapter 16 second half": "|chapter 16 second half unlock|"
     }
   },
-  "chapter 16 second half": {}
+  "chapter 16 second half": {
+    "exit_requires": {
+      "chapter 16 third half": "|chapter 16 third half unlock|"
+    }
+  },
+  "chapter 16 third half": {
+    "exit_requires": {
+      "chapter 16 fourth half": "|chapter 16 fourth half unlock|"
+    }
+  },
+  "chapter 16 fourth half": {
+    "exit_requires": {
+      "chapter 16 H-stages": "|chapter 16 H-stages unlock|"
+    }
+  },
+  "chapter 16 H-stages": {}
 }

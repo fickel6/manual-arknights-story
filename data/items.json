@@ -5102,5 +5102,32 @@
       "act 3"
     ],
     "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 16 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 16 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 16 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
   }
 ]
