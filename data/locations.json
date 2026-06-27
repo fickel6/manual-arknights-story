@@ -3863,49 +3863,49 @@
     "name": "H14-1 clear",
     "category": ["act 2", "extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "H14-1 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "H14-2 clear",
     "category": ["act 2", "extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": ""
+    "requires": "|@block:3| AND |@ranged:2|"
   },
   {
     "name": "H14-2 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": ""
+    "requires": "|@block:3| AND |@ranged:2|"
   },
   {
     "name": "H14-3 clear",
     "category": ["act 2", "extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": ""
+    "requires": "|@block:1| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "H14-3 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": ""
+    "requires": "|@block:1| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "H14-4 clear",
     "category": ["act 2", "extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": ""
+    "requires": "|@block:2| AND |@ranged:3| AND |@6 star:2|"
   },
   {
     "name": "H14-4 3-star clear",
     "category": ["act 2", "extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": ""
+    "requires": "|@block:2| AND |@ranged:3| AND |@6 star:2|"
   },
   {
     "name": "act2 boss",
