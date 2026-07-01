@@ -4200,85 +4200,85 @@
     "name": "16-2 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 first half",
-    "requires": ""
+    "requires": "|@block:3|"
   },
   {
     "name": "16-2 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 first half",
-    "requires": ""
+    "requires": "|@block:3|"
   },
   {
     "name": "16-3 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 first half",
-    "requires": ""
+    "requires": "|@block:1|"
   },
   {
     "name": "16-3 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 first half",
-    "requires": ""
+    "requires": "|@block:1|"
   },
   {
     "name": "16-4 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 first half",
-    "requires": ""
+    "requires": "|@block:1|"
   },
   {
     "name": "16-4 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 first half",
-    "requires": ""
+    "requires": "|@block:1|"
   },
   {
     "name": "16-5 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 second half",
-    "requires": ""
+    "requires": "|@block:3|"
   },
   {
     "name": "16-5 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 second half",
-    "requires": ""
+    "requires": "|@block:3|"
   },
   {
     "name": "16-6 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 second half",
-    "requires": ""
+    "requires": "|@block:1|"
   },
   {
     "name": "16-6 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 second half",
-    "requires": ""
+    "requires": "|@block:1|"
   },
   {
     "name": "16-7 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 second half",
-    "requires": ""
+    "requires": "|@block:4| AND |@ranged:1|"
   },
   {
     "name": "16-7 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 second half",
-    "requires": ""
+    "requires": "|@block:4| AND |@ranged:1|"
   },
   {
     "name": "16-8 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 third half",
-    "requires": ""
+    "requires": "|@block:3|"
   },
   {
     "name": "16-8 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 third half",
-    "requires": ""
+    "requires": "|@block:3|"
   },
   {
     "name": "16-9 clear",
@@ -4296,97 +4296,97 @@
     "name": "16-10 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 third half",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "16-10 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 third half",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "16-11 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 third half",
-    "requires": ""
+    "requires": "|@block:1|"
   },
   {
     "name": "16-11 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 third half",
-    "requires": ""
+    "requires": "|@block:1|"
   },
   {
     "name": "16-12 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 third half",
-    "requires": ""
+    "requires": "|@block:1| AND |@character:5| AND |@6 star:1|"
   },
   {
     "name": "16-12 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 third half",
-    "requires": ""
+    "requires": "|@block:1| AND |@character:5| AND |@6 star:1|"
   },
   {
     "name": "16-13 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:2| AND |@ranged:1|"
   },
   {
     "name": "16-13 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:2| AND |@ranged:1|"
   },
   {
     "name": "16-14 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "16-14 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "16-15 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "16-15 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "16-16 clear",
     "category": ["act 3", "chapter 16", "boss stage"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:1| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "16-16 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:1| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "16-17 clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:3| AND |@ranged:2|"
   },
   {
     "name": "16-17 3-star clear",
     "category": ["act 3", "chapter 16"],
     "region": "chapter 16 fourth half",
-    "requires": ""
+    "requires": "|@block:3| AND |@ranged:2|"
   },
   {
     "name": "16-18 clear",
@@ -4434,49 +4434,49 @@
     "name": "H16-1 clear",
     "category": ["act 3", "extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "H16-1 3-star clear",
     "category": ["act 3", "extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "H16-2 clear",
     "category": ["act 3", "extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": ""
+    "requires": "|@block:3| AND |@character:6| AND |@6 star:1|"
   },
   {
     "name": "H16-2 3-star clear",
     "category": ["act 3", "extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": ""
+    "requires": "|@block:3| AND |@character:6| AND |@6 star:1|"
   },
   {
     "name": "H16-3 clear",
     "category": ["act 3", "extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "H16-3 3-star clear",
     "category": ["act 3", "extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": ""
+    "requires": "|@block:2|"
   },
   {
     "name": "H16-4 clear",
     "category": ["act 3", "extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": ""
+    "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND |@6 star:1|"
   },
   {
     "name": "H16-4 3-star clear",
     "category": ["act 3", "extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": ""
+    "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND |@6 star:1|"
   },
   {
     "name": "act3 boss",
