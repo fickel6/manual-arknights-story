@@ -1,21 +1,377 @@
 {
-  "act 0": {
-    "connects_to": [],
-    "requires": "|act0 key|"
+  "chapter 0 first half": {
+    "starting": true,
+    "requires": "|chapter 0 first half unlock|",
+    "exit_requires": {
+      "chapter 0 second half": "|chapter 0 second half unlock|"
+    }
   },
-  "act 1": {
-    "connects_to": [],
-    "requires": "|act1 key|"
+  "chapter 0 second half": {},
+  "chapter 1 first half": {
+    "starting": true,
+    "requires": "|chapter 1 first half unlock|",
+    "exit_requires": {
+      "chapter 1 second half": "|chapter 1 second half unlock|"
+    }
   },
-  "act 2": {
-    "connects_to": [],
-    "requires": "|act2 key|"
+  "chapter 1 second half": {
+    "exit_requires": {
+      "chapter 1 third half": "|chapter 1 third half unlock|"
+    }
   },
-  "act 3": {
-    "connects_to": [],
-    "requires": "|act3 key|"
+  "chapter 2 first half": {
+    "starting": true,
+    "requires": "|chapter 2 first half unlock|",
+    "exit_requires": {
+      "chapter 2 second half": "|chapter 2 second half unlock|"
+    }
   },
-  "reading_events": {
-    "connects_to": []
-  }
+  "chapter 2 second half": {
+    "exit_requires": {
+      "chapter 2 third half": "|chapter 2 third half unlock|"
+    }
+  },
+  "chapter 2 third half": {
+    "exit_requires": {
+      "chapter 2 fourth half": "|chapter 2 fourth half unlock|"
+    }
+  },
+  "chapter 2 fourth half": {},
+  "chapter 3 first half": {
+    "starting": true,
+    "requires": "|chapter 3 first half unlock|",
+    "exit_requires": {
+      "chapter 3 second half": "|chapter 3 second half unlock|"
+    }
+  },
+  "chapter 3 second half": {},
+  "chapter 4 first half": {
+    "starting": true,
+    "requires": "|chapter 4 first half unlock|",
+    "exit_requires": {
+      "chapter 4 second half": "|chapter 4 second half unlock|"
+    }
+  },
+  "chapter 4 second half": {
+    "exit_requires": {
+      "chapter 4 third half": "|chapter 4 third half unlock|"
+    }
+  },
+  "chapter 4 third half": {},
+  "chapter 5 first half": {
+    "starting": true,
+    "requires": "|chapter 5 first half unlock|",
+    "exit_requires": {
+      "chapter 5 second half": "|chapter 5 second half unlock|"
+    }
+  },
+  "chapter 5 second half": {
+    "exit_requires": {
+      "chapter 5 third half": "|chapter 5 third half unlock|"
+    }
+  },
+  "chapter 5 third half": {
+    "exit_requires": {
+      "chapter 5 H-stages": "|chapter 5 H-stages unlock|"
+    }
+  },
+  "chapter 5 H-stages": {},
+  "chapter 6 first half": {
+    "starting": true,
+    "requires": "|chapter 6 first half unlock|",
+    "exit_requires": {
+      "chapter 6 second half": "|chapter 6 second half unlock|"
+    }
+  },
+  "chapter 6 second half": {
+    "exit_requires": {
+      "chapter 6 third half": "|chapter 6 third half unlock|"
+    }
+  },
+  "chapter 6 third half": {
+    "exit_requires": {
+      "chapter 6 H-stages": "|chapter 6 H-stages unlock|"
+    }
+  },
+  "chapter 6 H-stages": {},
+  "chapter 7 first half": {
+    "starting": true,
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 7 second half": "|chapter 7 second half unlock|"
+    }
+  },
+  "chapter 7 second half": {
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 7 third half": "|chapter 7 third half unlock|"
+    }
+  },
+  "chapter 7 third half": {
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 7 fourth half": "|chapter 7 fourth half unlock|"
+    }
+  },
+  "chapter 7 fourth half": {
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 7 fifth half": "|chapter 7 fifth half unlock|"
+    }
+  },
+  "chapter 7 fifth half": {
+    "requires": "|chapter 7 unlock|",
+    "exit_requires": {
+      "chapter 7 H-stages": "|chapter 7 H-stages unlock|"
+    }
+  },
+  "chapter 7 H-stages": {},
+  "chapter 8 past first half": {
+    "starting": true,
+    "requires": "|chapter 8 past unlock|",
+    "exit_requires": {
+      "chapter 8 past second half": "|chapter 8 past second half unlock|"
+    }
+  },
+  "chapter 8 past second half": {
+    "exit_requires": {
+      "chapter 8 third half": "|chapter 8 third half unlock|"
+    }
+  },
+  "chapter 8 past third half": {
+    "exit_requires": {
+      "chapter 8 last half": "|chapter 8 last half unlock|"
+    }
+  },
+  "chapter 8 present": {
+    "starting": true,
+    "requires": "|chapter 8 present unlock|",
+    "exit_requires": {
+      "chapter 8 last half": "|chapter 8 last half unlock|",
+      "chapter 8 present reading": "|chapter 8 present reading unlock|"
+    }
+  },
+  "chapter 8 present reading": {},
+  "chapter 8 last half": {
+    "requires": "|chapter 8 past third half unlock| AND |chapter 8 present unlock|",
+    "exit_requires": {
+      "chapter 8 H-stages": "|chapter 8 H-stages unlock|"
+    }
+  },
+  "chapter 8 H-stages": {},
+  "chapter 9 first half": {
+    "starting": true,
+    "requires": "|chapter 9 unlock|",
+    "exit_requires": {
+      "chapter 9 second half": "|chapter 9 second half unlock|"
+    }
+  },
+  "chapter 9 second half": {
+    "exit_requires": {
+      "chapter 9 third half": "|chapter 9 third half unlock|"
+    }
+  },
+  "chapter 9 third half": {
+    "exit_requires": {
+      "chapter 9 fourth half": "|chapter 9 fourth half unlock|"
+    }
+  },
+  "chapter 9 fourth half": {
+    "exit_requires": {
+      "chapter 9 H-stages": "|chapter 9 H-stages unlock|"
+    }
+  },
+  "chapter 9 H-stages": {},
+  "chapter 10 first half": {
+    "starting": true,
+    "requires": "|chapter 10 unlock|",
+    "exit_requires": {
+      "chapter 10 second half": "|chapter 10 second half unlock|"
+    }
+  },
+  "chapter 10 second half": {
+    "exit_requires": {
+      "chapter 10 third half": "|chapter 10 third half unlock|"
+    }
+  },
+  "chapter 10 third half": {
+    "exit_requires": {
+      "chapter 10 fourth half": "|chapter 10 fourth half unlock|"
+    }
+  },
+  "chapter 10 fourth half": {
+    "exit_requires": {
+      "chapter 10 fifth half": "|chapter 10 fifth half unlock|"
+    }
+  },
+  "chapter 10 fifth half": {
+    "exit_requires": {
+      "chapter 10 H-stages": "|chapter 10 H-stages unlock|"
+    }
+  },
+  "chapter 10 H-stages": {},
+  "chapter 11 first half": {
+    "starting": true,
+    "requires": "|chapter 11 unlock|",
+    "exit_requires": {
+      "chapter 11 second half": "|chapter 11 second half unlock|"
+    }
+  },
+  "chapter 11 second half": {
+    "exit_requires": {
+      "chapter 11 third half": "|chapter 11 third half unlock|"
+    }
+  },
+  "chapter 11 third half": {
+    "exit_requires": {
+      "chapter 11 fourth half": "|chapter 11 fourth half unlock|"
+    }
+  },
+  "chapter 11 fourth half": {
+    "exit_requires": {
+      "chapter 11 fifth half": "|chapter 11 fifth half unlock|"
+    }
+  },
+  "chapter 11 fifth half": {
+    "exit_requires": {
+      "chapter 11 H-stages": "|chapter 11 H-stages unlock|"
+    }
+  },
+  "chapter 11 H-stages": {},
+  "chapter 12 first half": {
+    "starting": true,
+    "requires": "|chapter 12 unlock|",
+    "exit_requires": {
+      "chapter 12 second half": "|chapter 12 second half unlock|"
+    }
+  },
+   "chapter 12 second half": {
+    "exit_requires": {
+      "chapter 12 third half": "|chapter 12 third half unlock|"
+    }
+   },
+   "chapter 12 third half": {
+    "exit_requires": {
+      "chapter 12 fourth half": "|chapter 12 fourth half unlock|"
+    }
+   },
+   "chapter 12 fourth half": {
+    "exit_requires": {
+      "chapter 12 fifth half": "|chapter 12 fifth half unlock|"
+    }
+   },
+   "chapter 12 fifth half": {
+    "exit_requires": {
+      "chapter 12 H-stages": "|chapter 12 H-stages unlock|"
+    }
+   },
+   "chapter 12 H-stages": {},
+
+  "chapter 13 first half": {
+    "starting": true,
+    "requires": "|chapter 13 unlock|",
+    "exit_requires": {
+      "chapter 13 second half": "|chapter 13 second half unlock|"
+    }
+  },
+  "chapter 13 second half": {
+    "exit_requires": {
+      "chapter 13 third half": "|chapter 13 third half unlock|"
+    }
+  },
+  "chapter 13 third half": {
+    "exit_requires": {
+      "chapter 13 fourth half": "|chapter 13 fourth half unlock|"
+    }
+  },
+  "chapter 13 fourth half": {
+    "exit_requires": {
+      "chapter 13 fifth half": "|chapter 13 fifth half unlock|"
+    }
+  },
+  "chapter 13 fifth half": {
+    "exit_requires": {
+      "chapter 13 H-stages": "|chapter 13 H-stages unlock|"
+    }
+  },
+  "chapter 13 H-stages": {},
+  "chapter 14 first half": {
+    "starting": true,
+    "requires": "|chapter 14 unlock|",
+    "exit_requires": {
+      "chapter 14 second half": "|chapter 14 second half unlock|"
+    }
+  },
+  "chapter 14 second half": {
+    "exit_requires": {
+      "chapter 14 third half": "|chapter 14 third half unlock|"
+    }
+  },
+  "chapter 14 third half": {
+    "exit_requires": {
+      "chapter 14 fourth half": "|chapter 14 fourth half unlock|"
+    }
+  },
+  "chapter 14 fourth half": {
+    "exit_requires": {
+      "chapter 14 fifth half": "|chapter 14 fifth half unlock|"
+    }
+  },
+  "chapter 14 fifth half": {
+    "exit_requires": {
+      "chapter 14 H-stages": "|chapter 14 H-stages unlock|"
+    }
+  },
+  "chapter 14 H-stages": {},
+  "chapter 15 first half": {
+    "starting": true,
+    "requires": "|chapter 15 unlock|",
+    "exit_requires": {
+      "chapter 15 second half": "|chapter 15 second half unlock|"
+    }
+  },
+  "chapter 15 second half": {
+    "exit_requires": {
+      "chapter 15 third half": "|chapter 15 third half unlock|"
+    }
+  },
+  "chapter 15 third half": {
+    "exit_requires": {
+      "chapter 15 fourth half": "|chapter 15 fourth half unlock|"
+    }
+  },
+  "chapter 15 fourth half": {
+    "exit_requires": {
+      "chapter 15 fifth half": "|chapter 15 fifth half unlock|"
+    }
+  },
+  "chapter 15 fifth half": {
+    "exit_requires": {
+      "chapter 15 H-stages": "|chapter 15 H-stages unlock|"
+    }
+  },
+  "chapter 15 H-stages": {},
+  "chapter 16 first half": {
+    "starting": true,
+    "requires": "|chapter 16 unlock|",
+    "exit_requires": {
+      "chapter 16 second half": "|chapter 16 second half unlock|"
+    }
+  },
+  "chapter 16 second half": {
+    "exit_requires": {
+      "chapter 16 third half": "|chapter 16 third half unlock|"
+    }
+  },
+  "chapter 16 third half": {
+    "exit_requires": {
+      "chapter 16 fourth half": "|chapter 16 fourth half unlock|"
+    }
+  },
+  "chapter 16 fourth half": {
+    "exit_requires": {
+      "chapter 16 H-stages": "|chapter 16 H-stages unlock|"
+    }
+  },
+  "chapter 16 H-stages": {}
 }

@@ -1189,6 +1189,17 @@
   },
   {
     "count": "1",
+    "name": "SilverAsh the Reignfrost",
+    "category": [
+      "character",
+      "6 star",
+      "vanguard",
+      "block"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Skadi",
     "category": [
       "character",
@@ -1660,8 +1671,19 @@
     "category": [
       "character",
       "5 star", 
-      "guard",
-      "block"
+      "caster",
+      "ranged"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Astgenne the Lightchaser",
+    "category": [
+      "character",
+      "6 star", 
+      "supporter",
+      "ranged"
     ],
     "useful": true,
     "progression": true
@@ -2954,6 +2976,17 @@
   },
   {
     "count": "1",
+    "name": "Pramanix the Prerita",
+    "category": [
+      "character",
+      "6 star",
+      "caster",
+      "ranged"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Projekt Red",
     "category": [
       "character",
@@ -3247,6 +3280,17 @@
       "ranged"
     ],
     "useful": true,
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Snow Hunter",
+    "category": [
+      "character",
+      "5 star",
+      "sniper",
+      "ranged"
+    ],
     "progression": true
   },
   {
@@ -4825,7 +4869,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 0 unlock",
+    "name": "chapter 0 first half unlock",
     "category": [
       "chapter unlock",
       "act 0"
@@ -4834,7 +4878,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 1 unlock",
+    "name": "chapter 0 second half unlock",
     "category": [
       "chapter unlock",
       "act 0"
@@ -4843,7 +4887,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 2 unlock",
+    "name": "chapter 1 first half unlock",
     "category": [
       "chapter unlock",
       "act 0"
@@ -4852,7 +4896,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 3 unlock",
+    "name": "chapter 1 second half unlock",
     "category": [
       "chapter unlock",
       "act 0"
@@ -4861,7 +4905,70 @@
   },
   {
     "count": "1",
-    "name": "chapter 4 unlock",
+    "name": "chapter 1 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 2 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 2 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 2 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 2 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 3 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 3 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 0"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 4 first half unlock",
     "category": [
       "chapter unlock",
       "act 1"
@@ -4870,7 +4977,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 5 unlock",
+    "name": "chapter 4 second half unlock",
     "category": [
       "chapter unlock",
       "act 1"
@@ -4879,7 +4986,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 6 unlock",
+    "name": "chapter 4 third half unlock",
     "category": [
       "chapter unlock",
       "act 1"
@@ -4888,7 +4995,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 7 unlock",
+    "name": "chapter 5 first half unlock",
     "category": [
       "chapter unlock",
       "act 1"
@@ -4897,7 +5004,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 8 unlock",
+    "name": "chapter 5 second half unlock",
     "category": [
       "chapter unlock",
       "act 1"
@@ -4906,7 +5013,179 @@
   },
   {
     "count": "1",
-    "name": "chapter 9 unlock",
+    "name": "chapter 5 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 5 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 1",
+      "H stage"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 6 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 6 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 6 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 6 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 7 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 past unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 past second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 past third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 present unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 present reading unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 last half unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 8 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 1"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 9 first half unlock",
     "category": [
       "chapter unlock",
       "act 2"
@@ -4915,7 +5194,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 10 unlock",
+    "name": "chapter 9 second half unlock",
     "category": [
       "chapter unlock",
       "act 2"
@@ -4924,7 +5203,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 11 unlock",
+    "name": "chapter 9 third half unlock",
     "category": [
       "chapter unlock",
       "act 2"
@@ -4933,7 +5212,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 12 unlock",
+    "name": "chapter 9 fourth half unlock",
     "category": [
       "chapter unlock",
       "act 2"
@@ -4942,7 +5221,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 13 unlock",
+    "name": "chapter 9 H-stages unlock",
     "category": [
       "chapter unlock",
       "act 2"
@@ -4951,7 +5230,7 @@
   },
   {
     "count": "1",
-    "name": "chapter 14 unlock",
+    "name": "chapter 10 first half unlock",
     "category": [
       "chapter unlock",
       "act 2"
@@ -4960,7 +5239,268 @@
   },
   {
     "count": "1",
-    "name": "chapter 15 unlock",
+    "name": "chapter 10 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 10 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 11 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 11 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 11 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 11 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 11 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 11 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 12 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 13 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 13 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 13 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 13 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 13 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 13 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 14 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 14 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 14 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 14 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 14 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 14 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 2"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 15 first half unlock",
     "category": [
       "chapter unlock",
       "act 3"
@@ -4969,7 +5509,88 @@
   },
   {
     "count": "1",
-    "name": "chapter 16 unlock",
+    "name": "chapter 15 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 15 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 15 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 15 fifth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 15 H-stages unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 16 first half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 16 second half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 16 third half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 16 fourth half unlock",
+    "category": [
+      "chapter unlock",
+      "act 3"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "chapter 16 H-stages unlock",
     "category": [
       "chapter unlock",
       "act 3"

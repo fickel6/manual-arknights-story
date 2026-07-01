@@ -34,6 +34,10 @@
         "yaml_option": ["strategic sanity"],
         "hidden": true
     },
+    "fixed squad": {
+        "yaml_option": ["fixed squad operation"],
+        "hidden": true
+    },
     "act 0": {
         "yaml_option": ["include act 0"],
         "hidden": true
