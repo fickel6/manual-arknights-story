@@ -14,7 +14,11 @@
             "hidden": false
         },
         "death_link": {
-            "default": false
+            "default": false,
+            "description": [
+                "when a mission/operation fails, send a death link.",
+                "when receiving death links, end your current operation."
+            ]
         },
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",

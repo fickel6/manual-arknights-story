@@ -3,7 +3,7 @@ from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Ch
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
 from typing import Type, Any
-
+from ..Items import item_name_groups
 
 ####################################################################
 # NOTE: At the time that options are created, Manual has no concept of the multiworld or its own world.
@@ -31,6 +31,18 @@ class TotalCharactersToWinWith(Range):
     range_start = 10
     range_end = 50
     default = 50
+
+class chapters(OptionSet):
+    """enabled 3 star in the manual. only works when 3 star are individual items"""  # Description of the yaml option in the template
+    display_name = "included chapters"           # Name of the option in the spoiler
+    valid_keys = {  #define my own list to choose included chapters
+        "chapter 0": "c0", "chapter 1": "c1", "chapter 2": "c2", "chapter 3": "c3", "chapter 4": "c4", 
+        "chapter 5": "c5", "chapter 6": "c6", "chapter 7": "c7", "chapter 8": "c8", "chapter 9": "c9",
+        "chapter 10": "c10", "chapter 11": "c11", "chapter 12": "c12", "chapter 13": "c13",
+        "chapter 14": "c14", "chapter 15": "c15", "chapter 16": "c16",
+    } # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
+    default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
+
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
