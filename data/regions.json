@@ -19,6 +19,7 @@
       "chapter 1 third half": "|chapter 1 third half unlock|"
     }
   },
+  "chapter 1 third half": {},
   "chapter 2 first half": {
     "starting": true,
     "requires": "|chapter 2 first half unlock|",
@@ -96,31 +97,27 @@
   "chapter 6 H-stages": {},
   "chapter 7 first half": {
     "starting": true,
-    "requires": "|chapter 7 unlock|",
+    "requires": "|chapter 7 first half unlock|",
     "exit_requires": {
       "chapter 7 second half": "|chapter 7 second half unlock|"
     }
   },
   "chapter 7 second half": {
-    "requires": "|chapter 7 unlock|",
     "exit_requires": {
       "chapter 7 third half": "|chapter 7 third half unlock|"
     }
   },
   "chapter 7 third half": {
-    "requires": "|chapter 7 unlock|",
     "exit_requires": {
       "chapter 7 fourth half": "|chapter 7 fourth half unlock|"
     }
   },
   "chapter 7 fourth half": {
-    "requires": "|chapter 7 unlock|",
     "exit_requires": {
       "chapter 7 fifth half": "|chapter 7 fifth half unlock|"
     }
   },
   "chapter 7 fifth half": {
-    "requires": "|chapter 7 unlock|",
     "exit_requires": {
       "chapter 7 H-stages": "|chapter 7 H-stages unlock|"
     }
@@ -161,7 +158,7 @@
   "chapter 8 H-stages": {},
   "chapter 9 first half": {
     "starting": true,
-    "requires": "|chapter 9 unlock|",
+    "requires": "|chapter 9 first half unlock|",
     "exit_requires": {
       "chapter 9 second half": "|chapter 9 second half unlock|"
     }
@@ -184,7 +181,7 @@
   "chapter 9 H-stages": {},
   "chapter 10 first half": {
     "starting": true,
-    "requires": "|chapter 10 unlock|",
+    "requires": "|chapter 10 first half unlock|",
     "exit_requires": {
       "chapter 10 second half": "|chapter 10 second half unlock|"
     }
@@ -212,7 +209,7 @@
   "chapter 10 H-stages": {},
   "chapter 11 first half": {
     "starting": true,
-    "requires": "|chapter 11 unlock|",
+    "requires": "|chapter 11 first half unlock|",
     "exit_requires": {
       "chapter 11 second half": "|chapter 11 second half unlock|"
     }
@@ -240,7 +237,7 @@
   "chapter 11 H-stages": {},
   "chapter 12 first half": {
     "starting": true,
-    "requires": "|chapter 12 unlock|",
+    "requires": "|chapter 12 first half unlock|",
     "exit_requires": {
       "chapter 12 second half": "|chapter 12 second half unlock|"
     }
@@ -269,7 +266,7 @@
 
   "chapter 13 first half": {
     "starting": true,
-    "requires": "|chapter 13 unlock|",
+    "requires": "|chapter 13 first half unlock|",
     "exit_requires": {
       "chapter 13 second half": "|chapter 13 second half unlock|"
     }
@@ -297,7 +294,7 @@
   "chapter 13 H-stages": {},
   "chapter 14 first half": {
     "starting": true,
-    "requires": "|chapter 14 unlock|",
+    "requires": "|chapter 14 first half unlock|",
     "exit_requires": {
       "chapter 14 second half": "|chapter 14 second half unlock|"
     }
@@ -325,7 +322,7 @@
   "chapter 14 H-stages": {},
   "chapter 15 first half": {
     "starting": true,
-    "requires": "|chapter 15 unlock|",
+    "requires": "|chapter 15 first half unlock|",
     "exit_requires": {
       "chapter 15 second half": "|chapter 15 second half unlock|"
     }
@@ -353,7 +350,7 @@
   "chapter 15 H-stages": {},
   "chapter 16 first half": {
     "starting": true,
-    "requires": "|chapter 16 unlock|",
+    "requires": "|chapter 16 first half unlock|",
     "exit_requires": {
       "chapter 16 second half": "|chapter 16 second half unlock|"
     }

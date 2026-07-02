@@ -228,7 +228,7 @@
   {
     "name": "1-9 clear",
     "category": ["act 0", "chapter 0"],
-    "region": "chapter 1 first half",
+    "region": "chapter 1 third half",
     "requires": ""
   },
   {
@@ -812,13 +812,13 @@
     "name": "4-8 clear",
     "category": ["act 1", "chapter 4"],
     "region": "chapter 4 third half",
-    "requires": "|@block:2| AND |character:4|"
+    "requires": "|@block:2| AND |@character:4|"
   },
   {
     "name": "4-8 3-star clear",
     "category": ["act 1", "chapter 4"],
     "region": "chapter 4 third half",
-    "requires": "|@block:2| AND |character:4|"
+    "requires": "|@block:2| AND |@character:4|"
   },
   {
     "name": "4-9 clear",

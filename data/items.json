@@ -61,18 +61,6 @@
   },
   {
     "count": "1",
-    "name": "Astgenne the Lightchaser",
-    "category": [
-      "character",
-      "6 star",
-      "supporter",
-      "ranged"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
     "name": "Bagpipe",
     "category": [
       "character",
@@ -982,18 +970,6 @@
   },
   {
     "count": "1",
-    "name": "Pramanix the Prerita",
-    "category": [
-      "character",
-      "6 star",
-      "caster",
-      "ranged"
-    ],
-    "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
     "name": "Qiubai",
     "category": [
       "character",
@@ -1185,17 +1161,6 @@
       "block"
     ],
     "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "SilverAsh the Reignfrost",
-    "category": [
-      "character",
-      "6 star",
-      "vanguard",
-      "block"
-    ],
     "progression": true
   },
   {
@@ -3280,17 +3245,6 @@
       "ranged"
     ],
     "useful": true,
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "Snow Hunter",
-    "category": [
-      "character",
-      "5 star",
-      "sniper",
-      "ranged"
-    ],
     "progression": true
   },
   {
