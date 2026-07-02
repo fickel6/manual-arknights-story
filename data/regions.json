@@ -2,6 +2,7 @@
   "chapter 0 first half": {
     "starting": true,
     "requires": "|chapter 0 first half unlock|",
+    "connects_to": ["chapter 0 second half"],
     "exit_requires": {
       "chapter 0 second half": "|chapter 0 second half unlock|"
     }

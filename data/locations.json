@@ -720,7 +720,6 @@
   {
     "name": "act0 boss",
     "category": ["goal"],
-    "region": "act 0",
     "requires": "|defeated bosses|",
     "victory": true
   },
@@ -2002,13 +2001,13 @@
     "name": "M8-7 clear",
     "category": ["act 1", "chapter 8"],
     "region": "chapter 8 present",
-    "requires": "|@block:2| AND (@block:3| OR |@ranged:1|)"
+    "requires": "|@block:2| AND (|@block:3| OR |@ranged:1|)"
   },
   {
     "name": "M8-7 3-star clear",
     "category": ["act 1", "chapter 8"],
     "region": "chapter 8 present",
-    "requires": "|@block:2| AND (@block:3| OR |@ranged:1|)"
+    "requires": "|@block:2| AND (|@block:3| OR |@ranged:1|)"
   },
   {
     "name": "M8-8 clear",
@@ -2145,7 +2144,6 @@
   {
     "name": "act1 boss",
     "category": ["goal"],
-    "region": "act 1",
     "requires": "|defeated bosses|",
     "victory": true
   },
@@ -3910,7 +3908,6 @@
   {
     "name": "act2 boss",
     "category": ["goal"],
-    "region": "act 2",
     "requires": "|defeated bosses|",
     "victory": true
   },
@@ -4481,7 +4478,6 @@
   {
     "name": "act3 boss",
     "category": ["goal"],
-    "region": "act 3",
     "requires": "|defeated bosses|",
     "victory": true
   },
