@@ -847,7 +847,7 @@
     "name": "S4-1 clear",
     "category": ["act 1", "sub operations", "chapter 4"],
     "region": "chapter 4 first part",
-    "requires": "|@block:2"
+    "requires": "|@block:2|"
   },
   {
     "name": "S4-1 3-star clear",
@@ -1343,7 +1343,7 @@
     "name": "6-9 3-star clear",
     "category": ["act 1", "chapter 6"],
     "region": "chapter 6 second part",
-    "requires": "|@block:2"
+    "requires": "|@block:2|"
   },
   {
     "name": "6-10 clear",

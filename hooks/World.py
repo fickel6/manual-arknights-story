@@ -325,9 +325,9 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                 case 0:
                     boss_locations.append("4-10 clear")
                 case 1:
-                    boss_locations.append("5-11 clear")
+                    boss_locations.append("5-10 clear")
                 case 2:
-                    boss_locations.append("6-18 clear")
+                    boss_locations.append("6-16 clear")
                 case 3:
                     boss_locations.append("7-20 clear")
                 case 4:
@@ -335,21 +335,21 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
         case "act2 boss":
             match world.options.act_2_boss_clear.value:
                 case 0:
-                    boss_locations.append("9-21 clear")
+                    boss_locations.append("9-19 clear")
                 case 1:
-                    boss_locations.append("10-19 clear")
+                    boss_locations.append("10-17 clear")
                 case 2:
-                    boss_locations.append("11-21 clear")
+                    boss_locations.append("11-20 clear")
                 case 3:
-                    boss_locations.append("12-21 clear")
+                    boss_locations.append("12-20 clear")
                 case 4:
-                    boss_locations.append("13-22 clear")
+                    boss_locations.append("13-21 clear")
                 case 5:
-                    boss_locations.append("14-23 clear")
+                    boss_locations.append("14-21 clear")
         case "act3 boss":
             match world.options.act_3_boss_clear.value:
                 case 0:
-                    boss_locations.append("15-21 clear")
+                    boss_locations.append("15-20 clear")
                 case 1:
                     boss_locations.append("16-16 clear")
         case "beat x bosses":
