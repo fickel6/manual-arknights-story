@@ -152,13 +152,13 @@
     }
   },
   "chapter 8 past second part": {
-    "connects_to": ["chapter 8 third part"],
+    "connects_to": ["chapter 8 past third part"],
     "exit_requires": {
-      "chapter 8 third part": "|chapter 8 third part unlock|"
+      "chapter 8 past third part": "|chapter 8 past third part unlock|"
     }
   },
   "chapter 8 past third part": {
-    "connects_to": ["chapter 8 last part part"],
+    "connects_to": ["chapter 8 last part"],
     "exit_requires": {
       "chapter 8 last part": "|chapter 8 last part unlock|"
     }
@@ -166,7 +166,7 @@
   "chapter 8 present": {
     "starting": true,
     "requires": "|chapter 8 present unlock|",
-    "connects_to": ["chapter 8 last part part", "chapter 8 present reading"],
+    "connects_to": ["chapter 8 last part", "chapter 8 present reading"],
     "exit_requires": {
       "chapter 8 last part": "|chapter 8 last part unlock|",
       "chapter 8 present reading": "|chapter 8 present reading unlock|"

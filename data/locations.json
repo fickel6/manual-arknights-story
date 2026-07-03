@@ -1307,7 +1307,7 @@
   {
     "name": "6-6 read",
     "category": ["act 1", "chapter 6", "reading"],
-    "region": "chapter 6 first part first part"
+    "region": "chapter 6 first part"
   },
   {
     "name": "6-7 clear",
@@ -3651,7 +3651,7 @@
     "name": "14-6 clear",
     "category": ["act 2", "chapter 14"],
     "region": "chapter 14 second part",
-    "requires": "@block:1| AND |@ranged:2|"
+    "requires": "|@block:1| AND |@ranged:2|"
   },
   {
     "name": "14-6 3-star clear",
@@ -3969,13 +3969,13 @@
     "name": "15-6 clear",
     "category": ["act 3", "chapter 15"],
     "region": "chapter 15 second part",
-    "requires": "|@block:2| OR (@block:1| AND |@ranged:1|)"
+    "requires": "|@block:2| OR (|@block:1| AND |@ranged:1|)"
   },
   {
     "name": "15-6 3-star clear",
     "category": ["act 3", "chapter 15"],
     "region": "chapter 15 second part",
-    "requires": "|@block:2| OR (@block:1| AND |@ranged:1|)"
+    "requires": "|@block:2| OR (|@block:1| AND |@ranged:1|)"
   },
   {
     "name": "15-7 clear",
