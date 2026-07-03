@@ -3237,13 +3237,13 @@
     "name": "12-20 clear",
     "category": ["act 2", "chapter 12", "boss stage"],
     "region": "chapter 12 fifth half",
-    "requires": "|@block:4| AND |@vanguard:1| AND |6 star:1|"
+    "requires": "|@block:4| AND |@vanguard:1| AND |@6 star:1|"
   },
   {
     "name": "12-20 3-star clear",
     "category": ["act 2", "chapter 12"],
     "region": "chapter 12 fifth half",
-    "requires": "|@block:4| AND |@vanguard:1| AND |6 star:1|"
+    "requires": "|@block:4| AND |@vanguard:1| AND |@6 star:1|"
   },
   {
     "name": "12-21 read",
