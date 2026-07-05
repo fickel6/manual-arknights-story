@@ -132,8 +132,9 @@
             ],
             "type": "Choice",
             "values": {
-                "progressive items": 0,
-                "exclude": 1
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
             },
             "group": "operator options"
         },
@@ -146,8 +147,9 @@
             ],
             "type": "Choice",
             "values": {
-                "progressive items": 0,
-                "exclude": 1
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
             },
             "group": "operator options"
         },
@@ -256,7 +258,7 @@
             ],
             "group": "operations options"
         },
-        "_include the story": {
+        "include the story": {
             "type": "Toggle",
             "default": false,
             "description": [

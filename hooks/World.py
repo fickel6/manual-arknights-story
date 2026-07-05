@@ -56,6 +56,14 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
+    if not world.options.include_act_0:
+        locationNamesToRemove.append("act0 boss")
+    if not world.options.include_act_1:
+        locationNamesToRemove.append("act1 boss")
+    if not world.options.include_act_2:
+        locationNamesToRemove.append("act2 boss")
+    if not world.options.include_act_3 :
+        locationNamesToRemove.append("act3 boss")
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
@@ -85,16 +93,20 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
     #remove all the excluded operators
     def remove_character(prog_item, item_name, amount_progressive, option):
+        # print(option)
         if option == 0:
+            # print("deleting progressive characters")
             for _ in range(amount_progressive):
                 item_pool.remove(next(i for i in item_pool if i.name == prog_item))
         elif option == 1:
+            # print("deleting characters")
             delete_character = []
             delete_character.extend([name for name, i in world.item_name_to_item.items() if item_name in i.get("category", [])])
             delete_character = [i for i in item_pool if i.name in delete_character]
             for name in delete_character:
                 item_pool.remove(name)
         else:
+            # print("deleting everything")
             for _ in range(amount_progressive):
                 item_pool.remove(next(i for i in item_pool if i.name == prog_item))
             delete_all = []
@@ -103,11 +115,11 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             for name in delete_all:
                 item_pool.remove(name)
 
-    remove_character("progressive 6 star", "6 star", 13, world.options.include_6_stars)
-    remove_character("progressive 5 star", "5 star", 13, world.options.include_5_stars)
-    remove_character("progressive 4 star", "4 star", 2, world.options.include_4_stars)
-    remove_character("progressive 3 star", "3 star", 2, world.options.include_3_stars)
-    remove_character("progressive low star", "low star", 1, world.options.include_1_and_2_stars)
+    remove_character("progressive 6 star", "6 star", 13, world.options.include_6_stars.value)
+    remove_character("progressive 5 star", "5 star", 13, world.options.include_5_stars.value)
+    remove_character("progressive 4 star", "4 star", 2, world.options.include_4_stars.value)
+    remove_character("progressive 3 star", "3 star", 2, world.options.include_3_stars.value)
+    remove_character("progressive low star", "low star", 1, world.options.include_1_and_2_stars.value)
     # remove the amount of random unlockable items
     max_amount_random_unlock = 20
     for _ in range(max_amount_random_unlock - world.options.include_random_operators):
@@ -117,6 +129,25 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    starting_chapter = []
+    starting_chapter.extend(
+        name for name, i in world.item_name_to_item.items() if "start chapter" in i.get("category", [])
+    )
+    # print(starting_chapter)
+    while True:
+        try:
+            random_starting_chapter = world.random.choice(starting_chapter)
+            print("trying to find " + random_starting_chapter)
+            collect_chapter = next(i for i in item_pool if i.name == random_starting_chapter)
+        except:
+            starting_chapter.remove(random_starting_chapter)
+            continue
+        else:
+            break
+
+    multiworld.push_precollected(collect_chapter)
+    item_pool.remove(collect_chapter)
+    
     possible_characters = []
     possible_characters.extend(
         name for name, i in world.item_name_to_item.items() if "character" in i.get("category", [])
@@ -257,7 +288,7 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
     boss_locations = []
     match victory_name:
         case "act0 boss":
-            match world.options.act_0_boss_clear:
+            match world.options.act_0_boss_clear.value:
                 case 0:
                     boss_locations.append("0-11 clear")
                 case 1:
@@ -267,35 +298,35 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                 case 3:
                     boss_locations.append("3-8 clear")
         case "act1 boss":
-            match world.options.act_1_boss_clear:
+            match world.options.act_1_boss_clear.value:
                 case 0:
                     boss_locations.append("4-10 clear")
                 case 1:
-                    boss_locations.append("5-11 clear")
+                    boss_locations.append("5-10 clear")
                 case 2:
-                    boss_locations.append("6-18 clear")
+                    boss_locations.append("6-16 clear")
                 case 3:
                     boss_locations.append("7-20 clear")
                 case 4:
                     boss_locations.append("JT8-3 clear")
         case "act2 boss":
-            match world.options.act_2_boss_clear:
+            match world.options.act_2_boss_clear.value:
                 case 0:
-                    boss_locations.append("9-21 clear")
+                    boss_locations.append("9-19 clear")
                 case 1:
-                    boss_locations.append("10-19 clear")
+                    boss_locations.append("10-17 clear")
                 case 2:
-                    boss_locations.append("11-21 clear")
+                    boss_locations.append("11-20 clear")
                 case 3:
-                    boss_locations.append("12-21 clear")
+                    boss_locations.append("12-20 clear")
                 case 4:
-                    boss_locations.append("13-22 clear")
+                    boss_locations.append("13-21 clear")
                 case 5:
-                    boss_locations.append("14-23 clear")
+                    boss_locations.append("14-21 clear")
         case "act3 boss":
-            match world.options.act_3_boss_clear:
+            match world.options.act_3_boss_clear.value:
                 case 0:
-                    boss_locations.append("15-21 clear")
+                    boss_locations.append("15-20 clear")
                 case 1:
                     boss_locations.append("16-16 clear")
         case "beat x bosses":
