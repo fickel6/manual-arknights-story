@@ -718,12 +718,6 @@
     "requires": "|@block:2| AND |@ranged:2|"
   },
   {
-    "name": "act0 boss",
-    "category": ["goal"],
-    "requires": "|defeated bosses|",
-    "victory": true
-  },
-  {
     "name": "4-1 clear",
     "category": ["act 1", "chapter 4"],
     "region": "chapter 4 first part",
@@ -1234,7 +1228,7 @@
   },
   {
     "name": "H5-4 clear",
-    "category": ["act 1", "H operations", "H stage"],
+    "category": ["act 1", "H operations", "H stage", "last H stage"],
     "region": "chapter 5 H-stages",
     "requires": "|@block:2| AND |@medic:1|"
   },
@@ -1525,7 +1519,7 @@
   },
   {
     "name": "H6-4 clear",
-    "category": ["act 1", "extreme operations", "chapter 6"],
+    "category": ["act 1", "extreme operations", "chapter 6", "last H stage"],
     "region": "chapter 6 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:2|"
   },
@@ -1789,7 +1783,7 @@
   },
   {
     "name": "H7-4 clear",
-    "category": ["act 1", "extreme operations", "chapter 7"],
+    "category": ["act 1", "extreme operations", "chapter 7", "last H stage"],
     "region": "chapter 7 H-stages",
     "requires": "|@block:2|"
   },
@@ -2101,7 +2095,7 @@
   },
   {
     "name": "H8-4 clear",
-    "category": ["act 1", "extreme operations", "chapter 8"],
+    "category": ["act 1", "extreme operations", "chapter 8", "last H stage"],
     "region": "chapter 8 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:1|"
   },
@@ -2140,12 +2134,6 @@
     "category": ["act 1", "reading", "chapter 8"],
     "region": "chapter 8 H-stages",
     "requires": ""
-  },
-  {
-    "name": "act1 boss",
-    "category": ["goal"],
-    "requires": "|defeated bosses|",
-    "victory": true
   },
   {
     "name": "9-1 read",
@@ -2485,7 +2473,7 @@
   },
   {
     "name": "H9-6 clear",
-    "category": ["act 2", "extreme operations", "chapter 9"],
+    "category": ["act 2", "extreme operations", "chapter 9", "last H stage"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
@@ -2725,7 +2713,7 @@
   },
   {
     "name": "H10-3 clear",
-    "category": ["act 2", "extreme operations", "chapter 10"],
+    "category": ["act 2", "extreme operations", "chapter 10", "last H stage"],
     "region": "chapter 10 H-stages",
     "requires": "|@block:2| AND |@character:6| AND |@6 star:1|"
   },
@@ -3007,7 +2995,7 @@
   },
   {
     "name": "H11-4 clear",
-    "category": ["act 2", "extreme operations", "chapter 11"],
+    "category": ["act 2", "extreme operations", "chapter 11", "last H stage"],
     "region": "chapter 11 H-stages",
     "requires": "|@block:2| AND |@character:5| AND |@6 star:1|"
   },
@@ -3289,7 +3277,7 @@
   },
   {
     "name": "H12-4 clear",
-    "category": ["act 2", "extreme operations", "chapter 12"],
+    "category": ["act 2", "extreme operations", "chapter 12", "last H stage"],
     "region": "chapter 12 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
@@ -3583,7 +3571,7 @@
   },
   {
     "name": "H13-4 clear",
-    "category": ["act 2", "extreme operations", "chapter 13"],
+    "category": ["act 2", "extreme operations", "chapter 13", "last H stage"],
     "region": "chapter 13 H-stages",
     "requires": "|@block:3| AND |@ranged:2| AND |@6 star:1|"
   },
@@ -3895,7 +3883,7 @@
   },
   {
     "name": "H14-4 clear",
-    "category": ["act 2", "extreme operations", "chapter 14"],
+    "category": ["act 2", "extreme operations", "chapter 14", "last H stage"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:2| AND |@ranged:3| AND |@6 star:2|"
   },
@@ -3904,12 +3892,6 @@
     "category": ["act 2", "extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:2| AND |@ranged:3| AND |@6 star:2|"
-  },
-  {
-    "name": "act2 boss",
-    "category": ["goal"],
-    "requires": "|defeated bosses|",
-    "victory": true
   },
   {
     "name": "15-1 read",
@@ -4177,7 +4159,7 @@
   },
   {
     "name": "H15-4 clear",
-    "category": ["act 3", "extreme operations", "chapter 15"],
+    "category": ["act 3", "extreme operations", "chapter 15", "last H stage"],
     "region": "chapter 15 H-stages",
     "requires": "|@block:3| AND |@ranged:3| AND |@vanguard:1| AND |@6 star:1|"
   },
@@ -4465,7 +4447,7 @@
   },
   {
     "name": "H16-4 clear",
-    "category": ["act 3", "extreme operations", "chapter 16"],
+    "category": ["act 3", "extreme operations", "chapter 16", "last H stage"],
     "region": "chapter 16 H-stages",
     "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND |@6 star:1|"
   },
@@ -4476,7 +4458,13 @@
     "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND |@6 star:1|"
   },
   {
-    "name": "act3 boss",
+    "name": "boss chapter",
+    "category": ["goal"],
+    "requires": "|defeated bosses|",
+    "victory": true
+  },
+  {
+    "name": "H-stages chapter",
     "category": ["goal"],
     "requires": "|defeated bosses|",
     "victory": true
