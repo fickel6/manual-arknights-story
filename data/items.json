@@ -4426,7 +4426,8 @@
     "name": "chapter 0 first part unlock",
     "category": [
       "chapter unlock",
-      "act 0"
+      "act 0",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4444,7 +4445,8 @@
     "name": "chapter 1 first part unlock",
     "category": [
       "chapter unlock",
-      "act 0"
+      "act 0",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4471,7 +4473,8 @@
     "name": "chapter 2 first part unlock",
     "category": [
       "chapter unlock",
-      "act 0"
+      "act 0",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4507,7 +4510,8 @@
     "name": "chapter 3 first part unlock",
     "category": [
       "chapter unlock",
-      "act 0"
+      "act 0",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4525,7 +4529,8 @@
     "name": "chapter 4 first part unlock",
     "category": [
       "chapter unlock",
-      "act 1"
+      "act 1",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4552,7 +4557,8 @@
     "name": "chapter 5 first part unlock",
     "category": [
       "chapter unlock",
-      "act 1"
+      "act 1",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4589,7 +4595,8 @@
     "name": "chapter 6 first part unlock",
     "category": [
       "chapter unlock",
-      "act 1"
+      "act 1",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4625,7 +4632,8 @@
     "name": "chapter 7 first part unlock",
     "category": [
       "chapter unlock",
-      "act 1"
+      "act 1",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4679,7 +4687,8 @@
     "name": "chapter 8 past unlock",
     "category": [
       "chapter unlock",
-      "act 1"
+      "act 1",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4742,7 +4751,8 @@
     "name": "chapter 9 first part unlock",
     "category": [
       "chapter unlock",
-      "act 2"
+      "act 2",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4787,7 +4797,8 @@
     "name": "chapter 10 first part unlock",
     "category": [
       "chapter unlock",
-      "act 2"
+      "act 2",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4841,7 +4852,8 @@
     "name": "chapter 11 first part unlock",
     "category": [
       "chapter unlock",
-      "act 2"
+      "act 2",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4895,7 +4907,8 @@
     "name": "chapter 12 first part unlock",
     "category": [
       "chapter unlock",
-      "act 2"
+      "act 2",
+      "start chapter"
     ],
     "progression": true
   },
@@ -4949,7 +4962,8 @@
     "name": "chapter 13 first part unlock",
     "category": [
       "chapter unlock",
-      "act 2"
+      "act 2",
+      "start chapter"
     ],
     "progression": true
   },
@@ -5003,7 +5017,8 @@
     "name": "chapter 14 first part unlock",
     "category": [
       "chapter unlock",
-      "act 2"
+      "act 2",
+      "start chapter"
     ],
     "progression": true
   },
@@ -5057,7 +5072,8 @@
     "name": "chapter 15 first part unlock",
     "category": [
       "chapter unlock",
-      "act 3"
+      "act 3",
+      "start chapter"
     ],
     "progression": true
   },
@@ -5111,7 +5127,8 @@
     "name": "chapter 16 first part unlock",
     "category": [
       "chapter unlock",
-      "act 3"
+      "act 3",
+      "start chapter"
     ],
     "progression": true
   },
@@ -5147,42 +5164,6 @@
     "name": "chapter 16 H-stages unlock",
     "category": [
       "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "act0 key",
-    "category": [
-      "region unlock",
-      "act 0"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "act1 key",
-    "category": [
-      "region unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "act2 key",
-    "category": [
-      "region unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "act3 key",
-    "category": [
-      "region unlock",
       "act 3"
     ],
     "progression": true
