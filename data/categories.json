@@ -19,6 +19,14 @@
     "character": {
         "hidden": true
     },
+    "reading": {
+        "hidden": true,
+        "yaml_option": ["include story"]
+    },
+    "fixed squad": {
+        "hidden": true,
+        "yaml_option": ["include fixed operations"]
+    },
     "main story": {
         "hidden": true
     },

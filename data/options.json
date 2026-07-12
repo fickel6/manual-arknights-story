@@ -93,6 +93,18 @@
             "range_start": 1,
             "range_end": 16
         },
+        "_originium prime hunt": {
+            "description": [
+                "choose how many Originium prime you need to collect to beat the manual",
+                "if a different goal is chosen, this option won't do anything"
+            ],
+            "type": "Range",
+            "default": 10,
+            "range_start": 1,
+            "range_end": 40
+        },
+
+
         "include 6 stars":{
             "description": [
                 "how the 6 stars will be randomised",
@@ -203,7 +215,7 @@
             ],
             "group": "operations options"
         },
-        "challenge sanity": {
+        "_challenge sanity": {
             "type": "Toggle",
             "default": false,
             "description": [
@@ -212,7 +224,7 @@
             ],
             "group": "operations options"
         },
-        "strategic sanity": {
+        "_strategic sanity": {
             "type": "Toggle",
             "default": false,
             "description": [
@@ -258,12 +270,20 @@
             ],
             "group": "operations options"
         },
-        "include the story": {
+        "include story": {
             "type": "Toggle",
             "default": false,
             "description": [
                 "reading all the story is also a check",
                 "you may NOT skip, but speeding is allowed"
+            ],
+            "group": "operations options"
+        },
+        "include fixed operations": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "include stages where the squad is already chosen."
             ],
             "group": "operations options"
         }
