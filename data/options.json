@@ -234,42 +234,6 @@
             ],
             "group": "operations options"
         },
-        "include act 0": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "include all the stages from act 0.",
-                "these are the chapters 0 to chapter 3."
-            ],
-            "group": "operations options"
-        },
-        "include act 1": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "include all the stages from act 1.",
-                "these are the chapters 4 to 8."
-            ],
-            "group": "operations options"
-        },
-        "include act 2": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "include all the stages from act 2.",
-                "these are the chapters 9 to 14."
-            ],
-            "group": "operations options"
-        },
-        "include act 3": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "include all the stages from act 3.",
-                "these are the chapter 15."
-            ],
-            "group": "operations options"
-        },
         "include story": {
             "type": "Toggle",
             "default": false,
