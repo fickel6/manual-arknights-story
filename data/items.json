@@ -4438,60 +4438,20 @@
     ]
   },
   {
-    "count": "1",
-    "name": "chapter 2 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 0",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 2 second part unlock",
+    "count": "4",
+    "name": "progressive chapter 2",
     "category": [
       "chapter unlock",
       "act 0"
-    ],
-    "progression": true
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 2 third part unlock",
+    "count": "2",
+    "name": "progressive chapter 3",
     "category": [
       "chapter unlock",
       "act 0"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 2 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 0"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 3 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 0",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 3 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 0"
-    ],
-    "progression": true
+    ]
   },
   {
     "count": "1",

@@ -25,31 +25,31 @@
   "chapter 1 third part": {},
   "chapter 2 first part": {
     "starting": true,
-    "requires": "|chapter 2 first part unlock|",
+    "requires": "|progressive chapter 2|",
     "connects_to": ["chapter 2 second part"],
     "exit_requires": {
-      "chapter 2 second part": "|chapter 2 second part unlock|"
+      "chapter 2 second part": "|progressive chapter 2:2|"
     }
   },
   "chapter 2 second part": {
     "connects_to": ["chapter 2 third part"],
     "exit_requires": {
-      "chapter 2 third part": "|chapter 2 third part unlock|"
+      "chapter 2 third part": "|progressive chapter 2:3|"
     }
   },
   "chapter 2 third part": {
     "connects_to": ["chapter 2 fourth part"],
     "exit_requires": {
-      "chapter 2 fourth part": "|chapter 2 fourth part unlock|"
+      "chapter 2 fourth part": "|progressive chapter 2:4|"
     }
   },
   "chapter 2 fourth part": {},
   "chapter 3 first part": {
     "starting": true,
-    "requires": "|chapter 3 first part unlock|",
+    "requires": "|progressive chapter 3|",
     "connects_to": ["chapter 3 second part"],
     "exit_requires": {
-      "chapter 3 second part": "|chapter 3 second part unlock|"
+      "chapter 3 second part": "|progressive chapter 3:2|"
     }
   },
   "chapter 3 second part": {},
