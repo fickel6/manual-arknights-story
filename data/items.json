@@ -56,6 +56,17 @@
   },
   {
     "count": "1",
+    "name": "Astgenne the Lightchaser",
+    "category": [
+      "character",
+      "6 star", 
+      "supporter",
+      "ranged"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Bagpipe",
     "category": [
       "character",
@@ -146,6 +157,18 @@
   },
   {
     "count": "1",
+    "name": "Ch'en the Dawntreak",
+    "category": [
+      "operator",
+      "6 star",
+      "alter",
+      "guard",
+      "block"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Chongyue",
     "category": [
       "character",
@@ -191,7 +214,7 @@
   },
   {
     "count": "1",
-    "name": "Dorothty",
+    "name": "Dorothy",
     "category": [
       "character",
       "6 star",
@@ -767,6 +790,17 @@
   },
   {
     "count": "1",
+    "name": "Nasti",
+    "category": [
+      "operator",
+      "6 star",
+      "supporter",
+      "block"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Nearl the Radiant Knight",
     "category": [
       "character",
@@ -875,6 +909,17 @@
       "6 star",
       "specialist",
       "block"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Pramanix the Prerita",
+    "category": [
+      "character",
+      "6 star",
+      "caster",
+      "ranged"
     ],
     "progression": true
   },
@@ -1184,6 +1229,16 @@
     "progression": true
   },
   {
+    "count": "1",
+    "name": "Titi",
+    "category": [
+      "operator",
+      "6 star",
+      "medic"
+    ],
+    "progression": true
+  },
+  {
     "name": "Togawa Sakiko",
     "count": 1,
     "category": [
@@ -1426,7 +1481,7 @@
     "name": "Andreana",
     "category": [
       "character",
-      "6 star",
+      "5 star",
       "sniper",
       "ranged"
     ],
@@ -1504,17 +1559,6 @@
       "character",
       "5 star", 
       "caster",
-      "ranged"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "Astgenne the Lightchaser",
-    "category": [
-      "character",
-      "6 star", 
-      "supporter",
       "ranged"
     ],
     "progression": true
@@ -1683,6 +1727,17 @@
       "block"
     ],
     "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Cairn",
+    "category": [
+      "operator",
+      "5 star",
+      "defender",
+      "block"
+    ],
+    "useful": true
   },
   {
     "count": "1",
@@ -1955,7 +2010,7 @@
     "name": "Flamebringer",
     "category": [
       "character",
-      "6 star",
+      "5 star",
       "guard",
       "block"
     ],
@@ -2022,7 +2077,7 @@
     "name": "Glaucus",
     "category": [
       "character",
-      "6 star",
+      "5 star",
       "supporter",
       "ranged"
     ],
@@ -2315,7 +2370,7 @@
   },
   {
     "count": "1",
-    "name": "Kroos the Ken Glint",
+    "name": "Kroos the Keen Glint",
     "category": [
       "character",
       "5 star",
@@ -2341,7 +2396,7 @@
     "name": "Laios",
     "category": [
       "character",
-      "6 star",
+      "5 star",
       "guard",
       "block"
     ],
@@ -2656,6 +2711,16 @@
   },
   {
     "count": "1",
+    "name": "Perfumer the Distilled",
+    "category": [
+      "operator",
+      "5 star",
+      "supporter"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Philae",
     "category": [
       "character",
@@ -2700,17 +2765,6 @@
   },
   {
     "count": "1",
-    "name": "Pramanix the Prerita",
-    "category": [
-      "character",
-      "6 star",
-      "caster",
-      "ranged"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
     "name": "Projekt Red",
     "category": [
       "character",
@@ -2744,7 +2798,7 @@
   },
   {
     "count": "1",
-    "name": "Ptillopsis",
+    "name": "Ptilopsis",
     "category": [
       "character",
       "5 star",
@@ -2823,7 +2877,7 @@
     "name": "Robin",
     "category": [
       "character",
-      "6 star",
+      "5 star",
       "specialist"
     ],
     "progression": true
@@ -2961,6 +3015,17 @@
   },
   {
     "count": "1",
+    "name": "Skybox",
+    "category": [
+      "operator",
+      "5 star",
+      "sniper",
+      "ranged"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Skyfire",
     "category": [
       "character",
@@ -3055,6 +3120,16 @@
       "limited",
       "guard",
       "block"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Taraxacum",
+    "category": [
+      "operator",
+      "5 star",
+      "medic"
     ],
     "progression": true
   },
@@ -3180,6 +3255,16 @@
   },
   {
     "count": "1",
+    "name": "Varkáris",
+    "category": [
+      "operator",
+      "5 star",
+      "medic"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Vendela",
     "category": [
       "character",
@@ -3287,7 +3372,7 @@
   },
   {
     "count": "1",
-    "name": "Wilde mane",
+    "name": "Wild mane",
     "category": [
       "character",
       "5 star",
