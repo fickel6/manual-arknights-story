@@ -54,21 +54,6 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
-    # Use this hook to remove locations from the world
-    locationNamesToRemove: list[str] = [] # List of location names
-    if not world.options.include_act_0:
-        locationNamesToRemove.append("act0 boss")
-    if not world.options.include_act_1:
-        locationNamesToRemove.append("act1 boss")
-    if not world.options.include_act_2:
-        locationNamesToRemove.append("act2 boss")
-    if not world.options.include_act_3 :
-        locationNamesToRemove.append("act3 boss")
-    for region in multiworld.regions:
-        if region.player == player:
-            for location in list(region.locations):
-                if location.name in locationNamesToRemove:
-                    region.locations.remove(location)
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
 # Valid item_config key/values:

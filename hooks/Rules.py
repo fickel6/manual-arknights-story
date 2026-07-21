@@ -1,6 +1,6 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value
+from ..Helpers import clamp, get_items_with_value, get_option_value
 from BaseClasses import MultiWorld, CollectionState
 
 import re
@@ -27,3 +27,16 @@ def anyClassLevel(state: CollectionState, player: int, level: str):
 def requiresMelee():
     """Returns a requires string that checks if the player has unlocked the tank."""
     return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
+
+
+#hook for combining normal operators and progressive characters
+def requiresBlock(world: World, state: CollectionState, player: int, amount: str):
+    return False
+
+def requiresranged(world: World, state: CollectionState, player: int, amount: str):
+    return False
+
+#function for checking if 3 and 4 is excluded or not
+# if it is excluded, it should return true. This way, if someone excluded 3 and 4 stars, all the stages will always be open
+def enabledOperators():
+    return True
