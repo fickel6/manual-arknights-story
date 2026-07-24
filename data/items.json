@@ -146,6 +146,18 @@
   },
   {
     "count": "1",
+    "name": "Ch'en the Dawnstreak",
+    "category": [
+      "operator",
+      "6 star",
+      "alter",
+      "guard",
+      "block"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Chongyue",
     "category": [
       "character",
@@ -281,7 +293,7 @@
   },
   {
     "count": "1",
-    "name": "exusiai the New Covenant",
+    "name": "Exusiai the New Covenant",
     "category": [
       "character",
       "6 star", 
@@ -519,7 +531,7 @@
   },
   {
     "count": "1",
-    "name": "Kalt'tsit",
+    "name": "Kal'tsit",
     "category": [
       "character",
       "6 star",
@@ -1886,7 +1898,7 @@
   },
   {
     "count": "1",
-    "name": "executor",
+    "name": "Executor",
     "category": [
       "character",
       "5 star",
@@ -2777,7 +2789,7 @@
   },
   {
     "count": "1",
-    "name": "Qeurcus",
+    "name": "Quercus",
     "category": [
       "character",
       "5 star",
@@ -3071,7 +3083,7 @@
   },
   {
     "count": "1",
-    "name": "Tequilla",
+    "name": "Tequila",
     "category": [
       "character",
       "5 star",
@@ -3277,7 +3289,7 @@
   },
   {
     "count": "1",
-    "name": "Wisperain",
+    "name": "Whisperain",
     "category": [
       "character",
       "5 star",
@@ -3320,7 +3332,7 @@
   },
   {
     "count": "1",
-    "name": "Fulfenite",
+    "name": "Wulfenite",
     "category": [
       "character",
       "5 star",
@@ -3764,7 +3776,7 @@
   },
   {
     "count": "1",
-    "name": "matterhorn",
+    "name": "Matterhorn",
     "category": [
       "character",
       "4 star",
