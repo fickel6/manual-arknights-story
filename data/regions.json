@@ -55,16 +55,16 @@
   "chapter 3 second part": {},
   "chapter 4 first part": {
     "starting": true,
-    "requires": "|chapter 4 first part unlock|",
+    "requires": "|progressive chapter 4|",
     "connects_to": ["chapter 4 second part"],
     "exit_requires": {
-      "chapter 4 second part": "|chapter 4 second part unlock|"
+      "chapter 4 second part": "|progressive chapter 4:2|"
     }
   },
   "chapter 4 second part": {
     "connects_to": ["chapter 4 third part"],
     "exit_requires": {
-      "chapter 4 third part": "|chapter 4 third part unlock|"
+      "chapter 4 third part": "|progressive chapter 4:3|"
     }
   },
   "chapter 4 third part": {},
