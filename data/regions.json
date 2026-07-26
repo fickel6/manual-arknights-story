@@ -70,76 +70,76 @@
   "chapter 4 third part": {},
   "chapter 5 first part": {
     "starting": true,
-    "requires": "|chapter 5 first part unlock|",
+    "requires": "|progressive chapter 5|",
     "connects_to": ["chapter 5 second part"],
     "exit_requires": {
-      "chapter 5 second part": "|chapter 5 second part unlock|"
+      "chapter 5 second part": "|progressive chapter 5:2|"
     }
   },
   "chapter 5 second part": {
     "connects_to": ["chapter 5 third part"],
     "exit_requires": {
-      "chapter 5 third part": "|chapter 5 third part unlock|"
+      "chapter 5 third part": "|progressive chapter 5:3|"
     }
   },
   "chapter 5 third part": {
     "connects_to": ["chapter 5 H-stages"],
     "exit_requires": {
-      "chapter 5 H-stages": "|chapter 5 H-stages unlock|"
+      "chapter 5 H-stages": "|progressive chapter 5:4|"
     }
   },
   "chapter 5 H-stages": {},
   "chapter 6 first part": {
     "starting": true,
-    "requires": "|chapter 6 first part unlock|",
+    "requires": "|progressive chapter 6|",
     "connects_to": ["chapter 6 second part"],
     "exit_requires": {
-      "chapter 6 second part": "|chapter 6 second part unlock|"
+      "chapter 6 second part": "|progressive chapter 6:2|"
     }
   },
   "chapter 6 second part": {
     "connects_to": ["chapter 6 third part"],
     "exit_requires": {
-      "chapter 6 third part": "|chapter 6 third part unlock|"
+      "chapter 6 third part": "|progressive chapter 6:3|"
     }
   },
   "chapter 6 third part": {
     "connects_to": ["chapter 6 H-stages"],
     "exit_requires": {
-      "chapter 6 H-stages": "|chapter 6 H-stages unlock|"
+      "chapter 6 H-stages": "|progressive chapter 6:4|"
     }
   },
   "chapter 6 H-stages": {},
   "chapter 7 first part": {
     "starting": true,
-    "requires": "|chapter 7 first part unlock|",
+    "requires": "|progressive chapter 7|",
     "connects_to": ["chapter 7 second part"],
     "exit_requires": {
-      "chapter 7 second part": "|chapter 7 second part unlock|"
+      "chapter 7 second part": "|progressive chapter 7:2|"
     }
   },
   "chapter 7 second part": {
     "connects_to": ["chapter 7 third part"],
     "exit_requires": {
-      "chapter 7 third part": "|chapter 7 third part unlock|"
+      "chapter 7 third part": "|progressive chapter 7:3|"
     }
   },
   "chapter 7 third part": {
     "connects_to": ["chapter 7 fourth part"],
     "exit_requires": {
-      "chapter 7 fourth part": "|chapter 7 fourth part unlock|"
+      "chapter 7 fourth part": "|progressive chapter 7:4|"
     }
   },
   "chapter 7 fourth part": {
     "connects_to": ["chapter 7 fifth part"],
     "exit_requires": {
-      "chapter 7 fifth part": "|chapter 7 fifth part unlock|"
+      "chapter 7 fifth part": "|progressive chapter 7:5|"
     }
   },
   "chapter 7 fifth part": {
     "connects_to": ["chapter 7 H-stages"],
     "exit_requires": {
-      "chapter 7 H-stages": "|chapter 7 H-stages unlock|"
+      "chapter 7 H-stages": "|progressive chapter 7:6|"
     }
   },
   "chapter 7 H-stages": {},
