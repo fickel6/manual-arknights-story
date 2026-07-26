@@ -4478,9 +4478,17 @@
     ]
   },
   {
-    "count": "7",
-    "_comment": "maybe split it into 3 different parts? could also result into the same issue",
-    "name": "progressive chapter 8",
+    "count": "3",
+    "_comment": "past chapters is only the Tallula story (botched the name, fix later)",
+    "name": "progressive chapter 8 past",
+    "category": [
+      "chapter unlock"
+    ]
+  },
+  {
+    "count": "3",
+    "_comment": "present story (with doctor). this will also continue to last part (is also present day), but still requires beating the past stages",
+    "name": "progressive chapter 8 present",
     "category": [
       "chapter unlock"
     ]
