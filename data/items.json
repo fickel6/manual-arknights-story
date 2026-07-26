@@ -4508,6 +4508,19 @@
   },
   {
     "count": "1",
+    "name": "beaten stage",
+    "category": ["stage clear"],
+    "progression": true
+  },
+  {
+    "count": "100",
+    "name": "Originium Prime",
+    "category": ["OP hunt"],
+    "progression": true,
+    "_comment": "your usual collectible hunt. could be less, but could also be more. "
+  },
+  {
+    "count": "1",
     "name": "chapter 0 first part unlock",
     "category": [
       "chapter unlock",

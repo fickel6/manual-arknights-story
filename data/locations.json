@@ -4458,15 +4458,15 @@
     "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND |@6 star:1|"
   },
   {
-    "name": "boss chapter",
+    "name": "boss chapter cleared",
     "category": ["goal"],
     "requires": "|defeated bosses|",
     "victory": true
   },
   {
-    "name": "H-stages chapter",
+    "name": "H-stages cleared",
     "category": ["goal"],
-    "requires": "|defeated bosses|",
+    "requires": "|beaten stage|",
     "victory": true
   },
   {
