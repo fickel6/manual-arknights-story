@@ -101,7 +101,17 @@
             "type": "Range",
             "default": 10,
             "range_start": 1,
-            "range_end": 100
+            "range_end": 50
+        },
+        "extra OP": {
+            "description": [
+                "how many extra Originium prime there is available in the manual.",
+                "this will make the manual easier to beat."
+            ],
+            "type": "Range",
+            "default": 0,
+            "range_start": 1,
+            "range_end": 500
         },
         "include 6 stars":{
             "description": [
