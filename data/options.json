@@ -93,7 +93,7 @@
             "range_start": 1,
             "range_end": 16
         },
-        "_originium prime hunt": {
+        "originium prime hunt": {
             "description": [
                 "choose how many Originium prime you need to collect to beat the manual",
                 "if a different goal is chosen, this option won't do anything"
@@ -101,10 +101,8 @@
             "type": "Range",
             "default": 10,
             "range_start": 1,
-            "range_end": 40
+            "range_end": 100
         },
-
-
         "include 6 stars":{
             "description": [
                 "how the 6 stars will be randomised",

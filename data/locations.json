@@ -4474,5 +4474,11 @@
     "category": ["goal"],
     "requires": "|defeated bosses:ALL|",
     "victory": true
+  },
+  {
+    "name": "collect OP",
+    "category": ["goal"],
+    "requires": "|Originium Prime:ALL|",
+    "victory": true
   }
 ]

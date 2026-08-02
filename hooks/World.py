@@ -236,13 +236,19 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     victory_location = multiworld.get_location(victory_name, player)
     if victory_name != "beat x bosses":
         return None
-    amount_bosses = world.options.amount_boss
 
     def check_boss_amount(state: CollectionState):
         #really simple. just check how many boss amount is collected
-        return state.has_group("boss clear", player, amount_bosses)
-    
-    victory_location.access_rule = lambda state: check_boss_amount(state)
+        return state.has_group("boss clear", player, world.options.amount_boss)
+    def check_OP_amount(state: CollectionState):
+        return state.has_group("Originium Prime", player, world.options.originium_prime_hunt)
+    match victory_name:
+        #really simple. just check how many items is collected
+        #also made this a match case statement, because there are 2 different conditions need to be changed
+        case "beat x bosses":
+            victory_location.access_rule = lambda state: check_boss_amount(state)
+        case "collect OP":
+            victory_location.access_rule = lambda state: check_OP_amount(state)
 
     # def Example_Rule(state: CollectionState) -> bool:
     #     # Calculated rules take a CollectionState object and return a boolean
@@ -338,6 +344,9 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
         case "beat multiple boss stages":
             placed_item = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
             boss_locations.extend([name for name, i in world.location_name_to_location.items() if "boss stage" in i.get("category", [])])
+        case "collect OP":
+            #no need to force place items in collect runs. only needs to remove items, which is done in a different hook (before_create_items_filler)
+            return
 
     # print("boss locations: [%s]" % ", ".join(boss_locations))
     #Force place the 'defeated boss' in the boss_locations just found.
