@@ -58,7 +58,7 @@
                 "chapter 16": 16
             }
         },
-        "H-stage clear": {
+        "H_stage clear": {
             "description": [
                 "choose what H-stage you need to clear to win this manual.",
                 "if the chosen chapter isn't included in the manual,",

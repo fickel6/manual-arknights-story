@@ -4470,7 +4470,7 @@
     "victory": true
   },
   {
-    "name": "beat x bosses",
+    "name": "beat multiple boss stages",
     "category": ["goal"],
     "requires": "|defeated bosses:ALL|",
     "victory": true

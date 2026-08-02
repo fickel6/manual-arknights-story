@@ -271,9 +271,10 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
     boss_locations = []
+    placed_item = next(i for i in multiworld.get_items() if i.player == player and "beaten stage" == i.name)
     match victory_name:
-        case "act0 boss":
-            match world.options.act_0_boss_clear.value:
+        case "boss chapter cleared":
+            match world.options.chapter_boss_clear.value:
                 case 0:
                     boss_locations.append("0-11 clear")
                 case 1:
@@ -282,48 +283,69 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                     boss_locations.append("2-10 clear")
                 case 3:
                     boss_locations.append("3-8 clear")
-        case "act1 boss":
-            match world.options.act_1_boss_clear.value:
-                case 0:
+                case 4:
                     boss_locations.append("4-10 clear")
-                case 1:
-                    boss_locations.append("5-10 clear")
-                case 2:
-                    boss_locations.append("6-16 clear")
-                case 3:
-                    boss_locations.append("7-20 clear")
-                case 4:
-                    boss_locations.append("JT8-3 clear")
-        case "act2 boss":
-            match world.options.act_2_boss_clear.value:
-                case 0:
-                    boss_locations.append("9-19 clear")
-                case 1:
-                    boss_locations.append("10-17 clear")
-                case 2:
-                    boss_locations.append("11-20 clear")
-                case 3:
-                    boss_locations.append("12-20 clear")
-                case 4:
-                    boss_locations.append("13-21 clear")
                 case 5:
+                    boss_locations.append("5-10 clear")
+                case 6:
+                    boss_locations.append("6-16 clear")
+                case 7:
+                    boss_locations.append("7-18 clear")
+                case 8:
+                    boss_locations.append("JT8-3 clear")
+                case 9:
+                    boss_locations.append("9-19 clear")
+                case 10:
+                    boss_locations.append("10-17 clear")
+                case 11:
+                    boss_locations.append("11-20 clear")
+                case 12:
+                    boss_locations.append("12-20 clear")
+                case 13:
+                    boss_locations.append("13-21 clear")
+                case 14:
                     boss_locations.append("14-21 clear")
-        case "act3 boss":
-            match world.options.act_3_boss_clear.value:
-                case 0:
+                case 15:
                     boss_locations.append("15-20 clear")
-                case 1:
+                case 16:
                     boss_locations.append("16-16 clear")
-        case "beat x bosses":
+        case "H-stages cleared":
+            match world.options.H_stage_clear.value:
+                case 5:
+                    boss_locations.append("H5-4 clear")
+                case 6:
+                    boss_locations.append("H6-4 clear")
+                case 7:
+                    boss_locations.append("H7-4 clear")
+                case 8:
+                    boss_locations.append("H8-4 clear")
+                case 9:
+                    boss_locations.append("H9-6 clear")
+                case 10:
+                    boss_locations.append("H10-3 clear")
+                case 11:
+                    boss_locations.append("H11-4 clear")
+                case 12:
+                    boss_locations.append("H12-4 clear")
+                case 13:
+                    boss_locations.append("H13-4 clear")
+                case 14:
+                    boss_locations.append("H14-4 clear")
+                case 15:
+                    boss_locations.append("H15-4 clear")
+                case 16:
+                    boss_locations.append("H16-4 clear")
+        case "beat multiple boss stages":
+            placed_item = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
             boss_locations.extend([name for name, i in world.location_name_to_location.items() if "boss stage" in i.get("category", [])])
 
     # print("boss locations: [%s]" % ", ".join(boss_locations))
     #Force place the 'defeated boss' in the boss_locations just found.
     for location in boss_locations:
-        beat_boss = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
+        placed_item = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
         placed_location = multiworld.get_location(location, player)
-        placed_location.place_locked_item(beat_boss)
-        multiworld.itempool.remove(beat_boss)
+        placed_location.place_locked_item(placed_item)
+        multiworld.itempool.remove(placed_item)
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
 def after_generate_basic(world: World, multiworld: MultiWorld, player: int):
