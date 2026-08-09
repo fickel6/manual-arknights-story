@@ -73,9 +73,16 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     victory_name = victory_names[world.options.goal]
 
     max_amount_bosses = 17
-    if victory_name != "beat x bosses":
+    if victory_name == "collect OP":
+        for _ in range(100 - world.options.originium_prime_hunt.value):
+            item_pool.remove(next(i for i in item_pool if i.name == "Originium Prime"))
+        for _ in range(max_amount_bosses):
+            item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
+    elif victory_name != "beat x bosses":
         for _ in range(max_amount_bosses - 1):
             item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
+        for _ in range(100):
+            item_pool.remove(next(i for i in item_pool if i.name == "Originium Prime"))
     #remove all the excluded operators
     def remove_character(prog_item, item_name, amount_progressive, option):
         # print(option)
@@ -114,22 +121,43 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    starting_chapter = []
-    starting_chapter.extend(
-        name for name, i in world.item_name_to_item.items() if "start chapter" in i.get("category", [])
-    )
-    # print(starting_chapter)
-    while True:
-        try:
-            random_starting_chapter = world.random.choice(starting_chapter)
-            print("trying to find " + random_starting_chapter)
-            collect_chapter = next(i for i in item_pool if i.name == random_starting_chapter)
-        except:
-            starting_chapter.remove(random_starting_chapter)
-            continue
-        else:
-            break
-
+    #collect the first chapter unlock
+    match world.options.starting_chapter.value:
+        case 0:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 0 first part unlock")
+        case 1:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 1 first part unlock")
+        case 2:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 2 first part unlock")
+        case 3:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 3 first part unlock")
+        case 4:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 4 first part unlock")
+        case 5:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 5 first part unlock")
+        case 6:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 6 first part unlock")
+        case 7:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 7 first part unlock")
+        case 8:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 8 first part unlock")
+        case 9:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 9 first part unlock")
+        case 10:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 10 first part unlock")
+        case 11:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 11 first part unlock")
+        case 12:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 12 first part unlock")
+        case 13:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 13 first part unlock")
+        case 14:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 14 first part unlock")
+        case 15:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 15 first part unlock")
+        case 16:
+            collect_chapter = next(i for i in item_pool if i.name == "chapter 16 first part unlock")
+        
     multiworld.push_precollected(collect_chapter)
     item_pool.remove(collect_chapter)
     
@@ -141,6 +169,9 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         name for name, i in world.item_name_to_item.items() if "progressive characters" in i.get("category", [])
     )
     amount_operators = world.options.starting_squad_range
+    #helper function. checks if the item is a rarity or progressive rarity.
+    #returns true, false if it is a rarity; false, true if it is a progressive rarity; false, false if it is neither
+    #true, true should never happen
     def rarity(name_i: str, rarity:str, prog_rarity: str) ->tuple[bool, bool]:
         try:
             next(
@@ -161,7 +192,9 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         else:
             #it is this rarity
             return (True, False)
-    
+
+    #helper function. determine how many slots are already occupied.
+    #higher rarity means more slots are occupied. 6 star = 4 slots, 5 star = 2 slots, 4 star and lower = 1 slot
     def remove_amount(name:str) ->int:
         amount_operators = 0
         detemined_rarity = rarity(name, "6 star", "progressive 6 star")
