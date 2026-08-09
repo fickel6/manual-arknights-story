@@ -214,6 +214,31 @@
             ],
             "group": "operator options"
         },
+        "squad size sanity": {
+            "type": "Choice",
+            "default": 0,
+            "values": {
+                "off": 0,
+                "exclude support unit": 1,
+                "include support unit": 2
+            },
+            "description": [
+                "add the squad size as an progressive item in the manual.",
+                "'off': no progressive squads are included in the manual. all the slots may be used",
+                "'exclude support unit': all 12 squad slots are included. support unit is excluded and may be used",
+                "'include support unit': all squad slots are included, even the support unit."
+            ]
+        },
+        "starting squad size": {
+            "type": "Range",
+            "default":4,
+            "range_start": 1,
+            "range_end": 13,
+            "description": [
+                "the starting squad size if squad size sanity is enabled.",
+                "if this option is disabled, this option won't do anything"
+            ]
+        },
         "starting chapter": {
             "type": "Choice",
             "default": 0,
