@@ -41,5 +41,9 @@
     "extreme operations": {
         "yaml_option": ["strategic sanity"],
         "hidden": true
+    },
+    "3-star sanity": {
+        "yaml_option": ["3-star sanity"],
+        "hidden": true
     }
 }
