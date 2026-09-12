@@ -128,6 +128,19 @@
             },
             "group": "operator options"
         },
+        "amount progressive 6 stars": {
+            "description": [
+                "sets the amount of progressive 6 stars you can receive.",
+                "1 means that you can use 6 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots"
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 12,
+            "range_start": 1,
+            "range_end": 12,
+            "group": "operator options"
+        },
         "include 5 stars":{
             "description": [
                 "how the 5 stars will be randomised",
@@ -141,6 +154,19 @@
                 "progressive items": 1,
                 "exclude": 2
             },
+            "group": "operator options"
+        },
+        "amount progressive 5 stars": {
+            "description": [
+                "sets the amount of progressive 5 stars you can receive.",
+                "1 means that you can use 5 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots"
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 12,
+            "range_start": 1,
+            "range_end": 12,
             "group": "operator options"
         },
         "include 4 stars":{
@@ -158,6 +184,19 @@
             },
             "group": "operator options"
         },
+        "amount progressive 4 stars": {
+            "description": [
+                "sets the amount of progressive 4 stars you can receive.",
+                "1 means that you can use 4 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots"
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 3,
+            "range_start": 1,
+            "range_end": 12,
+            "group": "operator options"
+        },
         "include 3 stars":{
             "description": [
                 "how the 3 stars will be randomised",
@@ -171,6 +210,19 @@
                 "progressive items": 1,
                 "exclude": 2
             },
+            "group": "operator options"
+        },
+        "amount progressive 3 stars": {
+            "description": [
+                "sets the amount of progressive 3 stars you can receive.",
+                "1 means that you can use 3 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots"
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 3,
+            "range_start": 1,
+            "range_end": 12,
             "group": "operator options"
         },
         "include 1 and 2 stars":{
@@ -188,6 +240,19 @@
                 "exclude": 2
             },
             "default": 2,
+            "group": "operator options"
+        },
+        "amount progressive 1 and 2 stars": {
+            "description": [
+                "sets the amount of progressive 1 and 2 stars you can receive.",
+                "1 means that you can use 1 and 2 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots"
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 1,
+            "range_start": 1,
+            "range_end": 12,
             "group": "operator options"
         },
         "include random operators": {
