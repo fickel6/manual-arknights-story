@@ -4501,6 +4501,14 @@
     "progression": true
   },
   {
+    "count": "13",
+    "name": "increased squad size",
+    "category": [
+      "squad size"
+    ],
+    "progression": true
+  },
+  {
     "count": "20",
     "name": "random unit unlock",
     "category": [
