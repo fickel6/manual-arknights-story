@@ -56,7 +56,8 @@
                 "chapter 14": 14,
                 "chapter 15": 15,
                 "chapter 16": 16
-            }
+            },
+            "group": "goal options"
         },
         "H stage clear": {
             "description": [
@@ -80,7 +81,8 @@
                 "chapter 14": 9,
                 "chapter 15": 10,
                 "chapter 16": 11
-            }
+            },
+            "group": "goal options"
         },
         "amount boss": {
             "description": [
@@ -91,7 +93,8 @@
             "type": "Range",
             "default": 5,
             "range_start": 1,
-            "range_end": 16
+            "range_end": 16,
+            "group": "goal options"
         },
         "originium prime hunt": {
             "description": [
@@ -101,7 +104,8 @@
             "type": "Range",
             "default": 10,
             "range_start": 1,
-            "range_end": 50
+            "range_end": 50,
+            "group": "goal options"
         },
         "extra OP": {
             "description": [
@@ -111,7 +115,8 @@
             "type": "Range",
             "default": 0,
             "range_start": 1,
-            "range_end": 500
+            "range_end": 500,
+            "group": "goal options"
         },
         "include 6 stars":{
             "description": [
@@ -137,7 +142,7 @@
             "_comment": "description can be better",
             "type": "Range",
             "default": 12,
-            "range_start": 1,
+            "range_start": 2,
             "range_end": 12,
             "group": "operator options"
         },
@@ -165,7 +170,7 @@
             "_comment": "description can be better",
             "type": "Range",
             "default": 12,
-            "range_start": 1,
+            "range_start": 2,
             "range_end": 12,
             "group": "operator options"
         },
@@ -193,7 +198,7 @@
             "_comment": "description can be better",
             "type": "Range",
             "default": 3,
-            "range_start": 1,
+            "range_start": 2,
             "range_end": 12,
             "group": "operator options"
         },
@@ -221,7 +226,7 @@
             "_comment": "description can be better",
             "type": "Range",
             "default": 3,
-            "range_start": 1,
+            "range_start": 2,
             "range_end": 12,
             "group": "operator options"
         },
@@ -251,7 +256,7 @@
             "_comment": "description can be better",
             "type": "Range",
             "default": 1,
-            "range_start": 1,
+            "range_start": 2,
             "range_end": 12,
             "group": "operator options"
         },
@@ -267,9 +272,9 @@
             ],
             "group": "operator options"
         },
-        "starting squad range": {
+        "starting squad size": {
             "type": "Range",
-            "default": 1,
+            "default": 4,
             "range_start": 1,
             "range_end": 13,
             "description": [
@@ -292,17 +297,8 @@
                 "'off': no progressive squads are included in the manual. all the slots may be used",
                 "'exclude support unit': all 12 squad slots are included. support unit is excluded and may be used",
                 "'include support unit': all squad slots are included, even the support unit."
-            ]
-        },
-        "starting squad size": {
-            "type": "Range",
-            "default":4,
-            "range_start": 1,
-            "range_end": 13,
-            "description": [
-                "the starting squad size if squad size sanity is enabled.",
-                "if this option is disabled, this option won't do anything"
-            ]
+            ],
+            "group": "operator options"
         },
         "starting chapter": {
             "type": "Choice",
@@ -326,7 +322,7 @@
                 "chapter 15": 15,
                 "chapter 16": 16
             },
-            "group": "something"
+            "group": "goal options"
         },
         "sub operations sanity": {
             "type": "Toggle",
@@ -337,7 +333,7 @@
             ],
             "group": "operations options"
         },
-        "_challenge sanity": {
+        "challenge sanity": {
             "type": "Toggle",
             "default": false,
             "description": [
@@ -346,7 +342,7 @@
             ],
             "group": "operations options"
         },
-        "_strategic sanity": {
+        "strategic sanity": {
             "type": "Toggle",
             "default": false,
             "description": [
