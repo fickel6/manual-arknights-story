@@ -4434,750 +4434,131 @@
     "progression": true
   },
   {
-    "count": "1",
-    "name": "chapter 0 first part unlock",
+    "count": "2",
+    "name": "progressive chapter 0",
     "category": [
-      "chapter unlock",
-      "act 0",
-      "start chapter"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 0 second part unlock",
+    "count": "3",
+    "name": "progressive chapter 1",
     "category": [
-      "chapter unlock",
-      "act 0"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 1 first part unlock",
+    "count": "4",
+    "name": "progressive chapter 2",
     "category": [
-      "chapter unlock",
-      "act 0",
-      "start chapter"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 1 second part unlock",
+    "count": "2",
+    "name": "progressive chapter 3",
     "category": [
-      "chapter unlock",
-      "act 0"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 1 third part unlock",
+    "count": "3",
+    "name": "progressive chapter 4",
     "category": [
-      "chapter unlock",
-      "act 0"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 2 first part unlock",
+    "count": "4",
+    "name": "progressive chapter 5",
     "category": [
-      "chapter unlock",
-      "act 0",
-      "start chapter"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 2 second part unlock",
+    "count": "4",
+    "name": "progressive chapter 6",
     "category": [
-      "chapter unlock",
-      "act 0"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 2 third part unlock",
+    "count": "6",
+    "name": "progressive chapter 7",
     "category": [
-      "chapter unlock",
-      "act 0"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 2 fourth part unlock",
+    "count": "3",
+    "_comment": "past chapters is only the Tallula story (botched the name, fix later)",
+    "name": "progressive chapter 8 past",
     "category": [
-      "chapter unlock",
-      "act 0"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 3 first part unlock",
+    "count": "3",
+    "_comment": "present story (with doctor). this will also continue to last part (is also present day), but still requires beating the past stages",
+    "name": "progressive chapter 8 present",
     "category": [
-      "chapter unlock",
-      "act 0",
-      "start chapter"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 3 second part unlock",
+    "count": "5",
+    "name": "progressive chapter 9",
     "category": [
-      "chapter unlock",
-      "act 0"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 4 first part unlock",
+    "count": "6",
+    "name": "progressive chapter 10",
     "category": [
-      "chapter unlock",
-      "act 1",
-      "start chapter"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 4 second part unlock",
+    "count": "6",
+    "name": "progressive chapter 11",
     "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 4 third part unlock",
+    "count": "6",
+    "name": "progressive chapter 12",
     "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 5 first part unlock",
+    "count": "6",
+    "name": "progressive chapter 13",
     "category": [
-      "chapter unlock",
-      "act 1",
-      "start chapter"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 5 second part unlock",
+    "count": "6",
+    "name": "progressive chapter 14",
     "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 5 third part unlock",
+    "count": "6",
+    "name": "progressive chapter 15",
     "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   },
   {
-    "count": "1",
-    "name": "chapter 5 H-stages unlock",
+    "count": "5",
+    "name": "progressive chapter 16",
     "category": [
-      "chapter unlock",
-      "act 1",
-      "H stage"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 6 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 6 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 6 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 6 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 7 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 7 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 7 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 7 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 7 fifth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 7 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 8 past unlock",
-    "category": [
-      "chapter unlock",
-      "act 1",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 8 past second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 8 past third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 8 present unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 8 present reading unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 8 last part unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 8 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 1"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 9 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 9 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 9 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 9 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 9 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 10 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 10 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 10 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 10 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 10 fifth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 10 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 11 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 11 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 11 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 11 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 11 fifth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 11 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 12 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 12 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 12 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 12 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 12 fifth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 12 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 13 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 13 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 13 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 13 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 13 fifth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 13 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 14 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 14 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 14 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 14 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 14 fifth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 14 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 2"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 15 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 3",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 15 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 15 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 15 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 15 fifth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 15 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 16 first part unlock",
-    "category": [
-      "chapter unlock",
-      "act 3",
-      "start chapter"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 16 second part unlock",
-    "category": [
-      "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 16 third part unlock",
-    "category": [
-      "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 16 fourth part unlock",
-    "category": [
-      "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "chapter 16 H-stages unlock",
-    "category": [
-      "chapter unlock",
-      "act 3"
-    ],
-    "progression": true
+      "chapter unlock"
+    ]
   }
 ]
