@@ -383,13 +383,13 @@
   {
     "name": "2-10 clear",
     "category": ["act 0", "chapter 2", "boss stage"],
-    "region": "chapter 2 first part",
+    "region": "chapter 2 fourth part",
     "requires": ""
   },
   {
     "name": "2-10 3-star clear",
     "category": ["act 0", "chapter 2"],
-    "region": "chapter 2 first part",
+    "region": "chapter 2 fourth part",
     "requires": "|@character:6| AND |@ranged:1| AND |@block:2|"
   },
   {
