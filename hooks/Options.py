@@ -1,5 +1,5 @@
 # Object classes from AP that represent different types of options that you can create
-from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions
+from Options import Option, OptionSet, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
 from typing import Type, Any
@@ -33,7 +33,7 @@ class TotalCharactersToWinWith(Range):
     default = 50
 
 class chapters(OptionSet):
-    """enabled 3 star in the manual. only works when 3 star are individual items"""  # Description of the yaml option in the template
+    """list for enabling/disabling chapters"""  # Description of the yaml option in the template
     display_name = "included chapters"           # Name of the option in the spoiler
     valid_keys = {  #define my own list to choose included chapters
         "chapter 0": "c0", "chapter 1": "c1", "chapter 2": "c2", "chapter 3": "c3", "chapter 4": "c4", 
@@ -75,13 +75,13 @@ class EnabledLowStar(OptionSet):
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
-    options["included_chapters"] = chapters
+    # options["included_chapters"] = chapters
 
-    options["listing_6_star"] = Enabled6Star  # This registers the yaml option as `listing_6_star`
-    options["listing_5_star"] = Enabled5Star  # This registers the yaml option as `listing_5_star`
-    options["listing_4_star"] = Enabled4Star  # This registers the yaml option as `listing_4_star`
-    options["listing_3_star"] = Enabled3Star  # This registers the yaml option as `listing_3_star`
-    options["listing_low_star"] = EnabledLowStar  # This registers the yaml option as `listing_low_star`
+    # options["listing_6_star"] = Enabled6Star  # This registers the yaml option as `listing_6_star`
+    # options["listing_5_star"] = Enabled5Star  # This registers the yaml option as `listing_5_star`
+    # options["listing_4_star"] = Enabled4Star  # This registers the yaml option as `listing_4_star`
+    # options["listing_3_star"] = Enabled3Star  # This registers the yaml option as `listing_3_star`
+    # options["listing_low_star"] = EnabledLowStar  # This registers the yaml option as `listing_low_star`
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
@@ -99,8 +99,8 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
-    groups["enabled_chapters"] = [chapters]
-    groups["include operators"] = [Enabled6Star, Enabled5Star, Enabled4Star, Enabled3Star, EnabledLowStar]
+    # groups["enabled_chapters"] = [chapters]
+    # groups["include operators"] = [Enabled6Star, Enabled5Star, Enabled4Star, Enabled3Star, EnabledLowStar]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
