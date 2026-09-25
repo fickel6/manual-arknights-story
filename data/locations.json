@@ -7,7 +7,7 @@
   },
   {
     "name": "0-1 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 first part",
     "requires": ""
   },
@@ -19,7 +19,7 @@
   },
   {
     "name": "0-2 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 first part",
     "requires": ""
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "0-3 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 first part",
     "requires": "|@ranged:1|"
   },
@@ -43,7 +43,7 @@
   },
   {
     "name": "0-4 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 first part",
     "requires": "|@ranged:1|"
   },
@@ -55,7 +55,7 @@
   },
   {
     "name": "0-5 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 first part",
     "requires": "|@ranged:1|"
   },
@@ -67,7 +67,7 @@
   },
   {
     "name": "0-6 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 second part",
     "requires": "|@ranged:1| AND |@block:1|"
   },
@@ -79,7 +79,7 @@
   },
   {
     "name": "0-7 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 second part",
     "requires": ""
   },
@@ -91,7 +91,7 @@
   },
   {
     "name": "0-8 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 second part",
     "requires": ""
   },
@@ -103,7 +103,7 @@
   },
   {
     "name": "0-9 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 second part",
     "requires": ""
   },
@@ -115,7 +115,7 @@
   },
   {
     "name": "0-10 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 second part",
     "requires": "|@ranged:1| AND |@block:1|"
   },
@@ -127,7 +127,7 @@
   },
   {
     "name": "0-11 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 0 second part",
     "requires": "|@character:5|"
   },
@@ -139,7 +139,7 @@
   },
   {
     "name": "1-1 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 first part",
     "requires": "|@block:1|"
   },
@@ -150,7 +150,7 @@
   },
   {
     "name": "1-2 3-star clear",
-    "category": ["act 0", "chapter 0", "fixed squad", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "fixed squad", "3-stars"],
     "region": "chapter 1 first part"
   },
   {
@@ -161,7 +161,7 @@
   },
   {
     "name": "1-3 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 first part",
     "requires": "|@block:2|"
   },
@@ -173,7 +173,7 @@
   },
   {
     "name": "1-4 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 first part",
     "requires": "|@block:3|"
   },
@@ -185,7 +185,7 @@
   },
   {
     "name": "1-5 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 first part",
     "requires": "|@block:4|"
   },
@@ -197,7 +197,7 @@
   },
   {
     "name": "1-6 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 second part",
     "requires": "|@block:1|"
   },
@@ -209,7 +209,7 @@
   },
   {
     "name": "1-7 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 second part",
     "requires": ""
   },
@@ -221,7 +221,7 @@
   },
   {
     "name": "1-8 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 second part",
     "requires": "|@character:5| AND |@block:1|"
   },
@@ -233,7 +233,7 @@
   },
   {
     "name": "1-9 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 third part",
     "requires": ""
   },
@@ -245,7 +245,7 @@
   },
   {
     "name": "1-10 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 third part",
     "requires": "|@ranged:1| AND |@block:2|"
   },
@@ -256,7 +256,7 @@
   },
   {
     "name": "1-11 3-star clear",
-    "category": ["act 0", "chapter 1", "fixed squad", "3-star sanity"],
+    "category": ["act 0", "chapter 1", "fixed squad", "3-stars"],
     "region": "chapter 1 third part"
   },
   {
@@ -267,7 +267,7 @@
   },
   {
     "name": "1-12 3-star clear",
-    "category": ["act 0", "chapter 0", "3-star sanity"],
+    "category": ["act 0", "chapter 0", "3-stars"],
     "region": "chapter 1 third part",
     "requires": "|@character:7| AND |@ranged:3| AND |@block:1|"
   },
@@ -279,7 +279,7 @@
   },
   {
     "name": "2-1 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 first part",
     "requires": ""
   },
@@ -291,7 +291,7 @@
   },
   {
     "name": "2-2 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 first part",
     "requires": "|@block:1|"
   },
@@ -304,7 +304,7 @@
   },
   {
     "name": "2-3 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 first part",
     "requires": "|@block:1| AND |@ranged:1|"
   },
@@ -316,7 +316,7 @@
   },
   {
     "name": "2-4 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 second part",
     "requires": ""
   },
@@ -328,7 +328,7 @@
   },
   {
     "name": "2-5 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 second part",
     "requires": "|@block:1|"
   },
@@ -340,7 +340,7 @@
   },
   {
     "name": "2-6 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 third part",
     "requires": "|@block:2|"
   },
@@ -352,7 +352,7 @@
   },
   {
     "name": "2-7 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 third part",
     "requires": "|@ranged:2|"
   },
@@ -364,7 +364,7 @@
   },
   {
     "name": "2-8 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 third part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -376,7 +376,7 @@
   },
   {
     "name": "2-9 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 fourth part",
     "requires": ""
   },
@@ -388,7 +388,7 @@
   },
   {
     "name": "2-10 3-star clear",
-    "category": ["act 0", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "chapter 2", "3-stars"],
     "region": "chapter 2 first part",
     "requires": "|@character:6| AND |@ranged:1| AND |@block:2|"
   },
@@ -400,7 +400,7 @@
   },
   {
     "name": "S2-1 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 first part",
     "requires": "|@ranged:1|"
   },
@@ -412,7 +412,7 @@
   },
   {
     "name": "S2-2 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 first part",
     "requires": "|@ranged:2|"
   },
@@ -424,7 +424,7 @@
   },
   {
     "name": "S2-3 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 first part",
     "requires": "|@block:1|"
   },
@@ -436,7 +436,7 @@
   },
   {
     "name": "S2-4 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 first part",
     "requires": "|@block:1|"
   },
@@ -448,7 +448,7 @@
   },
   {
     "name": "S2-5 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 second part",
     "requires": ""
   },
@@ -460,7 +460,7 @@
   },
   {
     "name": "S2-6 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -473,7 +473,7 @@
   },
   {
     "name": "S2-7 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -485,7 +485,7 @@
   },
   {
     "name": "S2-8 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 third part",
     "requires": "|@ranged:1| AND |@block:2|"
   },
@@ -497,7 +497,7 @@
   },
   {
     "name": "S2-9 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 third part",
     "requires": "|@ranged:1| AND |@block:2|"
   },
@@ -509,7 +509,7 @@
   },
   {
     "name": "S2-10 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 fourth part",
     "requires": "|@ranged:1| AND |@block:2|"
   },
@@ -521,7 +521,7 @@
   },
   {
     "name": "S2-11 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 fourth part",
     "requires": "|@ranged:1| AND |@block:3|"
   },
@@ -533,7 +533,7 @@
   },
   {
     "name": "S2-12 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 2", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 2", "3-stars"],
     "region": "chapter 2 fourth part",
     "requires": "|@ranged:2| AND |@block:2|"
   },
@@ -545,7 +545,7 @@
   },
   {
     "name": "3-1 3-star clear",
-    "category": ["act 0", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "chapter 3", "3-stars"],
      "region": "chapter 3 first part",
     "requires": "|@block:1| AND |@ranged:2|"
   },
@@ -557,7 +557,7 @@
   },
   {
     "name": "3-2 3-star clear",
-    "category": ["act 0", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "chapter 3", "3-stars"],
      "region": "chapter 3 first part",
     "requires": "|@block:3|"
   },
@@ -569,7 +569,7 @@
   },
   {
     "name": "3-3 3-star clear",
-    "category": ["act 0", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "chapter 3", "3-stars"],
      "region": "chapter 3 first part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -581,7 +581,7 @@
   },
   {
     "name": "3-4 3-star clear",
-    "category": ["act 0", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "chapter 3", "3-stars"],
      "region": "chapter 3 first part",
     "requires": "|@vanguard:1| AND |@block:4| AND |@ranged:2| AND |@medic:1|"
   },
@@ -593,7 +593,7 @@
   },
   {
     "name": "3-5 3-star clear",
-    "category": ["act 0", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "chapter 3", "3-stars"],
      "region": "chapter 3 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -605,7 +605,7 @@
   },
   {
     "name": "3-6 3-star clear",
-    "category": ["act 0", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "chapter 3", "3-stars"],
      "region": "chapter 3 second part",
     "requires": "|@block:2|"
   },
@@ -617,7 +617,7 @@
   },
   {
     "name": "3-7 3-star clear",
-    "category": ["act 0", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "chapter 3", "3-stars"],
      "region": "chapter 3 second part",
     "requires": "|@block:1| AND |@ranged:1|"
   },
@@ -629,7 +629,7 @@
   },
   {
     "name": "3-8 3-star clear",
-    "category": ["act 0", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "chapter 3", "3-stars"],
      "region": "chapter 3 second part",
     "requires": "|@block:2| AND |@ranged:2| AND |@medic:1|"
   },
@@ -641,7 +641,7 @@
   },
   {
     "name": "S3-1 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 3", "3-stars"],
      "region": "chapter 3 first part",
     "requires": "|@block:1|"
   },
@@ -653,7 +653,7 @@
   },
   {
     "name": "S3-2 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 3", "3-stars"],
      "region": "chapter 3 first part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -665,7 +665,7 @@
   },
   {
     "name": "S3-3 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 3", "3-stars"],
      "region": "chapter 3 second part",
     "requires": "|@block:2|"
   },
@@ -677,7 +677,7 @@
   },
   {
     "name": "S3-4 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 3", "3-stars"],
      "region": "chapter 3 second part",
     "requires": "|@block:4|"
   },
@@ -689,7 +689,7 @@
   },
   {
     "name": "S3-5 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 3", "3-stars"],
      "region": "chapter 3 second part",
     "requires": "|@block:1| AND |@ranged:2|"
   },
@@ -701,7 +701,7 @@
   },
   {
     "name": "S3-6 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 3", "3-stars"],
      "region": "chapter 3 second part",
     "requires": "|@block:2|"
   },
@@ -713,7 +713,7 @@
   },
   {
     "name": "S3-7 3-star clear",
-    "category": ["act 0", "sub operations", "chapter 3", "3-star sanity"],
+    "category": ["act 0", "sub operations", "chapter 3", "3-stars"],
      "region": "chapter 3 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -725,7 +725,7 @@
   },
   {
     "name": "4-1 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 first part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -737,7 +737,7 @@
   },
   {
     "name": "4-2 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 first part",
     "requires": "|@block:1|"
   },
@@ -749,7 +749,7 @@
   },
   {
     "name": "4-3 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 first part",
     "requires": "|@block:2|"
   },
@@ -761,7 +761,7 @@
   },
   {
     "name": "4-4 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 first part",
     "requires": "|@block:2|"
   },
@@ -773,7 +773,7 @@
   },
   {
     "name": "4-5 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 second part",
     "requires": "|@block:2|"
   },
@@ -785,7 +785,7 @@
   },
   {
     "name": "4-6 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 second part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -797,7 +797,7 @@
   },
   {
     "name": "4-7 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 second part",
     "requires": "|@block:2| AND |@ranged:1| AND (|@block:3| OR |@ranged:2|)"
   },
@@ -809,7 +809,7 @@
   },
   {
     "name": "4-8 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@character:4|"
   },
@@ -821,7 +821,7 @@
   },
   {
     "name": "4-9 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@medic:2| AND |@character:6|"
   },
@@ -833,7 +833,7 @@
   },
   {
     "name": "4-10 3-star clear",
-    "category": ["act 1", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "chapter 4", "3-stars"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@6 star:1|"
   },
@@ -845,7 +845,7 @@
   },
   {
     "name": "S4-1 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 first part",
     "requires": "|@block:2|"
   },
@@ -857,7 +857,7 @@
   },
   {
     "name": "S4-2 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 first part",
     "requires": "|@block:1|"
   },
@@ -869,7 +869,7 @@
   },
   {
     "name": "S4-3 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 first part",
     "requires": "|@block:2|"
   },
@@ -881,7 +881,7 @@
   },
   {
     "name": "S4-4 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 second part",
     "requires": "|@block:1| AND (|@ranged:1| OR |@block:3| OR |@medic:1|)"
   },
@@ -893,7 +893,7 @@
   },
   {
     "name": "S4-5 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 second part",
     "requires": "|@block:1| AND |@ranged:1|"
   },
@@ -905,7 +905,7 @@
   },
   {
     "name": "S4-6 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 second part",
     "requires": "|@block:2|"
   },
@@ -917,7 +917,7 @@
   },
   {
     "name": "S4-7 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@character:4|"
   },
@@ -929,7 +929,7 @@
   },
   {
     "name": "S4-8 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@character:4|"
   },
@@ -941,7 +941,7 @@
   },
   {
     "name": "S4-9 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@ranged:2| AND |@character:6|"
   },
@@ -953,7 +953,7 @@
   },
   {
     "name": "S4-10 3-star clear",
-    "category": ["act 1", "sub operations", "chapter 4", "3-star sanity"],
+    "category": ["act 1", "sub operations", "chapter 4", "3-stars"],
     "region": "chapter 4 third part",
     "requires": "|@block:3| AND |@character:6|"
   },
@@ -965,7 +965,7 @@
   },
   {
     "name": "5-1 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 first part",
     "requires": "|@block:3|"
   },
@@ -977,7 +977,7 @@
   },
   {
     "name": "5-2 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 first part",
     "requires": "|@block:2|"
   },
@@ -989,7 +989,7 @@
   },
   {
     "name": "5-3 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 first part",
     "requires": "|@block:2| AND (|@ranged:2| OR |@block:3|)"
   },
@@ -1001,7 +1001,7 @@
   },
   {
     "name": "5-4 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 second part",
     "requires": "|@block:2| AND |@ranged:2| AND |@character:4|"
   },
@@ -1013,7 +1013,7 @@
   },
   {
     "name": "5-5 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -1025,7 +1025,7 @@
   },
   {
     "name": "5-6 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 second part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -1037,7 +1037,7 @@
   },
   {
     "name": "5-7 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 second part",
     "requires": "|@block:2| AND |@ranged:3|"
   },
@@ -1049,7 +1049,7 @@
   },
   {
     "name": "5-8 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 third part",
     "requires": "|@block:3|"
   },
@@ -1061,7 +1061,7 @@
   },
   {
     "name": "5-9 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 third part",
     "requires": "|@block:3|"
   },
@@ -1073,7 +1073,7 @@
   },
   {
     "name": "5-10 3-star clear",
-    "category": ["act 1", "chapter 5"],
+    "category": ["act 1", "chapter 5", "3-stars"],
     "region": "chapter 5 third part",
     "requires": "|@block:2| AND |@6 star:1|"
   },

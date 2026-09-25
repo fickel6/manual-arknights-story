@@ -1,21 +1,5 @@
 {
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.categories.schema.json",
-    "6 star":{
-        "_comment": "categories are for hiding certain categories for the player or enabling/disabling categories",
-        "hidden": true
-    },
-    "5 star":{
-        "hidden": true
-    },
-    "4 star":{
-        "hidden": true
-    },
-    "3 star":{
-        "hidden": true
-    },
-    "low star":{
-        "hidden": true
-    },
     "character": {
         "hidden": true
     },
@@ -34,15 +18,15 @@
         "yaml_option": ["sub operations sanity"],
         "hidden": true
     },
-    "challenge sanity": {
-        "yaml_option": ["challenge operations sanity"],
+    "challenge operations": {
+        "yaml_option": ["challenge sanity"],
         "hidden": true
     },
     "extreme operations": {
         "yaml_option": ["strategic sanity"],
         "hidden": true
     },
-    "3-star sanity": {
+    "3-stars": {
         "yaml_option": ["3-star sanity"],
         "hidden": true
     }

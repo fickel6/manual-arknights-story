@@ -342,16 +342,6 @@
             ],
             "group": "operations options"
         },
-        "strategic sanity": {
-            "type": "Toggle",
-            "default": false,
-            "description": [
-                "the new main story has a new difficulty called strategic simulation.",
-                "Add these operations in the randomizer. The two floors are separate locations,",
-                "and have two different keys to unlock."
-            ],
-            "group": "operations options"
-        },
         "include story": {
             "type": "Toggle",
             "default": false,
