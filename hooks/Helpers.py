@@ -44,8 +44,22 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
             return True
         elif "c16" in enabled_chapters and category_name == "chapter 16":
             return True
-        else:
-            return None
+    elif "6 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
+        return False
+    elif "5 star" == category_name and get_option_value(multiworld, player, "include_5_stars") != 0:
+        return False
+    elif "4 star" == category_name and get_option_value(multiworld, player, "include_4_stars") != 0:
+        return False
+    elif "3 star" == category_name and get_option_value(multiworld, player, "include_3_stars") != 0:
+        return False
+    elif "low star" == category_name and get_option_value(multiworld, player, "include_low_stars") !=0:
+        return False
+    # elif "2 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
+    #     return False
+    # elif "1 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
+    #     return False
+    
+    
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
@@ -79,29 +93,19 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
         return False
     
     if "6 star" in item["category"]:
-        if get_option_value(multiworld, player, "include_6_stars") != 0:
-            return False
         enabled_6_star = get_option_value(multiworld, player, "listing_6_star")
         # print(enabled_6_star)
         return item["name"] in enabled_6_star if get_option_value(multiworld, player, "blacklist_or_whitelist_operators") else not item["name"] in enabled_6_star
     if "5 star" in item["category"]:
-        if get_option_value(multiworld, player, "include_5_stars") != 0:
-            return False
         enabled_5_star = get_option_value(multiworld, player, "listing_5_star")
         return item["name"] in enabled_5_star if get_option_value(multiworld, player, "blacklist_or_whitelist_operators") else not item["name"] in enabled_5_star
     if "4 star" in item["category"]:
-        if get_option_value(multiworld, player, "include_4_stars") != 0:
-            return False
         enabled_4_star = get_option_value(multiworld, player, "listing_4_star")
         return item["name"] in enabled_4_star if get_option_value(multiworld, player, "blacklist_or_whitelist_operators") else not item["name"] in enabled_4_star
     if "3 star" in item["category"]:
-        if get_option_value(multiworld, player, "include_3_stars") != 0:
-            return False
         enabled_3_star = get_option_value(multiworld, player, "listing_3_star")
         return item["name"] in enabled_3_star if get_option_value(multiworld, player, "blacklist_or_whitelist_operators") else not item["name"] in enabled_3_star
     if "2 star" in item["category"]:
-        if get_option_value(multiworld, player, "include_low_stars") != 0:
-            return False
         enabled_low_star = get_option_value(multiworld, player, "listing_low_star")
         return item["name"] in enabled_low_star if get_option_value(multiworld, player, "blacklist_or_whitelist_operators") else not item["name"] in enabled_low_star
     
