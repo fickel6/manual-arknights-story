@@ -4671,13 +4671,13 @@
     "name": "DM-EX-8 clear",
     "category": ["The Ark", "Darknights memoir", "ex-stages"],
     "region": "Darknights' memoir fourth half",
-    "requires": ""
+    "requires": "|@6 star:1|"
   },
   {
     "name": "DM-EX-8 3-star clear",
     "category": ["The Ark", "Darknights memoir", "ex-stages"],
     "region": "Darknights' memoir fourth half",
-    "requires": ""
+    "requires": "|@6 star:1|"
   },
   {
     "name": "DM-MO-1 clear",
@@ -4690,5 +4690,197 @@
     "category": ["The Ark", "Darknights memoir", "MO-stages"],
     "region": "Darknights' memoir fifth half",
     "requires": "|@vanguard:1|"
+  },
+  {
+    "name": "WD-1 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "WD-1 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust first half",
+    "requires": ""
+  },
+  {
+    "name": "WD-2 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "WD-2 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust first half",
+    "requires": ""
+  },
+  {
+    "name": "WD-3 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "WD-3 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust first half",
+    "requires": ""
+  },
+  {
+    "name": "WD-4 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir first half",
+    "requires": ""
+  },
+  {
+    "name": "WD-4 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust first half",
+    "requires": ""
+  },
+  {
+    "name": "WD-5 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "WD-5 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust second half",
+    "requires": ""
+  },
+  {
+    "name": "WD-6 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "WD-6 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust second half",
+    "requires": ""
+  },
+  {
+    "name": "WD-7 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir second half",
+    "requires": ""
+  },
+  {
+    "name": "WD-7 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust second half",
+    "requires": ""
+  },
+  {
+    "name": "WD-8 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir second half",
+    "requires": "|@6 star:1|"
+  },
+  {
+    "name": "WD-8 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust second half",
+    "requires": "|@6 star:1|"
+  },
+  {
+    "name": "WD-EX-1 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-1 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust third half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-2 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-2 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust third half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-3 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-3 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust third half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-4 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-4 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust third half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-5 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-5 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust fourth half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-6 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-6 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust fourth half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-7 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-7 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust fourth half",
+    "requires": ""
+  },
+  {
+    "name": "WD-EX-8 clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "Darknights' memoir fourth half",
+    "requires": "|@6 star:1|"
+  },
+  {
+    "name": "WD-EX-8 3-star clear",
+    "category": ["The Ark", "A Walk in the Dust"],
+    "region": "A Walk in the Dust fourth half",
+    "requires": "|@6 star:1|"
   },
 ]
