@@ -4583,4 +4583,112 @@
     "region": "Darknights' memoir second half",
     "requires": ""
   },
+  {
+    "name": "DM-EX-1 clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-1 3-star clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-2 clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-2 3-star clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-3 clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-3 3-star clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-4 clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-4 3-star clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir third half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-5 clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-5 3-star clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-6 clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-6 3-star clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-7 clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-7 3-star clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-8 clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DM-EX-8 3-star clear",
+    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "region": "Darknights' memoir fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DM-MO-1 clear",
+    "category": ["The Ark", "Darknights memoir", "MO-stages"],
+    "region": "Darknights' memoir fifth half",
+    "requires": "|@vanguard:1|"
+  },
+  {
+    "name": "DM-MO-1 3-star clear",
+    "category": ["The Ark", "Darknights memoir", "MO-stages"],
+    "region": "Darknights' memoir fifth half",
+    "requires": "|@vanguard:1|"
+  },
 ]
