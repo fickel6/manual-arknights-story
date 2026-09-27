@@ -83,35 +83,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
         for _ in range(100):
             item_pool.remove(next(i for i in item_pool if i.name == "Originium Prime"))
-    #remove all the excluded operators
-    def remove_character(prog_item, item_name, amount_progressive, option):
-        # print(option)
-        if option == 0:
-            # print("deleting progressive characters")
-            for _ in range(amount_progressive):
-                item_pool.remove(next(i for i in item_pool if i.name == prog_item))
-        elif option == 1:
-            # print("deleting characters")
-            delete_character = []
-            delete_character.extend([name for name, i in world.item_name_to_item.items() if item_name in i.get("category", [])])
-            delete_character = [i for i in item_pool if i.name in delete_character]
-            for name in delete_character:
-                item_pool.remove(name)
-        else:
-            # print("deleting everything")
-            for _ in range(amount_progressive):
-                item_pool.remove(next(i for i in item_pool if i.name == prog_item))
-            delete_all = []
-            delete_all.extend([name for name, i in world.item_name_to_item.items() if item_name in i.get("category", [])])
-            delete_all = [i for i in item_pool if i.name in delete_all]
-            for name in delete_all:
-                item_pool.remove(name)
 
-    remove_character("progressive 6 star", "6 star", 13, world.options.include_6_stars.value)
-    remove_character("progressive 5 star", "5 star", 13, world.options.include_5_stars.value)
-    remove_character("progressive 4 star", "4 star", 2, world.options.include_4_stars.value)
-    remove_character("progressive 3 star", "3 star", 2, world.options.include_3_stars.value)
-    remove_character("progressive low star", "low star", 1, world.options.include_1_and_2_stars.value)
     # remove the amount of random unlockable items
     max_amount_random_unlock = 20
     for _ in range(max_amount_random_unlock - world.options.include_random_operators):
