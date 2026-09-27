@@ -48,7 +48,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "sniper",
       "ranged"
     ],
@@ -93,7 +92,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
       "caster",
       "ranged"
     ],
@@ -149,7 +147,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
       "sniper",
       "ranged"
     ],
@@ -161,7 +158,6 @@
     "category": [
       "operator",
       "6 star",
-      "alter",
       "guard",
       "block"
     ],
@@ -173,7 +169,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "guard",
       "block"
     ],
@@ -229,7 +224,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "caster",
       "ranged"
     ],
@@ -252,7 +246,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "specialist",
       "ranged"
     ],
@@ -308,8 +301,6 @@
     "category": [
       "character",
       "6 star", 
-      "alter",
-      "limited",
       "specialist",
       "ranged"
     ],
@@ -332,8 +323,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
-      "alter",
       "medic"
     ],
     "progression": true
@@ -377,8 +366,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
-      "alter",
       "guard",
       "block"
     ],
@@ -488,8 +475,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
-      "alter",
       "defender",
       "block"
     ],
@@ -532,9 +517,7 @@
     "name": "Jessica the Liberated",
     "category": [
       "character",
-      "6 star",
-      "limited",
-      "alter", 
+      "6 star", 
       "defender",
       "block"
     ],
@@ -557,8 +540,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
-      "limited",
       "specialist",
       "block"
     ],
@@ -570,8 +551,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
-      "alter",
       "caster",
       "ranged"
     ],
@@ -594,7 +573,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
       "guard",
       "block"
     ],
@@ -639,7 +617,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "supporter",
       "ranged",
       "block"
@@ -759,7 +736,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "vanguard",
       "block",
       "ranged"
@@ -805,8 +781,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
-      "alter",
       "guard",
       "block"
     ],
@@ -829,7 +803,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "defender",
       "block"
     ],
@@ -895,7 +868,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "guard",
       "block"
     ],
@@ -951,7 +923,6 @@
     "category": [
       "character",
       "6 star",
-      "wellfare",
       "supporter",
       "ranged",
       "block"
@@ -975,7 +946,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
       "medic",
       "ranged"
     ],
@@ -998,7 +968,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "sniper"
     ],
     "progression": true
@@ -1085,8 +1054,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
-      "wellfare",
       "supporter"
     ],
     "progression": true
@@ -1141,8 +1108,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
-      "limited",
       "specialist",
       "block"
     ],
@@ -1186,7 +1151,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
       "specialist",
       "block"
     ],
@@ -1198,8 +1162,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
-      "alter",
       "specialist",
       "block"
     ],
@@ -1222,7 +1184,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
       "specialist",
       "ranged"
     ],
@@ -1255,7 +1216,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
       "supporter",
       "ranged"
     ],
@@ -1300,7 +1260,6 @@
     "category": [
       "character",
       "6 star",
-      "alter",
       "guard",
       "block"
     ],
@@ -1312,7 +1271,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "supporter",
       "ranged"
     ],
@@ -1346,7 +1304,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "sniper",
       "ranged"
     ],
@@ -1368,8 +1325,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
-      "alter",
       "sniper"
     ],
     "progression": true
@@ -1380,7 +1335,6 @@
     "category": [
       "character",
       "6 star",
-      "limited",
       "defender",
       "block"
     ],
@@ -1458,7 +1412,6 @@
     "category": [
       "character",
       "5 star",
-      "alter",
       "guard",
       "block"
     ],
@@ -1469,8 +1422,7 @@
     "name": "Medic Amiya",
     "category": [
       "character",
-      "5 star",
-      "alter", 
+      "5 star", 
       "medic",
       "ranged"
     ],
@@ -1657,7 +1609,6 @@
     "category": [
       "character",
       "5 star",
-      "limited",
       "defender",
       "block"
     ],
@@ -1799,7 +1750,6 @@
     "category": [
       "character",
       "5 star",
-      "limited",
       "vanguard",
       "block"
     ],
@@ -1854,7 +1804,6 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
       "defender",
       "block"
     ],
@@ -1877,7 +1826,6 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
       "caster",
       "ranged"
     ],
@@ -1900,7 +1848,6 @@
     "category": [
       "character",
       "5 star",
-      "limited",
       "guard",
       "block"
     ],
@@ -2054,7 +2001,6 @@
     "category": [
       "character",
       "5 star",
-      "limited",
       "specialist",
       "ranged"
     ],
@@ -2066,7 +2012,6 @@
     "category": [
       "character",
       "5 star",
-      "limited",
       "guard",
       "block"
     ],
@@ -2132,8 +2077,7 @@
     "name": "Greyy the lightningbearer",
     "category": [
       "character",
-      "5 star",
-      "alter", 
+      "5 star", 
       "sniper"
     ],
     "progression": true
@@ -2186,7 +2130,6 @@
     "category": [
       "character",
       "5 star",
-      "wellfare",
       "supporter",
       "ranged"
     ],
@@ -2198,7 +2141,6 @@
     "category": [
       "character",
       "5 star", 
-      "alter",
       "medic",
       "ranged"
     ],
@@ -2242,7 +2184,6 @@
     "category": [
       "character",
       "5 star",
-      "limited",
       "specialist",
       "block"
     ],
@@ -2374,7 +2315,6 @@
     "category": [
       "character",
       "5 star",
-      "alter",
       "sniper",
       "ranged"
     ],
@@ -2419,7 +2359,6 @@
     "category": [
       "character",
       "5 star", 
-      "alter",
       "caster",
       "ranged"
     ],
@@ -2662,7 +2601,6 @@
     "category": [
       "character",
       "5 star", 
-      "limited",
       "supporter"
     ],
     "progression": true
@@ -2704,7 +2642,6 @@
     "category": [
       "character",
       "5 star", 
-      "wellfare",
       "medic"
     ],
     "progression": true
@@ -2823,7 +2760,6 @@
     "category": [
       "character",
       "5 star", 
-      "wellfare",
       "caster",
       "ranged"
     ],
@@ -2953,7 +2889,6 @@
     "category": [
       "character",
       "5 star", 
-      "limited",
       "defender",
       "block"
     ],
@@ -3117,7 +3052,6 @@
     "category": [
       "character",
       "5 star", 
-      "limited",
       "guard",
       "block"
     ],
@@ -3172,7 +3106,6 @@
     "category": [
       "character",
       "5 star", 
-      "wellfare",
       "specialist",
       "ranged"
     ],
@@ -4307,7 +4240,7 @@
     "name": "12F",
     "category": [
       "character",
-      "low star",
+      "2 star",
       "caster",
       "ranged"
     ],
@@ -4318,7 +4251,7 @@
     "name": "Durin",
     "category": [
       "character",
-      "low star",
+      "2 star",
       "caster",
       "ranged"
     ],
@@ -4329,7 +4262,7 @@
     "name": "Noir Corne",
     "category": [
       "character",
-      "low star",
+      "2 star",
       "defender",
       "block"
     ],
@@ -4340,7 +4273,7 @@
     "name": "Rangers",
     "category": [
       "character",
-      "low star",
+      "2 star",
       "sniper",
       "ranged"
     ],
@@ -4351,7 +4284,7 @@
     "name": "Yato",
     "category": [
       "character",
-      "low star",
+      "2 star",
       "vanguard",
       "block"
     ],
@@ -4362,7 +4295,7 @@
     "name": "CONFESS-47",
     "category": [
       "character",
-      "low star",
+      "1 star",
       "vanguard",
       "block"
     ],
@@ -4373,7 +4306,7 @@
     "name": "Castle-3",
     "category": [
       "character",
-      "low star",
+      "1 star",
       "guard",
       "block"
     ],
@@ -4384,7 +4317,7 @@
     "name": "Friston-3",
     "category": [
       "character",
-      "low star",
+      "1 star",
       "defender",
       "block"
     ],
@@ -4395,7 +4328,7 @@
     "name": "Justice Knight",
     "category": [
       "character",
-      "low star",
+      "1 star",
       "sniper",
       "ranged"
     ],
@@ -4406,7 +4339,7 @@
     "name": "Lancet-2",
     "category": [
       "character",
-      "low star",
+      "1 star",
       "medic"
     ],
     "progression": true
@@ -4416,7 +4349,7 @@
     "name": "PhonoR-0",
     "category": [
       "character",
-      "low star",
+      "1 star",
       "supporter",
       "ranged"
     ],
@@ -4427,7 +4360,7 @@
     "name": "THRM-EX",
     "category": [
       "character",
-      "low star",
+      "1 star",
       "specialist"
     ],
     "progression": true
@@ -4437,7 +4370,7 @@
     "name": "Terra Research Commission",
     "category": [
       "character",
-      "low star",
+      "1 star",
       "sniper"
     ],
     "progression": true
@@ -4447,7 +4380,7 @@
     "name": "U-Official",
     "category": [
       "character",
-      "low star",
+      "1 star",
       "supporter"
     ],
     "progression": true

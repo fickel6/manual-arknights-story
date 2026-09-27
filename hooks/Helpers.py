@@ -52,12 +52,10 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         return False
     elif "3 star" == category_name and get_option_value(multiworld, player, "include_3_stars") != 0:
         return False
-    elif "low star" == category_name and get_option_value(multiworld, player, "include_low_stars") !=0:
+    elif "2 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
         return False
-    # elif "2 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
-    #     return False
-    # elif "1 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
-    #     return False
+    elif "1 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
+        return False
     
     
     return None
@@ -91,7 +89,8 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
         if get_option_value(multiworld, player, "include_1_stars") == 1:
             return True
         return False
-    
+
+    #remove the operator
     if "6 star" in item["category"]:
         enabled_6_star = get_option_value(multiworld, player, "listing_6_star")
         # print(enabled_6_star)

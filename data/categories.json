@@ -11,13 +11,6 @@
         "hidden": true,
         "yaml_option": ["include fixed operations"]
     },
-    "main story": {
-        "hidden": true
-    },
-    "sub operations": {
-        "yaml_option": ["sub operations sanity"],
-        "hidden": true
-    },
     "challenge operations": {
         "yaml_option": ["challenge sanity"],
         "hidden": true
@@ -26,7 +19,7 @@
         "yaml_option": ["strategic sanity"],
         "hidden": true
     },
-    "3-stars": {
+    "3-stars clear": {
         "yaml_option": ["3-star sanity"],
         "hidden": true
     }

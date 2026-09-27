@@ -77,10 +77,16 @@ class Enabled3Star(OptionSet):
     valid_keys = item_name_groups["3 star"]    # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
     default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
 
-class EnabledLowStar(OptionSet):
-    """enabled 2 and 1 star in the manual. only works when 2 and 1 stars are individual items"""  # Description of the yaml option in the template
-    display_name = "Enabled low Star Operators"           # Name of the option in the spoiler
+class Enabled2Star(OptionSet):
+    """enabled 2 star in the manual. only works when 2 stars are individual items"""  # Description of the yaml option in the template
+    display_name = "Enabled 1 Star Operators"           # Name of the option in the spoiler
     valid_keys = item_name_groups["low star"]    # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
+    default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
+
+class Enabled1Star(OptionSet):
+    """enabled 1 star in the manual. only works when 1 stars are individual items"""  # Description of the yaml option in the template
+    display_name = "Enabled 1 Star Operators"           # Name of the option in the spoiler
+    valid_keys = item_name_groups["1 star"]    # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
     default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
 
 class randomChapters(Range):
@@ -100,7 +106,8 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["listing_5_star"] = Enabled5Star  # This registers the yaml option as `listing_5_star`
     options["listing_4_star"] = Enabled4Star  # This registers the yaml option as `listing_4_star`
     options["listing_3_star"] = Enabled3Star  # This registers the yaml option as `listing_3_star`
-    options["listing_low_star"] = EnabledLowStar  # This registers the yaml option as `listing_low_star`
+    options["listing_2_star"] = Enabled2Star  # This registers the yaml option as `listing_4_star`
+    options["listing_1_star"] = Enabled1Star  # This registers the yaml option as `listing_3_star`
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
@@ -120,7 +127,7 @@ def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> 
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     # groupname must be different then the options in the json file.
     groups["chapter selection"] = [chapters, randomChapters]
-    groups["operator lists"] = [Enabled6Star, Enabled5Star, Enabled4Star, Enabled3Star, EnabledLowStar]
+    groups["operator lists"] = [Enabled6Star, Enabled5Star, Enabled4Star, Enabled3Star, Enabled2Star, Enabled1Star]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:

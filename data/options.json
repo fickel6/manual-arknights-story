@@ -357,16 +357,7 @@
             },
             "group": "goal options"
         },
-        "sub operations sanity": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "include all the sub operations.",
-                "these are all the stages with s infront."
-            ],
-            "group": "operations options"
-        },
-        "challenge sanity": {
+        "_challenge sanity": {
             "type": "Toggle",
             "default": false,
             "description": [
