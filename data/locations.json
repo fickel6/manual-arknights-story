@@ -382,14 +382,14 @@
   },
   {
     "name": "2-10 clear",
-    "category": ["chapter 2 first part", "boss stage"],
-    "region": "chapter 2 first part",
+    "category": ["chapter 2", "boss stage"],
+    "region": "chapter 2 fourth part",
     "requires": ""
   },
   {
     "name": "2-10 3-star clear",
     "category": ["chapter 2", "3-stars"],
-    "region": "chapter 2 first part",
+    "region": "chapter 2 fourth part",
     "requires": "|@character:6| AND |@ranged:1| AND |@block:2|"
   },
   {
@@ -827,7 +827,7 @@
   },
   {
     "name": "4-10 clear",
-    "category": ["chapter 4 first part", "boss stage"],
+    "category": ["chapter 4", "boss stage"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@6 star:1|"
   },
