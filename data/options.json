@@ -137,7 +137,8 @@
             "description": [
                 "sets the amount of progressive 6 stars you can receive.",
                 "1 means that you can use 6 stars on all available squad slots,",
-                "2 means half, 3 a third, etc. to all 12 slots"
+                "2 means half, 3 a third, etc. to all 12 slots.",
+                "if 13 is chose, then the support unit is also randomised."
             ],
             "_comment": "description can be better",
             "type": "Range",
@@ -165,7 +166,8 @@
             "description": [
                 "sets the amount of progressive 5 stars you can receive.",
                 "1 means that you can use 5 stars on all available squad slots,",
-                "2 means half, 3 a third, etc. to all 12 slots"
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
             ],
             "_comment": "description can be better",
             "type": "Range",
@@ -193,7 +195,8 @@
             "description": [
                 "sets the amount of progressive 4 stars you can receive.",
                 "1 means that you can use 4 stars on all available squad slots,",
-                "2 means half, 3 a third, etc. to all 12 slots"
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
             ],
             "_comment": "description can be better",
             "type": "Range",
@@ -221,7 +224,8 @@
             "description": [
                 "sets the amount of progressive 3 stars you can receive.",
                 "1 means that you can use 3 stars on all available squad slots,",
-                "2 means half, 3 a third, etc. to all 12 slots"
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
             ],
             "_comment": "description can be better",
             "type": "Range",
@@ -230,7 +234,7 @@
             "range_end": 12,
             "group": "operator options"
         },
-        "include 1 and 2 stars":{
+        "include 2 stars":{
             "description": [
                 "how the 1 and 2 stars will be randomised. 1 and 2 stars aren't used that much, so these two are combined.",
                 "the 1 and 2 stars also can't be e2.",
@@ -247,17 +251,49 @@
             "default": 2,
             "group": "operator options"
         },
-        "amount progressive 1 and 2 stars": {
+        "amount progressive 2 stars": {
             "description": [
                 "sets the amount of progressive 1 and 2 stars you can receive.",
                 "1 means that you can use 1 and 2 stars on all available squad slots,",
-                "2 means half, 3 a third, etc. to all 12 slots"
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
             ],
             "_comment": "description can be better",
             "type": "Range",
             "default": 1,
             "range_start": 2,
-            "range_end": 12,
+            "range_end": 13,
+            "group": "operator options"
+        },
+        "include 1 stars":{
+            "description": [
+                "how the 1 and 2 stars will be randomised. 1 and 2 stars aren't used that much, so these two are combined.",
+                "the 1 and 2 stars also can't be e2.",
+                "'as individual items': all 1 and 2 stars are individual items.",
+                "'progressive items': all 1 and 2 stars are progressive items. after getting it, you can use them all",
+                "'exclude': no 1 and 2 stars will be included. Alternatively could be used as you can always use 1 and 2 stars"
+            ],
+            "type": "Choice",
+            "values": {
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
+            },
+            "default": 2,
+            "group": "operator options"
+        },
+        "amount progressive 1 stars": {
+            "description": [
+                "sets the amount of progressive 1 and 2 stars you can receive.",
+                "1 means that you can use 1 and 2 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 1,
+            "range_start": 1,
+            "range_end": 13,
             "group": "operator options"
         },
         "include random operators": {
@@ -285,18 +321,15 @@
             "group": "operator options"
         },
         "squad size sanity": {
-            "type": "Choice",
+            "type": "Range",
             "default": 0,
-            "values": {
-                "off": 0,
-                "exclude support unit": 1,
-                "include support unit": 2
-            },
+            "range_start": 0,
+            "range_end": 13,
             "description": [
                 "add the squad size as an progressive item in the manual.",
-                "'off': no progressive squads are included in the manual. all the slots may be used",
-                "'exclude support unit': all 12 squad slots are included. support unit is excluded and may be used",
-                "'include support unit': all squad slots are included, even the support unit."
+                "0: no progressive squads are included in the manual. all the slots may be used",
+                "1-12:'exclude support unit': all 12 squad slots are included. support unit is excluded and may be used",
+                "13: 'include support unit': all squad slots are included, even the support unit."
             ],
             "group": "operator options"
         },

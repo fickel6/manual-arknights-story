@@ -4469,7 +4469,7 @@
     "progression": true
   },
   {
-    "count": "2",
+    "count": "13",
     "name": "progressive 4 star",
     "category": [
       "progressive characters"
@@ -4477,7 +4477,7 @@
     "progression": true
   },
   {
-    "count": "2",
+    "count": "13",
     "name": "progressive 3 star",
     "category": [
       "progressive characters"
@@ -4485,10 +4485,26 @@
     "progression": true
   },
   {
-    "count": "1",
-    "name": "progressive low star",
+    "count": "13",
+    "name": "progressive 2 star",
     "category": [
       "progressive characters"
+    ],
+    "progression": true
+  },
+  {
+    "count": "13",
+    "name": "progressive 1 star",
+    "category": [
+      "progressive characters"
+    ],
+    "progression": true
+  },
+  {
+    "count": "13",
+    "name": "increased squad size",
+    "category": [
+      "squad size"
     ],
     "progression": true
   },
