@@ -4469,60 +4469,68 @@
     "_comment": "your usual collectible hunt. could be less, but could also be more. "
   },
   {
-    "count": "",
+    "count": "2",
     "name": "progressive chapter 0",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "3",
     "name": "progressive chapter 1",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "4",
     "name": "progressive chapter 2",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "2",
     "name": "progressive chapter 3",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "3",
     "name": "progressive chapter 4",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "4",
     "name": "progressive chapter 5",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "4",
     "name": "progressive chapter 6",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "6",
     "name": "progressive chapter 7",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "3",
@@ -4530,7 +4538,8 @@
     "name": "progressive chapter 8 past",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "3",
@@ -4538,62 +4547,159 @@
     "name": "progressive chapter 8 present",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "5",
     "name": "progressive chapter 9",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "6",
     "name": "progressive chapter 10",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "6",
     "name": "progressive chapter 11",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "6",
     "name": "progressive chapter 12",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "6",
     "name": "progressive chapter 13",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "6",
     "name": "progressive chapter 14",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "6",
     "name": "progressive chapter 15",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
   },
   {
     "count": "5",
     "name": "progressive chapter 16",
     "category": [
       "chapter unlock"
-    ]
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "-2 deployment limit",
+    "category": [
+      "trap"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "-2 squad size",
+    "category": [
+      "trap"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "vanguard only",
+    "category": [
+      "trap",
+      "class traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "guards only",
+    "category": [
+      "trap",
+      "class traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "casters only",
+    "category": [
+      "trap",
+      "class traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "defenders only",
+    "category": [
+      "trap",
+      "class traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "medics only",
+    "category": [
+      "trap",
+      "class traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "snipers only",
+    "category": [
+      "trap",
+      "class traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "supporters only",
+    "category": [
+      "trap",
+      "class traps"
+    ],
+    "trap": true
+  },
+  {
+    "count": "1",
+    "name": "specialist only",
+    "category": [
+      "trap",
+      "class traps"
+    ],
+    "trap": true
   }
 ]
