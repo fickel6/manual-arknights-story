@@ -5363,4 +5363,580 @@
     "region": "Ending a Grand Overture fourth half",
     "requires": ""
   },
+  {
+    "name": "GA-1 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-1 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-2 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-2 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-3 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-3 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-4 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-4 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-5 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-5 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-6 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-6 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-7 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-7 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-8 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-8 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-1 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-1 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-2 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-2 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-3 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-3 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-4 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-4 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-5 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-5 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-6 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-6 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-7 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-7 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-8 clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-8 3-star clear",
+    "category": ["The Blessed", "Guide Ahead"],
+    "region": "Guide Ahead fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-1 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-1 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-2 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-2 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-3 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-3 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-4 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-4 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo first half",
+    "requires": ""
+  },
+  {
+    "name": "GA-5 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-5 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-6 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-6 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-7 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-7 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-8 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-8 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo second half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-1 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-1 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-2 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-2 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-3 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-3 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-4 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-4 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo third half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-5 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-5 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-6 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-6 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-7 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-7 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-8 clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GA-EX-8 3-star clear",
+    "category": ["The Blessed", "Hortus de Escapismo"],
+    "region": "Hortus de Escapismo fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BI-1 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice first half",
+    "requires": ""
+  },
+  {
+    "name": "BI-1 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice first half",
+    "requires": ""
+  },
+  {
+    "name": "BI-2 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice first half",
+    "requires": ""
+  },
+  {
+    "name": "BI-2 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice first half",
+    "requires": ""
+  },
+  {
+    "name": "BI-3 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice first half",
+    "requires": ""
+  },
+  {
+    "name": "BI-3 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice first half",
+    "requires": ""
+  },
+  {
+    "name": "BI-4 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice first half",
+    "requires": ""
+  },
+  {
+    "name": "BI-4 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice first half",
+    "requires": ""
+  },
+  {
+    "name": "BI-5 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice second half",
+    "requires": ""
+  },
+  {
+    "name": "BI-5 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice second half",
+    "requires": ""
+  },
+  {
+    "name": "BI-6 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice second half",
+    "requires": ""
+  },
+  {
+    "name": "BI-6 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice second half",
+    "requires": ""
+  },
+  {
+    "name": "BI-7 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice second half",
+    "requires": ""
+  },
+  {
+    "name": "BI-7 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice second half",
+    "requires": ""
+  },
+  {
+    "name": "BI-8 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice second half",
+    "requires": ""
+  },
+  {
+    "name": "BI-8 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice second half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-1 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice third half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-1 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice third half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-2 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice third half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-2 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice third half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-3 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice third half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-3 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice third half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-4 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice third half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-4 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice third half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-5 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-5 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-6 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-6 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-7 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-7 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-8 clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BI-EX-8 3-star clear",
+    "category": ["Snow and silver Steel", "Break the Ice"],
+    "region": "Break the Ice fourth half",
+    "requires": ""
+  },
 ]
