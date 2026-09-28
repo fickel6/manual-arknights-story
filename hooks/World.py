@@ -54,6 +54,16 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
+    locationNamesToRemove: list[str] = [] # List of location names
+    all_chapters = get_option_value(multiworld, player, "included_chapters")
+    if all_chapters is dict:
+        #remove the amount of chapters not included
+        for _ in range(0, 17 - world.options.included_random_chapters):
+            chapter, _ = world.random.choice([all_chapters.keys()])
+            locationNamesToRemove.extend(
+                name for name, i in world.location_name_to_location.items() if chapter in i.get("category", [])
+            )
+                   
     pass
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
 # Valid item_config key/values:
@@ -96,39 +106,39 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #collect the first chapter unlock
     match world.options.starting_chapter.value:
         case 0:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 0 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 0")
         case 1:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 1 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 1")
         case 2:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 2 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 2")
         case 3:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 3 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 3")
         case 4:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 4 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 4")
         case 5:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 5 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 5")
         case 6:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 6 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 6")
         case 7:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 7 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 7")
         case 8:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 8 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 8 past")
         case 9:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 9 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 9")
         case 10:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 10 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 10")
         case 11:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 11 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 11")
         case 12:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 12 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 12")
         case 13:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 13 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 13")
         case 14:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 14 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 14")
         case 15:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 15 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 15")
         case 16:
-            collect_chapter = next(i for i in item_pool if i.name == "chapter 16 first part unlock")
+            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 16")
         
     multiworld.push_precollected(collect_chapter)
     item_pool.remove(collect_chapter)
