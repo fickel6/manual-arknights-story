@@ -4435,7 +4435,7 @@
   },
   {
     "count": "13",
-    "name": "increased squad size",
+    "name": "progressive squad size",
     "category": [
       "squad size"
     ],
@@ -4472,7 +4472,8 @@
     "count": "2",
     "name": "progressive chapter 0",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 0"
     ],
     "progression": true
   },
@@ -4480,7 +4481,8 @@
     "count": "3",
     "name": "progressive chapter 1",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 1"
     ],
     "progression": true
   },
@@ -4488,7 +4490,8 @@
     "count": "4",
     "name": "progressive chapter 2",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 2"
     ],
     "progression": true
   },
@@ -4496,7 +4499,8 @@
     "count": "2",
     "name": "progressive chapter 3",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 3"
     ],
     "progression": true
   },
@@ -4504,7 +4508,8 @@
     "count": "3",
     "name": "progressive chapter 4",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 4"
     ],
     "progression": true
   },
@@ -4512,7 +4517,8 @@
     "count": "4",
     "name": "progressive chapter 5",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 5"
     ],
     "progression": true
   },
@@ -4520,7 +4526,8 @@
     "count": "4",
     "name": "progressive chapter 6",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 6"
     ],
     "progression": true
   },
@@ -4528,7 +4535,8 @@
     "count": "6",
     "name": "progressive chapter 7",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 7"
     ],
     "progression": true
   },
@@ -4537,7 +4545,8 @@
     "_comment": "past chapters is only the Tallula story (botched the name, fix later)",
     "name": "progressive chapter 8 past",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 8"
     ],
     "progression": true
   },
@@ -4546,7 +4555,8 @@
     "_comment": "present story (with doctor). this will also continue to last part (is also present day), but still requires beating the past stages",
     "name": "progressive chapter 8 present",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 8"
     ],
     "progression": true
   },
@@ -4554,7 +4564,8 @@
     "count": "5",
     "name": "progressive chapter 9",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 9"
     ],
     "progression": true
   },
@@ -4562,7 +4573,8 @@
     "count": "6",
     "name": "progressive chapter 10",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 10"
     ],
     "progression": true
   },
@@ -4570,7 +4582,8 @@
     "count": "6",
     "name": "progressive chapter 11",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 11"
     ],
     "progression": true
   },
@@ -4578,7 +4591,8 @@
     "count": "6",
     "name": "progressive chapter 12",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 12"
     ],
     "progression": true
   },
@@ -4586,7 +4600,8 @@
     "count": "6",
     "name": "progressive chapter 13",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 13"
     ],
     "progression": true
   },
@@ -4594,7 +4609,8 @@
     "count": "6",
     "name": "progressive chapter 14",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 14"
     ],
     "progression": true
   },
@@ -4602,7 +4618,8 @@
     "count": "6",
     "name": "progressive chapter 15",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 15"
     ],
     "progression": true
   },
@@ -4610,7 +4627,8 @@
     "count": "5",
     "name": "progressive chapter 16",
     "category": [
-      "chapter unlock"
+      "chapter unlock",
+      "chapter 16"
     ],
     "progression": true
   },

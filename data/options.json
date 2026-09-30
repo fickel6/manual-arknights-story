@@ -93,7 +93,7 @@
             "type": "Range",
             "default": 5,
             "range_start": 1,
-            "range_end": 16,
+            "range_end": 17,
             "group": "goal options"
         },
         "originium prime hunt": {
@@ -201,7 +201,7 @@
             "_comment": "description can be better",
             "type": "Range",
             "default": 3,
-            "range_start": 2,
+            "range_start": 1,
             "range_end": 12,
             "group": "operator options"
         },
@@ -230,7 +230,7 @@
             "_comment": "description can be better",
             "type": "Range",
             "default": 3,
-            "range_start": 2,
+            "range_start": 1,
             "range_end": 12,
             "group": "operator options"
         },
@@ -261,7 +261,7 @@
             "_comment": "description can be better",
             "type": "Range",
             "default": 1,
-            "range_start": 2,
+            "range_start": 1,
             "range_end": 13,
             "group": "operator options"
         },
@@ -308,7 +308,7 @@
             ],
             "group": "operator options"
         },
-        "starting squad size": {
+        "starting operators": {
             "type": "Range",
             "default": 4,
             "range_start": 1,
@@ -326,36 +326,13 @@
             "range_start": 0,
             "range_end": 13,
             "description": [
-                "add the squad size as an progressive item in the manual.",
+                "add the squad slots as an progressive item in the manual.",
                 "0: no progressive squads are included in the manual. all the slots may be used",
-                "1-12:'exclude support unit': all 12 squad slots are included. support unit is excluded and may be used",
+                "1-12:'exclude support unit': 12 squad slots are included. support unit is excluded and may be used",
+                "the slots are equally spead over the enabled items.",
                 "13: 'include support unit': all squad slots are included, even the support unit."
             ],
             "group": "operator options"
-        },
-        "starting chapter": {
-            "type": "Choice",
-            "default": 0,
-            "values": {
-                "chapter 0": 0,
-                "chapter 1": 1,
-                "chapter 2": 2,
-                "chapter 3": 3,
-                "chapter 4": 4,
-                "chapter 5": 5,
-                "chapter 6": 6,
-                "chapter 7": 7,
-                "chapter 8": 8,
-                "chapter 9": 9,
-                "chapter 10": 10,
-                "chapter 11": 11,
-                "chapter 12": 12,
-                "chapter 13": 13,
-                "chapter 14": 14,
-                "chapter 15": 15,
-                "chapter 16": 16
-            },
-            "group": "goal options"
         },
         "_challenge sanity": {
             "type": "Toggle",
