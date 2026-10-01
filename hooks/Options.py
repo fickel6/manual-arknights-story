@@ -93,8 +93,9 @@ class randomChapters(Range):
     """amount of chapters will be used for randomization. 
     0 means that all the chapters will be randomized."""
     display_name = "Amount of random chapters"
-    range_start = 0
-    range_end = 16
+    range_start = 1
+    range_end = 17
+    default = 17
 
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them

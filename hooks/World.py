@@ -56,41 +56,39 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         remove_chapter = world.random.choice(included_chapters)
         match remove_chapter:
             case "0":
-                    included_chapters.remove("0")
+                included_chapters.remove("0")
             case "1":
-                    included_chapters.remove("1")
+                included_chapters.remove("1")
             case "2":
-                    included_chapters.remove("2")
+                included_chapters.remove("2")
             case "3":
-                    included_chapters.remove("3")
+                included_chapters.remove("3")
             case "4":
-                    included_chapters.remove("4")
+                included_chapters.remove("4")
             case "5":
-                    included_chapters.remove("5")
+                included_chapters.remove("5")
             case "6":
-                    included_chapters.remove("6")
+                included_chapters.remove("6")
             case "7":
-                    included_chapters.remove("7")
+                included_chapters.remove("7")
             case "8":
-                    included_chapters.remove("8")
+                included_chapters.remove("8")
             case "9":
-                    included_chapters.remove("9")
+                included_chapters.remove("9")
             case "10":
-                    included_chapters.remove("10")
+                included_chapters.remove("10")
             case "11":
-                    included_chapters.remove("11")
+                included_chapters.remove("11")
             case "12":
-                    included_chapters.remove("12")
+                included_chapters.remove("12")
             case "13":
-                    included_chapters.remove("13")
+                included_chapters.remove("13")
             case "14":
-                    included_chapters.remove("14")
+                included_chapters.remove("14")
             case "15":
-                    included_chapters.remove("15")
+                included_chapters.remove("15")
             case "16":
-                while "progressive chapter 16" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 16"))
-                    included_chapters.remove("16")
+                included_chapters.remove("16")
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -129,14 +127,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
     max_amount_bosses = 17
     if victory_name == "collect OP":
-        for _ in range(100 - world.options.originium_prime_hunt.value):
-            item_pool.remove(next(i for i in item_pool if i.name == "Originium Prime"))
-        for _ in range(max_amount_bosses):
-            item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
-    elif victory_name != "beat x bosses":
-        for _ in range(max_amount_bosses - 1):
-            item_pool.remove(next(i for i in item_pool if i.name == "defeated bosses"))
-        for _ in range(100):
+        max_op = int((100-world.options.originium_prime_hunt.value)*world.options.extra_OP/100)
+        for _ in range(max_op):
             item_pool.remove(next(i for i in item_pool if i.name == "Originium Prime"))
 
     # remove the amount of random unlockable items
@@ -237,43 +229,60 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     #collect the first chapter unlock
     global included_chapters
-
+    # collect_chapter = None
     match world.random.choice(included_chapters):
-        case 0:
+        case "0":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 0")
-        case 1:
+            logging.info("starting chapter is 0")
+        case "1":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 1")
-        case 2:
+            logging.info("starting chapter is 1")
+        case "2":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 2")
-        case 3:
+            logging.info("starting chapter is 2")
+        case "3":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 3")
-        case 4:
+            logging.info("starting chapter is 3")
+        case "4":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 4")
-        case 5:
+            logging.info("starting chapter is 4")
+        case "5":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 5")
-        case 6:
+            logging.info("starting chapter is 5")
+        case "6":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 6")
-        case 7:
+            logging.info("starting chapter is 6")
+        case "7":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 7")
-        case 8:
+            logging.info("starting chapter is 7")
+        case "8":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 8 past")
-        case 9:
+            logging.info("starting chapter is 8")
+        case "9":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 9")
-        case 10:
+            logging.info("starting chapter is 9")
+        case "10":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 10")
-        case 11:
+            logging.info("starting chapter is 10")
+        case "11":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 11")
-        case 12:
+            logging.info("starting chapter is 11")
+        case "12":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 12")
-        case 13:
+            logging.info("starting chapter is 12")
+        case "13":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 13")
-        case 14:
+            logging.info("starting chapter is 13")
+        case "14":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 14")
-        case 15:
+            logging.info("starting chapter is 14")
+        case "15":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 15")
-        case 16:
+            logging.info("starting chapter is 15")
+        case "16":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 16")
-        
+            logging.info("starting chapter is 16")
+
     multiworld.push_precollected(collect_chapter)
     item_pool.remove(collect_chapter)
     
@@ -426,7 +435,6 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
     boss_locations = []
-    placed_item = next(i for i in multiworld.get_items() if i.player == player and "beaten stage" == i.name)
     match victory_name:
         case "boss chapter cleared":
             match world.options.chapter_boss_clear.value:
@@ -491,19 +499,25 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                 case 16:
                     boss_locations.append("H16-4 clear")
         case "beat multiple boss stages":
-            placed_item = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
             boss_locations.extend([name for name, i in world.location_name_to_location.items() if "boss stage" in i.get("category", [])])
         case "collect OP":
             #no need to force place items in collect runs. only needs to remove items, which is done in a different hook (before_create_items_filler)
             return
 
     # print("boss locations: [%s]" % ", ".join(boss_locations))
-    #Force place the 'defeated boss' in the boss_locations just found.
-    for location in boss_locations:
-        placed_item = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
-        placed_location = multiworld.get_location(location, player)
+    #Force place the 'defeated boss' or 'stage clear' in the boss_locations just found.
+    if victory_name in ("H-stages cleared", "boss chapter cleared"):
+        #there will always be only one stage here, so we don't have to call random.choice
+        placed_item = next(i for i in multiworld.get_items() if i.player == player and "beaten stage" == i.name)
+        placed_location = multiworld.get_location(boss_locations[0], player)
         placed_location.place_locked_item(placed_item)
         multiworld.itempool.remove(placed_item)
+    else:
+        for location in boss_locations:
+            placed_item = next(i for i in multiworld.get_items() if i.player == player and "defeated bosses" == i.name)
+            placed_location = multiworld.get_location(location, player)
+            placed_location.place_locked_item(placed_item)
+            multiworld.itempool.remove(placed_item)
 
 # This method is run at the very end of pre-generation, once the place_item options have been handled and before AP generation occurs
 def after_generate_basic(world: World, multiworld: MultiWorld, player: int):

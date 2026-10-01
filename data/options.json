@@ -98,24 +98,24 @@
         },
         "originium prime hunt": {
             "description": [
-                "choose how many Originium prime you need to collect to beat the manual",
+                "choose how many Originium prime there is available to collect",
                 "if a different goal is chosen, this option won't do anything"
             ],
             "type": "Range",
             "default": 10,
             "range_start": 1,
-            "range_end": 50,
+            "range_end": 100,
             "group": "goal options"
         },
         "extra OP": {
             "description": [
-                "how many extra Originium prime there is available in the manual.",
+                "percentage of op that is needed to beat the manual.",
                 "this will make the manual easier to beat."
             ],
             "type": "Range",
             "default": 0,
-            "range_start": 1,
-            "range_end": 500,
+            "range_start": 0,
+            "range_end": 100,
             "group": "goal options"
         },
         "include 6 stars":{
