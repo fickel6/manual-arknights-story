@@ -4471,7 +4471,7 @@
   },
   {
     "name": "beat multiple boss stages",
-    "category": ["goal"],
+    "category": ["goal", "defeated bosses goal"],
     "requires": "|defeated bosses:ALL|",
     "victory": true
   },

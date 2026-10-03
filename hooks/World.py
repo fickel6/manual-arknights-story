@@ -119,6 +119,11 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
     return item_config
 
+# The item pool before place_item(_category) are processed, in case you want to see the raw item pool at that stage
+def before_create_items_place_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    return item_pool
+
+
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     victory_names = [name for name, location in world.location_name_to_location.items() if location.get('victory') == True]
@@ -229,6 +234,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     #collect the first chapter unlock
     global included_chapters
+    logging.info("these are the included chapters: ")
+    logging.info(included_chapters)
     # collect_chapter = None
     match world.random.choice(included_chapters):
         case "0":
@@ -293,7 +300,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     possible_characters.extend(
         name for name, i in world.item_name_to_item.items() if "progressive characters" in i.get("category", [])
     )
-    amount_operators = world.options.starting_squad_range
+    amount_operators = world.options.starting_operators
     #helper function. checks if the item is a rarity or progressive rarity.
     #returns true, false if it is a rarity; false, true if it is a progressive rarity; false, false if it is neither
     #true, true should never happen
