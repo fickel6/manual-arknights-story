@@ -9,60 +9,62 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     from .World import included_chapters
     from ..Helpers import get_option_value
     #chapter 0 should be removed if 
-    enabled_chapters = get_option_value(multiworld, player, "included_chapters")
-    if enabled_chapters is dict:
-        logging.info(enabled_chapters)
-        if category_name == "chapter 0" and "c0" in enabled_chapters and "0" in included_chapters:
-            logging.info(f"c0 is included")
+    enabled_chapters = get_option_value(multiworld, player, "enabled_chapters")
+    if enabled_chapters is not int:
+        # logging.info(enabled_chapters)
+        if category_name == "chapter 0" and "chapter 0" in enabled_chapters and "chapter 0" in included_chapters:
+            logging.info(f"chapter 0 is included")
             return True
-        elif category_name == "chapter 1" and "c1" in enabled_chapters and "1" in included_chapters:
-            logging.info(f"c1 is included")
+        elif category_name == "chapter 1" and "chapter 1" in enabled_chapters and "chapter 1" in included_chapters:
+            logging.info(f"chapter 1 is included")
             return True
-        elif category_name == "chapter 2" and "c2" in enabled_chapters and "2" in included_chapters:
-            logging.info(f"c2 is included")
+        elif category_name == "chapter 2" and "chapter 2" in enabled_chapters and "chapter 2" in included_chapters:
+            logging.info(f"chapter 2 is included")
             return True
-        elif category_name == "chapter 3" and "c3" in enabled_chapters and "3" in included_chapters:
-            logging.info(f"c3 is included")
+        elif category_name == "chapter 3" and "chapter 3" in enabled_chapters and "chapter 3" in included_chapters:
+            logging.info(f"chapter 3 is included")
             return True
-        elif category_name == "chapter 4" and "c4" in enabled_chapters and "4" in included_chapters:
-            logging.info(f"c4 is included")
+        elif category_name == "chapter 4" and "chapter 4" in enabled_chapters and "chapter 4" in included_chapters:
+            logging.info(f"chapter 4 is included")
             return True
-        elif category_name == "chapter 5" and "c5" in enabled_chapters and "5" in included_chapters:
-            logging.info(f"c5 is included")
+        elif category_name == "chapter 5" and "chapter 5" in enabled_chapters and "chapter 5" in included_chapters:
+            logging.info(f"chapter 5 is included")
             return True
-        elif category_name == "chapter 6" and "c6" in enabled_chapters and "6" in included_chapters:
-            logging.info(f"c6 is included")
+        elif category_name == "chapter 6" and "chapter 6" in enabled_chapters and "chapter 6" in included_chapters:
+            logging.info(f"chapter 6 is included")
             return True
-        elif category_name == "chapter 7" and "c7" in enabled_chapters and "7" in included_chapters:
-            logging.info(f"c7 is included")
+        elif category_name == "chapter 7" and "chapter 7" in enabled_chapters and "chapter 7" in included_chapters:
+            logging.info(f"chapter 7 is included")
             return True
-        elif category_name == "chapter 8" and "c8" in enabled_chapters and "8" in included_chapters:
-            logging.info(f"c8 is included")
+        elif category_name == "chapter 8" and "chapter 8" in enabled_chapters and "chapter 8" in included_chapters:
+            logging.info(f"chapter 8 is included")
             return True
-        elif category_name == "chapter 9" and "c9" in enabled_chapters and "9" in included_chapters:
-            logging.info(f"c9 is included")
+        elif category_name == "chapter 9" and "chapter 9" in enabled_chapters and "chapter 9" in included_chapters:
+            logging.info(f"chapter 9 is included")
             return True
-        elif category_name == "chapter 10" and "c10" in enabled_chapters and "10" in included_chapters:
-            logging.info(f"c10 is included")
+        elif category_name == "chapter 10" and "chapter 10" in enabled_chapters and "chapter 10" in included_chapters:
+            logging.info(f"chapter 10 is included")
             return True
-        elif category_name == "chapter 11" and "c11" in enabled_chapters and "11" in included_chapters:
-            logging.info(f"c11 is included")
+        elif category_name == "chapter 11" and "chapter 11" in enabled_chapters and "chapter 11" in included_chapters:
+            logging.info(f"chapter 11 is included")
             return True
-        elif category_name == "chapter 12" and "c12" in enabled_chapters and "12" in included_chapters:
-            logging.info(f"c12 is included")
+        elif category_name == "chapter 12" and "chapter 12" in enabled_chapters and "chapter 12" in included_chapters:
+            logging.info(f"chapter 12 is included")
             return True
-        elif category_name == "chapter 13" and "c13" in enabled_chapters and "13" in included_chapters:
-            logging.info(f"c13 is included")
+        elif category_name == "chapter 13" and "chapter 13" in enabled_chapters and "chapter 13" in included_chapters:
+            logging.info(f"chapter 13 is included")
             return True
-        elif category_name == "chapter 14" and "c14" in enabled_chapters and "14" in included_chapters:
-            logging.info(f"c14 is included")
+        elif category_name == "chapter 14" and "chapter 14" in enabled_chapters and "chapter 14" in included_chapters:
+            logging.info(f"chapter 14 is included")
             return True
-        elif category_name == "chapter 15" and "c15" in enabled_chapters and "15" in included_chapters:
-            logging.info(f"c15 is included")
+        elif category_name == "chapter 15" and "chapter 15" in enabled_chapters and "chapter 15" in included_chapters:
+            logging.info(f"chapter 15 is included")
             return True
-        elif category_name == "chapter 16" and "c16" in enabled_chapters and "16" in included_chapters:
-            logging.info(f"c16 is included")
+        elif category_name == "chapter 16" and "chapter 16" in enabled_chapters and "chapter 16" in included_chapters:
+            logging.info(f"chapter 16 is included")
             return True
+        else:
+            return False
     elif "6 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
         return False
     elif "5 star" == category_name and get_option_value(multiworld, player, "include_5_stars") != 0:
@@ -91,6 +93,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         else:
             return False
     elif "defeated bosses goal" == category_name:
+        print("removed boss items")
         if get_option_value(multiworld, player, "The End Objective") == 2:
             return True
         else:
@@ -100,8 +103,8 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the item, False to disable it, or None to use the default behavior
 def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str, Any]) -> Optional[bool]:
-    from .World import included_chapters
-    logging.info(included_chapters)
+    # from .World import included_chapters
+    # logging.info(included_chapters)
     # Remove unwanted champions from the item pool
     from ..Helpers import get_option_value
     if "progressive 6 star" == item["name"]:
@@ -155,7 +158,41 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the location, False to disable it, or None to use the default behavior
 def before_is_location_enabled(multiworld: MultiWorld, player: int, location:  dict[str, Any]) -> Optional[bool]:
-
+    from .World import included_chapters
+    if "chapter 0" in location["category"] and "chapter 0" not in included_chapters:
+        return False
+    elif "chapter 1" in location["category"] and "chapter 1" not in included_chapters:
+        return False
+    elif "chapter 2" in location["category"] and "chapter 2" not in included_chapters:
+        return False
+    elif "chapter 3" in location["category"] and "chapter 3" not in included_chapters:
+        return False
+    elif "chapter 4" in location["category"] and "chapter 4" not in included_chapters:
+        return False
+    elif "chapter 5" in location["category"] and "chapter 5" not in included_chapters:
+        return False
+    elif "chapter 6" in location["category"] and "chapter 6" not in included_chapters:
+        return False
+    elif "chapter 7" in location["category"] and "chapter 7" not in included_chapters:
+        return False
+    elif "chapter 8" in location["category"] and "chapter 8" not in included_chapters:
+        return False
+    elif "chapter 9" in location["category"] and "chapter 9" not in included_chapters:
+        return False
+    elif "chapter 10" in location["category"] and "chapter 10" not in included_chapters:
+        return False
+    elif "chapter 11" in location["category"] and "chapter 11" not in included_chapters:
+        return False
+    elif "chapter 12" in location["category"] and "chapter 12" not in included_chapters:
+        return False
+    elif "chapter 13" in location["category"] and "chapter 13" not in included_chapters:
+        return False
+    elif "chapter 14" in location["category"] and "chapter 14" not in included_chapters:
+        return False
+    elif "chapter 15" in location["category"] and "chapter 15" not in included_chapters:
+        return False
+    elif "chapter 16" in location["category"] and "chapter 16" not in included_chapters:
+        return False
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled

@@ -100,7 +100,7 @@ class randomChapters(Range):
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
-    options["included_chapters"] = chapters
+    options["enabled_chapters"] = chapters
     options["included_random_chapters"] = randomChapters
 
     options["list_6_star"] = Enabled6Star  # This registers the yaml option as `listing_6_star`

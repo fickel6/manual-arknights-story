@@ -47,7 +47,11 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     # using this hook to make some global variables 
     global victory_name
     global included_chapters
-    included_chapters = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"]
+    included_chapters = []
+    enabled_chapters = world.options.enabled_chapters
+    for chapters in enabled_chapters:
+        included_chapters.append(chapters)
+
     amount_chapters = world.options.included_random_chapters
     if amount_chapters >= len(included_chapters):
         return
@@ -55,40 +59,40 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     for _ in range(0, amount_chapters):
         remove_chapter = world.random.choice(included_chapters)
         match remove_chapter:
-            case "0":
-                included_chapters.remove("0")
-            case "1":
-                included_chapters.remove("1")
-            case "2":
-                included_chapters.remove("2")
-            case "3":
-                included_chapters.remove("3")
-            case "4":
-                included_chapters.remove("4")
-            case "5":
-                included_chapters.remove("5")
-            case "6":
-                included_chapters.remove("6")
-            case "7":
-                included_chapters.remove("7")
-            case "8":
-                included_chapters.remove("8")
-            case "9":
-                included_chapters.remove("9")
-            case "10":
-                included_chapters.remove("10")
-            case "11":
-                included_chapters.remove("11")
-            case "12":
-                included_chapters.remove("12")
-            case "13":
-                included_chapters.remove("13")
-            case "14":
-                included_chapters.remove("14")
-            case "15":
-                included_chapters.remove("15")
-            case "16":
-                included_chapters.remove("16")
+            case "chapter 0":
+                included_chapters.remove("chapter 0")
+            case "chapter 1":
+                included_chapters.remove("chapter 1")
+            case "chapter 2":
+                included_chapters.remove("chapter 2")
+            case "chapter 3":
+                included_chapters.remove("chapter 3")
+            case "chapter 4":
+                included_chapters.remove("chapter 4")
+            case "chapter 5":
+                included_chapters.remove("chapter 5")
+            case "chapter 6":
+                included_chapters.remove("chapter 6")
+            case "chapter 7":
+                included_chapters.remove("chapter 7")
+            case "chapter 8":
+                included_chapters.remove("chapter 8")
+            case "chapter 9":
+                included_chapters.remove("chapter 9")
+            case "chapter 10":
+                included_chapters.remove("chapter 10")
+            case "chapter 11":
+                included_chapters.remove("chapter 11")
+            case "chapter 12":
+                included_chapters.remove("chapter 12")
+            case "chapter 13":
+                included_chapters.remove("chapter 13")
+            case "chapter 14":
+                included_chapters.remove("chapter 14")
+            case "chapter 15":
+                included_chapters.remove("chapter 15")
+            case "chapter 16":
+                included_chapters.remove("chapter 16")
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -98,14 +102,14 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove: list[str] = [] # List of location names
-    all_chapters = get_option_value(multiworld, player, "included_chapters")
-    if all_chapters is dict:
-        #remove the amount of chapters not included
-        for _ in range(0, 17 - world.options.included_random_chapters):
-            chapter, _ = world.random.choice([all_chapters.keys()])
-            locationNamesToRemove.extend(
-                name for name, i in world.location_name_to_location.items() if chapter in i.get("category", [])
-            )
+    # all_chapters = get_option_value(multiworld, player, "enabled_chapters")
+    # if all_chapters is dict:
+    #     #remove the amount of chapters not included
+    #     for _ in range(0, 17 - world.options.included_random_chapters):
+    #         chapter, _ = world.random.choice([all_chapters.keys()])
+    #         locationNamesToRemove.extend(
+    #             name for name, i in world.location_name_to_location.items() if chapter in i.get("category", [])
+    #         )
                    
     pass
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
@@ -147,74 +151,75 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     amount_chapters = len(included_chapters)-amount_chapters
     for _ in range(0, amount_chapters):
         remove_chapter = world.random.choice(included_chapters)
+        print(f"removing {remove_chapter}")
         match remove_chapter:
-            case "0":
+            case "chapter 0":
                 while "progressive chapter 0" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 0"))
-                    included_chapters.remove("0")
-            case "1":
+                    included_chapters.remove("chapter 0")
+            case "chapter 1":
                 while "progressive chapter 1" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 1"))
-                    included_chapters.remove("1")
-            case "2":
+                    included_chapters.remove("chapter 1")
+            case "chapter 2":
                 while "progressive chapter 2" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 2"))
-                    included_chapters.remove("2")
-            case "3":
+                    included_chapters.remove("chapter 2")
+            case "chapter 3":
                 while "progressive chapter 3" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 3"))
-                    included_chapters.remove("3")
-            case "4":
+                    included_chapters.remove("chapter 3")
+            case "chapter 4":
                 while "progressive chapter 4" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 4"))
                     included_chapters.remove("4")
-            case "5":
+            case "chapter 5":
                 while "progressive chapter 5" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 5"))
                     included_chapters.remove("5")
-            case "6":
+            case "chapter 6":
                 while "progressive chapter 6" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 6"))
                     included_chapters.remove("6")
-            case "7":
+            case "chapter 7":
                 while "progressive chapter 7" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 7"))
                     included_chapters.remove("7")
-            case "8":
+            case "chapter 8":
                 while "progressive chapter 8 past" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 8 past"))
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 8 present"))
                 #past and present are the same length. to be sure everything works, add a second while loop for removing extra present items
                     included_chapters.remove("8")
-            case "9":
+            case "chapter 9":
                 while "progressive chapter 9" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 9"))
                     included_chapters.remove("9")
-            case "10":
+            case "chapter 10":
                 while "progressive chapter 10" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 10"))
                     included_chapters.remove("10")
-            case "11":
+            case "chapter 11":
                 while "progressive chapter 11" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 11"))
                     included_chapters.remove("11")
-            case "12":
+            case "chapter 12":
                 while "progressive chapter 12" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 12"))
                     included_chapters.remove("12")
-            case "13":
+            case "chapter 13":
                 while "progressive chapter 13" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 13"))
                     included_chapters.remove("13")
-            case "14":
+            case "chapter 14":
                 while "progressive chapter 14" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 14"))
                     included_chapters.remove("14")
-            case "15":
+            case "chapter 15":
                 while "progressive chapter 15" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 15"))
                     included_chapters.remove("15")
-            case "16":
+            case "chapter 16":
                 while "progressive chapter 16" in item_pool:
                     item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 16"))
                     included_chapters.remove("16")
@@ -238,55 +243,55 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     logging.info(included_chapters)
     # collect_chapter = None
     match world.random.choice(included_chapters):
-        case "0":
+        case "chapter 0":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 0")
             logging.info("starting chapter is 0")
-        case "1":
+        case "chapter 1":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 1")
             logging.info("starting chapter is 1")
-        case "2":
+        case "chapter 2":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 2")
             logging.info("starting chapter is 2")
-        case "3":
+        case "chapter 3":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 3")
             logging.info("starting chapter is 3")
-        case "4":
+        case "chapter 4":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 4")
             logging.info("starting chapter is 4")
-        case "5":
+        case "chapter 5":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 5")
             logging.info("starting chapter is 5")
-        case "6":
+        case "chapter 6":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 6")
             logging.info("starting chapter is 6")
-        case "7":
+        case "chapter 7":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 7")
             logging.info("starting chapter is 7")
-        case "8":
+        case "chapter 8":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 8 past")
             logging.info("starting chapter is 8")
-        case "9":
+        case "chapter 9":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 9")
             logging.info("starting chapter is 9")
-        case "10":
+        case "chapter 10":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 10")
             logging.info("starting chapter is 10")
-        case "11":
+        case "chapter 11":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 11")
             logging.info("starting chapter is 11")
-        case "12":
+        case "chapter 12":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 12")
             logging.info("starting chapter is 12")
-        case "13":
+        case "chapter 13":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 13")
             logging.info("starting chapter is 13")
-        case "14":
+        case "chapter 14":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 14")
             logging.info("starting chapter is 14")
-        case "15":
+        case "chapter 15":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 15")
             logging.info("starting chapter is 15")
-        case "16":
+        case "chapter 16":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 16")
             logging.info("starting chapter is 16")
 

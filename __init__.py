@@ -130,7 +130,6 @@ class ManualWorld(World):
 
         if not unused_goals_are_locations:
             for unused_goal in [self.multiworld.get_location(name, self.player) for name in victory_names if name != location_game_complete.name]:
-                print(unused_goal)
                 unused_goal.parent_region.locations.remove(unused_goal)
 
         location_game_complete.place_locked_item(

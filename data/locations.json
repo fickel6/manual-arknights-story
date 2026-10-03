@@ -4471,14 +4471,14 @@
   },
   {
     "name": "beat multiple boss stages",
-    "category": ["goal", "defeated bosses goal"],
-    "requires": "|defeated bosses:ALL|",
+    "category": ["goal"],
+    "requires": "|defeated bosses:all|",
     "victory": true
   },
   {
     "name": "collect OP",
     "category": ["goal"],
-    "requires": "|Originium Prime:ALL|",
+    "requires": "|Originium Prime:all|",
     "victory": true
   }
 ]
