@@ -6261,12 +6261,192 @@
     "name": "IL-10 clear",
     "category": ["Sette Colli's Sprouts", "Il Siracusan"],
     "region": "Il Siracusan second half",
-    "requires": ""
+    "requires": "|@6 star|"
   },
   {
     "name": "IL-10 3-star clear",
     "category": ["Sette Colli's Sprouts", "Il Siracusan"],
     "region": "Il Siracusan second half",
+    "requires": "|@6 star|"
+  },
+  {
+    "name": "IL-ST-1 read",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "reading"],
+    "region": "Il Siracusan first half",
+    "requires": ""
+  },
+  {
+    "name": "IL-ST-2 read",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "reading"],
+    "region": "Il Siracusan first half",
+    "requires": ""
+  },
+  {
+    "name": "IL-ST-3 read",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "reading"],
+    "region": "Il Siracusan second half",
+    "requires": ""
+  },
+  {
+    "name": "IL-ST-4 read",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "reading"],
+    "region": "Il Siracusan second half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-1 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan third half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-1 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan third half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-2 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan third half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-2 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan third half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-3 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan third half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-3 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan third half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-4 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan third half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-4 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan third half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-5 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-5 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-6 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-6 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-7 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-7 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-EX-8 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fourth half",
+    "requires": "|@6 star|"
+  },
+  {
+    "name": "IL-EX-8 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fourth half",
+    "requires": "|@6 star|"
+  },
+  {
+    "name": "IL-S-1 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-S-1 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-S-2 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-S-2 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-S-3 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-S-3 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-S-4 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-S-4 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-S-5 clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IL-S-5 3-star clear",
+    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "region": "Il Siracusan fifth half",
     "requires": ""
   },
 ]
