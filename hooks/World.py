@@ -52,47 +52,47 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     for chapters in enabled_chapters:
         included_chapters.append(chapters)
 
-    amount_chapters = world.options.included_random_chapters
-    if amount_chapters >= len(included_chapters):
-        return
-    amount_chapters = len(included_chapters)-amount_chapters
-    for _ in range(0, amount_chapters):
-        remove_chapter = world.random.choice(included_chapters)
-        match remove_chapter:
-            case "chapter 0":
-                included_chapters.remove("chapter 0")
-            case "chapter 1":
-                included_chapters.remove("chapter 1")
-            case "chapter 2":
-                included_chapters.remove("chapter 2")
-            case "chapter 3":
-                included_chapters.remove("chapter 3")
-            case "chapter 4":
-                included_chapters.remove("chapter 4")
-            case "chapter 5":
-                included_chapters.remove("chapter 5")
-            case "chapter 6":
-                included_chapters.remove("chapter 6")
-            case "chapter 7":
-                included_chapters.remove("chapter 7")
-            case "chapter 8":
-                included_chapters.remove("chapter 8")
-            case "chapter 9":
-                included_chapters.remove("chapter 9")
-            case "chapter 10":
-                included_chapters.remove("chapter 10")
-            case "chapter 11":
-                included_chapters.remove("chapter 11")
-            case "chapter 12":
-                included_chapters.remove("chapter 12")
-            case "chapter 13":
-                included_chapters.remove("chapter 13")
-            case "chapter 14":
-                included_chapters.remove("chapter 14")
-            case "chapter 15":
-                included_chapters.remove("chapter 15")
-            case "chapter 16":
-                included_chapters.remove("chapter 16")
+    # amount_chapters = world.options.included_random_chapters
+    # if amount_chapters >= len(included_chapters):
+    #     return
+    # amount_chapters = len(included_chapters)-amount_chapters
+    # for _ in range(0, amount_chapters):
+    #     remove_chapter = world.random.choice(included_chapters)
+    #     match remove_chapter:
+    #         case "chapter 0":
+    #             included_chapters.remove("chapter 0")
+    #         case "chapter 1":
+    #             included_chapters.remove("chapter 1")
+    #         case "chapter 2":
+    #             included_chapters.remove("chapter 2")
+    #         case "chapter 3":
+    #             included_chapters.remove("chapter 3")
+    #         case "chapter 4":
+    #             included_chapters.remove("chapter 4")
+    #         case "chapter 5":
+    #             included_chapters.remove("chapter 5")
+    #         case "chapter 6":
+    #             included_chapters.remove("chapter 6")
+    #         case "chapter 7":
+    #             included_chapters.remove("chapter 7")
+    #         case "chapter 8":
+    #             included_chapters.remove("chapter 8")
+    #         case "chapter 9":
+    #             included_chapters.remove("chapter 9")
+    #         case "chapter 10":
+    #             included_chapters.remove("chapter 10")
+    #         case "chapter 11":
+    #             included_chapters.remove("chapter 11")
+    #         case "chapter 12":
+    #             included_chapters.remove("chapter 12")
+    #         case "chapter 13":
+    #             included_chapters.remove("chapter 13")
+    #         case "chapter 14":
+    #             included_chapters.remove("chapter 14")
+    #         case "chapter 15":
+    #             included_chapters.remove("chapter 15")
+    #         case "chapter 16":
+    #             included_chapters.remove("chapter 16")
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.

@@ -4460,7 +4460,7 @@
   {
     "name": "boss chapter cleared",
     "category": ["goal"],
-    "requires": "|defeated bosses|",
+    "requires": "|beaten stage|",
     "victory": true
   },
   {

@@ -89,6 +89,13 @@ class Enabled1Star(OptionSet):
     valid_keys = item_name_groups["1 star"]    # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
     default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
 
+class BlackOrWhite(Toggle):
+    """how to include the listed characters. 
+    if this value is true, then the listed operators will be whitelisted.
+    if this value is false, then the listed operators will be blacklisted."""
+    display_name = "blacklist  or whitelist operators"
+    default = True
+
 class randomChapters(Range):
     """amount of chapters will be used for randomization. 
     0 means that all the chapters will be randomized."""
@@ -102,6 +109,7 @@ class randomChapters(Range):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["enabled_chapters"] = chapters
     options["included_random_chapters"] = randomChapters
+    options["black_or_white"] = BlackOrWhite
 
     options["list_6_star"] = Enabled6Star  # This registers the yaml option as `listing_6_star`
     options["list_5_star"] = Enabled5Star  # This registers the yaml option as `listing_5_star`
@@ -128,7 +136,7 @@ def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> 
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     # groupname must be different then the options in the json file.
     groups["chapter selection"] = [chapters, randomChapters]
-    groups["operator lists"] = [Enabled6Star, Enabled5Star, Enabled4Star, Enabled3Star, Enabled2Star, Enabled1Star]
+    groups["operator lists"] = [BlackOrWhite, Enabled6Star, Enabled5Star, Enabled4Star, Enabled3Star, Enabled2Star, Enabled1Star]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
