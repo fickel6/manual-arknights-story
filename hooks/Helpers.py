@@ -76,7 +76,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         return False
     elif "1 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
         return False
-    elif "progressive squad size" == category_name:
+    elif "squad size" == category_name:
         if get_option_value(multiworld, player, "squad_size_sanity") == 0:
             return False
         else:
@@ -92,7 +92,6 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         else:
             return False
     elif "defeated bosses goal" == category_name:
-        print("removed boss items")
         if get_option_value(multiworld, player, "The End Objective") == 2:
             return True
         else:

@@ -32,8 +32,6 @@ import itertools
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
-
-
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
@@ -146,93 +144,91 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         item_pool.remove(next(i for i in item_pool if i.name == "random unit unlock"))
 
     amount_chapters = world.options.included_random_chapters
-    if amount_chapters >= len(included_chapters):
-        return item_pool
-    amount_chapters = len(included_chapters)-amount_chapters
-    for _ in range(0, amount_chapters):
-        remove_chapter = world.random.choice(included_chapters)
-        print(f"removing {remove_chapter}")
-        match remove_chapter:
-            case "chapter 0":
-                while "progressive chapter 0" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 0"))
-                    included_chapters.remove("chapter 0")
-            case "chapter 1":
-                while "progressive chapter 1" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 1"))
-                    included_chapters.remove("chapter 1")
-            case "chapter 2":
-                while "progressive chapter 2" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 2"))
-                    included_chapters.remove("chapter 2")
-            case "chapter 3":
-                while "progressive chapter 3" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 3"))
-                    included_chapters.remove("chapter 3")
-            case "chapter 4":
-                while "progressive chapter 4" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 4"))
-                    included_chapters.remove("4")
-            case "chapter 5":
-                while "progressive chapter 5" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 5"))
-                    included_chapters.remove("5")
-            case "chapter 6":
-                while "progressive chapter 6" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 6"))
-                    included_chapters.remove("6")
-            case "chapter 7":
-                while "progressive chapter 7" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 7"))
-                    included_chapters.remove("7")
-            case "chapter 8":
-                while "progressive chapter 8 past" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 8 past"))
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 8 present"))
-                #past and present are the same length. to be sure everything works, add a second while loop for removing extra present items
-                    included_chapters.remove("8")
-            case "chapter 9":
-                while "progressive chapter 9" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 9"))
-                    included_chapters.remove("9")
-            case "chapter 10":
-                while "progressive chapter 10" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 10"))
-                    included_chapters.remove("10")
-            case "chapter 11":
-                while "progressive chapter 11" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 11"))
-                    included_chapters.remove("11")
-            case "chapter 12":
-                while "progressive chapter 12" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 12"))
-                    included_chapters.remove("12")
-            case "chapter 13":
-                while "progressive chapter 13" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 13"))
-                    included_chapters.remove("13")
-            case "chapter 14":
-                while "progressive chapter 14" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 14"))
-                    included_chapters.remove("14")
-            case "chapter 15":
-                while "progressive chapter 15" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 15"))
-                    included_chapters.remove("15")
-            case "chapter 16":
-                while "progressive chapter 16" in item_pool:
-                    item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 16"))
-                    included_chapters.remove("16")
-        
-    logging.info("included chapters are:")
-    for chapter in included_chapters:
-        logging.info(f"chapter {chapter}")
+    if amount_chapters < len(included_chapters):
+        amount_chapters = len(included_chapters)-amount_chapters
+        for _ in range(0, amount_chapters):
+            remove_chapter = world.random.choice(included_chapters)
+            print(f"removing {remove_chapter}")
+            match remove_chapter:
+                case "chapter 0":
+                    while "progressive chapter 0" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 0"))
+                        included_chapters.remove("chapter 0")
+                case "chapter 1":
+                    while "progressive chapter 1" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 1"))
+                        included_chapters.remove("chapter 1")
+                case "chapter 2":
+                    while "progressive chapter 2" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 2"))
+                        included_chapters.remove("chapter 2")
+                case "chapter 3":
+                    while "progressive chapter 3" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 3"))
+                        included_chapters.remove("chapter 3")
+                case "chapter 4":
+                    while "progressive chapter 4" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 4"))
+                        included_chapters.remove("4")
+                case "chapter 5":
+                    while "progressive chapter 5" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 5"))
+                        included_chapters.remove("5")
+                case "chapter 6":
+                    while "progressive chapter 6" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 6"))
+                        included_chapters.remove("6")
+                case "chapter 7":
+                    while "progressive chapter 7" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 7"))
+                        included_chapters.remove("7")
+                case "chapter 8":
+                    while "progressive chapter 8 past" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 8 past"))
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 8 present"))
+                    #past and present are the same length. to be sure everything works, add a second while loop for removing extra present items
+                        included_chapters.remove("8")
+                case "chapter 9":
+                    while "progressive chapter 9" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 9"))
+                        included_chapters.remove("9")
+                case "chapter 10":
+                    while "progressive chapter 10" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 10"))
+                        included_chapters.remove("10")
+                case "chapter 11":
+                    while "progressive chapter 11" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 11"))
+                        included_chapters.remove("11")
+                case "chapter 12":
+                    while "progressive chapter 12" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 12"))
+                        included_chapters.remove("12")
+                case "chapter 13":
+                    while "progressive chapter 13" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 13"))
+                        included_chapters.remove("13")
+                case "chapter 14":
+                    while "progressive chapter 14" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 14"))
+                        included_chapters.remove("14")
+                case "chapter 15":
+                    while "progressive chapter 15" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 15"))
+                        included_chapters.remove("15")
+                case "chapter 16":
+                    while "progressive chapter 16" in item_pool:
+                        item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 16"))
+                        included_chapters.remove("16")
 
     max_squad = 13
-    if world.options.squad_size_sanity != 0:
-        for i in range(max_squad - world.options.squad_size_sanity):
-            item_pool.remove(next(i for i in item_pool if i.name == "progressive squad size"))
-    
+    max_progressive = get_option_value(multiworld, player, "squad_size_sanity")
+    logging.info(type(max_progressive))
+    if isinstance(max_progressive, int):
+        if max_progressive != 0:
+            for _ in range(max_squad - max_progressive):
+                item_pool.remove(next(i for i in item_pool if i.name == "progressive squad size"))
+        
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
