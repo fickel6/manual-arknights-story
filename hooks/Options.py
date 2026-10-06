@@ -109,7 +109,7 @@ class randomChapters(Range):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["enabled_chapters"] = chapters
     options["included_random_chapters"] = randomChapters
-    options["black_or_white"] = BlackOrWhite
+    options["black_or_whitelist"] = BlackOrWhite
 
     options["list_6_star"] = Enabled6Star  # This registers the yaml option as `listing_6_star`
     options["list_5_star"] = Enabled5Star  # This registers the yaml option as `listing_5_star`

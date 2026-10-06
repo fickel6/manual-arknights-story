@@ -42,55 +42,55 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
+    import bisect
     # using this hook to make some global variables 
     global victory_name
     global included_chapters
     included_chapters = []
     enabled_chapters = world.options.enabled_chapters
     for chapters in enabled_chapters:
-        included_chapters.append(chapters)
+        bisect.insort(included_chapters, chapters)
 
-    # amount_chapters = world.options.included_random_chapters
-    # if amount_chapters >= len(included_chapters):
-    #     return
-    # amount_chapters = len(included_chapters)-amount_chapters
-    # for _ in range(0, amount_chapters):
-    #     remove_chapter = world.random.choice(included_chapters)
-    #     match remove_chapter:
-    #         case "chapter 0":
-    #             included_chapters.remove("chapter 0")
-    #         case "chapter 1":
-    #             included_chapters.remove("chapter 1")
-    #         case "chapter 2":
-    #             included_chapters.remove("chapter 2")
-    #         case "chapter 3":
-    #             included_chapters.remove("chapter 3")
-    #         case "chapter 4":
-    #             included_chapters.remove("chapter 4")
-    #         case "chapter 5":
-    #             included_chapters.remove("chapter 5")
-    #         case "chapter 6":
-    #             included_chapters.remove("chapter 6")
-    #         case "chapter 7":
-    #             included_chapters.remove("chapter 7")
-    #         case "chapter 8":
-    #             included_chapters.remove("chapter 8")
-    #         case "chapter 9":
-    #             included_chapters.remove("chapter 9")
-    #         case "chapter 10":
-    #             included_chapters.remove("chapter 10")
-    #         case "chapter 11":
-    #             included_chapters.remove("chapter 11")
-    #         case "chapter 12":
-    #             included_chapters.remove("chapter 12")
-    #         case "chapter 13":
-    #             included_chapters.remove("chapter 13")
-    #         case "chapter 14":
-    #             included_chapters.remove("chapter 14")
-    #         case "chapter 15":
-    #             included_chapters.remove("chapter 15")
-    #         case "chapter 16":
-    #             included_chapters.remove("chapter 16")
+    amount_chapters = world.options.included_random_chapters
+    if amount_chapters < len(included_chapters):
+        amount_chapters = len(included_chapters)-amount_chapters
+        for _ in range(0, amount_chapters):
+            remove_chapter = world.random.choice(included_chapters)
+            match remove_chapter:
+                case "chapter 0":
+                    included_chapters.remove("chapter 0")
+                case "chapter 1":
+                    included_chapters.remove("chapter 1")
+                case "chapter 2":
+                    included_chapters.remove("chapter 2")
+                case "chapter 3":
+                    included_chapters.remove("chapter 3")
+                case "chapter 4":
+                    included_chapters.remove("chapter 4")
+                case "chapter 5":
+                    included_chapters.remove("chapter 5")
+                case "chapter 6":
+                    included_chapters.remove("chapter 6")
+                case "chapter 7":
+                    included_chapters.remove("chapter 7")
+                case "chapter 8":
+                    included_chapters.remove("chapter 8")
+                case "chapter 9":
+                    included_chapters.remove("chapter 9")
+                case "chapter 10":
+                    included_chapters.remove("chapter 10")
+                case "chapter 11":
+                    included_chapters.remove("chapter 11")
+                case "chapter 12":
+                    included_chapters.remove("chapter 12")
+                case "chapter 13":
+                    included_chapters.remove("chapter 13")
+                case "chapter 14":
+                    included_chapters.remove("chapter 14")
+                case "chapter 15":
+                    included_chapters.remove("chapter 15")
+                case "chapter 16":
+                    included_chapters.remove("chapter 16")
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -133,8 +133,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     victory_name = victory_names[world.options.goal]
 
     max_amount_bosses = 17
+    max_op = 100
     if victory_name == "collect OP":
-        max_op = int((100-world.options.originium_prime_hunt.value)*world.options.extra_OP/100)
+        max_op = int((max_op-world.options.originium_prime_hunt.value)*world.options.extra_OP/100)
         for _ in range(max_op):
             item_pool.remove(next(i for i in item_pool if i.name == "Originium Prime"))
 
@@ -223,12 +224,20 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
     max_squad = 13
     max_progressive = get_option_value(multiworld, player, "squad_size_sanity")
-    logging.info(type(max_progressive))
     if isinstance(max_progressive, int):
         if max_progressive != 0:
             for _ in range(max_squad - max_progressive):
                 item_pool.remove(next(i for i in item_pool if i.name == "progressive squad size"))
-        
+
+    import copy
+    for progressive_item in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
+        underscored_name = copy.deepcopy(progressive_item).replace(" ", "_") # need underscores for searching options. the item name is without underscores.
+        if get_option_value(multiworld, player, f"include_{underscored_name}s") != 1:
+            continue
+        amount_items = get_option_value(multiworld, player, f"amount_progressive_{underscored_name}s")
+        if isinstance(amount_items, int):
+            for _ in range(amount_items):
+                item_pool.remove(next(i for i in item_pool if i.name == f"progressive {progressive_item}"))
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
@@ -482,29 +491,29 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                     boss_locations.append("16-16 clear")
         case "H-stages cleared":
             match world.options.H_stage_clear.value:
-                case 5:
+                case 0:
                     boss_locations.append("H5-4 clear")
-                case 6:
+                case 1:
                     boss_locations.append("H6-4 clear")
-                case 7:
+                case 2:
                     boss_locations.append("H7-4 clear")
-                case 8:
+                case 3:
                     boss_locations.append("H8-4 clear")
-                case 9:
+                case 4:
                     boss_locations.append("H9-6 clear")
-                case 10:
+                case 5:
                     boss_locations.append("H10-3 clear")
-                case 11:
+                case 6:
                     boss_locations.append("H11-4 clear")
-                case 12:
+                case 7:
                     boss_locations.append("H12-4 clear")
-                case 13:
+                case 8:
                     boss_locations.append("H13-4 clear")
-                case 14:
+                case 9:
                     boss_locations.append("H14-4 clear")
-                case 15:
+                case 10:
                     boss_locations.append("H15-4 clear")
-                case 16:
+                case 11:
                     boss_locations.append("H16-4 clear")
         case "beat multiple boss stages":
             boss_locations.extend([name for name, i in world.location_name_to_location.items() if "boss stage" in i.get("category", [])])
