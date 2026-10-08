@@ -222,6 +222,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                         item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 16"))
                         included_chapters.remove("16")
 
+    logging.info("these are the included chapters: ")
+    logging.info(included_chapters)
     max_squad = 13
     max_progressive = get_option_value(multiworld, player, "squad_size_sanity")
     if isinstance(max_progressive, int):
@@ -233,19 +235,17 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     for progressive_item in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
         underscored_name = copy.deepcopy(progressive_item).replace(" ", "_") # need underscores for searching options. the item name is without underscores.
         if get_option_value(multiworld, player, f"include_{underscored_name}s") != 1:
+
             continue
         amount_items = get_option_value(multiworld, player, f"amount_progressive_{underscored_name}s")
         if isinstance(amount_items, int):
-            for _ in range(amount_items):
+            for _ in range(13-amount_items):
                 item_pool.remove(next(i for i in item_pool if i.name == f"progressive {progressive_item}"))
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     #collect the first chapter unlock
-    global included_chapters
-    logging.info("these are the included chapters: ")
-    logging.info(included_chapters)
     # collect_chapter = None
     match world.random.choice(included_chapters):
         case "chapter 0":
@@ -287,8 +287,11 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         case "chapter 12":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 12")
             logging.info("starting chapter is 12")
+        # chapter 13 seems very difficult to start with, without extra operators for bait, extra stalling or healing. I'll take this option out of the starting chapters. 
+        # the match case statement should maybe be re written to match this change?
         case "chapter 13":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 13")
+            # chapter 13 seems a bit to hard to start a rando (with squad sanity enabled and to small starting operators). maybe extra checks if this should be enabled or not or straight up remove as possible starting chapter
             logging.info("starting chapter is 13")
         case "chapter 14":
             collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 14")

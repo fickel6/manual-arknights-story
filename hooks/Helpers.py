@@ -133,22 +133,25 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
     #remove the operator
     if "6 star" in item["category"]:
         list_6_star = get_option_value(multiworld, player, "list_6_star")
-        return item["name"] in list_6_star if get_option_value(multiworld, player, "black_or_white") else not item["name"] in list_6_star
+        logging.info(f"checking {item["name"]}")
+        logging.info(f"black or whitelist option is: {get_option_value(multiworld, player, "black_or_whitelist")}")
+        logging.info(item["name"] in list_6_star if get_option_value(multiworld, player, "black_or_whitelist") else not item["name"] in list_6_star)
+        return item["name"] in list_6_star if get_option_value(multiworld, player, "black_or_whitelist") else not item["name"] in list_6_star
     if "5 star" in item["category"]:
         list_5_star = get_option_value(multiworld, player, "list_5_star")
-        return item["name"] in list_5_star if get_option_value(multiworld, player, "black_or_white") else not item["name"] in list_5_star
+        return item["name"] in list_5_star if get_option_value(multiworld, player, "black_or_whitelist") else not item["name"] in list_5_star
     if "4 star" in item["category"]:
         list_4_star = get_option_value(multiworld, player, "list_4_star")
-        return item["name"] in list_4_star if get_option_value(multiworld, player, "black_or_white") else not item["name"] in list_4_star
+        return item["name"] in list_4_star if get_option_value(multiworld, player, "black_or_whitelist") else not item["name"] in list_4_star
     if "3 star" in item["category"]:
         list_3_star = get_option_value(multiworld, player, "list_3_star")
-        return item["name"] in list_3_star if get_option_value(multiworld, player, "black_or_white") else not item["name"] in list_3_star
+        return item["name"] in list_3_star if get_option_value(multiworld, player, "black_or_whitelist") else not item["name"] in list_3_star
     if "2 star" in item["category"]:
         list_2_star = get_option_value(multiworld, player, "list_2_star")
-        return item["name"] in list_2_star if get_option_value(multiworld, player, "black_or_white") else not item["name"] in list_2_star
+        return item["name"] in list_2_star if get_option_value(multiworld, player, "black_or_whitelist") else not item["name"] in list_2_star
     if "1 star" in item["category"]:
         list_1_star = get_option_value(multiworld, player, "list_1_star")
-        return item["name"] in list_1_star if get_option_value(multiworld, player, "black_or_white") else not item["name"] in list_1_star
+        return item["name"] in list_1_star if get_option_value(multiworld, player, "black_or_whitelist") else not item["name"] in list_1_star
     
     return None
 
