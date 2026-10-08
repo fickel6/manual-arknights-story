@@ -125,41 +125,7 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the location, False to disable it, or None to use the default behavior
 def before_is_location_enabled(multiworld: MultiWorld, player: int, location:  dict[str, Any]) -> Optional[bool]:
-    # from .World import included_chapters
-    # if "chapter 0" in location["category"] and "chapter 0" not in included_chapters:
-    #     return False
-    # elif "chapter 1" in location["category"] and "chapter 1" not in included_chapters:
-    #     return False
-    # elif "chapter 2" in location["category"] and "chapter 2" not in included_chapters:
-    #     return False
-    # elif "chapter 3" in location["category"] and "chapter 3" not in included_chapters:
-    #     return False
-    # elif "chapter 4" in location["category"] and "chapter 4" not in included_chapters:
-    #     return False
-    # elif "chapter 5" in location["category"] and "chapter 5" not in included_chapters:
-    #     return False
-    # elif "chapter 6" in location["category"] and "chapter 6" not in included_chapters:
-    #     return False
-    # elif "chapter 7" in location["category"] and "chapter 7" not in included_chapters:
-    #     return False
-    # elif "chapter 8" in location["category"] and "chapter 8" not in included_chapters:
-    #     return False
-    # elif "chapter 9" in location["category"] and "chapter 9" not in included_chapters:
-    #     return False
-    # elif "chapter 10" in location["category"] and "chapter 10" not in included_chapters:
-    #     return False
-    # elif "chapter 11" in location["category"] and "chapter 11" not in included_chapters:
-    #     return False
-    # elif "chapter 12" in location["category"] and "chapter 12" not in included_chapters:
-    #     return False
-    # elif "chapter 13" in location["category"] and "chapter 13" not in included_chapters:
-    #     return False
-    # elif "chapter 14" in location["category"] and "chapter 14" not in included_chapters:
-    #     return False
-    # elif "chapter 15" in location["category"] and "chapter 15" not in included_chapters:
-    #     return False
-    # elif "chapter 16" in location["category"] and "chapter 16" not in included_chapters:
-    #     return False
+
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
