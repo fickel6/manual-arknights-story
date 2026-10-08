@@ -312,31 +312,38 @@
             "type": "Range",
             "default": 4,
             "range_start": 1,
-            "range_end": 13,
+            "range_end": 12,
             "description": [
-                "choose how many operators you can start with. the 13th is the support unit.",
+                "choose how many operators you can start with. ",
                 "to keep things more balanced, 6 stars will count for 3 units and 5 stars for 2.",
                 "if the squad is 1 and there is a 6 or 5 star chosen, then there will 1 operator chosen"
             ],
             "group": "operator options"
         },
         "squad size sanity": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "add the squad slots as an progressive item in the manual.",
+                "when enabled, you start with 2 slots. the other 10 slots you need to unlock",
+                "add the squad slots as an progressive item in the manual."
+            ],
+            "group": "operator options"
+        },
+        "include support unit": {
             "_comment": [
                 "change this to a toggle option",
                 "when on, this option should randomize all the progressive squad sizes",
                 "a sepparate option is then needed to include the support unit.",
                 "for the code, always start with 2 slots. this should guarantee most stages."
                 ],
-            "type": "Range",
-            "default": 0,
-            "range_start": 0,
-            "range_end": 13,
+            "type": "Toggle",
+            "default": false,
             "description": [
-                "add the squad slots as an progressive item in the manual.",
-                "0: no progressive squads are included in the manual. all the slots may be used",
-                "1-12:'exclude support unit': 12 squad slots are included. support unit is excluded and may be used",
-                "the slots are equally spead over the enabled items.",
-                "13: 'include support unit': all squad slots are included, even the support unit."
+                "add the support unit slot as an item in the manual.",
+                "this option doesn't do anything when squad size sanity isn't enabled.",
+                "when disabled, the thirteenth slot will always be available",
+                "when enabled, the support unit slot will also be counted under the progressive squad item"
             ],
             "group": "operator options"
         },

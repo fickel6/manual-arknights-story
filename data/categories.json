@@ -3,6 +3,10 @@
     "character": {
         "hidden": true
     },
+    "squad size": {
+        "hidden": false,
+        "yaml_option": ["squad size sanity"]
+    },
     "reading": {
         "hidden": true,
         "yaml_option": ["include story"]

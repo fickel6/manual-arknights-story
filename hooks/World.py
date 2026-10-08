@@ -224,12 +224,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
     logging.info("these are the included chapters: ")
     logging.info(included_chapters)
-    max_squad = 13
-    max_progressive = get_option_value(multiworld, player, "squad_size_sanity")
-    if isinstance(max_progressive, int):
-        if max_progressive != 0:
-            for _ in range(max_squad - max_progressive):
-                item_pool.remove(next(i for i in item_pool if i.name == "progressive squad size"))
+    if is_option_enabled(multiworld, player, "include_support_unit"):
+        item_pool.remove(next(i for i in item_pool if i.name == "progressive squad size"))
 
     import copy
     for progressive_item in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:

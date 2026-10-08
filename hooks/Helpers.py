@@ -58,8 +58,6 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     #     return False
     # if "1 star" == category_name and get_option_value(multiworld, player, "include_1_stars") != 0:
     #     return False
-    # if "squad size" == category_name and get_option_value(multiworld, player, "squad_size_sanity") == 0:
-    #     return False
     # if "OP hunt" == category_name and get_option_value(multiworld, player, "goal") != 3:
     #     return False
     # if "stage clear" == category_name and get_option_value(multiworld, player, "goal") not in (0, 1):
