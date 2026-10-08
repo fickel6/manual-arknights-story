@@ -321,6 +321,12 @@
             "group": "operator options"
         },
         "squad size sanity": {
+            "_comment": [
+                "change this to a toggle option",
+                "when on, this option should randomize all the progressive squad sizes",
+                "a sepparate option is then needed to include the support unit.",
+                "for the code, always start with 2 slots. this should guarantee most stages."
+                ],
             "type": "Range",
             "default": 0,
             "range_start": 0,

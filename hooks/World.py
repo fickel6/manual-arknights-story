@@ -135,7 +135,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     max_amount_bosses = 17
     max_op = 100
     if victory_name == "collect OP":
-        max_op = int((max_op-world.options.originium_prime_hunt.value)*world.options.extra_OP/100)
+        max_op = int((max_op-world.options.originium_prime_hunt.value))
         for _ in range(max_op):
             item_pool.remove(next(i for i in item_pool if i.name == "Originium Prime"))
 
@@ -187,7 +187,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     while "progressive chapter 8 past" in item_pool:
                         item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 8 past"))
                         item_pool.remove(next(i for i in item_pool if i.name == "progressive chapter 8 present"))
-                    #past and present are the same length. to be sure everything works, add a second while loop for removing extra present items
+                    #past and present are the same length. to be sure everything works, could add a second while loop for removing present items
                         included_chapters.remove("8")
                 case "chapter 9":
                     while "progressive chapter 9" in item_pool:
@@ -414,15 +414,21 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     victory_location = multiworld.get_location(victory_name, player)
     if victory_name != "beat x bosses":
         return None
+    total = get_option_value(multiworld, player, "originium_prime_hunt")
+    extra = get_option_value(multiworld, player, "extra_OP")
+    goal_amount = 0
+    if isinstance(total, int) and isinstance(extra, int):
+        goal_amount = int(total*extra/100)
 
     def check_boss_amount(state: CollectionState):
         #really simple. just check how many boss amount is collected
         return state.has_group("boss clear", player, world.options.amount_boss)
     def check_OP_amount(state: CollectionState):
-        return state.has_group("Originium Prime", player, world.options.originium_prime_hunt)
+        return state.has_group("Originium Prime", player, goal_amount)
     match victory_name:
         #really simple. just check how many items is collected
         #also made this a match case statement, because there are 2 different conditions need to be changed
+        #doesn't seem to work. just make an function in rules and call that for goaling. 
         case "beat x bosses":
             victory_location.access_rule = lambda state: check_boss_amount(state)
         case "collect OP":
