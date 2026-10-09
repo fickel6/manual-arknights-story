@@ -331,12 +331,6 @@
             "group": "operator options"
         },
         "include support unit": {
-            "_comment": [
-                "change this to a toggle option",
-                "when on, this option should randomize all the progressive squad sizes",
-                "a sepparate option is then needed to include the support unit.",
-                "for the code, always start with 2 slots. this should guarantee most stages."
-                ],
             "type": "Toggle",
             "default": false,
             "description": [
