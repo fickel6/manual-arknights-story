@@ -69,8 +69,8 @@ def requiredOperators(world: World, state: CollectionState, player: int, blocked
     if not enabledOperators(world, player):
         return False
     
-    standing_units = 0;
-    ranged_units = 0;
+    standing_units = 0
+    ranged_units = 0
     for item_group_name in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
         #can I check per item group? that would save a lot of coding (and probably time)
         #first do only blocking units
@@ -90,7 +90,7 @@ def requiredOperators(world: World, state: CollectionState, player: int, blocked
     return f"|@blocked:{int(blocked) - standing_units}| AND |@ranged:{int(ranged) - ranged_units}|"
 
 #be sure that category name is a valid name!!
-def checkAmountxStars(world: World, state: CollectionState, player: int, category_name: str, required: str):
+def checkAmountxStars(state: CollectionState,category_name: str, required: str):
     progressive_amount = state.count(f"progressive {category_name}")
     if progressive_amount >= int(required):
         return True
