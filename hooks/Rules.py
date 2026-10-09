@@ -90,8 +90,17 @@ def requiredOperators(world: World, state: CollectionState, player: int, blocked
     return f"|@blocked:{int(blocked) - standing_units}| AND |@ranged:{int(ranged) - ranged_units}|"
 
 #be sure that category name is a valid name!!
-def checkAmountxStars(state: CollectionState,category_name: str, required: str):
+def checkAmountxStars(state: CollectionState, category_name: str, required: str):
     progressive_amount = state.count(f"progressive {category_name}")
     if progressive_amount >= int(required):
         return True
     return f"|@{category_name}: {required-progressive_amount}"
+
+def checkClassAmount(state: CollectionState, player: int, class_name: str, required: str):
+    total = 0
+    for item_group_name in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
+        amount_progressive = state.count(f"progressive {item_group_name}", player)
+        total += amount_progressive
+        if total > int(required):
+            return True
+    return f"|@{class_name}: {required-total}|"
