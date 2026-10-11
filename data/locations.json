@@ -4681,13 +4681,13 @@
   },
   {
     "name": "DM-MO-1 clear",
-    "category": ["The Ark", "Darknights memoir", "MO-stages"],
+    "category": ["The Ark", "Darknights memoir", "mo-stages"],
     "region": "Darknights' memoir fifth half",
     "requires": "|@vanguard:1|"
   },
   {
     "name": "DM-MO-1 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "MO-stages"],
+    "category": ["The Ark", "Darknights memoir", "mo-stages"],
     "region": "Darknights' memoir fifth half",
     "requires": "|@vanguard:1|"
   },
@@ -7861,62 +7861,1119 @@
   },
   {
     "name": "HS-S-1 clear",
-    "category": ["Through the Ages", "Here a People Sows", "S-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stages"],
     "region": "Here a People Sows fifth half",
     "requires": ""
   },
   {
     "name": "HS-S-1 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "S-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stages", "3-stars clear"],
     "region": "Here a People Sows fifth half",
     "requires": ""
   },
   {
     "name": "HS-S-2 clear",
-    "category": ["Through the Ages", "Here a People Sows", "S-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stages"],
     "region": "Here a People Sows fifth half",
     "requires": ""
   },
   {
     "name": "HS-S-2 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "S-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stages", "3-stars clear"],
     "region": "Here a People Sows fifth half",
     "requires": ""
   },
   {
     "name": "HS-S-3 clear",
-    "category": ["Through the Ages", "Here a People Sows", "S-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stages"],
     "region": "Here a People Sows fifth half",
     "requires": ""
   },
   {
     "name": "HS-S-3 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "S-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stages", "3-stars clear"],
     "region": "Here a People Sows fifth half",
     "requires": ""
   },
   {
     "name": "HS-S-4 clear",
-    "category": ["Through the Ages", "Here a People Sows", "S-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stages"],
     "region": "Here a People Sows fifth half",
     "requires": ""
   },
   {
     "name": "HS-S-4 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "S-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stages", "3-stars clear"],
     "region": "Here a People Sows fifth half",
     "requires": ""
   },
   {
     "name": "HS-MO-1 clear",
-    "category": ["Through the Ages", "Here a People Sows", "MO-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "mo-stages"],
     "region": "Here a People Sows fifth half",
     "requires": ""
   },
   {
     "name": "HS-MO-1 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "MO-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "mo-stages", "3-stars clear"],
     "region": "Here a People Sows fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-1 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-1 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-2 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-2 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-3 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-3 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-4 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-4 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-5 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-5 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-6 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-6 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-7 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-7 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-8 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-8 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-9 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-9 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-ST-1 read",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "reading"],
+    "region": "Such is the Joy of Our Reunion first half",
+    "requires": ""
+  },
+  {
+    "name": "OR-ST-2 read",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "reading"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-ST-3 read",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "reading"],
+    "region": "Such is the Joy of Our Reunion second half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-1 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage"],
+    "region": "Such is the Joy of Our Reunion third half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-1 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion third half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-2 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage"],
+    "region": "Such is the Joy of Our Reunion third half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-2 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion third half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-3 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage"],
+    "region": "Such is the Joy of Our Reunion third half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-3 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion third half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-4 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage"],
+    "region": "Such is the Joy of Our Reunion third half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-4 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion third half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-5 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage"],
+    "region": "Such is the Joy of Our Reunion fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-5 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-6 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage"],
+    "region": "Such is the Joy of Our Reunion fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-6 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-7 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage"],
+    "region": "Such is the Joy of Our Reunion fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-7 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-8 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage"],
+    "region": "Such is the Joy of Our Reunion fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-EX-8 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-S-1 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-S-1 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-S-2 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-S-2 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-S-3 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-S-3 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-S-4 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-S-4 3-star clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-MO-1 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "mo-stage"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OR-MO-1 clear",
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "mo-stage", "3-stars clear"],
+    "region": "Such is the Joy of Our Reunion fifth half",
+    "requires": ""
+  },
+  {
+    "name": "MB-1 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break"],
+    "region": "Mansfield Break first half",
+    "requires": ""
+  },
+  {
+    "name": "MB-1 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "3-stars clear"],
+    "region": "Mansfield Break first half",
+    "requires": ""
+  },
+  {
+    "name": "MB-2 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break"],
+    "region": "Mansfield Break first half",
+    "requires": ""
+  },
+  {
+    "name": "MB-2 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "3-stars clear"],
+    "region": "Mansfield Break first half",
+    "requires": ""
+  },
+  {
+    "name": "MB-3 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break"],
+    "region": "Mansfield Break first half",
+    "requires": ""
+  },
+  {
+    "name": "MB-3 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "3-stars clear"],
+    "region": "Mansfield Break first half",
+    "requires": ""
+  },
+  {
+    "name": "MB-4 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break"],
+    "region": "Mansfield Break first half",
+    "requires": ""
+  },
+  {
+    "name": "MB-4 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "3-stars clear"],
+    "region": "Mansfield Break first half",
+    "requires": ""
+  },
+  {
+    "name": "MB-5 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break"],
+    "region": "Mansfield Break second half",
+    "requires": ""
+  },
+  {
+    "name": "MB-5 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "3-stars clear"],
+    "region": "Mansfield Break second half",
+    "requires": ""
+  },
+  {
+    "name": "MB-6 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break"],
+    "region": "Mansfield Break second half",
+    "requires": ""
+  },
+  {
+    "name": "MB-6 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "3-stars clear"],
+    "region": "Mansfield Break second half",
+    "requires": ""
+  },
+  {
+    "name": "MB-7 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break"],
+    "region": "Mansfield Break second half",
+    "requires": ""
+  },
+  {
+    "name": "MB-7 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "3-stars clear"],
+    "region": "Mansfield Break second half",
+    "requires": ""
+  },
+  {
+    "name": "MB-8 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break"],
+    "region": "Mansfield Break second half",
+    "requires": ""
+  },
+  {
+    "name": "MB-8 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "3-stars clear"],
+    "region": "Mansfield Break second half",
+    "requires": ""
+  },
+  {
+    "name": "MB-ST-1 read",
+    "category": ["Those Who Take The Future", "Mansfield Break", "reading"],
+    "region": "Mansfield Break first half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-1 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage"],
+    "region": "Mansfield Break third half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-1 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage", "3-stars clear"],
+    "region": "Mansfield Break third half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-2 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage"],
+    "region": "Mansfield Break third half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-2 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage", "3-stars clear"],
+    "region": "Mansfield Break third half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-3 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage"],
+    "region": "Mansfield Break third half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-3 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage", "3-stars clear"],
+    "region": "Mansfield Break third half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-4 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage"],
+    "region": "Mansfield Break third half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-4 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage", "3-stars clear"],
+    "region": "Mansfield Break third half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-5 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage"],
+    "region": "Mansfield Break fourth half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-5 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage", "3-stars clear"],
+    "region": "Mansfield Break fourth half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-6 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage"],
+    "region": "Mansfield Break fourth half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-6 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage", "3-stars clear"],
+    "region": "Mansfield Break fourth half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-7 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage"],
+    "region": "Mansfield Break fourth half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-7 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage", "3-stars clear"],
+    "region": "Mansfield Break fourth half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-8 clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage"],
+    "region": "Mansfield Break fourth half",
+    "requires": ""
+  },
+  {
+    "name": "MB-EX-8 3-star clear",
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage", "3-stars clear"],
+    "region": "Mansfield Break fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DV-1 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision"],
+    "region": "Dorothy's Vision first half",
+    "requires": ""
+  },
+  {
+    "name": "DV-1 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear"],
+    "region": "Dorothy's Vision first half",
+    "requires": ""
+  },
+  {
+    "name": "DV-2 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision"],
+    "region": "Dorothy's Vision first half",
+    "requires": ""
+  },
+  {
+    "name": "DV-2 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear"],
+    "region": "Dorothy's Vision first half",
+    "requires": ""
+  },
+  {
+    "name": "DV-3 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision"],
+    "region": "Dorothy's Vision first half",
+    "requires": ""
+  },
+  {
+    "name": "DV-3 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear"],
+    "region": "Dorothy's Vision first half",
+    "requires": ""
+  },
+  {
+    "name": "DV-4 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision"],
+    "region": "Dorothy's Vision first half",
+    "requires": ""
+  },
+  {
+    "name": "DV-4 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear"],
+    "region": "Dorothy's Vision first half",
+    "requires": ""
+  },
+  {
+    "name": "DV-5 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision"],
+    "region": "Dorothy's Vision second half",
+    "requires": ""
+  },
+  {
+    "name": "DV-5 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear"],
+    "region": "Dorothy's Vision second half",
+    "requires": ""
+  },
+  {
+    "name": "DV-6 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision"],
+    "region": "Dorothy's Vision second half",
+    "requires": ""
+  },
+  {
+    "name": "DV-6 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear"],
+    "region": "Dorothy's Vision second half",
+    "requires": ""
+  },
+  {
+    "name": "DV-7 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision"],
+    "region": "Dorothy's Vision second half",
+    "requires": ""
+  },
+  {
+    "name": "DV-7 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear"],
+    "region": "Dorothy's Vision second half",
+    "requires": ""
+  },
+  {
+    "name": "DV-8 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision"],
+    "region": "Dorothy's Vision second half",
+    "requires": ""
+  },
+  {
+    "name": "DV-8 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear"],
+    "region": "Dorothy's Vision second half",
+    "requires": ""
+  },
+  {
+    "name": "DV-ST-1 read",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "reading"],
+    "region": "Dorothy's Vision first half",
+    "requires": ""
+  },
+  {
+    "name": "DV-ST-2 read",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "reading"],
+    "region": "Dorothy's Vision second half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-1 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage"],
+    "region": "Dorothy's Vision third half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-1 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear", "ex-stage"],
+    "region": "Dorothy's Vision third half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-2 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage"],
+    "region": "Dorothy's Vision third half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-2 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear", "ex-stage"],
+    "region": "Dorothy's Vision third half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-3 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage"],
+    "region": "Dorothy's Vision third half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-3 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear", "ex-stage"],
+    "region": "Dorothy's Vision third half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-4 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage"],
+    "region": "Dorothy's Vision third half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-4 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear", "ex-stage"],
+    "region": "Dorothy's Vision third half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-5 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage"],
+    "region": "Dorothy's Vision fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-5 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear", "ex-stage"],
+    "region": "Dorothy's Vision fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-6 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage"],
+    "region": "Dorothy's Vision fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-6 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear", "ex-stage"],
+    "region": "Dorothy's Vision fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-7 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage"],
+    "region": "Dorothy's Vision fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-7 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear", "ex-stage"],
+    "region": "Dorothy's Vision fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-8 clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage"],
+    "region": "Dorothy's Vision fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DV-EX-8 3-star clear",
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "3-stars clear", "ex-stage"],
+    "region": "Dorothy's Vision fourth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-1 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-1 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-2 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-2 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-3 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-3 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-4 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-4 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-5 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-5 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-6 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-6 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-7 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-7 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-8 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-8 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-9 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-9 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-10 clear",
+    "category": ["Those Who Take The Future", "Lonetrail"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-10 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-ST-1 read",
+    "category": ["Those Who Take The Future", "Lonetrail", "reading"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-ST-2 read",
+    "category": ["Those Who Take The Future", "Lonetrail", "reading"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-ST-3 read",
+    "category": ["Those Who Take The Future", "Lonetrail", "reading"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-ST-4 read",
+    "category": ["Those Who Take The Future", "Lonetrail", "reading"],
+    "region": "Lonetrail second half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-1 clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage"],
+    "region": "Lonetrail third half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-1 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage", "3-stars clear"],
+    "region": "Lonetrail third half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-2 clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage"],
+    "region": "Lonetrail third half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-2 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage", "3-stars clear"],
+    "region": "Lonetrail third half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-3 clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage"],
+    "region": "Lonetrail third half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-3 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage", "3-stars clear"],
+    "region": "Lonetrail third half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-4 clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage"],
+    "region": "Lonetrail third half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-4 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage", "3-stars clear"],
+    "region": "Lonetrail third half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-5 clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage"],
+    "region": "Lonetrail fourth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-5 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage", "3-stars clear"],
+    "region": "Lonetrail fourth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-6 clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage"],
+    "region": "Lonetrail fourth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-6 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage", "3-stars clear"],
+    "region": "Lonetrail fourth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-7 clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage"],
+    "region": "Lonetrail fourth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-7 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage", "3-stars clear"],
+    "region": "Lonetrail fourth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-8 clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage"],
+    "region": "Lonetrail fourth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-EX-8 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage", "3-stars clear"],
+    "region": "Lonetrail fourth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-1-A clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage"],
+    "region": "Lonetrail fifth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-1-A 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage", "3-stars clear"],
+    "region": "Lonetrail fifth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-1-B clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage"],
+    "region": "Lonetrail fifth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-1-B 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage", "3-stars clear"],
+    "region": "Lonetrail fifth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-2-A clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage"],
+    "region": "Lonetrail fifth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-2-A 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage", "3-stars clear"],
+    "region": "Lonetrail fifth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-2-B clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage"],
+    "region": "Lonetrail fifth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-2-B 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage", "3-stars clear"],
+    "region": "Lonetrail fifth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-3-A clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage"],
+    "region": "Lonetrail sixth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-3-A 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage", "3-stars clear"],
+    "region": "Lonetrail sixth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-3-B clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage"],
+    "region": "Lonetrail sixth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-3-B 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage", "3-stars clear"],
+    "region": "Lonetrail sixth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-4 clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage"],
+    "region": "Lonetrail sixth half",
+    "requires": ""
+  },
+  {
+    "name": "CW-S-4 3-star clear",
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage", "3-stars clear"],
+    "region": "Lonetrail sixth half",
+    "requires": ""
+  },
+  naam aanpassen!!!
+  {
+    "name": "CW-1 clear",
+    "category": ["Glimpse of the Depths", "Lonetrail"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-1 clear",
+    "category": ["Spire Mirages", "Lonetrail"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-1 3-star clear",
+    "category": ["Spire Mirages", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-1 clear",
+    "category": ["Rekindled Flame", "Lonetrail"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-1 3-star clear",
+    "category": ["Rekindled Flame", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-1 clear",
+    "category": ["Summertime Beats", "Lonetrail"],
+    "region": "Lonetrail first half",
+    "requires": ""
+  },
+  {
+    "name": "CW-1 3-star clear",
+    "category": ["Summertime Beats", "Lonetrail", "3-stars clear"],
+    "region": "Lonetrail first half",
     "requires": ""
   },
 ]
