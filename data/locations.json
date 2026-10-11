@@ -8927,52 +8927,1228 @@
     "region": "Lonetrail sixth half",
     "requires": ""
   },
-  naam aanpassen!!!
+  {
+    "name": "GT-1 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure"],
+    "region": "Grani And The Knights' Treasure first half",
+    "requires": ""
+  },
+  {
+    "name": "GT-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure first half",
+    "requires": ""
+  },
+  {
+    "name": "GT-2 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure"],
+    "region": "Grani And The Knights' Treasure first half",
+    "requires": ""
+  },
+  {
+    "name": "GT-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure first half",
+    "requires": ""
+  },
+  {
+    "name": "GT-3 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure"],
+    "region": "Grani And The Knights' Treasure first half",
+    "requires": ""
+  },
+  {
+    "name": "GT-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure first half",
+    "requires": ""
+  },
+  {
+    "name": "GT-4 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure"],
+    "region": "Grani And The Knights' Treasure second half",
+    "requires": ""
+  },
+  {
+    "name": "GT-4 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure second half",
+    "requires": ""
+  },
+  {
+    "name": "GT-5 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure"],
+    "region": "Grani And The Knights' Treasure second half",
+    "requires": ""
+  },
+  {
+    "name": "GT-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure second half",
+    "requires": ""
+  },
+  {
+    "name": "GT-6 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure"],
+    "region": "Grani And The Knights' Treasure second half",
+    "requires": ""
+  },
+  {
+    "name": "GT-6 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure second half",
+    "requires": ""
+  },
+  {
+    "name": "GT-EX-1 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage"],
+    "region": "Grani And The Knights' Treasure third half",
+    "requires": ""
+  },
+  {
+    "name": "GT-EX-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure third half",
+    "requires": ""
+  },
+  {
+    "name": "GT-EX-2 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage"],
+    "region": "Grani And The Knights' Treasure third half",
+    "requires": ""
+  },
+  {
+    "name": "GT-EX-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure third half",
+    "requires": ""
+  },
+  {
+    "name": "GT-EX-3 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage"],
+    "region": "Grani And The Knights' Treasure third half",
+    "requires": ""
+  },
+  {
+    "name": "GT-EX-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure third half",
+    "requires": ""
+  },
+  {
+    "name": "GT-HX-1 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage"],
+    "region": "Grani And The Knights' Treasure fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GT-HX-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GT-HX-2 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage"],
+    "region": "Grani And The Knights' Treasure fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GT-HX-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GT-HX-3 clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage"],
+    "region": "Grani And The Knights' Treasure fourth half",
+    "requires": ""
+  },
+  {
+    "name": "GT-HX-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage", "3-stars clear"],
+    "region": "Grani And The Knights' Treasure fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SV-1 clear",
+    "category": ["Glimpse of the Depths", "Under Tides"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "3-stars clear"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-2 clear",
+    "category": ["Glimpse of the Depths", "Under Tides"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "3-stars clear"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-3 clear",
+    "category": ["Glimpse of the Depths", "Under Tides"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "3-stars clear"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-4 clear",
+    "category": ["Glimpse of the Depths", "Under Tides"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-4 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "3-stars clear"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-5 clear",
+    "category": ["Glimpse of the Depths", "Under Tides"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "3-stars clear"],
+    "region": "Under Tides first half",
+    "requires": ""
+  },
+  {
+    "name": "SV-6 clear",
+    "category": ["Glimpse of the Depths", "Under Tides"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-6 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "3-stars clear"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-7 clear",
+    "category": ["Glimpse of the Depths", "Under Tides"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-7 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "3-stars clear"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-8 clear",
+    "category": ["Glimpse of the Depths", "Under Tides"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-8 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "3-stars clear"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-9 clear",
+    "category": ["Glimpse of the Depths", "Under Tides"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-9 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "3-stars clear"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-ST-1 read",
+    "category": ["Glimpse of the Depths", "Under Tides", "reading"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-ST-2 read",
+    "category": ["Glimpse of the Depths", "Under Tides", "reading"],
+    "region": "Under Tides second half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-1 clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage"],
+    "region": "Under Tides third half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage", "3-stars clear"],
+    "region": "Under Tides third half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-2 clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage"],
+    "region": "Under Tides third half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage", "3-stars clear"],
+    "region": "Under Tides third half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-3 clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage"],
+    "region": "Under Tides third half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage", "3-stars clear"],
+    "region": "Under Tides third half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-4 clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage"],
+    "region": "Under Tides third half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-4 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage", "3-stars clear"],
+    "region": "Under Tides third half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-5 clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage"],
+    "region": "Under Tides fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage", "3-stars clear"],
+    "region": "Under Tides fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-6 clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage"],
+    "region": "Under Tides fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-6 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage", "3-stars clear"],
+    "region": "Under Tides fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-7 clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage"],
+    "region": "Under Tides fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-7 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage", "3-stars clear"],
+    "region": "Under Tides fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-8 clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage"],
+    "region": "Under Tides fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SV-EX-8 3-star clear",
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage", "3-stars clear"],
+    "region": "Under Tides fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-1 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-2 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-3 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-4 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-4 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-5 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-6 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-6 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-7 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-7 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-8 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-8 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-9 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "_comment": "should I splits this like ingame, or like the other events? this is a relative hard event (idk with current units), so probably like ingame?",
+    "region": "Stultifera Navis third half",
+    "requires": ""
+  },
+  {
+    "name": "SN-9 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis third half",
+    "requires": ""
+  },
+  {
+    "name": "SN-10 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "region": "Stultifera Navis third half",
+    "requires": ""
+  },
+  {
+    "name": "SN-10 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "3-stars clear"],
+    "region": "Stultifera Navis third half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-1",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-2",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-3",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-4",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-5",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis first half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-6",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-7",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-8",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-9",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis second half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-10",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis third half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-11",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis third half",
+    "requires": ""
+  },
+  {
+    "name": "SN-ST-12",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "reading"],
+    "region": "Stultifera Navis third half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-1 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage"],
+    "region": "Stultifera Navis fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage", "3-stars clear"],
+    "region": "Stultifera Navis fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-2 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage"],
+    "region": "Stultifera Navis fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage", "3-stars clear"],
+    "region": "Stultifera Navis fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-3 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage"],
+    "region": "Stultifera Navis fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage", "3-stars clear"],
+    "region": "Stultifera Navis fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-4 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage"],
+    "region": "Stultifera Navis fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-4 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage", "3-stars clear"],
+    "region": "Stultifera Navis fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-5 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage"],
+    "region": "Stultifera Navis fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage", "3-stars clear"],
+    "region": "Stultifera Navis fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-6 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage"],
+    "region": "Stultifera Navis fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-6 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage", "3-stars clear"],
+    "region": "Stultifera Navis fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-7 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage"],
+    "region": "Stultifera Navis fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-7 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage", "3-stars clear"],
+    "region": "Stultifera Navis fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-8 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage"],
+    "region": "Stultifera Navis fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-EX-8 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage", "3-stars clear"],
+    "region": "Stultifera Navis fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-1-A clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "region": "Stultifera Navis sixth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-1-A 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "3-stars clear"],
+    "region": "Stultifera Navis sixth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-1-B clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "region": "Stultifera Navis sixth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-1-B 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "3-stars clear"],
+    "region": "Stultifera Navis sixth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-2-A clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "region": "Stultifera Navis sixth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-2-A 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "3-stars clear"],
+    "region": "Stultifera Navis sixth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-2-B clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "region": "Stultifera Navis sixth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-2-B 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "3-stars clear"],
+    "region": "Stultifera Navis sixth half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-3-A clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-3-A 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "3-stars clear"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-3-B clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-3-B 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "3-stars clear"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-4-A clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-4-A 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "3-stars clear"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-4-B clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-4-B 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "3-stars clear"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-5 clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "SN-S-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "3-stars clear"],
+    "region": "Stultifera Navis seventh half",
+    "requires": ""
+  },
+  {
+    "name": "BP-1 clear",
+    "category": ["Glimpse of the Depths", "Path of Life"],
+    "region": "Path of Life first half",
+    "requires": ""
+  },
+  {
+    "name": "BP-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "3-stars clear"],
+    "region": "Path of Life first half",
+    "requires": ""
+  },
+  {
+    "name": "BP-2 clear",
+    "category": ["Glimpse of the Depths", "Path of Life"],
+    "region": "Path of Life first half",
+    "requires": ""
+  },
+  {
+    "name": "BP-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "3-stars clear"],
+    "region": "Path of Life first half",
+    "requires": ""
+  },
+  {
+    "name": "BP-3 clear",
+    "category": ["Glimpse of the Depths", "Path of Life"],
+    "region": "Path of Life first half",
+    "requires": ""
+  },
+  {
+    "name": "BP-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "3-stars clear"],
+    "region": "Path of Life first half",
+    "requires": ""
+  },
+  {
+    "name": "BP-4 clear",
+    "category": ["Glimpse of the Depths", "Path of Life"],
+    "region": "Path of Life first half",
+    "requires": ""
+  },
+  {
+    "name": "BP-4 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "3-stars clear"],
+    "region": "Path of Life first half",
+    "requires": ""
+  },
+  {
+    "name": "BP-5 clear",
+    "category": ["Glimpse of the Depths", "Path of Life"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "3-stars clear"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-6 clear",
+    "category": ["Glimpse of the Depths", "Path of Life"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-6 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "3-stars clear"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-7 clear",
+    "category": ["Glimpse of the Depths", "Path of Life"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-7 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "3-stars clear"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-8 clear",
+    "category": ["Glimpse of the Depths", "Path of Life"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-8 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "3-stars clear"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-9 clear",
+    "category": ["Glimpse of the Depths", "Path of Life"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-9 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "3-stars clear"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-ST-1 read",
+    "category": ["Glimpse of the Depths", "Path of Life", "reading"],
+    "region": "Path of Life first half",
+    "requires": ""
+  },
+  {
+    "name": "BP-ST-2 read",
+    "category": ["Glimpse of the Depths", "Path of Life", "reading"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-ST-3 read",
+    "category": ["Glimpse of the Depths", "Path of Life", "reading"],
+    "region": "Path of Life second half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-1 clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage"],
+    "region": "Path of Life third half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage", "3-stars clear"],
+    "region": "Path of Life third half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-2 clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage"],
+    "region": "Path of Life third half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage", "3-stars clear"],
+    "region": "Path of Life third half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-3 clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage"],
+    "region": "Path of Life third half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage", "3-stars clear"],
+    "region": "Path of Life third half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-4 clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage"],
+    "region": "Path of Life third half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-4 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage", "3-stars clear"],
+    "region": "Path of Life third half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-5 clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage"],
+    "region": "Path of Life fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage", "3-stars clear"],
+    "region": "Path of Life fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-6 clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage"],
+    "region": "Path of Life fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-6 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage", "3-stars clear"],
+    "region": "Path of Life fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-7 clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage"],
+    "region": "Path of Life fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-7 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage", "3-stars clear"],
+    "region": "Path of Life fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-8 clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage"],
+    "region": "Path of Life fourth half",
+    "requires": ""
+  },
+  {
+    "name": "BP-EX-8 3-star clear",
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage", "3-stars clear"],
+    "region": "Path of Life fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EP-1 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea first half",
+    "requires": ""
+  },
+  {
+    "name": "EP-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea first half",
+    "requires": ""
+  },
+  {
+    "name": "EP-2 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea first half",
+    "requires": ""
+  },
+  {
+    "name": "EP-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea first half",
+    "requires": ""
+  },
+  {
+    "name": "EP-3 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea first half",
+    "requires": ""
+  },
+  {
+    "name": "EP-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea first half",
+    "requires": ""
+  },
+  {
+    "name": "EP-4 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea first half",
+    "requires": ""
+  },
+  {
+    "name": "EP-4 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea first half",
+    "requires": ""
+  },
+  {
+    "name": "EP-5 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-6 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-6 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-7 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-7 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-8 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-8 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-ST-1 read",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "reading"],
+    "region": "Exodus From the Pale Sea first half",
+    "requires": ""
+  },
+  {
+    "name": "EP-ST-2 read",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "reading"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-ST-3 read",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "reading"],
+    "region": "Exodus From the Pale Sea second half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-1 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea third half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-1 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea third half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-2 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea third half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-2 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea third half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-3 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea third half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-3 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea third half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-4 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea third half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-4 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea third half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-5 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-5 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-6 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-6 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-7 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-7 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-8 clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "region": "Exodus From the Pale Sea fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EP-EX-8 3-star clear",
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "region": "Exodus From the Pale Sea fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-1 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde"],
+    "region": "Twilight of Wolumonde first half",
+    "requires": ""
+  },
+  {
+    "name": "TW-1 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "3-stars clear"],
+    "region": "Twilight of Wolumonde first half",
+    "requires": ""
+  },
   {
     "name": "CW-1 clear",
-    "category": ["Glimpse of the Depths", "Lonetrail"],
+    "category": ["Rekindled Flame", "When the Fireflights Casts"],
     "region": "Lonetrail first half",
     "requires": ""
   },
   {
     "name": "CW-1 3-star clear",
-    "category": ["Glimpse of the Depths", "Lonetrail", "3-stars clear"],
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
     "region": "Lonetrail first half",
     "requires": ""
   },
   {
     "name": "CW-1 clear",
-    "category": ["Spire Mirages", "Lonetrail"],
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
     "region": "Lonetrail first half",
     "requires": ""
   },
   {
     "name": "CW-1 3-star clear",
-    "category": ["Spire Mirages", "Lonetrail", "3-stars clear"],
-    "region": "Lonetrail first half",
-    "requires": ""
-  },
-  {
-    "name": "CW-1 clear",
-    "category": ["Rekindled Flame", "Lonetrail"],
-    "region": "Lonetrail first half",
-    "requires": ""
-  },
-  {
-    "name": "CW-1 3-star clear",
-    "category": ["Rekindled Flame", "Lonetrail", "3-stars clear"],
-    "region": "Lonetrail first half",
-    "requires": ""
-  },
-  {
-    "name": "CW-1 clear",
-    "category": ["Summertime Beats", "Lonetrail"],
-    "region": "Lonetrail first half",
-    "requires": ""
-  },
-  {
-    "name": "CW-1 3-star clear",
-    "category": ["Summertime Beats", "Lonetrail", "3-stars clear"],
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
     "region": "Lonetrail first half",
     "requires": ""
   },
