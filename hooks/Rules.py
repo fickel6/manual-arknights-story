@@ -104,3 +104,12 @@ def checkClassAmount(state: CollectionState, player: int, class_name: str, requi
         if total > int(required):
             return True
     return f"|@{class_name}: {required-total}|"
+
+def totalOperators(state: CollectionState, player: int, amount_needed):
+    total = 0
+    for item_group_name in ["progressive 6 star", "progressive 5 star", "progressive 4 star", "progressive 3 star", "progressive 2 star", "progressive 1 star"]:
+        total += state.count(item_group_name, player)
+        if total >= int(amount_needed):
+            return True
+
+    return f"!@character:{amount_needed-total}|"
