@@ -9386,7 +9386,7 @@
   {
     "name": "SN-9 clear",
     "category": ["Glimpse of the Depths", "Stultifera Navis"],
-    "_comment": "should I splits this like ingame, or like the other events? this is a relative hard event (idk with current units), so probably like ingame?",
+    "_comment": "this is split like it is ingame",
     "region": "Stultifera Navis third half",
     "requires": ""
   },
@@ -10022,97 +10022,97 @@
   },
   {
     "name": "EP-EX-1 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage"],
     "region": "Exodus From the Pale Sea third half",
     "requires": ""
   },
   {
     "name": "EP-EX-1 3-star clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage", "3-stars clear"],
     "region": "Exodus From the Pale Sea third half",
     "requires": ""
   },
   {
     "name": "EP-EX-2 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage"],
     "region": "Exodus From the Pale Sea third half",
     "requires": ""
   },
   {
     "name": "EP-EX-2 3-star clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage", "3-stars clear"],
     "region": "Exodus From the Pale Sea third half",
     "requires": ""
   },
   {
     "name": "EP-EX-3 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage"],
     "region": "Exodus From the Pale Sea third half",
     "requires": ""
   },
   {
     "name": "EP-EX-3 3-star clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage", "3-stars clear"],
     "region": "Exodus From the Pale Sea third half",
     "requires": ""
   },
   {
     "name": "EP-EX-4 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage"],
     "region": "Exodus From the Pale Sea third half",
     "requires": ""
   },
   {
     "name": "EP-EX-4 3-star clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage", "3-stars clear"],
     "region": "Exodus From the Pale Sea third half",
     "requires": ""
   },
   {
     "name": "EP-EX-5 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage"],
     "region": "Exodus From the Pale Sea fourth half",
     "requires": ""
   },
   {
     "name": "EP-EX-5 3-star clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage", "3-stars clear"],
     "region": "Exodus From the Pale Sea fourth half",
     "requires": ""
   },
   {
     "name": "EP-EX-6 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage"],
     "region": "Exodus From the Pale Sea fourth half",
     "requires": ""
   },
   {
     "name": "EP-EX-6 3-star clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage", "3-stars clear"],
     "region": "Exodus From the Pale Sea fourth half",
     "requires": ""
   },
   {
     "name": "EP-EX-7 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage"],
     "region": "Exodus From the Pale Sea fourth half",
     "requires": ""
   },
   {
     "name": "EP-EX-7 3-star clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage", "3-stars clear"],
     "region": "Exodus From the Pale Sea fourth half",
     "requires": ""
   },
   {
     "name": "EP-EX-8 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage"],
     "region": "Exodus From the Pale Sea fourth half",
     "requires": ""
   },
   {
     "name": "EP-EX-8 3-star clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "3-stars clear"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage", "3-stars clear"],
     "region": "Exodus From the Pale Sea fourth half",
     "requires": ""
   },
@@ -10129,27 +10129,1144 @@
     "requires": ""
   },
   {
-    "name": "CW-1 clear",
-    "category": ["Rekindled Flame", "When the Fireflights Casts"],
-    "region": "Lonetrail first half",
+    "name": "TW-2 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde"],
+    "region": "Twilight of Wolumonde first half",
     "requires": ""
   },
   {
-    "name": "CW-1 3-star clear",
-    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
-    "region": "Lonetrail first half",
+    "name": "TW-2 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "3-stars clear"],
+    "region": "Twilight of Wolumonde first half",
     "requires": ""
   },
+  {
+    "name": "TW-3 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde"],
+    "region": "Twilight of Wolumonde first half",
+    "requires": ""
+  },
+  {
+    "name": "TW-3 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "3-stars clear"],
+    "region": "Twilight of Wolumonde first half",
+    "requires": ""
+  },
+  {
+    "name": "TW-4 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde"],
+    "region": "Twilight of Wolumonde first half",
+    "requires": ""
+  },
+  {
+    "name": "TW-4 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "3-stars clear"],
+    "region": "Twilight of Wolumonde first half",
+    "requires": ""
+  },
+  {
+    "name": "TW-5 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde"],
+    "region": "Twilight of Wolumonde second half",
+    "requires": ""
+  },
+  {
+    "name": "TW-5 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "3-stars clear"],
+    "region": "Twilight of Wolumonde second half",
+    "requires": ""
+  },
+  {
+    "name": "TW-6 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde"],
+    "region": "Twilight of Wolumonde second half",
+    "requires": ""
+  },
+  {
+    "name": "TW-6 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "3-stars clear"],
+    "region": "Twilight of Wolumonde second half",
+    "requires": ""
+  },
+  {
+    "name": "TW-7 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde"],
+    "region": "Twilight of Wolumonde second half",
+    "requires": ""
+  },
+  {
+    "name": "TW-7 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "3-stars clear"],
+    "region": "Twilight of Wolumonde second half",
+    "requires": ""
+  },
+  {
+    "name": "TW-8 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde"],
+    "region": "Twilight of Wolumonde second half",
+    "requires": ""
+  },
+  {
+    "name": "TW-8 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "3-stars clear"],
+    "region": "Twilight of Wolumonde second half",
+    "requires": ""
+  },
+  {
+    "name": "TW-ST-1 read",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "reading"],
+    "region": "Twilight of Wolumonde first half",
+    "requires": ""
+  },
+  {
+    "name": "TW-ST-2 read",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "reading"],
+    "region": "Twilight of Wolumonde second half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-1 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage"],
+    "region": "Twilight of Wolumonde first half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-1 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage", "3-stars clear"],
+    "region": "Twilight of Wolumonde third half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-2 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage"],
+    "region": "Twilight of Wolumonde third half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-2 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage", "3-stars clear"],
+    "region": "Twilight of Wolumonde third half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-3 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage"],
+    "region": "Twilight of Wolumonde third half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-3 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage", "3-stars clear"],
+    "region": "Twilight of Wolumonde third half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-4 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage"],
+    "region": "Twilight of Wolumonde third half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-4 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage", "3-stars clear"],
+    "region": "Twilight of Wolumonde third half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-5 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-5 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage", "3-stars clear"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-6 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-6 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage", "3-stars clear"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-7 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-7 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage", "3-stars clear"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-8 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-EX-8 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage", "3-stars clear"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-MO-1 clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "mo-stage"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-MO-1 3-star clear",
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "mo-stage", "3-stars clear"],
+    "region": "Twilight of Wolumonde fourth half",
+    "requires": ""
+  },
+  {
+    "name": "LE-1 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-1 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-2 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-2 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-3 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-3 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-4 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-4 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-5 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes second half",
+    "requires": ""
+  },
+  {
+    "name": "LE-5 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes second half",
+    "requires": ""
+  },
+  {
+    "name": "LE-6 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes second half",
+    "requires": ""
+  },
+  {
+    "name": "LE-6 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes second half",
+    "requires": ""
+  },
+  {
+    "name": "LE-7 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes second half",
+    "requires": ""
+  },
+  {
+    "name": "LE-7 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes second half",
+    "requires": ""
+  },
+  {
+    "name": "LE-8 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes second half",
+    "requires": ""
+  },
+  {
+    "name": "LE-8 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes second half",
+    "requires": ""
+  },
+  {
+    "name": "LE-ST-1 read",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-ST-2 read",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes first half",
+    "requires": ""
+  },
+  {
+    "name": "LE-ST-3 read",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes second half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-1 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes third half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-1 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes third half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-2 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes third half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-2 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes third half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-3 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes third half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-3 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes third half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-4 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes third half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-4 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes third half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-5 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-5 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-6 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-6 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-7 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-7 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-8 clear",
+    "category": ["Spire Mirages", "Lingering Echoes"],
+    "region": "Lingering Echoes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "LE-EX-8 3-star clear",
+    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "region": "Lingering Echoes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "TW-1 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-1 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-2 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-2 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-3 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-3 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-4 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-4 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-5 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-5 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-6 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-6 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-7 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-7 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-8 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-8 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-9 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-9 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-10 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-10 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-ST-1 read",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "reading"],
+    "region": "Zwillingstürme im Herbst first half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-ST-2 read",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "reading"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-ST-3 read",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "reading"],
+    "region": "Zwillingstürme im Herbst second half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-1 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
+    "region": "Zwillingstürme im Herbst third half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-1 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst third half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-2 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
+    "region": "Zwillingstürme im Herbst third half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-2 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst third half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-3 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
+    "region": "Zwillingstürme im Herbst third half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-3 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst third half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-4 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
+    "region": "Zwillingstürme im Herbst third half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-4 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst third half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-5 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
+    "region": "Zwillingstürme im Herbst fourth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-5 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst fourth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-6 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
+    "region": "Zwillingstürme im Herbst fourth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-6 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst fourth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-7 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
+    "region": "Zwillingstürme im Herbst fourth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-7 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst fourth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-8 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
+    "region": "Zwillingstürme im Herbst fourth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-EX-8 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst fourth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-1 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-1 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-2 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-2 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-3 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-3 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-4 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-4 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-5 clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "ZT-S-5 3-star clear",
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingstürme im Herbst fifth half",
+    "requires": ""
+  },
+  {
+    "name": "FC-1 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts"],
+    "region": "When the Fireflights Casts first half",
+    "requires": ""
+  },
+  {
+    "name": "FC-1 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
+    "region": "When the Fireflights Casts first half",
+    "requires": ""
+  },
+  {
+    "name": "FC-2 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts"],
+    "region": "When the Fireflights Casts first half",
+    "requires": ""
+  },
+  {
+    "name": "FC-2 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
+    "region": "When the Fireflights Casts first half",
+    "requires": ""
+  },
+  {
+    "name": "FC-3 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts"],
+    "region": "When the Fireflights Casts first half",
+    "requires": ""
+  },
+  {
+    "name": "FC-3 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
+    "region": "When the Fireflights Casts first half",
+    "requires": ""
+  },
+  {
+    "name": "FC-4 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts"],
+    "region": "When the Fireflights Casts first half",
+    "requires": ""
+  },
+  {
+    "name": "FC-4 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
+    "region": "When the Fireflights Casts first half",
+    "requires": ""
+  },
+  {
+    "name": "FC-5 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-5 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-6 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-6 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-7 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-7 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-8 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-8 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "3-stars clear"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-ST-1 read",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "reading"],
+    "region": "When the Fireflights Casts first half",
+    "requires": ""
+  },
+  {
+    "name": "FC-ST-2 read",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "reading"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-ST-3 read",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "reading"],
+    "region": "When the Fireflights Casts second half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-1 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage"],
+    "region": "When the Fireflights Casts third half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-1 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage", "3-stars clear"],
+    "region": "When the Fireflights Casts third half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-2 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage"],
+    "region": "When the Fireflights Casts third half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-2 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage", "3-stars clear"],
+    "region": "When the Fireflights Casts third half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-3 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage"],
+    "region": "When the Fireflights Casts third half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-3 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage", "3-stars clear"],
+    "region": "When the Fireflights Casts third half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-4 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage"],
+    "region": "When the Fireflights Casts third half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-4 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage", "3-stars clear"],
+    "region": "When the Fireflights Casts third half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-5 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage"],
+    "region": "When the Fireflights Casts fourth half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-5 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage", "3-stars clear"],
+    "region": "When the Fireflights Casts fourth half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-6 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage"],
+    "region": "When the Fireflights Casts fourth half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-6 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage", "3-stars clear"],
+    "region": "When the Fireflights Casts fourth half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-7 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage"],
+    "region": "When the Fireflights Casts fourth half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-7 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage", "3-stars clear"],
+    "region": "When the Fireflights Casts fourth half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-8 clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage"],
+    "region": "When the Fireflights Casts fourth half",
+    "requires": ""
+  },
+  {
+    "name": "FC-EX-8 3-star clear",
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage", "3-stars clear"],
+    "region": "When the Fireflights Casts fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EA-1 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes"],
+    "region": "When Elegies Are Ashes first half",
+    "requires": ""
+  },
+  {
+    "name": "EA-1 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "3-stars clear"],
+    "region": "When Elegies Are Ashes first half",
+    "requires": ""
+  },
+  {
+    "name": "EA-2 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes"],
+    "region": "When Elegies Are Ashes first half",
+    "requires": ""
+  },
+  {
+    "name": "EA-2 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "3-stars clear"],
+    "region": "When Elegies Are Ashes first half",
+    "requires": ""
+  },
+  {
+    "name": "EA-3 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes"],
+    "region": "When Elegies Are Ashes first half",
+    "requires": ""
+  },
+  {
+    "name": "EA-3 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "3-stars clear"],
+    "region": "When Elegies Are Ashes first half",
+    "requires": ""
+  },
+  {
+    "name": "EA-4 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes"],
+    "region": "When Elegies Are Ashes first half",
+    "requires": ""
+  },
+  {
+    "name": "EA-4 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "3-stars clear"],
+    "region": "When Elegies Are Ashes first half",
+    "requires": ""
+  },
+  {
+    "name": "EA-5 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-5 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "3-stars clear"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-6 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-6 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "3-stars clear"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-7 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-7 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "3-stars clear"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-8 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-8 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "3-stars clear"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-ST-1 read",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes first half",
+    "requires": ""
+  },
+  {
+    "name": "EA-ST-2 read",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-ST-3 read",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes second half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-1 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes third half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-1 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "region": "When Elegies Are Ashes third half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-2 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes third half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-2 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "region": "When Elegies Are Ashes third half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-3 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes third half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-3 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "region": "When Elegies Are Ashes third half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-4 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes third half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-4 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "region": "When Elegies Are Ashes third half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-5 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-5 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "region": "When Elegies Are Ashes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-6 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-6 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "region": "When Elegies Are Ashes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-7 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-7 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "region": "When Elegies Are Ashes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-8 clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "region": "When Elegies Are Ashes fourth half",
+    "requires": ""
+  },
+  {
+    "name": "EA-EX-8 3-star clear",
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "region": "When Elegies Are Ashes fourth half",
+    "requires": ""
+  },
+  
   {
     "name": "CW-1 clear",
     "category": ["Summertime Beats", "Heart of Surging Flame"],
-    "region": "Lonetrail first half",
+    "region": "Heart of Surging Flame first half",
     "requires": ""
   },
   {
     "name": "CW-1 3-star clear",
     "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
-    "region": "Lonetrail first half",
+    "region": "Heart of Surging Flame first half",
     "requires": ""
   },
 ]
