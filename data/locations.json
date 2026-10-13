@@ -11256,17 +11256,1606 @@
     "region": "When Elegies Are Ashes fourth half",
     "requires": ""
   },
-  
   {
-    "name": "CW-1 clear",
+    "name": "OF-1 clear",
     "category": ["Summertime Beats", "Heart of Surging Flame"],
     "region": "Heart of Surging Flame first half",
     "requires": ""
   },
   {
-    "name": "CW-1 3-star clear",
+    "name": "OF-1 3-star clear",
     "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
     "region": "Heart of Surging Flame first half",
     "requires": ""
   },
+  {
+    "name": "OF-2 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame first half",
+    "requires": ""
+  },
+  {
+    "name": "OF-2 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame first half",
+    "requires": ""
+  },
+  {
+    "name": "OF-3 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame first half",
+    "requires": ""
+  },
+  {
+    "name": "OF-3 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame first half",
+    "requires": ""
+  },
+  {
+    "name": "OF-4 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame first half",
+    "requires": ""
+  },
+  {
+    "name": "OF-4 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame first half",
+    "requires": ""
+  },
+  {
+    "name": "OF-5 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-5 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-6 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-6 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-7 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-7 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-8 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-8 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-ST-1 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "reading"],
+    "region": "Heart of Surging Flame first half",
+    "requires": ""
+  },
+  {
+    "name": "OF-ST-2 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "reading"],
+    "region": "Heart of Surging Flame first half",
+    "requires": ""
+  },
+  {
+    "name": "OF-ST-3 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "reading"],
+    "region": "Heart of Surging Flame first half",
+    "requires": ""
+  },
+  {
+    "name": "OF-ST-4 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "reading"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-ST-5 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "reading"],
+    "region": "Heart of Surging Flame second half",
+    "requires": ""
+  },
+  {
+    "name": "OF-F1 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame third half",
+    "requires": ""
+  },
+  {
+    "name": "OF-F1 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame third half",
+    "requires": ""
+  },
+  {
+    "name": "OF-F2 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame third half",
+    "requires": ""
+  },
+  {
+    "name": "OF-F2 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame third half",
+    "requires": ""
+  },
+  {
+    "name": "OF-F3 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame third half",
+    "requires": ""
+  },
+  {
+    "name": "OF-F3 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame third half",
+    "requires": ""
+  },
+  {
+    "name": "OF-F4 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "region": "Heart of Surging Flame third half",
+    "requires": ""
+  },
+  {
+    "name": "OF-F4 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "3-stars clear"],
+    "region": "Heart of Surging Flame third half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-1 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage"],
+    "region": "Heart of Surging Flame fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-1 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage", "3-stars clear"],
+    "region": "Heart of Surging Flame fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-2 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage"],
+    "region": "Heart of Surging Flame fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-2 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage", "3-stars clear"],
+    "region": "Heart of Surging Flame fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-3 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage"],
+    "region": "Heart of Surging Flame fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-3 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage", "3-stars clear"],
+    "region": "Heart of Surging Flame fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-4 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage"],
+    "region": "Heart of Surging Flame fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-4 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage", "3-stars clear"],
+    "region": "Heart of Surging Flame fourth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-5 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage"],
+    "region": "Heart of Surging Flame fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-5 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage", "3-stars clear"],
+    "region": "Heart of Surging Flame fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-6 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage"],
+    "region": "Heart of Surging Flame fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-6 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage", "3-stars clear"],
+    "region": "Heart of Surging Flame fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-7 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage"],
+    "region": "Heart of Surging Flame fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-7 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage", "3-stars clear"],
+    "region": "Heart of Surging Flame fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-8 clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage"],
+    "region": "Heart of Surging Flame fifth half",
+    "requires": ""
+  },
+  {
+    "name": "OF-EX-8 3-star clear",
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage", "3-stars clear"],
+    "region": "Heart of Surging Flame fifth half",
+    "requires": ""
+  },
+  {
+    "name": "RI-1 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-1 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-2 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-2 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-3 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-3 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-4 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-4 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-5 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-5 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns first half",
+    "requires": ""
+  },
+  {
+    "name": "RI-6 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns"],
+    "region": "Gavial the Great Chief Returns second half",
+    "requires": ""
+  },
+  {
+    "name": "RI-6 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns second half",
+    "requires": ""
+  },
+  {
+    "name": "RI-7 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns"],
+    "region": "Gavial the Great Chief Returns second half",
+    "requires": ""
+  },
+  {
+    "name": "RI-7 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns second half",
+    "requires": ""
+  },
+  {
+    "name": "RI-8 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns"],
+    "region": "Gavial the Great Chief Returns second half",
+    "requires": ""
+  },
+  {
+    "name": "RI-8 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns second half",
+    "requires": ""
+  },
+  {
+    "name": "RI-9 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns"],
+    "region": "Gavial the Great Chief Returns second half",
+    "requires": ""
+  },
+  {
+    "name": "RI-9 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns second half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-1 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage"],
+    "region": "Gavial the Great Chief Returns third half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-1 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns third half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-2 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage"],
+    "region": "Gavial the Great Chief Returns third half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-2 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns third half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-3 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage"],
+    "region": "Gavial the Great Chief Returns third half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-3 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns third half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-4 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage"],
+    "region": "Gavial the Great Chief Returns third half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-4 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns third half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-5 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage"],
+    "region": "Gavial the Great Chief Returns fourth half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-5 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns fourth half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-6 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage"],
+    "region": "Gavial the Great Chief Returns fourth half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-6 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns fourth half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-7 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage"],
+    "region": "Gavial the Great Chief Returns fourth half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-7 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns fourth half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-8 clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage"],
+    "region": "Gavial the Great Chief Returns fourth half",
+    "requires": ""
+  },
+  {
+    "name": "RI-EX-8 3-star clear",
+    "category": ["Summertime Beats", "Gavial the Great Chief Returns", "ex-stage", "3-stars clear"],
+    "region": "Gavial the Great Chief Returns fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-1 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-1 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "3-stars clear"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-2 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-2 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "3-stars clear"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-3 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-3 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "3-stars clear"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-4 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-4 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "3-stars clear"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-5 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-5 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "3-stars clear"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-6 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-6 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "3-stars clear"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-7 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-7 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "3-stars clear"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-8 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-8 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "3-stars clear"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-9 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-9 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "3-stars clear"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-ST-1 read",
+    "category": ["Summertime Beats", "Dossoles Holiday", "reading"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-ST-2 read",
+    "category": ["Summertime Beats", "Dossoles Holiday", "reading"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "DH-ST-3 read",
+    "category": ["Summertime Beats", "Dossoles Holiday", "reading"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-ST-4 read",
+    "category": ["Summertime Beats", "Dossoles Holiday", "reading"],
+    "region": "Dossoles Holiday second half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-1 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage"],
+    "region": "Dossoles Holiday third half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-1 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage", "3-stars clear"],
+    "region": "Dossoles Holiday third half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-2 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage"],
+    "region": "Dossoles Holiday third half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-2 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage", "3-stars clear"],
+    "region": "Dossoles Holiday third half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-3 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage"],
+    "region": "Dossoles Holiday third half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-3 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage", "3-stars clear"],
+    "region": "Dossoles Holiday third half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-4 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage"],
+    "region": "Dossoles Holiday third half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-4 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage", "3-stars clear"],
+    "region": "Dossoles Holiday third half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-5 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage"],
+    "region": "Dossoles Holiday fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-5 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage", "3-stars clear"],
+    "region": "Dossoles Holiday fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-6 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage"],
+    "region": "Dossoles Holiday fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-6 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage", "3-stars clear"],
+    "region": "Dossoles Holiday fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-7 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage"],
+    "region": "Dossoles Holiday fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-7 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage", "3-stars clear"],
+    "region": "Dossoles Holiday fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-8 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage"],
+    "region": "Dossoles Holiday fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-EX-8 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage", "3-stars clear"],
+    "region": "Dossoles Holiday fourth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-S-1 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage"],
+    "region": "Dossoles Holiday fifth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-S-1 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage", "3-stars clear"],
+    "region": "Dossoles Holiday fifth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-S-2 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage"],
+    "region": "Dossoles Holiday fifth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-S-2 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage", "3-stars clear"],
+    "region": "Dossoles Holiday fifth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-S-3 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage"],
+    "region": "Dossoles Holiday fifth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-S-3 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage", "3-stars clear"],
+    "region": "Dossoles Holiday fifth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-S-4 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage"],
+    "region": "Dossoles Holiday fifth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-S-4 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage", "3-stars clear"],
+    "region": "Dossoles Holiday fifth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-MO-1 clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "mo-stage"],
+    "region": "Dossoles Holiday fifth half",
+    "requires": ""
+  },
+  {
+    "name": "DH-MO-1 3-star clear",
+    "category": ["Summertime Beats", "Dossoles Holiday", "mo-stage", "3-stars clear"],
+    "region": "Dossoles Holiday first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-1 clear",
+    "category": ["Summertime Beats", "Ideal City"],
+    "region": "Ideal City first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-1 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "3-stars clear"],
+    "region": "Ideal City first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-2 clear",
+    "category": ["Summertime Beats", "Ideal City"],
+    "region": "Ideal City first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-2 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "3-stars clear"],
+    "region": "Ideal City first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-3 clear",
+    "category": ["Summertime Beats", "Ideal City"],
+    "region": "Ideal City first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-3 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "3-stars clear"],
+    "region": "Ideal City first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-4 clear",
+    "category": ["Summertime Beats", "Ideal City"],
+    "region": "Ideal City first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-4 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "3-stars clear"],
+    "region": "Ideal City first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-5 clear",
+    "category": ["Summertime Beats", "Ideal City"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-5 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "3-stars clear"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-6 clear",
+    "category": ["Summertime Beats", "Ideal City"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-6 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "3-stars clear"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-7 clear",
+    "category": ["Summertime Beats", "Ideal City"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-7 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "3-stars clear"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-8 clear",
+    "category": ["Summertime Beats", "Ideal City"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-8 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "3-stars clear"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-9 clear",
+    "category": ["Summertime Beats", "Ideal City"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-9 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "3-stars clear"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-ST-1 read",
+    "category": ["Summertime Beats", "Ideal City", "reading"],
+    "region": "Ideal City first half",
+    "requires": ""
+  },
+  {
+    "name": "IC-ST-2 read",
+    "category": ["Summertime Beats", "Ideal City", "reading"],
+    "region": "Ideal City second half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-1 clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage"],
+    "region": "Ideal City third half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-1 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage", "3-stars clear"],
+    "region": "Ideal City third half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-2 clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage"],
+    "region": "Ideal City third half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-2 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage", "3-stars clear"],
+    "region": "Ideal City third half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-3 clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage"],
+    "region": "Ideal City third half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-3 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage", "3-stars clear"],
+    "region": "Ideal City third half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-4 clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage"],
+    "region": "Ideal City third half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-4 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage", "3-stars clear"],
+    "region": "Ideal City third half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-5 clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage"],
+    "region": "Ideal City fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-5 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage", "3-stars clear"],
+    "region": "Ideal City fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-6 clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage"],
+    "region": "Ideal City fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-6 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage", "3-stars clear"],
+    "region": "Ideal City fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-7 clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage"],
+    "region": "Ideal City fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-7 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage", "3-stars clear"],
+    "region": "Ideal City fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-8 clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage"],
+    "region": "Ideal City fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-EX-8 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "ex-stage", "3-stars clear"],
+    "region": "Ideal City fourth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-S-1 clear",
+    "category": ["Summertime Beats", "Ideal City", "s-stage"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-S-1 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "s-stage", "3-stars clear"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-S-2 clear",
+    "category": ["Summertime Beats", "Ideal City", "s-stage"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-S-2 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "s-stage", "3-stars clear"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-S-3 clear",
+    "category": ["Summertime Beats", "Ideal City", "s-stage"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-S-3 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "s-stage", "3-stars clear"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-S-4 clear",
+    "category": ["Summertime Beats", "Ideal City", "s-stage"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-S-4 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "s-stage", "3-stars clear"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-MO-1 clear",
+    "category": ["Summertime Beats", "Ideal City", "mo-stage"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "IC-MO-1 3-star clear",
+    "category": ["Summertime Beats", "Ideal City", "mo-stage", "3-stars clear"],
+    "region": "Ideal City fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-1 clear",
+    "category": ["Summertime Beats", "So long Adele"],
+    "region": "So long Adele first half",
+    "requires": ""
+  },
+  {
+    "name": "SL-1 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "3-stars clear"],
+    "region": "So long Adele first half",
+    "requires": ""
+  },
+  {
+    "name": "SL-2 clear",
+    "category": ["Summertime Beats", "So long Adele"],
+    "region": "So long Adele first half",
+    "requires": ""
+  },
+  {
+    "name": "SL-2 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "3-stars clear"],
+    "region": "So long Adele first half",
+    "requires": ""
+  },
+  {
+    "name": "SL-3 clear",
+    "category": ["Summertime Beats", "So long Adele"],
+    "region": "So long Adele first half",
+    "requires": ""
+  },
+  {
+    "name": "SL-3 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "3-stars clear"],
+    "region": "So long Adele first half",
+    "requires": ""
+  },
+  {
+    "name": "SL-4 clear",
+    "category": ["Summertime Beats", "So long Adele"],
+    "region": "So long Adele first half",
+    "requires": ""
+  },
+  {
+    "name": "SL-4 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "3-stars clear"],
+    "region": "So long Adele first half",
+    "requires": ""
+  },
+  {
+    "name": "SL-5 clear",
+    "category": ["Summertime Beats", "So long Adele"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-5 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "3-stars clear"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-6 clear",
+    "category": ["Summertime Beats", "So long Adele"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-6 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "3-stars clear"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-7 clear",
+    "category": ["Summertime Beats", "So long Adele"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-7 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "3-stars clear"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-8 clear",
+    "category": ["Summertime Beats", "So long Adele"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-8 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "3-stars clear"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-ST-1 read",
+    "category": ["Summertime Beats", "So long Adele", "reading"],
+    "region": "So long Adele first half",
+    "requires": ""
+  },
+  {
+    "name": "SL-ST-2 read",
+    "category": ["Summertime Beats", "So long Adele", "reading"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-ST-3 read",
+    "category": ["Summertime Beats", "So long Adele", "reading"],
+    "region": "So long Adele second half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-1 clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage"],
+    "region": "So long Adele third half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-1 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage", "3-stars clear"],
+    "region": "So long Adele third half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-2 clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage"],
+    "region": "So long Adele third half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-2 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage", "3-stars clear"],
+    "region": "So long Adele third half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-3 clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage"],
+    "region": "So long Adele third half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-3 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage", "3-stars clear"],
+    "region": "So long Adele third half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-4 clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage"],
+    "region": "So long Adele third half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-4 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage", "3-stars clear"],
+    "region": "So long Adele third half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-5 clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage"],
+    "region": "So long Adele fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-5 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage", "3-stars clear"],
+    "region": "So long Adele fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-6 clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage"],
+    "region": "So long Adele fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-6 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage", "3-stars clear"],
+    "region": "So long Adele fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-7 clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage"],
+    "region": "So long Adele fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-7 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage", "3-stars clear"],
+    "region": "So long Adele fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-8 clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage"],
+    "region": "So long Adele fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-EX-8 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "ex-stage", "3-stars clear"],
+    "region": "So long Adele fourth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-1 clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-1 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage", "3-stars clear"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-2 clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-2 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage", "3-stars clear"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-3 clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-3 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage", "3-stars clear"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-4 clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-4 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage", "3-stars clear"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-5 clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-S-5 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "s-stage", "3-stars clear"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-MO-1 clear",
+    "category": ["Summertime Beats", "So long Adele", "mo-stage"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "SL-MO-1 3-star clear",
+    "category": ["Summertime Beats", "So long Adele", "mo-stage", "3-stars clear"],
+    "region": "So long Adele fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-1 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-1 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-2 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-2 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-3 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-3 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-4 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-4 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-5 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-5 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-6 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-6 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-7 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-7 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-8 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-8 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-9 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-9 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-ST-1 read",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "reading"],
+    "region": "Adventure That Cannot Wait for the Sun first half",
+    "requires": ""
+  },
+  {
+    "name": "AS-ST-2 read",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "reading"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-ST-3 read",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "reading"],
+    "region": "Adventure That Cannot Wait for the Sun second half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-1 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage"],
+    "region": "Adventure That Cannot Wait for the Sun third half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-1 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun third half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-2 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage"],
+    "region": "Adventure That Cannot Wait for the Sun third half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-2 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun third half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-3 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage"],
+    "region": "Adventure That Cannot Wait for the Sun third half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-3 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun third half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-4 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage"],
+    "region": "Adventure That Cannot Wait for the Sun third half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-4 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun third half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-5 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage"],
+    "region": "Adventure That Cannot Wait for the Sun fourth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-5 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun fourth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-6 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage"],
+    "region": "Adventure That Cannot Wait for the Sun fourth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-6 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun fourth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-7 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage"],
+    "region": "Adventure That Cannot Wait for the Sun fourth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-7 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun fourth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-8 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage"],
+    "region": "Adventure That Cannot Wait for the Sun fourth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-EX-8 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun fourth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-S-1 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-S-1 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-S-2 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-S-2 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-S-3 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-S-3 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-S-4 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-S-4 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-MO-1 clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "mo-stage"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  },
+  {
+    "name": "AS-MO-1 3-star clear",
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "mo-stage", "3-stars clear"],
+    "region": "Adventure That Cannot Wait for the Sun fifth half",
+    "requires": ""
+  }
 ]

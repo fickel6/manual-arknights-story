@@ -433,5 +433,19 @@
       "chapter 16 H-stages": "|chapter 16 H-stages unlock|"
     }
   },
-  "chapter 16 H-stages": {}
+  "chapter 16 H-stages": {},
+  "Darknights' memoir first part": {
+    "starting": true,
+    "requires": "|progressive Darknights' memoir unlock|",
+    "connects_to": ["Darknights' memoir second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Darknights' memoir unlock:2|"
+    }
+  },
+  "Darknights' memoir part": {
+    "connects_to": ["chapter 11 third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Darknights' memoir unlock:2|"
+    }
+  },
 }
