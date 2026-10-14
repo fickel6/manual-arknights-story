@@ -439,25 +439,25 @@
     "requires": "|progressive Darknights' memoir unlock|",
     "connects_to": ["Darknights' memoir second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Darknights' memoir unlock:2|"
+      "Darknights' memoir second part": "|progressive Darknights' memoir unlock:2|"
     }
   },
   "Darknights' memoir second part": {
     "connects_to": ["Darknights' memoir third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Darknights' memoir unlock:3|"
+      "Darknights' memoir third part": "|progressive Darknights' memoir unlock:3|"
     }
   },
   "Darknights' memoir third part": {
     "connects_to": ["Darknights' memoir fourth part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Darknights' memoir unlock:4|"
+      "Darknights' memoir fourth part": "|progressive Darknights' memoir unlock:4|"
     }
   },
   "Darknights' memoir fourth part": {
-    "connects_to": ["Darknights' memoir third part"],
+    "connects_to": ["Darknights' memoir fifth part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Darknights' memoir unlock:5|"
+      "Darknights' memoir fifth part": "|progressive Darknights' memoir unlock:5|"
     }
   },
   "Darknights' memoir fifth part": {},
@@ -466,19 +466,19 @@
     "requires": "|progressive A Walk in the Dust unlock|",
     "connects_to": ["A Walk in the Dust second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive A Walk in the Dust unlock:2|"
+      "A Walk in the Dust second part": "|progressive A Walk in the Dust unlock:2|"
     }
   },
   "A Walk in the Dust second part": {
     "connects_to": ["Darknights' memoir third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive A Walk in the Dust unlock:3|"
+      "A Walk in the Dust third part": "|progressive A Walk in the Dust unlock:3|"
     }
   },
   "A Walk in the Dust third part": {
     "connects_to": ["Darknights' memoir fourth part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive A Walk in the Dust unlock:4|"
+      "A Walk in the Dust fourth part": "|progressive A Walk in the Dust unlock:4|"
     }
   },
   "A Walk in the Dust fourth part": {},
@@ -487,25 +487,25 @@
     "requires": "|progressive Babel unlock|",
     "connects_to": ["Babel second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Babel second part": "|progressive Babel unlock:2|"
     }
   },
   "Babel second part": {
     "connects_to": ["Babel third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Babel third part": "|progressive Babel unlock:3|"
     }
   },
   "Babel third part": {
     "connects_to": ["Babel fourth part"],
     "exit_requires": {
-      "chapter 11 fourth part": "|progressive Babel unlock:4|"
+      "Babel fourth part": "|progressive Babel unlock:4|"
     }
   },
   "Babel fourth part": {
     "connects_to": ["Babel fifth part"],
     "exit_requires": {
-      "chapter 11 fifth part": "|progressive Babel unlock:5|"
+      "Babel fifth part": "|progressive Babel unlock:5|"
     }
   },
   "Babel fifth part": {},
@@ -514,286 +514,755 @@
     "requires": "|progressive Ending a Grand Overture unlock|",
     "connects_to": ["Ending a Grand Overture second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Ending a Grand Overture unlock:2|"
+      "Ending a Grand Overture second part": "|progressive Ending a Grand Overture unlock:2|"
     }
   },
   "Ending a Grand Overture second part": {
     "connects_to": ["Ending a Grand Overture third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Ending a Grand Overture unlock:3|"
+      "Ending a Grand Overture third part": "|progressive Ending a Grand Overture unlock:3|"
     }
   },
   "Ending a Grand Overture third part": {
     "connects_to": ["Ending a Grand Overture fourth part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Ending a Grand Overture unlock:4|"
+      "Ending a Grand Overture fourth part": "|progressive Ending a Grand Overture unlock:4|"
     }
   },
   "Ending a Grand Overture fourth part": {},
-  "Babel first part": {
+  "Guide Ahead first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Guide Ahead unlock|",
+    "connects_to": ["Guide Ahead second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Guide Ahead second part": "|progressive Guide Ahead unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Guide Ahead second part": {
+    "connects_to": ["Guide Ahead third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Guide Ahead third part": "|progressive Guide Ahead unlock:3|"
     }
   },
-  "Babel first part": {
+  "Guide Ahead third part": {
+    "connects_to": ["Guide Ahead fourth part"],
+    "exit_requires": {
+      "Guide Ahead fourth part": "|progressive Guide Ahead unlock:4|"
+    }
+  },
+  "Guide Ahead fourth part": {},
+  "Hortus de Escapismo first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Hortus de Escapismo unlock|",
+    "connects_to": ["Hortus de Escapismo second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Hortus de Escapismo second part": "|progressive Hortus de Escapismo unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Hortus de Escapismo second part": {
+    "connects_to": ["Hortus de Escapismo third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Hortus de Escapismo third part": "|progressive Hortus de Escapismo unlock:3|"
     }
   },
-  "Babel first part": {
+  "Hortus de Escapismo third part": {
+    "connects_to": ["Hortus de Escapismo fourth part"],
+    "exit_requires": {
+      "Hortus de Escapismo fourth part": "|progressive Hortus de Escapismo unlock:4|"
+    }
+  },
+  "Hortus de Escapismo fourth part": {},
+  "Break the Ice first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Break the Ice unlock|",
+    "connects_to": ["Break the Ice second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Break the Ice second part": "|progressive Break the Ice unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Break the Ice second part": {
+    "connects_to": ["Break the Ice third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Break the Ice third part": "|progressive Break the Ice unlock:3|"
     }
   },
-  "Babel first part": {
+  "Break the Ice third part": {
+    "connects_to": ["Break the Ice fourth part"],
+    "exit_requires": {
+      "Break the Ice fourth part": "|progressive Break the Ice unlock:4|"
+    }
+  },
+  "Break the Ice fourth part": {},
+  "The Rides to Lake Silberneherze first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive The Rides to Lake Silberneherze unlock|",
+    "connects_to": ["The Rides to Lake Silberneherze second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "The Rides to Lake Silberneherze second part": "|progressive The Rides to Lake Silberneherze unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "The Rides to Lake Silberneherze second part": {
+    "connects_to": ["The Rides to Lake Silberneherze third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "The Rides to Lake Silberneherze third part": "|progressive The Rides to Lake Silberneherze unlock:3|"
     }
   },
-  "Babel first part": {
+  "The Rides to Lake Silberneherze third part": {
+    "connects_to": ["The Rides to Lake Silberneherze fourth part"],
+    "exit_requires": {
+      "The Rides to Lake Silberneherze fourth part": "|progressive The Rides to Lake Silberneherze unlock:4|"
+    }
+  },
+  "The Rides to Lake Silberneherze fourth part": {},
+  "Il Siracusan first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Il Siracusan unlock|",
+    "connects_to": ["Il Siracusan second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Il Siracusan second part": "|progressive Il Siracusan unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Il Siracusan second part": {
+    "connects_to": ["Il Siracusan third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Il Siracusan third part": "|progressive Il Siracusan unlock:3|"
     }
   },
-  "Babel first part": {
+  "Il Siracusan third part": {
+    "connects_to": ["Il Siracusan fourth part"],
+    "exit_requires": {
+      "Il Siracusan fourth part": "|progressive Il Siracusan unlock:4|"
+    }
+  },
+  "Il Siracusan fourth part": {
+    "connects_to": ["Il Siracusan fifth part"],
+    "exit_requires": {
+      "Il Siracusan fifth part": "|progressive Il Siracusan unlock:5|"
+    }
+  },
+  "Il Siracusan fifth part": {},
+  "Maria Nearl first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Maria Nearl unlock|",
+    "connects_to": ["Maria Nearl second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Maria Nearl second part": "|progressive Maria Nearl unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Maria Nearl second part": {
+    "connects_to": ["Maria Nearl third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Maria Nearl third part": "|progressive Maria Nearl unlock:3|"
     }
   },
-  "Babel first part": {
+  "Maria Nearl third part": {
+    "connects_to": ["Maria Nearl fourth part"],
+    "exit_requires": {
+      "Maria Nearl fourth part": "|progressive Maria Nearl unlock:4|"
+    }
+  },
+  "Maria Nearl fourth part": {},
+  "Near Light first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Near Light unlock|",
+    "connects_to": ["Near Light second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Near Light second part": "|progressive Near Light unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Near Light second part": {
+    "connects_to": ["Near Light third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Near Light third part": "|progressive Near Light unlock:3|"
     }
   },
-  "Babel first part": {
+  "Near Light third part": {
+    "connects_to": ["Near Light fourth part"],
+    "exit_requires": {
+      "Near Light fourth part": "|progressive Near Light unlock:4|"
+    }
+  },
+  "Near Light fourth part": {
+    "connects_to": ["Near Light fifth part"],
+    "exit_requires": {
+      "Near Light fifth part": "|progressive Near Light unlock:5|"
+    }
+  },
+  "Near Light fifth part": {},
+  "Who is Real first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Who is Real unlock|",
+    "connects_to": ["Who is Real second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Who is Real second part": "|progressive Who is Real unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Who is Real second part": {
+    "connects_to": ["Who is Real third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Who is Real third part": "|progressive Who is Real unlock:3|"
     }
   },
-  "Babel first part": {
+  "Who is Real third part": {
+    "connects_to": ["Who is Real fourth part"],
+    "exit_requires": {
+      "Who is Real fourth part": "|progressive Who is Real unlock:4|"
+    }
+  },
+  "Who is Real fourth part": {},
+  "Invitation to Wine first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Invitation to Wine unlock|",
+    "connects_to": ["Invitation to Wine second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Invitation to Wine second part": "|progressive Invitation to Wine unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Invitation to Wine second part": {
+    "connects_to": ["Invitation to Wine third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Invitation to Wine third part": "|progressive Invitation to Wine unlock:3|"
     }
   },
-  "Babel first part": {
+  "Invitation to Wine third part": {
+    "connects_to": ["Invitation to Wine fourth part"],
+    "exit_requires": {
+      "Invitation to Wine fourth part": "|progressive Invitation to Wine unlock:4|"
+    }
+  },
+  "Invitation to Wine fourth part": {},
+  "Where the Vernal Winds Will Never Blow first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Where the Vernal Winds Will Never Blow unlock|",
+    "connects_to": ["Where the Vernal Winds Will Never Blow second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Where the Vernal Winds Will Never Blow second part": "|progressive Where the Vernal Winds Will Never Blow unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Where the Vernal Winds Will Never Blow second part": {
+    "connects_to": ["Where the Vernal Winds Will Never Blow third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Where the Vernal Winds Will Never Blow third part": "|progressive Where the Vernal Winds Will Never Blow unlock:3|"
     }
   },
-  "Babel first part": {
+  "Where the Vernal Winds Will Never Blow third part": {
+    "connects_to": ["Where the Vernal Winds Will Never Blow fourth part"],
+    "exit_requires": {
+      "Where the Vernal Winds Will Never Blow fourth part": "|progressive Where the Vernal Winds Will Never Blow unlock:4|"
+    }
+  },
+  "Where the Vernal Winds Will Never Blow fourth part": {},
+  "Here a People Sows first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Here a People Sows unlock|",
+    "connects_to": ["Here a People Sows second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Here a People Sows second part": "|progressive Here a People Sows unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Here a People Sows second part": {
+    "connects_to": ["Here a People Sows third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Here a People Sows third part": "|progressive Here a People Sows unlock:3|"
     }
   },
-  "Babel first part": {
+  "Here a People Sows third part": {
+    "connects_to": ["Here a People Sows fourth part"],
+    "exit_requires": {
+      "Here a People Sows fourth part": "|progressive Here a People Sows unlock:4|"
+    }
+  },
+  "Here a People Sows fourth part": {
+    "connects_to": ["Here a People Sows fifth part"],
+    "exit_requires": {
+      "Here a People Sows fifth part": "|progressive Here a People Sows unlock:5|"
+    }
+  },
+  "Here a People Sows fifth part": {},
+  "Such is the Joy of Our Reunion first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Such is the Joy of Our Reunion unlock|",
+    "connects_to": ["Such is the Joy of Our Reunion second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Such is the Joy of Our Reunion second part": "|progressive Such is the Joy of Our Reunion unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Such is the Joy of Our Reunion second part": {
+    "connects_to": ["Such is the Joy of Our Reunion third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Such is the Joy of Our Reunion third part": "|progressive Such is the Joy of Our Reunion unlock:3|"
     }
   },
-  "Babel first part": {
+  "Such is the Joy of Our Reunion third part": {
+    "connects_to": ["Such is the Joy of Our Reunion fourth part"],
+    "exit_requires": {
+      "Such is the Joy of Our Reunion fourth part": "|progressive Such is the Joy of Our Reunion unlock:4|"
+    }
+  },
+  "Such is the Joy of Our Reunion fourth part": {
+    "connects_to": ["Such is the Joy of Our Reunion fifth part"],
+    "exit_requires": {
+      "Such is the Joy of Our Reunion fifth part": "|progressive Such is the Joy of Our Reunion unlock:5|"
+    }
+  },
+  "Such is the Joy of Our Reunion fifth part": {},
+  "Mansfield Break first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Mansfield Break unlock|",
+    "connects_to": ["Mansfield Break second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Mansfield Break second part": "|progressive Mansfield Break unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Mansfield Break second part": {
+    "connects_to": ["Mansfield Break third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Mansfield Break third part": "|progressive Mansfield Break unlock:3|"
     }
   },
-  "Babel first part": {
+  "Mansfield Break third part": {
+    "connects_to": ["Mansfield Break fourth part"],
+    "exit_requires": {
+      "Mansfield Break fourth part": "|progressive Mansfield Break unlock:4|"
+    }
+  },
+  "Mansfield Break fourth part": {},
+  "Dorothy's Vision first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Dorothy's Vision unlock|",
+    "connects_to": ["Dorothy's Vision second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Dorothy's Vision second part": "|progressive Dorothy's Vision unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Dorothy's Vision second part": {
+    "connects_to": ["Dorothy's Vision third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Dorothy's Vision third part": "|progressive Dorothy's Vision unlock:3|"
     }
   },
-  "Babel first part": {
+  "Dorothy's Vision third part": {
+    "connects_to": ["Dorothy's Vision fourth part"],
+    "exit_requires": {
+      "Dorothy's Vision fourth part": "|progressive Dorothy's Vision unlock:4|"
+    }
+  },
+  "Dorothy's Vision fourth part": {},
+  "Lonetrail first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Lonetrail unlock|",
+    "connects_to": ["Lonetrail second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Lonetrail second part": "|progressive Lonetrail unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Lonetrail second part": {
+    "connects_to": ["Lonetrail third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Lonetrail third part": "|progressive Lonetrail unlock:3|"
     }
   },
-  "Babel first part": {
+  "Lonetrail third part": {
+    "connects_to": ["Lonetrail fourth part"],
+    "exit_requires": {
+      "Lonetrail fourth part": "|progressive Lonetrail unlock:4|"
+    }
+  },
+  "Lonetrail fourth part": {
+    "connects_to": ["Lonetrail fifth part"],
+    "exit_requires": {
+      "Lonetrail fifth part": "|progressive Lonetrail unlock:5|"
+    }
+  },
+  "Lonetrail fifth part": {
+    "connects_to": ["Lonetrail sixth part"],
+    "exit_requires": {
+      "Lonetrail sixth part": "|progressive Lonetrail unlock:6|"
+    }
+  },
+  "Lonetrail sixth part": {},
+  "Grani And The Knights' Treasure first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Grani And The Knights' Treasure unlock|",
+    "connects_to": ["Grani And The Knights' Treasure second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Grani And The Knights' Treasure second part": "|progressive Grani And The Knights' Treasure unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Grani And The Knights' Treasure second part": {
+    "connects_to": ["Grani And The Knights' Treasure third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Grani And The Knights' Treasure third part": "|progressive Grani And The Knights' Treasure unlock:3|"
     }
   },
-  "Babel first part": {
+  "Grani And The Knights' Treasure third part": {
+    "connects_to": ["Grani And The Knights' Treasure fourth part"],
+    "exit_requires": {
+      "Grani And The Knights' Treasure fourth part": "|progressive Grani And The Knights' Treasure unlock:4|"
+    }
+  },
+  "Grani And The Knights' Treasure fourth part": {},
+  "Under Tides first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Under Tides unlock|",
+    "connects_to": ["Under Tides second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Under Tides second part": "|progressive Under Tides unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Under Tides second part": {
+    "connects_to": ["Under Tides third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Under Tides third part": "|progressive Under Tides unlock:3|"
     }
   },
-  "Babel first part": {
+  "Under Tides third part": {
+    "connects_to": ["Under Tides fourth part"],
+    "exit_requires": {
+      "Under Tides fourth part": "|progressive Under Tides unlock:4|"
+    }
+  },
+  "Under Tides fifth part": {},
+  "Stultifera Navis first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Stultifera Navis unlock|",
+    "connects_to": ["Stultifera Navis second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Stultifera Navis second part": "|progressive Stultifera Navis unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Stultifera Navis second part": {
+    "connects_to": ["Stultifera Navis third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Stultifera Navis third part": "|progressive Stultifera Navis unlock:3|"
     }
   },
-  "Babel first part": {
+  "Stultifera Navis third part": {
+    "connects_to": ["Stultifera Navis fourth part"],
+    "exit_requires": {
+      "Stultifera Navis fourth part": "|progressive Stultifera Navis unlock:4|"
+    }
+  },
+  "Stultifera Navis fourth part": {
+    "connects_to": ["Stultifera Navis fifth part"],
+    "exit_requires": {
+      "Stultifera Navis fifth part": "|progressive Stultifera Navis unlock:5|"
+    }
+  },
+  "Stultifera Navis fifth part": {
+    "connects_to": ["Stultifera Navis sixth part"],
+    "exit_requires": {
+      "Stultifera Navis sixth part": "|progressive Stultifera Navis unlock:6|"
+    }
+  },
+  "Stultifera Navis sixth part": {
+    "connects_to": ["Stultifera Navis seventh part"],
+    "exit_requires": {
+      "Stultifera Navis seventh part": "|progressive Stultifera Navis unlock:7|"
+    }
+  },
+  "Stultifera Navis seventh part": {},
+  "Path of Life first part": {
     "starting": true,
-    "requires": "|progressive Babel unlock|",
-    "connects_to": ["Babel second part"],
+    "requires": "|progressive Path of Life unlock|",
+    "connects_to": ["Path of Life second part"],
     "exit_requires": {
-      "chapter 11 second part": "|progressive Babel unlock:2|"
+      "Path of Life second part": "|progressive Path of Life unlock:2|"
     }
   },
-  "Babel second part": {
-    "connects_to": ["Babel third part"],
+  "Path of Life second part": {
+    "connects_to": ["Path of Life third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Babel unlock:3|"
+      "Path of Life third part": "|progressive Path of Life unlock:3|"
     }
   },
+  "Path of Life third part": {
+    "connects_to": ["Path of Life fourth part"],
+    "exit_requires": {
+      "Path of Life fourth part": "|progressive Path of Life unlock:4|"
+    }
+  },
+  "Path of Life fourth part": {},
+  "Exodus From the Pale Sea first part": {
+    "starting": true,
+    "requires": "|progressive Exodus From the Pale Sea unlock|",
+    "connects_to": ["Exodus From the Pale Sea second part"],
+    "exit_requires": {
+      "Exodus From the Pale Sea second part": "|progressive Exodus From the Pale Sea unlock:2|"
+    }
+  },
+  "Exodus From the Pale Sea second part": {
+    "connects_to": ["Exodus From the Pale Sea third part"],
+    "exit_requires": {
+      "Exodus From the Pale Sea third part": "|progressive Exodus From the Pale Sea unlock:3|"
+    }
+  },
+  "Exodus From the Pale Sea third part": {
+    "connects_to": ["Exodus From the Pale Sea fourth part"],
+    "exit_requires": {
+      "Exodus From the Pale Sea fourth part": "|progressive Exodus From the Pale Sea unlock:4|"
+    }
+  },
+  "Exodus From the Pale Sea fourth part": {},
+  "Twilight of Wolumonde first part": {
+    "starting": true,
+    "requires": "|progressive Twilight of Wolumonde unlock|",
+    "connects_to": ["Twilight of Wolumonde second part"],
+    "exit_requires": {
+      "Twilight of Wolumonde second part": "|progressive Twilight of Wolumonde unlock:2|"
+    }
+  },
+  "Twilight of Wolumonde second part": {
+    "connects_to": ["Twilight of Wolumonde third part"],
+    "exit_requires": {
+      "Twilight of Wolumonde third part": "|progressive Twilight of Wolumonde unlock:3|"
+    }
+  },
+  "Twilight of Wolumonde third part": {
+    "connects_to": ["Twilight of Wolumonde fourth part"],
+    "exit_requires": {
+      "Twilight of Wolumonde fourth part": "|progressive Twilight of Wolumonde unlock:4|"
+    }
+  },
+  "Twilight of Wolumonde fourth part": {},
+  "Lingering Echoes first part": {
+    "starting": true,
+    "requires": "|progressive Lingering Echoes unlock|",
+    "connects_to": ["Lingering Echoes second part"],
+    "exit_requires": {
+      "Lingering Echoes second part": "|progressive Lingering Echoes unlock:2|"
+    }
+  },
+  "Lingering Echoes second part": {
+    "connects_to": ["Lingering Echoes third part"],
+    "exit_requires": {
+      "Lingering Echoes third part": "|progressive Lingering Echoes unlock:3|"
+    }
+  },
+  "Lingering Echoes third part": {
+    "connects_to": ["Lingering Echoes fourth part"],
+    "exit_requires": {
+      "Lingering Echoes fourth part": "|progressive Lingering Echoes unlock:4|"
+    }
+  },
+  "Lingering Echoes fourth part": {},
+  "Zwillingstürme im Herbst first part": {
+    "starting": true,
+    "requires": "|progressive Zwillingstürme im Herbst unlock|",
+    "connects_to": ["Zwillingstürme im Herbst second part"],
+    "exit_requires": {
+      "Zwillingstürme im Herbst second part": "|progressive Zwillingstürme im Herbst unlock:2|"
+    }
+  },
+  "Zwillingstürme im Herbst second part": {
+    "connects_to": ["Zwillingstürme im Herbst third part"],
+    "exit_requires": {
+      "Zwillingstürme im Herbst third part": "|progressive Zwillingstürme im Herbst unlock:3|"
+    }
+  },
+  "Zwillingstürme im Herbst third part": {
+    "connects_to": ["Zwillingstürme im Herbst fourth part"],
+    "exit_requires": {
+      "Zwillingstürme im Herbst fourth part": "|progressive Zwillingstürme im Herbst unlock:4|"
+    }
+  },
+  "Zwillingstürme im Herbst fourth part": {
+    "connects_to": ["Zwillingstürme im Herbst fifth part"],
+    "exit_requires": {
+      "Zwillingstürme im Herbst fifth part": "|progressive Zwillingstürme im Herbst unlock:5|"
+    }
+  },
+  "Zwillingstürme im Herbst fifth part": {},
+  "When the Fireflights Casts first part": {
+    "starting": true,
+    "requires": "|progressive When the Fireflights Casts unlock|",
+    "connects_to": ["When the Fireflights Casts second part"],
+    "exit_requires": {
+      "When the Fireflights Casts second part": "|progressive When the Fireflights Casts unlock:2|"
+    }
+  },
+  "When the Fireflights Casts second part": {
+    "connects_to": ["When the Fireflights Casts third part"],
+    "exit_requires": {
+      "When the Fireflights Casts third part": "|progressive When the Fireflights Casts unlock:3|"
+    }
+  },
+  "When the Fireflights Casts third part": {
+    "connects_to": ["When the Fireflights Casts fourth part"],
+    "exit_requires": {
+      "When the Fireflights Casts fourth part": "|progressive When the Fireflights Casts unlock:4|"
+    }
+  },
+  "When the Fireflights Casts fourth part": {},
+  "When Elegies Are Ashes first part": {
+    "starting": true,
+    "requires": "|progressive When Elegies Are Ashes unlock|",
+    "connects_to": ["When Elegies Are Ashes second part"],
+    "exit_requires": {
+      "When Elegies Are Ashes second part": "|progressive When Elegies Are Ashes unlock:2|"
+    }
+  },
+  "When Elegies Are Ashes second part": {
+    "connects_to": ["When Elegies Are Ashes third part"],
+    "exit_requires": {
+      "When Elegies Are Ashes third part": "|progressive When Elegies Are Ashes unlock:3|"
+    }
+  },
+  "When Elegies Are Ashes third part": {
+    "connects_to": ["When Elegies Are Ashes fourth part"],
+    "exit_requires": {
+      "When Elegies Are Ashes fourth part": "|progressive When Elegies Are Ashes unlock:4|"
+    }
+  },
+  "When Elegies Are Ashes fourth part": {},
+  "Heart of Surging Flame first part": {
+    "starting": true,
+    "requires": "|progressive Heart of Surging Flame unlock|",
+    "connects_to": ["Heart of Surging Flame second part"],
+    "exit_requires": {
+      "Heart of Surging Flame second part": "|progressive Heart of Surging Flame unlock:2|"
+    }
+  },
+  "Heart of Surging Flame second part": {
+    "connects_to": ["Heart of Surging Flame third part"],
+    "exit_requires": {
+      "Heart of Surging Flame third part": "|progressive Heart of Surging Flame unlock:3|"
+    }
+  },
+  "Heart of Surging Flame third part": {
+    "connects_to": ["Heart of Surging Flame fourth part"],
+    "exit_requires": {
+      "Heart of Surging Flame third part": "|progressive Heart of Surging Flame unlock:4|"
+    }
+  },
+  "Heart of Surging Flame fourth part": {},
+  "Gavial the Great Chief Returns first part": {
+    "starting": true,
+    "requires": "|progressive Gavial the Great Chief Returns unlock|",
+    "connects_to": ["Gavial the Great Chief Returns second part"],
+    "exit_requires": {
+      "Gavial the Great Chief Returns second part": "|progressive Gavial the Great Chief Returns unlock:2|"
+    }
+  },
+  "Gavial the Great Chief Returns second part": {
+    "connects_to": ["Gavial the Great Chief Returns third part"],
+    "exit_requires": {
+      "Gavial the Great Chief Returns third part": "|progressive Gavial the Great Chief Returns unlock:3|"
+    }
+  },
+  "Gavial the Great Chief Returns third part": {
+    "connects_to": ["Gavial the Great Chief Returns fourth part"],
+    "exit_requires": {
+      "Gavial the Great Chief Returns fourth part": "|progressive Gavial the Great Chief Returns unlock:4|"
+    }
+  },
+  "Gavial the Great Chief Returns fourth part": {},
+  "Dossoles Holiday first part": {
+    "starting": true,
+    "requires": "|progressive Dossoles Holiday unlock|",
+    "connects_to": ["Dossoles Holiday second part"],
+    "exit_requires": {
+      "Babel second part": "|progressive Dossoles Holiday unlock:2|"
+    }
+  },
+  "Dossoles Holiday second part": {
+    "connects_to": ["Dossoles Holiday third part"],
+    "exit_requires": {
+      "Dossoles Holiday third part": "|progressive Dossoles Holiday unlock:3|"
+    }
+  },
+  "Dossoles Holiday third part": {
+    "connects_to": ["Dossoles Holiday fourth part"],
+    "exit_requires": {
+      "Dossoles Holiday fourth part": "|progressive Dossoles Holiday unlock:4|"
+    }
+  },
+  "Dossoles Holiday fourth part": {
+    "connects_to": ["Dossoles Holiday fourth part"],
+    "exit_requires": {
+      "Dossoles Holiday fifth part": "|progressive Dossoles Holiday unlock:5|"
+    }
+  },
+  "Dossoles Holiday fifth part": {},
+  "Ideal City first part": {
+    "starting": true,
+    "requires": "|progressive Ideal City unlock|",
+    "connects_to": ["Ideal City second part"],
+    "exit_requires": {
+      "Ideal City second part": "|progressive Ideal City unlock:2|"
+    }
+  },
+  "Ideal City second part": {
+    "connects_to": ["Ideal City third part"],
+    "exit_requires": {
+      "Ideal City third part": "|progressive Ideal City unlock:3|"
+    }
+  },
+  "Ideal City third part": {
+    "connects_to": ["Ideal City fourth part"],
+    "exit_requires": {
+      "Ideal City fourth part": "|progressive Ideal City unlock:4|"
+    }
+  },
+  "Ideal City fourth part": {
+    "connects_to": ["Ideal City fifth part"],
+    "exit_requires": {
+      "Ideal City fifth part": "|progressive Ideal City unlock:5|"
+    }
+  },
+  "Ideal City fifth part": {},
+  "So long Adele first part": {
+    "starting": true,
+    "requires": "|progressive So long Adele unlock|",
+    "connects_to": ["So long Adele second part"],
+    "exit_requires": {
+      "So long Adele second part": "|progressive So long Adele unlock:2|"
+    }
+  },
+  "So long Adele second part": {
+    "connects_to": ["So long Adele third part"],
+    "exit_requires": {
+      "So long Adele third part": "|progressive So long Adele unlock:3|"
+    }
+  },
+  "So long Adele third part": {
+    "connects_to": ["So long Adele fourth part"],
+    "exit_requires": {
+      "So long Adele fourth part": "|progressive So long Adele unlock:4|"
+    }
+  },
+  "So long Adele fourth part": {
+    "connects_to": ["So long Adele fifth part"],
+    "exit_requires": {
+      "So long Adele fifth part": "|progressive So long Adele unlock:5|"
+    }
+  },
+  "So long Adele fifth part": {},
+  "Adventure That Cannot Wait for the Sun first part": {
+    "starting": true,
+    "requires": "|progressive Adventure That Cannot Wait for the Sun unlock|",
+    "connects_to": ["Adventure That Cannot Wait for the Sun second part"],
+    "exit_requires": {
+      "Adventure That Cannot Wait for the Sun second part": "|progressive Adventure That Cannot Wait for the Sun unlock:2|"
+    }
+  },
+  "Adventure That Cannot Wait for the Sun second part": {
+    "connects_to": ["Adventure That Cannot Wait for the Sun third part"],
+    "exit_requires": {
+      "Adventure That Cannot Wait for the Sun third part": "|progressive Adventure That Cannot Wait for the Sun unlock:3|"
+    }
+  },
+  "Adventure That Cannot Wait for the Sun third part": {
+    "connects_to": ["Adventure That Cannot Wait for the Sun fourth part"],
+    "exit_requires": {
+      "Adventure That Cannot Wait for the Sun fourth part": "|progressive Adventure That Cannot Wait for the Sun unlock:4|"
+    }
+  },
+  "Adventure That Cannot Wait for the Sun fourth part": {
+    "connects_to": ["Adventure That Cannot Wait for the Sun fifth part"],
+    "exit_requires": {
+      "Adventure That Cannot Wait for the Sun fifth part": "|progressive Adventure That Cannot Wait for the Sun unlock:5|"
+    }
+  },
+  "Adventure That Cannot Wait for the Sun fifth part": {}
 }
