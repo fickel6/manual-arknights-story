@@ -241,67 +241,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    #collect the first chapter unlock
-    # collect_chapter = None
-    match world.random.choice(included_chapters):
-        case "chapter 0":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 0")
-            logging.info("starting chapter is 0")
-        case "chapter 1":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 1")
-            logging.info("starting chapter is 1")
-        case "chapter 2":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 2")
-            logging.info("starting chapter is 2")
-        case "chapter 3":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 3")
-            logging.info("starting chapter is 3")
-        case "chapter 4":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 4")
-            logging.info("starting chapter is 4")
-        case "chapter 5":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 5")
-            logging.info("starting chapter is 5")
-        case "chapter 6":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 6")
-            logging.info("starting chapter is 6")
-        case "chapter 7":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 7")
-            logging.info("starting chapter is 7")
-        case "chapter 8":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 8 past")
-            logging.info("starting chapter is 8")
-        case "chapter 9":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 9")
-            logging.info("starting chapter is 9")
-        case "chapter 10":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 10")
-            logging.info("starting chapter is 10")
-        case "chapter 11":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 11")
-            logging.info("starting chapter is 11")
-        case "chapter 12":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 12")
-            logging.info("starting chapter is 12")
-        # chapter 13 seems very difficult to start with, without extra operators for bait, extra stalling or healing. I'll take this option out of the starting chapters. 
-        # the match case statement should maybe be re written to match this change?
-        case "chapter 13":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 13")
-            # chapter 13 seems a bit to hard to start a rando (with squad sanity enabled and to small starting operators). maybe extra checks if this should be enabled or not or straight up remove as possible starting chapter
-            logging.info("starting chapter is 13")
-        case "chapter 14":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 14")
-            logging.info("starting chapter is 14")
-        case "chapter 15":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 15")
-            logging.info("starting chapter is 15")
-        case "chapter 16":
-            collect_chapter = next(i for i in item_pool if i.name == "progressive chapter 16")
-            logging.info("starting chapter is 16")
-
-    multiworld.push_precollected(collect_chapter)
-    item_pool.remove(collect_chapter)
-    
     possible_characters = []
     possible_characters.extend(
         name for name, i in world.item_name_to_item.items() if "character" in i.get("category", [])

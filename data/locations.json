@@ -4478,7 +4478,7 @@
   {
     "name": "collect OP",
     "category": ["goal"],
-    "requires": "|Originium Prime:all|",
+    "requires": "{OPAmount()}",
     "victory": true
   }
 ]

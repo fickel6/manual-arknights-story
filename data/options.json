@@ -23,9 +23,11 @@
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
             "values": {
-                "recommended": 0
+                "off": 0,
+                "recommended": 10
             },
-            "hidden": true
+            "default": 0,
+            "hidden": false
         }
     },
     "user": {
@@ -96,7 +98,7 @@
             "range_end": 17,
             "group": "goal options"
         },
-        "originium prime hunt": {
+        "total Originium Prime amount": {
             "description": [
                 "choose how many Originium prime there is available to collect",
                 "if a different goal is chosen, this option won't do anything"
@@ -107,10 +109,9 @@
             "range_end": 100,
             "group": "goal options"
         },
-        "extra OP": {
+        "percentage goal amount": {
             "description": [
-                "percentage of op that is needed to beat the manual.",
-                "this will make the manual easier to beat."
+                "percentage of originium prime that is needed to beat the manual."
             ],
             "type": "Range",
             "default": 50,

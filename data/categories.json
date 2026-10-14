@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.categories.schema.json",
     "character": {
-        "hidden": true
+        "hidden": false
     },
     "squad size": {
         "hidden": false,

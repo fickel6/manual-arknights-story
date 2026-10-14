@@ -46,27 +46,27 @@ def fill_progressive_operator_dictionary(multiworld: MultiWorld, player: int):
 #function for checking if 3 and 4 is excluded or not
 # if it is excluded, it should return true. This way, if someone excluded 3 and 4 stars, all the stages will always be open
 # 1 and 2 stars aren't included, because they are basically useless (sorry not sorry)
-def enabledOperators(world: World, player: int):
-    four_stars = get_option_value(world.multiworld, player, "include 4 stars")
-    three_stars = get_option_value(world.multiworld, player, "include 3 stars")
+def enabledOperators(multiworld: MultiWorld, player: int):
+    four_stars = get_option_value(multiworld, player, "include 4 stars")
+    three_stars = get_option_value(multiworld, player, "include 3 stars")
     if four_stars == 2 and three_stars == 2:
         return True
 
     return False
 #hook for combining normal operators and progressive characters
-def requiredOperators(world: World, state: CollectionState, player: int, blocked: str, ranged: str):
+def requiredOperators(multiworld: MultiWorld, state: CollectionState, player: int, blocked: str, ranged: str):
     if not bool(progressive_operators_settings):
-        fill_progressive_operator_dictionary(world.multiworld, player)
+        fill_progressive_operator_dictionary(multiworld, player)
 
     #check the squad size first. if this isn't bigger than the required amount of blocking and ranged units, then we can return false immediately
     if progressive_operators_settings["squad size"] != 0 and progressive_operators_settings["squad size"] < state.count("increased squad size", player):
         return False
     #also check for the enabled operators. if this 3 and 4 stars aren't enabled, they are using them, just not randomised
-    if not enabledOperators(world, player):
+    if not enabledOperators(multiworld, player):
         return False
     
-    standing_units = 0;
-    ranged_units = 0;
+    standing_units = 0
+    ranged_units = 0
     for item_group_name in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
         if standing_units >= int(blocked) and ranged_units >= int(ranged):
             return True
@@ -83,4 +83,13 @@ def requiredOperators(world: World, state: CollectionState, player: int, blocked
         standing_units += amount_operators
         #now we do ranged units
         amount_operators += amount_progresive + state.count(f"{item_group_name}", player) #this must count the amount of x stars collected, see if there is a known function to do this, otherwise I will need to make a function for it
+    return False
+
+def OPAmount(multiworld: MultiWorld, state:CollectionState, player: int):
+    total = get_option_value(multiworld, player, "originium_prime_hunt")
+    needed = get_option_value(multiworld, player, "percentage_goal_amount")
+    if isinstance(total, int) and isinstance(needed, int):
+        if state.count ("Originium Prime") >= total*needed/100:
+            return True
+    # if the option isn't a int, then something else is wrong, so always return false just to be sure it doesn't work
     return False
