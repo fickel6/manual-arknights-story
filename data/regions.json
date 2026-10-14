@@ -442,10 +442,358 @@
       "chapter 11 second part": "|progressive Darknights' memoir unlock:2|"
     }
   },
-  "Darknights' memoir part": {
-    "connects_to": ["chapter 11 third part"],
+  "Darknights' memoir second part": {
+    "connects_to": ["Darknights' memoir third part"],
     "exit_requires": {
-      "chapter 11 third part": "|progressive Darknights' memoir unlock:2|"
+      "chapter 11 third part": "|progressive Darknights' memoir unlock:3|"
+    }
+  },
+  "Darknights' memoir third part": {
+    "connects_to": ["Darknights' memoir fourth part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Darknights' memoir unlock:4|"
+    }
+  },
+  "Darknights' memoir fourth part": {
+    "connects_to": ["Darknights' memoir third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Darknights' memoir unlock:5|"
+    }
+  },
+  "Darknights' memoir fifth part": {},
+  "A Walk in the Dust first part": {
+    "starting": true,
+    "requires": "|progressive A Walk in the Dust unlock|",
+    "connects_to": ["A Walk in the Dust second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive A Walk in the Dust unlock:2|"
+    }
+  },
+  "A Walk in the Dust second part": {
+    "connects_to": ["Darknights' memoir third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive A Walk in the Dust unlock:3|"
+    }
+  },
+  "A Walk in the Dust third part": {
+    "connects_to": ["Darknights' memoir fourth part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive A Walk in the Dust unlock:4|"
+    }
+  },
+  "A Walk in the Dust fourth part": {},
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel third part": {
+    "connects_to": ["Babel fourth part"],
+    "exit_requires": {
+      "chapter 11 fourth part": "|progressive Babel unlock:4|"
+    }
+  },
+  "Babel fourth part": {
+    "connects_to": ["Babel fifth part"],
+    "exit_requires": {
+      "chapter 11 fifth part": "|progressive Babel unlock:5|"
+    }
+  },
+  "Babel fifth part": {},
+  "Ending a Grand Overture first part": {
+    "starting": true,
+    "requires": "|progressive Ending a Grand Overture unlock|",
+    "connects_to": ["Ending a Grand Overture second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Ending a Grand Overture unlock:2|"
+    }
+  },
+  "Ending a Grand Overture second part": {
+    "connects_to": ["Ending a Grand Overture third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Ending a Grand Overture unlock:3|"
+    }
+  },
+  "Ending a Grand Overture third part": {
+    "connects_to": ["Ending a Grand Overture fourth part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Ending a Grand Overture unlock:4|"
+    }
+  },
+  "Ending a Grand Overture fourth part": {},
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
+    }
+  },
+  "Babel first part": {
+    "starting": true,
+    "requires": "|progressive Babel unlock|",
+    "connects_to": ["Babel second part"],
+    "exit_requires": {
+      "chapter 11 second part": "|progressive Babel unlock:2|"
+    }
+  },
+  "Babel second part": {
+    "connects_to": ["Babel third part"],
+    "exit_requires": {
+      "chapter 11 third part": "|progressive Babel unlock:3|"
     }
   },
 }
