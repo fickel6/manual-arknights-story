@@ -4458,6 +4458,78 @@
     "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND |@6 star:1|"
   },
   {
+    "name": "17-1 read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-2 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1|"
+  },
+  {
+    "name": "17-2 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1|"
+  },
+  {
+    "name": "17-2 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1|"
+  },
+  {
+    "name": "17-2 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1|"
+  },
+  {
+    "name": "17-3 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1|"
+  },
+  {
+    "name": "17-3 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1|"
+  },
+  {
+    "name": "17-3 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1|"
+  },
+  {
+    "name": "17-3 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1|"
+  },
+  {
+    "name": "17-2 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-3 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "TR-28 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
     "name": "boss chapter cleared",
     "category": ["goal"],
     "requires": "|beaten stage|",

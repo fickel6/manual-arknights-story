@@ -351,6 +351,15 @@
             ],
             "group": "operations options"
         },
+        "_simulation sanity": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "include all the simulation operations from the recent story stages",
+                "can only be included if challenge sanity is also enabled."
+            ],
+            "group": "operations options"
+        },
         "include story": {
             "type": "Toggle",
             "default": false,

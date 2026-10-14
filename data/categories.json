@@ -26,5 +26,13 @@
     "3-stars clear": {
         "yaml_option": ["3-star sanity"],
         "hidden": true
+    },
+    "challenge mode": {
+        "yaml_option": ["challenge sanity"],
+        "hidden": true
+    },
+    "simulation mode": {
+        "yaml_option": ["challenge sanity", "simulation sanity"],
+        "hidden": true
     }
 }

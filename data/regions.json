@@ -430,5 +430,13 @@
       "chapter 16 H-stages": "|progressive chapter 16:5|"
     }
   },
-  "chapter 16 H-stages": {}
+  "chapter 16 H-stages": {},
+  "chapter 17 first part": {
+    "starting": true,
+    "requires": "|progressive chapter 17|",
+    "connects_to": ["chapter 17 second part"],
+    "exit_requires": {
+      "chapter 17 second part": "|progressive chapter 17:2|"
+    }
+  },
 }

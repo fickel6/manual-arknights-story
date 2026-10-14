@@ -39,7 +39,7 @@ class chapters(OptionSet):
         "chapter 0": "c0", "chapter 1": "c1", "chapter 2": "c2", "chapter 3": "c3", "chapter 4": "c4", 
         "chapter 5": "c5", "chapter 6": "c6", "chapter 7": "c7", "chapter 8": "c8", "chapter 9": "c9",
         "chapter 10": "c10", "chapter 11": "c11", "chapter 12": "c12", "chapter 13": "c13",
-        "chapter 14": "c14", "chapter 15": "c15", "chapter 16": "c16",
+        "chapter 14": "c14", "chapter 15": "c15", "chapter 16": "c16", "chapter 17":"c17",
     } # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
     default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
 class events(OptionSet):
@@ -49,7 +49,7 @@ class events(OptionSet):
         "chapter 0": "c0", "chapter 1": "c1", "chapter 2": "c2", "chapter 3": "c3", "chapter 4": "c4", 
         "chapter 5": "c5", "chapter 6": "c6", "chapter 7": "c7", "chapter 8": "c8", "chapter 9": "c9",
         "chapter 10": "c10", "chapter 11": "c11", "chapter 12": "c12", "chapter 13": "c13",
-        "chapter 14": "c14", "chapter 15": "c15", "chapter 16": "c16",
+        "chapter 14": "c14", "chapter 15": "c15", "chapter 16": "c16", "chapter 17":"c17",
     } # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
     default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
 
@@ -101,8 +101,8 @@ class randomChapters(Range):
     0 means that all the chapters will be randomized."""
     display_name = "Amount of random chapters"
     range_start = 1
-    range_end = 17
-    default = 17
+    range_end = len(chapters.valid_keys) 
+    default = range_end
 
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
