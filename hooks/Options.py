@@ -32,8 +32,32 @@ class TotalCharactersToWinWith(Range):
     range_end = 50
     default = 50
 
+class events(OptionSet):
+    """list for enabling/disabling chapters"""  # Description of the yaml option in the template
+    display_name = "included chapters"           # Name of the option in the spoiler
+    valid_keys = {  #define my own list to choose included chapters
+        "chapter 0": "c0", "chapter 1": "c1", "chapter 2": "c2", "chapter 3": "c3", "chapter 4": "c4", 
+        "chapter 5": "c5", "chapter 6": "c6", "chapter 7": "c7", "chapter 8": "c8", "chapter 9": "c9",
+        "chapter 10": "c10", "chapter 11": "c11", "chapter 12": "c12", "chapter 13": "c13",
+        "chapter 14": "c14", "chapter 15": "c15", "chapter 16": "c16",
+    } # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
+    default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
+
+class enableEX(Toggle):
+    default = True
+
+class enableS(Toggle):
+    default = False
+
+class enableMO(Toggle):
+    default = False
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
+    options["enabled events"] = events
+    options["enable EX stages"] = enableEX
+    options["enable S stages"] = enableS
+    options["enable MO stages"] = enableMO
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
@@ -51,6 +75,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
+    groups["events"] = [events, enableEX, enableS, enableMO]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
