@@ -4512,6 +4512,630 @@
     "requires": "|@block:1|"
   },
   {
+    "name": "17-4 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1| AND |@character:4|"
+  },
+  {
+    "name": "17-4 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1| AND |@character:4|"
+  },
+  {
+    "name": "17-4 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1| AND |@character:4|"
+  },
+  {
+    "name": "17-4 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:1| AND |@character:4|"
+  },
+  {
+    "name": "17-5 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:3| AND |@ranged:1|"
+  },
+  {
+    "name": "17-5 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:3| AND |@ranged:1|"
+  },
+  {
+    "name": "17-5 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:3| AND |@ranged:1|"
+  },
+  {
+    "name": "17-5 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:3| AND |@ranged:1|"
+  },
+  {
+    "name": "17-6 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@ranged:1|"
+  },
+  {
+    "name": "17-6 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@ranged:1|"
+  },
+  {
+    "name": "17-6 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:5| AND |@ranged:1|"
+  },
+  {
+    "name": "17-6 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:5| AND |@ranged:1|"
+  },
+  {
+    "name": "17-7 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-7 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-7 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-7 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-8 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-8 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-8 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-8 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-9 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-9 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-9 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-9 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-10 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-10 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-10 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-10 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-11 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-11 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-11 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-11 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-13 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-13 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-13 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-13 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-14 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-14 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-14 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-14 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-15 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-15 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-15 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-15 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-16 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-76 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-16 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-16 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-18 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-18 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-18 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-18 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-7 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-7 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-7 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-7 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-8 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-8 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-8 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-8 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-9 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-9 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-9 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-9 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-10 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-10 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-10 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-10 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-11 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-11 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-11 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-11 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-13 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-13 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-13 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-13 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-14 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-14 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-14 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-14 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-15 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-15 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-15 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-15 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-16 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-16 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-16 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-16 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-17 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-17 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-17 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-17 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-18 clear",
+    "category": ["chapter 17"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-18 3-star clear",
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-18 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-18 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
     "name": "17-2 before read",
     "category": ["chapter 17", "reading"],
     "region": "chapter 17 first part",
@@ -4519,6 +5143,66 @@
   },
   {
     "name": "17-3 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-4 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-5 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-6 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-7 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-8 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-9 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-10 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-11 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-12 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-13 before read",
     "category": ["chapter 17", "reading"],
     "region": "chapter 17 first part",
     "requires": ""
