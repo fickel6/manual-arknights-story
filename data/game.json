@@ -3,7 +3,14 @@
   "game": "Arknights_story",
   "creator": "Fickel",
   "filler_item_name": "LMD",
-  "starting_items": [],
+  "starting_items": [
+    {
+      "item_categories": [
+        "chapter unlock"
+      ],
+      "random": 1
+    }
+  ],
   "death_link": true
 
 }

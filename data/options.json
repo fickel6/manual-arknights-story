@@ -14,73 +14,77 @@
             "hidden": false
         },
         "death_link": {
-            "default": false
+            "default": false,
+            "description": [
+                "when a mission/operation fails, send a death link.",
+                "when receiving death links, end your current operation."
+            ]
         },
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
             "values": {
-                "recommended": 0
+                "off": 0,
+                "recommended": 10
             },
-            "hidden": true
+            "default": 0,
+            "hidden": false
         }
     },
     "user": {
-        "act 0 boss clear": {
+        "chapter boss clear": {
             "description": [
-                "choose what boss you need to defeat to win this manual",
-                "if the chosen boss isn't from act 0, then this option doesn't do anything"
+                "choose what boss you need to defeat to win this manual.",
+                "if the chosen chapter isn't included in the manual,",
+                "the gen will crash.",
+                "if a different goal is chosen, this option won't do anything."
             ],
             "type": "Choice",
             "default": 0,
             "values": {
-                "chapter 0 boss": 0,
-                "chapter 1 boss": 1,
-                "chapter 2 boss": 2,
-                "chapter 3 boss": 3
-            }
+                "chapter 0": 0,
+                "chapter 1": 1,
+                "chapter 2": 2,
+                "chapter 3": 3,
+                "chapter 4": 4,
+                "chapter 5": 5,
+                "chapter 6": 6,
+                "chapter 7": 7,
+                "chapter 8": 8,
+                "chapter 9": 9,
+                "chapter 10": 10,
+                "chapter 11": 11,
+                "chapter 12": 12,
+                "chapter 13": 13,
+                "chapter 14": 14,
+                "chapter 15": 15,
+                "chapter 16": 16
+            },
+            "group": "goal options"
         },
-        "act 1 boss clear": {
+        "H stage clear": {
             "description": [
-                "choose what boss you need to defeat to win this manual",
-                "if the chosen boss isn't from act 1, then this option doesn't do anything"
+                "choose what H-stage you need to clear to win this manual.",
+                "if the chosen chapter isn't included in the manual,",
+                "the gen will crash.",
+                "if a different goal is chosen, this option won't do anything."
             ],
             "type": "Choice",
             "default": 0,
             "values": {
-                "chapter 4 boss": 0,
-                "chapter 5 boss": 1,
-                "chapter 6 boss": 2,
-                "chapter 7 boss": 3,
-                "chapter 8 boss": 4
-            }
-        },
-        "act 2 boss clear": {
-            "description": [
-                "choose what boss you need to defeat to win this manual",
-                "if the chosen boss isn't from act 2, then this option doesn't do anything"
-            ],
-            "type": "Choice",
-            "default": 0,
-            "values": {
-                "chapter 9 boss": 0,
-                "chapter 10 boss": 1,
-                "chapter 11 boss": 2,
-                "chapter 12 boss": 3,
-                "chapter 13 boss": 4,
-                "chapter 14 boss": 5
-            }
-        },
-        "act 3 boss clear": {
-            "description": [
-                "choose what boss you need to defeat to win this manual",
-                "if the chosen boss isn't from act 3, then this option doesn't do anything"
-            ],
-            "type": "Choice",
-            "default": 0,
-            "values": {
-                "chapter 15 boss": 0,
-                "chapter 16 boss": 1
-            }
+                "chapter 5": 0,
+                "chapter 6": 1,
+                "chapter 7": 2,
+                "chapter 8": 3,
+                "chapter 9": 4,
+                "chapter 10": 5,
+                "chapter 11": 6,
+                "chapter 12": 7,
+                "chapter 13": 8,
+                "chapter 14": 9,
+                "chapter 15": 10,
+                "chapter 16": 11
+            },
+            "group": "goal options"
         },
         "amount boss": {
             "description": [
@@ -91,7 +95,29 @@
             "type": "Range",
             "default": 5,
             "range_start": 1,
-            "range_end": 16
+            "range_end": 17,
+            "group": "goal options"
+        },
+        "total Originium Prime amount": {
+            "description": [
+                "choose how many Originium prime there is available to collect",
+                "if a different goal is chosen, this option won't do anything"
+            ],
+            "type": "Range",
+            "default": 50,
+            "range_start": 1,
+            "range_end": 100,
+            "group": "goal options"
+        },
+        "percentage goal amount": {
+            "description": [
+                "percentage of originium prime that is needed to beat the manual."
+            ],
+            "type": "Range",
+            "default": 50,
+            "range_start": 0,
+            "range_end": 100,
+            "group": "goal options"
         },
         "include 6 stars":{
             "description": [
@@ -106,6 +132,20 @@
                 "progressive items": 1,
                 "exclude": 2
             },
+            "group": "operator options"
+        },
+        "amount progressive 6 stars": {
+            "description": [
+                "sets the amount of progressive 6 stars you can receive.",
+                "1 means that you can use 6 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots.",
+                "if 13 is chose, then the support unit is also randomised."
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 12,
+            "range_start": 2,
+            "range_end": 12,
             "group": "operator options"
         },
         "include 5 stars":{
@@ -123,6 +163,20 @@
             },
             "group": "operator options"
         },
+        "amount progressive 5 stars": {
+            "description": [
+                "sets the amount of progressive 5 stars you can receive.",
+                "1 means that you can use 5 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 12,
+            "range_start": 2,
+            "range_end": 12,
+            "group": "operator options"
+        },
         "include 4 stars":{
             "description": [
                 "how the 4 stars will be randomised",
@@ -136,6 +190,20 @@
                 "progressive items": 1,
                 "exclude": 2
             },
+            "group": "operator options"
+        },
+        "amount progressive 4 stars": {
+            "description": [
+                "sets the amount of progressive 4 stars you can receive.",
+                "1 means that you can use 4 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 3,
+            "range_start": 1,
+            "range_end": 12,
             "group": "operator options"
         },
         "include 3 stars":{
@@ -153,7 +221,21 @@
             },
             "group": "operator options"
         },
-        "include 1 and 2 stars":{
+        "amount progressive 3 stars": {
+            "description": [
+                "sets the amount of progressive 3 stars you can receive.",
+                "1 means that you can use 3 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 3,
+            "range_start": 1,
+            "range_end": 12,
+            "group": "operator options"
+        },
+        "include 2 stars":{
             "description": [
                 "how the 1 and 2 stars will be randomised. 1 and 2 stars aren't used that much, so these two are combined.",
                 "the 1 and 2 stars also can't be e2.",
@@ -170,6 +252,51 @@
             "default": 2,
             "group": "operator options"
         },
+        "amount progressive 2 stars": {
+            "description": [
+                "sets the amount of progressive 1 and 2 stars you can receive.",
+                "1 means that you can use 1 and 2 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 1,
+            "range_start": 1,
+            "range_end": 13,
+            "group": "operator options"
+        },
+        "include 1 stars":{
+            "description": [
+                "how the 1 and 2 stars will be randomised. 1 and 2 stars aren't used that much, so these two are combined.",
+                "the 1 and 2 stars also can't be e2.",
+                "'as individual items': all 1 and 2 stars are individual items.",
+                "'progressive items': all 1 and 2 stars are progressive items. after getting it, you can use them all",
+                "'exclude': no 1 and 2 stars will be included. Alternatively could be used as you can always use 1 and 2 stars"
+            ],
+            "type": "Choice",
+            "values": {
+                "as individual items": 0,
+                "progressive items": 1,
+                "exclude": 2
+            },
+            "default": 2,
+            "group": "operator options"
+        },
+        "amount progressive 1 stars": {
+            "description": [
+                "sets the amount of progressive 1 and 2 stars you can receive.",
+                "1 means that you can use 1 and 2 stars on all available squad slots,",
+                "2 means half, 3 a third, etc. to all 12 slots",
+                "if 13 is chose, then the support unit is also randomised."
+            ],
+            "_comment": "description can be better",
+            "type": "Range",
+            "default": 1,
+            "range_start": 1,
+            "range_end": 13,
+            "group": "operator options"
+        },
         "include random operators": {
             "type": "Range",
             "default": 1,
@@ -182,28 +309,40 @@
             ],
             "group": "operator options"
         },
-        "starting squad range": {
+        "starting operators": {
             "type": "Range",
-            "default": 1,
+            "default": 4,
             "range_start": 1,
-            "range_end": 13,
+            "range_end": 12,
             "description": [
-                "choose how many operators you can start with. the 13th is the support unit.",
+                "choose how many operators you can start with. ",
                 "to keep things more balanced, 6 stars will count for 3 units and 5 stars for 2.",
                 "if the squad is 1 and there is a 6 or 5 star chosen, then there will 1 operator chosen"
             ],
             "group": "operator options"
         },
-        "sub operations sanity": {
+        "squad size sanity": {
             "type": "Toggle",
-            "default": true,
+            "default": false,
             "description": [
-                "include all the sub operations.",
-                "these are all the stages with s infront."
+                "add the squad slots as an progressive item in the manual.",
+                "when enabled, you start with 2 slots. the other 10 slots you need to unlock",
+                "add the squad slots as an progressive item in the manual."
             ],
-            "group": "operations options"
+            "group": "operator options"
         },
-        "challenge sanity": {
+        "include support unit": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "add the support unit slot as an item in the manual.",
+                "this option doesn't do anything when squad size sanity isn't enabled.",
+                "when disabled, the thirteenth slot will always be available",
+                "when enabled, the support unit slot will also be counted under the progressive squad item"
+            ],
+            "group": "operator options"
+        },
+        "_challenge sanity": {
             "type": "Toggle",
             "default": false,
             "description": [
@@ -212,58 +351,29 @@
             ],
             "group": "operations options"
         },
-        "strategic sanity": {
-            "type": "Toggle",
-            "default": false,
-            "description": [
-                "the new main story has a new difficulty called strategic simulation.",
-                "Add these operations in the randomizer. The two floors are separate locations,",
-                "and have two different keys to unlock."
-            ],
-            "group": "operations options"
-        },
-        "include act 0": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "include all the stages from act 0.",
-                "these are the chapters 0 to chapter 3."
-            ],
-            "group": "operations options"
-        },
-        "include act 1": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "include all the stages from act 1.",
-                "these are the chapters 4 to 8."
-            ],
-            "group": "operations options"
-        },
-        "include act 2": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "include all the stages from act 2.",
-                "these are the chapters 9 to 14."
-            ],
-            "group": "operations options"
-        },
-        "include act 3": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "include all the stages from act 3.",
-                "these are the chapter 15."
-            ],
-            "group": "operations options"
-        },
-        "include the story": {
+        "include story": {
             "type": "Toggle",
             "default": false,
             "description": [
                 "reading all the story is also a check",
                 "you may NOT skip, but speeding is allowed"
+            ],
+            "group": "operations options"
+        },
+        "include fixed operations": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "include stages where the squad is already chosen."
+            ],
+            "group": "operations options"
+        },
+        "3-star sanity": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "besides just beating the operation (possibly with leaks),",
+                "you also have to beat a operation without leaking"
             ],
             "group": "operations options"
         }
