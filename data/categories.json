@@ -19,7 +19,7 @@
         "yaml_option": ["challenge sanity"],
         "hidden": true
     },
-    "extreme operations": {
+    "h-stage": {
         "yaml_option": ["challenge sanity"],
         "hidden": true
     },
