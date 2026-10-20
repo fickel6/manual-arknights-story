@@ -351,6 +351,14 @@
             ],
             "group": "operations options"
         },
+        "enable H-stages": {
+            "type": "Toggle",
+            "default": false,
+            "description": [
+                "include all the H-stages from the story."
+            ],
+            "group": "operations options"
+        },
         "include story": {
             "type": "Toggle",
             "default": false,

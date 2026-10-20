@@ -36,22 +36,30 @@ class chapters(OptionSet):
     """list for enabling/disabling chapters"""  # Description of the yaml option in the template
     display_name = "included chapters"           # Name of the option in the spoiler
     valid_keys = {  #define my own list to choose included chapters
-        "chapter 0": "c0", "chapter 1": "c1", "chapter 2": "c2", "chapter 3": "c3", "chapter 4": "c4", 
-        "chapter 5": "c5", "chapter 6": "c6", "chapter 7": "c7", "chapter 8": "c8", "chapter 9": "c9",
-        "chapter 10": "c10", "chapter 11": "c11", "chapter 12": "c12", "chapter 13": "c13",
-        "chapter 14": "c14", "chapter 15": "c15", "chapter 16": "c16",
-    } # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
+        "chapter 0", "chapter 1", "chapter 2", "chapter 3", "chapter 4", 
+        "chapter 5", "chapter 6", "chapter 7", "chapter 8", "chapter 9",
+        "chapter 10", "chapter 11", "chapter 12", "chapter 13",
+        "chapter 14", "chapter 15", "chapter 16",
+    }
     default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
-    
+
+
 class events(OptionSet):
     """list for enabling/disabling chapters"""  # Description of the yaml option in the template
     display_name = "included chapters"           # Name of the option in the spoiler
     valid_keys = {  #define my own list to choose included chapters
-        "chapter 0": "c0", "chapter 1": "c1", "chapter 2": "c2", "chapter 3": "c3", "chapter 4": "c4", 
-        "chapter 5": "c5", "chapter 6": "c6", "chapter 7": "c7", "chapter 8": "c8", "chapter 9": "c9",
-        "chapter 10": "c10", "chapter 11": "c11", "chapter 12": "c12", "chapter 13": "c13",
-        "chapter 14": "c14", "chapter 15": "c15", "chapter 16": "c16",
-    } # This is the bit that matters.  Our yaml option wants you to pick names of items in the Champion category
+        "progressive Darknights' memoir", "A Walk in the Dust", "Babel", "Ending a Grand Overture", 
+        "Guide Ahead", "Hortus de Escapismo", 
+        "Break the Ice", "progressive The Rides to Lake Silberneherze", 
+        "Il Siracusan", 
+        "Maria Nearl", "Near Light", 
+        "Who is Real", "Invitation to Wine", "Where the Vernal Winds Will Never Blow", "Here a People Sows", "Such is the Joy of Our Reunion",
+        "Mansfield Break", "Dorothy's Vision", "Lonetrail",
+        "Grani And The Knights' Treasure", "Under Tides", "Stultifera Navis", "Path of Life", "Exodus From the Pale Sea", 
+        "Twilight of Wolumonde", "Lingering Echoes", "Zwillingstürme im Herbst", 
+        "When the Fireflights Casts", "When Elegies Are Ashes", 
+        "Heart of Surging Flame", "Gavial the Great Chief Returns", "Dossoles Holiday", "Ideal City", "So long Adele", "Adventure That Cannot Wait for the Sun", 
+    }
     default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
 
 class Enabled6Star(OptionSet):
@@ -102,11 +110,11 @@ class randomChapters(Range):
     0 means that all the chapters will be randomized."""
     display_name = "Amount of random chapters"
     range_start = 1
-    range_end = 17
-    default = 17
+    range_end = len(chapters.valid_keys) + len(events.valid_keys)
+    default = range_end/2
 
 class enableEX(Toggle):
-    default = True
+    default = False
 
 class enableS(Toggle):
     default = False
@@ -126,10 +134,10 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["list_3_star"] = Enabled3Star  # This registers the yaml option as `listing_3_star`
     options["list_2_star"] = Enabled2Star  # This registers the yaml option as `listing_4_star`
     options["list_1_star"] = Enabled1Star  # This registers the yaml option as `listing_3_star`
-    options["enabled events"] = events
-    options["enable EX stages"] = enableEX
-    options["enable S stages"] = enableS
-    options["enable MO stages"] = enableMO
+    options["enabled_events"] = events
+    options["enable_EX_stages"] = enableEX
+    options["enable_S_stages"] = enableS
+    options["enable_MO_stages"] = enableMO
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

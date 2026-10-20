@@ -1483,49 +1483,49 @@
   },
   {
     "name": "H6-1 clear",
-    "category": ["extreme operations", "chapter 6"],
+    "category": ["H-stage", "chapter 6"],
     "region": "chapter 6 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H6-1 3-star clear",
-    "category": ["extreme operations", "chapter 6"],
+    "category": ["H-stage", "chapter 6"],
     "region": "chapter 6 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H6-2 clear",
-    "category": ["extreme operations", "chapter 6"],
+    "category": ["H-stage", "chapter 6"],
     "region": "chapter 6 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H6-2 3-star clear",
-    "category": ["extreme operations", "chapter 6"],
+    "category": ["H-stage", "chapter 6"],
     "region": "chapter 6 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H6-3 clear",
-    "category": ["extreme operations", "chapter 6"],
+    "category": ["H-stage", "chapter 6"],
     "region": "chapter 6 H-stages",
     "requires": "|@block:1| AND |@ranged:2|"
   },
   {
     "name": "H6-3 3-star clear",
-    "category": ["extreme operations", "chapter 6"],
+    "category": ["H-stage", "chapter 6"],
     "region": "chapter 6 H-stages",
     "requires": "|@block:1| AND |@ranged:2|"
   },
   {
     "name": "H6-4 clear",
-    "category": ["extreme operations", "chapter 6", "last H stage"],
+    "category": ["H-stage", "chapter 6", "last H stage"],
     "region": "chapter 6 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:2|"
   },
   {
     "name": "H6-4 3-star clear",
-    "category": ["extreme operations", "chapter 6"],
+    "category": ["H-stage", "chapter 6"],
     "region": "chapter 6 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:2|"
   },
@@ -1747,49 +1747,49 @@
   },
   {
     "name": "H7-1 clear",
-    "category": ["extreme operations", "chapter 7"],
+    "category": ["H-stage", "chapter 7"],
     "region": "chapter 7 H-stages",
     "requires": "|@block:4|"
   },
   {
     "name": "H7-1 3-star clear",
-    "category": ["extreme operations", "chapter 7"],
+    "category": ["H-stage", "chapter 7"],
     "region": "chapter 7 H-stages",
     "requires": "|@block:4|"
   },
   {
     "name": "H7-2 clear",
-    "category": ["extreme operations", "chapter 7"],
+    "category": ["H-stage", "chapter 7"],
     "region": "chapter 7 H-stages",
     "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "H7-2 3-star clear",
-    "category": ["extreme operations", "chapter 7"],
+    "category": ["H-stage", "chapter 7"],
     "region": "chapter 7 H-stages",
     "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "H7-3 clear",
-    "category": ["extreme operations", "chapter 7"],
+    "category": ["H-stage", "chapter 7"],
     "region": "chapter 7 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H7-3 3-star clear",
-    "category": ["extreme operations", "chapter 7"],
+    "category": ["H-stage", "chapter 7"],
     "region": "chapter 7 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H7-4 clear",
-    "category": ["extreme operations", "chapter 7", "last H stage"],
+    "category": ["H-stage", "chapter 7", "last H stage"],
     "region": "chapter 7 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H7-4 3-star clear",
-    "category": ["extreme operations", "chapter 7"],
+    "category": ["H-stage", "chapter 7"],
     "region": "chapter 7 H-stages",
     "requires": "|@block:2| AND |@6 star:2|"
   },
@@ -2059,49 +2059,49 @@
   },
   {
     "name": "H8-1 clear",
-    "category": ["extreme operations", "chapter 8"],
+    "category": ["H-stage", "chapter 8"],
     "region": "chapter 8 H-stages",
     "requires": "|@block:1|"
   },
   {
     "name": "H8-1 3-star clear",
-    "category": ["extreme operations", "chapter 8"],
+    "category": ["H-stage", "chapter 8"],
     "region": "chapter 8 H-stages",
     "requires": "|@block:1|"
   },
   {
     "name": "H8-2 clear",
-    "category": ["extreme operations", "chapter 8"],
+    "category": ["H-stage", "chapter 8"],
     "region": "chapter 8 H-stages",
     "requires": "|@block:1| AND |@ranged:1| AND |@6 star:1|"
   },
   {
     "name": "H8-2 3-star clear",
-    "category": ["extreme operations", "chapter 8"],
+    "category": ["H-stage", "chapter 8"],
     "region": "chapter 8 H-stages",
     "requires": "|@block:1| AND |@ranged:1| AND |@6 star:1|"
   },
   {
     "name": "H8-3 clear",
-    "category": ["extreme operations", "chapter 8"],
+    "category": ["H-stage", "chapter 8"],
     "region": "chapter 8 H-stages",
     "requires": "|@block:1| AND |@6 star:1|"
   },
   {
     "name": "H8-3 3-star clear",
-    "category": ["extreme operations", "chapter 8"],
+    "category": ["H-stage", "chapter 8"],
     "region": "chapter 8 H-stages",
     "requires": "|@block:1| AND |@6 star:1|"
   },
   {
     "name": "H8-4 clear",
-    "category": ["extreme operations", "chapter 8", "last H stage"],
+    "category": ["H-stage", "chapter 8", "last H stage"],
     "region": "chapter 8 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "H8-4 3-star clear",
-    "category": ["extreme operations", "chapter 8"],
+    "category": ["H-stage", "chapter 8"],
     "region": "chapter 8 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@6 star:1|"
   },
@@ -2413,73 +2413,73 @@
   },
   {
     "name": "H9-1 clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H9-1 3-star clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H9-2 clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-2 3-star clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-3 clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-3 3-star clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-4 clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-4 3-star clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:3|"
   },
   {
     "name": "H9-5 clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H9-5 3-star clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H9-6 clear",
-    "category": ["extreme operations", "chapter 9", "last H stage"],
+    "category": ["H-stage", "chapter 9", "last H stage"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
   {
     "name": "H9-6 3-star clear",
-    "category": ["extreme operations", "chapter 9"],
+    "category": ["H-stage", "chapter 9"],
     "region": "chapter 9 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
@@ -2689,37 +2689,37 @@
   },
   {
     "name": "H10-1 clear",
-    "category": ["extreme operations", "chapter 10"],
+    "category": ["H-stage", "chapter 10"],
     "region": "chapter 10 H-stages",
     "requires": "|@block:3| AND |@character:5| AND |@6 star:1|"
   },
   {
     "name": "H10-1 3-star clear",
-    "category": ["extreme operations", "chapter 10"],
+    "category": ["H-stage", "chapter 10"],
     "region": "chapter 10 H-stages",
     "requires": "|@block:3| AND |@character:5| AND |@6 star:1|"
   },
   {
     "name": "H10-2 clear",
-    "category": ["extreme operations", "chapter 10"],
+    "category": ["H-stage", "chapter 10"],
     "region": "chapter 10 H-stages",
     "requires": "|@block:2| AND |@character:5| AND |@6 star:1|"
   },
   {
     "name": "H10-2 3-star clear",
-    "category": ["extreme operations", "chapter 10"],
+    "category": ["H-stage", "chapter 10"],
     "region": "chapter 10 H-stages",
     "requires": "|@block:2| AND |@character:5| AND |@6 star:1|"
   },
   {
     "name": "H10-3 clear",
-    "category": ["extreme operations", "chapter 10", "last H stage"],
+    "category": ["H-stage", "chapter 10", "last H stage"],
     "region": "chapter 10 H-stages",
     "requires": "|@block:2| AND |@character:6| AND |@6 star:1|"
   },
   {
     "name": "H10-3 3-star clear",
-    "category": ["extreme operations", "chapter 10"],
+    "category": ["H-stage", "chapter 10"],
     "region": "chapter 10 H-stages",
     "requires": "|@block:2| AND |@character:6| AND |@6 star:1|"
   },
@@ -2959,49 +2959,49 @@
   },
   {
     "name": "H11-1 clear",
-    "category": ["extreme operations", "chapter 11"],
+    "category": ["H-stage", "chapter 11"],
     "region": "chapter 11 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H11-1 3-star clear",
-    "category": ["extreme operations", "chapter 11"],
+    "category": ["H-stage", "chapter 11"],
     "region": "chapter 11 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H11-2 clear",
-    "category": ["extreme operations", "chapter 11"],
+    "category": ["H-stage", "chapter 11"],
     "region": "chapter 11 H-stages",
     "requires": "|@block:2| AND |@character:5| AND |@6 star:1|"
   },
   {
     "name": "H11-2 3-star clear",
-    "category": ["extreme operations", "chapter 11"],
+    "category": ["H-stage", "chapter 11"],
     "region": "chapter 11 H-stages",
     "requires": "|@block:2| AND |@character:5| AND |@6 star:1|"
   },
   {
     "name": "H11-3 clear",
-    "category": ["extreme operations", "chapter 11"],
+    "category": ["H-stage", "chapter 11"],
     "region": "chapter 11 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H11-3 3-star clear",
-    "category": ["extreme operations", "chapter 11"],
+    "category": ["H-stage", "chapter 11"],
     "region": "chapter 11 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H11-4 clear",
-    "category": ["extreme operations", "chapter 11", "last H stage"],
+    "category": ["H-stage", "chapter 11", "last H stage"],
     "region": "chapter 11 H-stages",
     "requires": "|@block:2| AND |@character:5| AND |@6 star:1|"
   },
   {
     "name": "H11-4 3-star clear",
-    "category": ["extreme operations", "chapter 11"],
+    "category": ["H-stage", "chapter 11"],
     "region": "chapter 11 H-stages",
     "requires": "|@block:2| AND |@character:5| AND |@6 star:1|"
   },
@@ -3241,49 +3241,49 @@
   },
   {
     "name": "H12-1 clear",
-    "category": ["extreme operations", "chapter 12"],
+    "category": ["H-stage", "chapter 12"],
     "region": "chapter 12 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
   {
     "name": "H12-1 3-star clear",
-    "category": ["extreme operations", "chapter 12"],
+    "category": ["H-stage", "chapter 12"],
     "region": "chapter 12 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
   {
     "name": "H12-2 clear",
-    "category": ["extreme operations", "chapter 12"],
+    "category": ["H-stage", "chapter 12"],
     "region": "chapter 12 H-stages",
     "requires": "|@block:2| AND |@ranged:2|"
   },
   {
     "name": "H12-2 3-star clear",
-    "category": ["extreme operations", "chapter 12"],
+    "category": ["H-stage", "chapter 12"],
     "region": "chapter 12 H-stages",
     "requires": "|@block:2| AND |@ranged:2|"
   },
   {
     "name": "H12-3 clear",
-    "category": ["extreme operations", "chapter 12"],
+    "category": ["H-stage", "chapter 12"],
     "region": "chapter 12 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
   {
     "name": "H12-3 3-star clear",
-    "category": ["extreme operations", "chapter 12"],
+    "category": ["H-stage", "chapter 12"],
     "region": "chapter 12 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
   {
     "name": "H12-4 clear",
-    "category": ["extreme operations", "chapter 12", "last H stage"],
+    "category": ["H-stage", "chapter 12", "last H stage"],
     "region": "chapter 12 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
   {
     "name": "H12-4 3-star clear",
-    "category": ["extreme operations", "chapter 12"],
+    "category": ["H-stage", "chapter 12"],
     "region": "chapter 12 H-stages",
     "requires": "|@block:3| AND |@6 star:1|"
   },
@@ -3535,49 +3535,49 @@
   },
   {
     "name": "H13-1 clear",
-    "category": ["extreme operations", "chapter 13"],
+    "category": ["H-stage", "chapter 13"],
     "region": "chapter 13 H-stages",
     "requires": "|@block:3| AND |@ranged:1|"
   },
   {
     "name": "H13-1 3-star clear",
-    "category": ["extreme operations", "chapter 13"],
+    "category": ["H-stage", "chapter 13"],
     "region": "chapter 13 H-stages",
     "requires": "|@block:3| AND |@ranged:1|"
   },
   {
     "name": "H13-2 clear",
-    "category": ["extreme operations", "chapter 13"],
+    "category": ["H-stage", "chapter 13"],
     "region": "chapter 13 H-stages",
     "requires": "|@block:3| AND |@ranged:2|"
   },
   {
     "name": "H13-2 3-star clear",
-    "category": ["extreme operations", "chapter 13"],
+    "category": ["H-stage", "chapter 13"],
     "region": "chapter 13 H-stages",
     "requires": "|@block:3| AND |@ranged:2|"
   },
   {
     "name": "H13-3 clear",
-    "category": ["extreme operations", "chapter 13"],
+    "category": ["H-stage", "chapter 13"],
     "region": "chapter 13 H-stages",
     "requires": "|@block:1| AND |@ranged:3| AND |@6 star:1|"
   },
   {
     "name": "H13-3 3-star clear",
-    "category": ["extreme operations", "chapter 13"],
+    "category": ["H-stage", "chapter 13"],
     "region": "chapter 13 H-stages",
     "requires": "|@block:1| AND |@ranged:3| AND |@6 star:1|"
   },
   {
     "name": "H13-4 clear",
-    "category": ["extreme operations", "chapter 13", "last H stage"],
+    "category": ["H-stage", "chapter 13", "last H stage"],
     "region": "chapter 13 H-stages",
     "requires": "|@block:3| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "H13-4 3-star clear",
-    "category": ["extreme operations", "chapter 13"],
+    "category": ["H-stage", "chapter 13"],
     "region": "chapter 13 H-stages",
     "requires": "|@block:3| AND |@ranged:2| AND |@6 star:1|"
   },
@@ -3847,49 +3847,49 @@
   },
   {
     "name": "H14-1 clear",
-    "category": ["extreme operations", "chapter 14"],
+    "category": ["H-stage", "chapter 14"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H14-1 3-star clear",
-    "category": ["extreme operations", "chapter 14"],
+    "category": ["H-stage", "chapter 14"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H14-2 clear",
-    "category": ["extreme operations", "chapter 14"],
+    "category": ["H-stage", "chapter 14"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:3| AND |@ranged:2|"
   },
   {
     "name": "H14-2 3-star clear",
-    "category": ["extreme operations", "chapter 14"],
+    "category": ["H-stage", "chapter 14"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:3| AND |@ranged:2|"
   },
   {
     "name": "H14-3 clear",
-    "category": ["extreme operations", "chapter 14"],
+    "category": ["H-stage", "chapter 14"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:1| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "H14-3 3-star clear",
-    "category": ["extreme operations", "chapter 14"],
+    "category": ["H-stage", "chapter 14"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:1| AND |@ranged:2| AND |@6 star:1|"
   },
   {
     "name": "H14-4 clear",
-    "category": ["extreme operations", "chapter 14", "last H stage"],
+    "category": ["H-stage", "chapter 14", "last H stage"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:2| AND |@ranged:3| AND |@6 star:2|"
   },
   {
     "name": "H14-4 3-star clear",
-    "category": ["extreme operations", "chapter 14"],
+    "category": ["H-stage", "chapter 14"],
     "region": "chapter 14 H-stages",
     "requires": "|@block:2| AND |@ranged:3| AND |@6 star:2|"
   },
@@ -4123,49 +4123,49 @@
   },
   {
     "name": "H15-1 clear",
-    "category": ["extreme operations", "chapter 15"],
+    "category": ["H-stage", "chapter 15"],
     "region": "chapter 15 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@vanguard:1|"
   },
   {
     "name": "H15-1 3-star clear",
-    "category": ["extreme operations", "chapter 15"],
+    "category": ["H-stage", "chapter 15"],
     "region": "chapter 15 H-stages",
     "requires": "|@block:2| AND |@ranged:2| AND |@vanguard:1|"
   },
   {
     "name": "H15-2 clear",
-    "category": ["extreme operations", "chapter 15"],
+    "category": ["H-stage", "chapter 15"],
     "region": "chapter 15 H-stages",
     "requires": "|@block:3| AND |@vanguard:1|"
   },
   {
     "name": "H15-2 3-star clear",
-    "category": ["extreme operations", "chapter 15"],
+    "category": ["H-stage", "chapter 15"],
     "region": "chapter 15 H-stages",
     "requires": "|@block:3| AND |@vanguard:1|"
   },
   {
     "name": "H15-3 clear",
-    "category": ["extreme operations", "chapter 15"],
+    "category": ["H-stage", "chapter 15"],
     "region": "chapter 15 H-stages",
     "requires": "|@block:1| AND |@ranged:2|"
   },
   {
     "name": "H15-3 3-star clear",
-    "category": ["extreme operations", "chapter 15"],
+    "category": ["H-stage", "chapter 15"],
     "region": "chapter 15 H-stages",
     "requires": "|@block:1| AND |@ranged:2|"
   },
   {
     "name": "H15-4 clear",
-    "category": ["extreme operations", "chapter 15", "last H stage"],
+    "category": ["H-stage", "chapter 15", "last H stage"],
     "region": "chapter 15 H-stages",
     "requires": "|@block:3| AND |@ranged:3| AND |@vanguard:1| AND |@6 star:1|"
   },
   {
     "name": "H15-4 3-star clear",
-    "category": ["extreme operations", "chapter 15"],
+    "category": ["H-stage", "chapter 15"],
     "region": "chapter 15 H-stages",
     "requires": "|@block:3| AND |@ranged:3| AND |@vanguard:1| AND |@6 star:1|"
   },
@@ -4411,49 +4411,49 @@
   },
   {
     "name": "H16-1 clear",
-    "category": ["extreme operations", "chapter 16"],
+    "category": ["H-stage", "chapter 16"],
     "region": "chapter 16 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H16-1 3-star clear",
-    "category": ["extreme operations", "chapter 16"],
+    "category": ["H-stage", "chapter 16"],
     "region": "chapter 16 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H16-2 clear",
-    "category": ["extreme operations", "chapter 16"],
+    "category": ["H-stage", "chapter 16"],
     "region": "chapter 16 H-stages",
     "requires": "|@block:3| AND |@character:6| AND |@6 star:1|"
   },
   {
     "name": "H16-2 3-star clear",
-    "category": ["extreme operations", "chapter 16"],
+    "category": ["H-stage", "chapter 16"],
     "region": "chapter 16 H-stages",
     "requires": "|@block:3| AND |@character:6| AND |@6 star:1|"
   },
   {
     "name": "H16-3 clear",
-    "category": ["extreme operations", "chapter 16"],
+    "category": ["H-stage", "chapter 16"],
     "region": "chapter 16 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H16-3 3-star clear",
-    "category": ["extreme operations", "chapter 16"],
+    "category": ["H-stage", "chapter 16"],
     "region": "chapter 16 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H16-4 clear",
-    "category": ["extreme operations", "chapter 16", "last H stage"],
+    "category": ["H-stage", "chapter 16", "last H stage"],
     "region": "chapter 16 H-stages",
     "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND |@6 star:1|"
   },
   {
     "name": "H16-4 3-star clear",
-    "category": ["extreme operations", "chapter 16"],
+    "category": ["H-stage", "chapter 16"],
     "region": "chapter 16 H-stages",
     "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND |@6 star:1|"
   },
@@ -4489,7 +4489,7 @@
   },
   {
     "name": "DM-1 3-star clear",
-    "category": ["The Ark", "Darknights memoir"],
+    "category": ["The Ark", "Darknights memoir", "3-stars clear"],
     "region": "Darknights' memoir first half",
     "requires": ""
   },
@@ -4501,7 +4501,7 @@
   },
   {
     "name": "DM-2 3-star clear",
-    "category": ["The Ark", "Darknights memoir"],
+    "category": ["The Ark", "Darknights memoir", "3-stars clear"],
     "region": "Darknights' memoir first half",
     "requires": ""
   },
@@ -4513,7 +4513,7 @@
   },
   {
     "name": "DM-3 3-star clear",
-    "category": ["The Ark", "Darknights memoir"],
+    "category": ["The Ark", "Darknights memoir", "3-stars clear"],
     "region": "Darknights' memoir first half",
     "requires": ""
   },
@@ -4525,7 +4525,7 @@
   },
   {
     "name": "DM-4 3-star clear",
-    "category": ["The Ark", "Darknights memoir"],
+    "category": ["The Ark", "Darknights memoir", "3-stars clear"],
     "region": "Darknights' memoir first half",
     "requires": ""
   },
@@ -4537,7 +4537,7 @@
   },
   {
     "name": "DM-5 3-star clear",
-    "category": ["The Ark", "Darknights memoir"],
+    "category": ["The Ark", "Darknights memoir", "3-stars clear"],
     "region": "Darknights' memoir second half",
     "requires": ""
   },
@@ -4549,7 +4549,7 @@
   },
   {
     "name": "DM-6 3-star clear",
-    "category": ["The Ark", "Darknights memoir"],
+    "category": ["The Ark", "Darknights memoir", "3-stars clear"],
     "region": "Darknights' memoir second half",
     "requires": ""
   },
@@ -4561,7 +4561,7 @@
   },
   {
     "name": "DM-7 3-star clear",
-    "category": ["The Ark", "Darknights memoir"],
+    "category": ["The Ark", "Darknights memoir", "3-stars clear"],
     "region": "Darknights' memoir second half",
     "requires": ""
   },
@@ -4573,7 +4573,7 @@
   },
   {
     "name": "DM-8 3-star clear",
-    "category": ["The Ark", "Darknights memoir"],
+    "category": ["The Ark", "Darknights memoir", "3-stars clear"],
     "region": "Darknights' memoir second half",
     "requires": ""
   },
@@ -4585,7 +4585,7 @@
   },
   {
     "name": "DM-EX-1 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
     "region": "Darknights' memoir third half",
     "requires": ""
   },
@@ -4597,7 +4597,7 @@
   },
   {
     "name": "DM-EX-2 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
     "region": "Darknights' memoir third half",
     "requires": ""
   },
@@ -4609,7 +4609,7 @@
   },
   {
     "name": "DM-EX-3 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
     "region": "Darknights' memoir third half",
     "requires": ""
   },
@@ -4621,7 +4621,7 @@
   },
   {
     "name": "DM-EX-4 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
     "region": "Darknights' memoir third half",
     "requires": ""
   },
@@ -4633,7 +4633,7 @@
   },
   {
     "name": "DM-EX-5 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
     "region": "Darknights' memoir fourth half",
     "requires": ""
   },
@@ -4645,7 +4645,7 @@
   },
   {
     "name": "DM-EX-6 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
     "region": "Darknights' memoir fourth half",
     "requires": ""
   },
@@ -4657,7 +4657,7 @@
   },
   {
     "name": "DM-EX-7 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
     "region": "Darknights' memoir fourth half",
     "requires": ""
   },
@@ -4669,7 +4669,7 @@
   },
   {
     "name": "DM-EX-8 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
+    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
     "region": "Darknights' memoir fourth half",
     "requires": "|@6 star:1|"
   },
@@ -4681,7 +4681,7 @@
   },
   {
     "name": "DM-MO-1 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "mo-stages"],
+    "category": ["The Ark", "Darknights memoir", "mo-stages", "3-stars clear"],
     "region": "Darknights' memoir fifth half",
     "requires": "|@vanguard:1|"
   },
@@ -4693,7 +4693,7 @@
   },
   {
     "name": "WD-1 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "3-stars clear"],
     "region": "A Walk in the Dust first half",
     "requires": ""
   },
@@ -4705,7 +4705,7 @@
   },
   {
     "name": "WD-2 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "3-stars clear"],
     "region": "A Walk in the Dust first half",
     "requires": ""
   },
@@ -4717,7 +4717,7 @@
   },
   {
     "name": "WD-3 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "3-stars clear"],
     "region": "A Walk in the Dust first half",
     "requires": ""
   },
@@ -4729,7 +4729,7 @@
   },
   {
     "name": "WD-4 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "3-stars clear"],
     "region": "A Walk in the Dust first half",
     "requires": ""
   },
@@ -4741,7 +4741,7 @@
   },
   {
     "name": "WD-5 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "3-stars clear"],
     "region": "A Walk in the Dust second half",
     "requires": ""
   },
@@ -4753,7 +4753,7 @@
   },
   {
     "name": "WD-6 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "3-stars clear"],
     "region": "A Walk in the Dust second half",
     "requires": ""
   },
@@ -4765,7 +4765,7 @@
   },
   {
     "name": "WD-7 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "3-stars clear"],
     "region": "A Walk in the Dust second half",
     "requires": ""
   },
@@ -4777,103 +4777,103 @@
   },
   {
     "name": "WD-8 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "3-stars clear"],
     "region": "A Walk in the Dust second half",
     "requires": "|@6 star:1|"
   },
   {
     "name": "WD-EX-1 clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage"],
     "region": "A Walk in the Dust third half",
     "requires": ""
   },
   {
     "name": "WD-EX-1 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage", "3-stars clear"],
     "region": "A Walk in the Dust third half",
     "requires": ""
   },
   {
     "name": "WD-EX-2 clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage"],
     "region": "A Walk in the Dust third half",
     "requires": ""
   },
   {
     "name": "WD-EX-2 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage", "3-stars clear"],
     "region": "A Walk in the Dust third half",
     "requires": ""
   },
   {
     "name": "WD-EX-3 clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage"],
     "region": "A Walk in the Dust third half",
     "requires": ""
   },
   {
     "name": "WD-EX-3 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage", "3-stars clear"],
     "region": "A Walk in the Dust third half",
     "requires": ""
   },
   {
     "name": "WD-EX-4 clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage"],
     "region": "A Walk in the Dust third half",
     "requires": ""
   },
   {
     "name": "WD-EX-4 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage", "3-stars clear"],
     "region": "A Walk in the Dust third half",
     "requires": ""
   },
   {
     "name": "WD-EX-5 clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage"],
     "region": "A Walk in the Dust fourth half",
     "requires": ""
   },
   {
     "name": "WD-EX-5 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage", "3-stars clear"],
     "region": "A Walk in the Dust fourth half",
     "requires": ""
   },
   {
     "name": "WD-EX-6 clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage"],
     "region": "A Walk in the Dust fourth half",
     "requires": ""
   },
   {
     "name": "WD-EX-6 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage", "3-stars clear"],
     "region": "A Walk in the Dust fourth half",
     "requires": ""
   },
   {
     "name": "WD-EX-7 clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage"],
     "region": "A Walk in the Dust fourth half",
     "requires": ""
   },
   {
     "name": "WD-EX-7 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage", "3-stars clear"],
     "region": "A Walk in the Dust fourth half",
     "requires": ""
   },
   {
     "name": "WD-EX-8 clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage"],
     "region": "A Walk in the Dust fourth half",
     "requires": "|@6 star:1|"
   },
   {
     "name": "WD-EX-8 3-star clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "ex-stage", "3-stars clear"],
     "region": "A Walk in the Dust fourth half",
     "requires": "|@6 star:1|"
   },
@@ -4885,7 +4885,7 @@
   },
   {
     "name": "BB-1 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel first half",
     "requires": ""
   },
@@ -4897,7 +4897,7 @@
   },
   {
     "name": "BB-2 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel first half",
     "requires": ""
   },
@@ -4909,7 +4909,7 @@
   },
   {
     "name": "BB-3 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel first half",
     "requires": ""
   },
@@ -4921,7 +4921,7 @@
   },
   {
     "name": "BB-4 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel first half",
     "requires": ""
   },
@@ -4933,7 +4933,7 @@
   },
   {
     "name": "BB-5 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel first half",
     "requires": ""
   },
@@ -4945,7 +4945,7 @@
   },
   {
     "name": "BB-6 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel second half",
     "requires": ""
   },
@@ -4957,7 +4957,7 @@
   },
   {
     "name": "BB-7 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel second half",
     "requires": ""
   },
@@ -4969,7 +4969,7 @@
   },
   {
     "name": "BB-8 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel second half",
     "requires": ""
   },
@@ -4981,7 +4981,7 @@
   },
   {
     "name": "BB-9 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel second half",
     "requires": ""
   },
@@ -4993,163 +4993,163 @@
   },
   {
     "name": "BB-10 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "3-stars clear"],
     "region": "Babel second half",
     "requires": "|@6 star:1|"
   },
   {
     "name": "BB-EX-1 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage"],
     "region": "Babel third half",
     "requires": ""
   },
   {
     "name": "BB-EX-1 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage", "3-stars clear"],
     "region": "Babel third half",
     "requires": ""
   },
   {
     "name": "BB-EX-2 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage"],
     "region": "Babel third half",
     "requires": ""
   },
   {
     "name": "BB-EX-2 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage", "3-stars clear"],
     "region": "Babel third half",
     "requires": ""
   },
   {
     "name": "BB-EX-3 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage"],
     "region": "Babel third half",
     "requires": ""
   },
   {
     "name": "BB-EX-3 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage", "3-stars clear"],
     "region": "Babel third half",
     "requires": ""
   },
   {
     "name": "BB-EX-4 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage"],
     "region": "Babel third half",
     "requires": ""
   },
   {
     "name": "BB-EX-4 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage", "3-stars clear"],
     "region": "Babel third half",
     "requires": ""
   },
   {
     "name": "BB-EX-5 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage"],
     "region": "Babel fourth half",
     "requires": ""
   },
   {
     "name": "BB-EX-5 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage", "3-stars clear"],
     "region": "Babel fourth half",
     "requires": ""
   },
   {
     "name": "BB-EX-6 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage"],
     "region": "Babel fourth half",
     "requires": ""
   },
   {
     "name": "BB-EX-6 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage", "3-stars clear"],
     "region": "Babel fourth half",
     "requires": ""
   },
   {
     "name": "BB-EX-7 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage"],
     "region": "Babel fourth half",
     "requires": ""
   },
   {
     "name": "BB-EX-7 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage", "3-stars clear"],
     "region": "Babel fourth half",
     "requires": ""
   },
   {
     "name": "BB-EX-8 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage"],
     "region": "Babel fourth half",
     "requires": "|@6 star:1|"
   },
   {
     "name": "BB-EX-8 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "ex-stage", "3-stars clear"],
     "region": "Babel fourth half",
     "requires": "|@6 star:1|"
   },
   {
     "name": "BB-MO-1 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "mo-stage"],
     "region": "Babel fifth half",
     "requires": "|@vanguard:1|"
   },
   {
     "name": "BB-MO-1 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "mo-stage", "3-stars clear"],
     "region": "Babel fifth half",
     "requires": "|@vanguard:1|"
   },
   {
     "name": "BB-S-1 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "s-stage"],
     "region": "Babel fifth half",
     "requires": ""
   },
   {
     "name": "BB-S-1 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "s-stage", "3-stars clear"],
     "region": "Babel fifth half",
     "requires": ""
   },
   {
     "name": "BB-S-2 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "s-stage"],
     "region": "Babel fifth half",
     "requires": ""
   },
   {
     "name": "BB-S-2 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "s-stage", "3-stars clear"],
     "region": "Babel fifth half",
     "requires": ""
   },
   {
     "name": "BB-S-3 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "s-stage"],
     "region": "Babel fifth half",
     "requires": ""
   },
   {
     "name": "BB-S-3 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "s-stage", "3-stars clear"],
     "region": "Babel fifth half",
     "requires": ""
   },
   {
     "name": "BB-S-4 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "s-stage"],
     "region": "Babel fifth half",
     "requires": ""
   },
   {
     "name": "BB-S-4 3-star clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "s-stage", "3-stars clear"],
     "region": "Babel fifth half",
     "requires": ""
   },
@@ -5161,7 +5161,7 @@
   },
   {
     "name": "GO-1 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear"],
     "region": "Ending a Grand Overture first half",
     "requires": ""
   },
@@ -5173,7 +5173,7 @@
   },
   {
     "name": "GO-2 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear"],
     "region": "Ending a Grand Overture first half",
     "requires": ""
   },
@@ -5185,7 +5185,7 @@
   },
   {
     "name": "GO-3 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear"],
     "region": "Ending a Grand Overture first half",
     "requires": ""
   },
@@ -5197,7 +5197,7 @@
   },
   {
     "name": "GO-4 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear"],
     "region": "Ending a Grand Overture first half",
     "requires": ""
   },
@@ -5209,7 +5209,7 @@
   },
   {
     "name": "GO-5 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear"],
     "region": "Ending a Grand Overture second half",
     "requires": ""
   },
@@ -5221,7 +5221,7 @@
   },
   {
     "name": "GO-6 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear"],
     "region": "Ending a Grand Overture second half",
     "requires": ""
   },
@@ -5233,7 +5233,7 @@
   },
   {
     "name": "GO-7 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear"],
     "region": "Ending a Grand Overture second half",
     "requires": ""
   },
@@ -5245,7 +5245,7 @@
   },
   {
     "name": "GO-8 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear"],
     "region": "Ending a Grand Overture second half",
     "requires": ""
   },
@@ -5257,103 +5257,103 @@
   },
   {
     "name": "GO-9 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear"],
     "region": "Ending a Grand Overture second half",
     "requires": "|@6 star:1|"
   },
   {
     "name": "GO-EX-1 clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "ex-stage"],
     "region": "Ending a Grand Overture third half",
     "requires": ""
   },
   {
     "name": "GO-EX-1 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear", "ex-stage"],
     "region": "Ending a Grand Overture third half",
     "requires": ""
   },
   {
     "name": "GO-EX-2 clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "ex-stage"],
     "region": "Ending a Grand Overture third half",
     "requires": ""
   },
   {
     "name": "GO-EX-2 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear", "ex-stage"],
     "region": "Ending a Grand Overture third half",
     "requires": ""
   },
   {
     "name": "GO-EX-3 clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "ex-stage"],
     "region": "Ending a Grand Overture third half",
     "requires": ""
   },
   {
     "name": "GO-EX-3 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear", "ex-stage"],
     "region": "Ending a Grand Overture third half",
     "requires": ""
   },
   {
     "name": "GO-EX-4 clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "ex-stage"],
     "region": "Ending a Grand Overture third half",
     "requires": ""
   },
   {
     "name": "GO-EX-4 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear", "ex-stage"],
     "region": "Ending a Grand Overture third half",
     "requires": ""
   },
   {
     "name": "GO-EX-5 clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "ex-stage"],
     "region": "Ending a Grand Overture fourth half",
     "requires": ""
   },
   {
     "name": "GO-EX-5 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear", "ex-stage"],
     "region": "Ending a Grand Overture fourth half",
     "requires": ""
   },
   {
     "name": "GO-EX-6 clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "ex-stage"],
     "region": "Ending a Grand Overture fourth half",
     "requires": ""
   },
   {
     "name": "GO-EX-6 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear", "ex-stage"],
     "region": "Ending a Grand Overture fourth half",
     "requires": ""
   },
   {
     "name": "GO-EX-7 clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "ex-stage"],
     "region": "Ending a Grand Overture fourth half",
     "requires": ""
   },
   {
     "name": "GO-EX-7 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear", "ex-stage"],
     "region": "Ending a Grand Overture fourth half",
     "requires": ""
   },
   {
     "name": "GO-EX-8 clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "ex-stage"],
     "region": "Ending a Grand Overture fourth half",
     "requires": ""
   },
   {
     "name": "GO-EX-8 3-star clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "3-stars clear", "ex-stage"],
     "region": "Ending a Grand Overture fourth half",
     "requires": ""
   },
@@ -5365,7 +5365,7 @@
   },
   {
     "name": "GA-1 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "3-stars clear"],
     "region": "Guide Ahead first half",
     "requires": ""
   },
@@ -5377,7 +5377,7 @@
   },
   {
     "name": "GA-2 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "3-stars clear"],
     "region": "Guide Ahead first half",
     "requires": ""
   },
@@ -5389,7 +5389,7 @@
   },
   {
     "name": "GA-3 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "3-stars clear"],
     "region": "Guide Ahead first half",
     "requires": ""
   },
@@ -5401,7 +5401,7 @@
   },
   {
     "name": "GA-4 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "3-stars clear"],
     "region": "Guide Ahead first half",
     "requires": ""
   },
@@ -5413,7 +5413,7 @@
   },
   {
     "name": "GA-5 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "3-stars clear"],
     "region": "Guide Ahead second half",
     "requires": ""
   },
@@ -5425,7 +5425,7 @@
   },
   {
     "name": "GA-6 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "3-stars clear"],
     "region": "Guide Ahead second half",
     "requires": ""
   },
@@ -5437,7 +5437,7 @@
   },
   {
     "name": "GA-7 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "3-stars clear"],
     "region": "Guide Ahead second half",
     "requires": ""
   },
@@ -5449,103 +5449,103 @@
   },
   {
     "name": "GA-8 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "3-stars clear"],
     "region": "Guide Ahead second half",
     "requires": ""
   },
   {
     "name": "GA-EX-1 clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage"],
     "region": "Guide Ahead third half",
     "requires": ""
   },
   {
     "name": "GA-EX-1 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage", "3-stars clear"],
     "region": "Guide Ahead third half",
     "requires": ""
   },
   {
     "name": "GA-EX-2 clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage"],
     "region": "Guide Ahead third half",
     "requires": ""
   },
   {
     "name": "GA-EX-2 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage", "3-stars clear"],
     "region": "Guide Ahead third half",
     "requires": ""
   },
   {
     "name": "GA-EX-3 clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage"],
     "region": "Guide Ahead third half",
     "requires": ""
   },
   {
     "name": "GA-EX-3 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage", "3-stars clear"],
     "region": "Guide Ahead third half",
     "requires": ""
   },
   {
     "name": "GA-EX-4 clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage"],
     "region": "Guide Ahead third half",
     "requires": ""
   },
   {
     "name": "GA-EX-4 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage", "3-stars clear"],
     "region": "Guide Ahead third half",
     "requires": ""
   },
   {
     "name": "GA-EX-5 clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage"],
     "region": "Guide Ahead fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-5 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage", "3-stars clear"],
     "region": "Guide Ahead fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-6 clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage"],
     "region": "Guide Ahead fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-6 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage", "3-stars clear"],
     "region": "Guide Ahead fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-7 clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage"],
     "region": "Guide Ahead fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-7 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage", "3-stars clear"],
     "region": "Guide Ahead fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-8 clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage"],
     "region": "Guide Ahead fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-8 3-star clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage", "3-stars clear"],
     "region": "Guide Ahead fourth half",
     "requires": ""
   },
@@ -5557,7 +5557,7 @@
   },
   {
     "name": "GA-1 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "3-stars clear"],
     "region": "Hortus de Escapismo first half",
     "requires": ""
   },
@@ -5569,7 +5569,7 @@
   },
   {
     "name": "GA-2 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "3-stars clear"],
     "region": "Hortus de Escapismo first half",
     "requires": ""
   },
@@ -5581,7 +5581,7 @@
   },
   {
     "name": "GA-3 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "3-stars clear"],
     "region": "Hortus de Escapismo first half",
     "requires": ""
   },
@@ -5593,7 +5593,7 @@
   },
   {
     "name": "GA-4 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "3-stars clear"],
     "region": "Hortus de Escapismo first half",
     "requires": ""
   },
@@ -5605,7 +5605,7 @@
   },
   {
     "name": "GA-5 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "3-stars clear"],
     "region": "Hortus de Escapismo second half",
     "requires": ""
   },
@@ -5617,7 +5617,7 @@
   },
   {
     "name": "GA-6 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "3-stars clear"],
     "region": "Hortus de Escapismo second half",
     "requires": ""
   },
@@ -5629,7 +5629,7 @@
   },
   {
     "name": "GA-7 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "3-stars clear"],
     "region": "Hortus de Escapismo second half",
     "requires": ""
   },
@@ -5641,103 +5641,103 @@
   },
   {
     "name": "GA-8 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "3-stars clear"],
     "region": "Hortus de Escapismo second half",
     "requires": ""
   },
   {
     "name": "GA-EX-1 clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage"],
     "region": "Hortus de Escapismo third half",
     "requires": ""
   },
   {
     "name": "GA-EX-1 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage", "3-stars clear"],
     "region": "Hortus de Escapismo third half",
     "requires": ""
   },
   {
     "name": "GA-EX-2 clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage"],
     "region": "Hortus de Escapismo third half",
     "requires": ""
   },
   {
     "name": "GA-EX-2 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage", "3-stars clear"],
     "region": "Hortus de Escapismo third half",
     "requires": ""
   },
   {
     "name": "GA-EX-3 clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage"],
     "region": "Hortus de Escapismo third half",
     "requires": ""
   },
   {
     "name": "GA-EX-3 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage", "3-stars clear"],
     "region": "Hortus de Escapismo third half",
     "requires": ""
   },
   {
     "name": "GA-EX-4 clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage"],
     "region": "Hortus de Escapismo third half",
     "requires": ""
   },
   {
     "name": "GA-EX-4 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage", "3-stars clear"],
     "region": "Hortus de Escapismo third half",
     "requires": ""
   },
   {
     "name": "GA-EX-5 clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage"],
     "region": "Hortus de Escapismo fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-5 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage", "3-stars clear"],
     "region": "Hortus de Escapismo fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-6 clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage"],
     "region": "Hortus de Escapismo fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-6 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage", "3-stars clear"],
     "region": "Hortus de Escapismo fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-7 clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage"],
     "region": "Hortus de Escapismo fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-7 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage", "3-stars clear"],
     "region": "Hortus de Escapismo fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-8 clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage"],
     "region": "Hortus de Escapismo fourth half",
     "requires": ""
   },
   {
     "name": "GA-EX-8 3-star clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage", "3-stars clear"],
     "region": "Hortus de Escapismo fourth half",
     "requires": ""
   },
@@ -5749,7 +5749,7 @@
   },
   {
     "name": "BI-1 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
     "region": "Break the Ice first half",
     "requires": ""
   },
@@ -5761,7 +5761,7 @@
   },
   {
     "name": "BI-2 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
     "region": "Break the Ice first half",
     "requires": ""
   },
@@ -5773,7 +5773,7 @@
   },
   {
     "name": "BI-3 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
     "region": "Break the Ice first half",
     "requires": ""
   },
@@ -5785,7 +5785,7 @@
   },
   {
     "name": "BI-4 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
     "region": "Break the Ice first half",
     "requires": ""
   },
@@ -5797,7 +5797,7 @@
   },
   {
     "name": "BI-5 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
     "region": "Break the Ice second half",
     "requires": ""
   },
@@ -5809,7 +5809,7 @@
   },
   {
     "name": "BI-6 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
     "region": "Break the Ice second half",
     "requires": ""
   },
@@ -5821,7 +5821,7 @@
   },
   {
     "name": "BI-7 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
     "region": "Break the Ice second half",
     "requires": ""
   },
@@ -5833,109 +5833,109 @@
   },
   {
     "name": "BI-8 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
     "region": "Break the Ice second half",
     "requires": ""
   },
   {
     "name": "BI-EX-1 clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage"],
     "region": "Break the Ice third half",
     "requires": ""
   },
   {
     "name": "BI-EX-1 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
     "region": "Break the Ice third half",
     "requires": ""
   },
   {
     "name": "BI-EX-2 clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage"],
     "region": "Break the Ice third half",
     "requires": ""
   },
   {
     "name": "BI-EX-2 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
     "region": "Break the Ice third half",
     "requires": ""
   },
   {
     "name": "BI-EX-3 clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage"],
     "region": "Break the Ice third half",
     "requires": ""
   },
   {
     "name": "BI-EX-3 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
     "region": "Break the Ice third half",
     "requires": ""
   },
   {
     "name": "BI-EX-4 clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage"],
     "region": "Break the Ice third half",
     "requires": ""
   },
   {
     "name": "BI-EX-4 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
     "region": "Break the Ice third half",
     "requires": ""
   },
   {
     "name": "BI-EX-5 clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage"],
     "region": "Break the Ice fourth half",
     "requires": ""
   },
   {
     "name": "BI-EX-5 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
     "region": "Break the Ice fourth half",
     "requires": ""
   },
   {
     "name": "BI-EX-6 clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage"],
     "region": "Break the Ice fourth half",
     "requires": ""
   },
   {
     "name": "BI-EX-6 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
     "region": "Break the Ice fourth half",
     "requires": ""
   },
   {
     "name": "BI-EX-7 clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage"],
     "region": "Break the Ice fourth half",
     "requires": ""
   },
   {
     "name": "BI-EX-7 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
     "region": "Break the Ice fourth half",
     "requires": ""
   },
   {
     "name": "BI-EX-8 clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage"],
     "region": "Break the Ice fourth half",
     "requires": ""
   },
   {
     "name": "BI-EX-8 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
     "region": "Break the Ice fourth half",
     "requires": ""
   },
   {
     "name": "RS-ST-1 read",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "reading"],
     "region": "The Rides to Lake Silberneherze first half",
     "requires": ""
   },
@@ -5947,7 +5947,7 @@
   },
   {
     "name": "RS-1 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
     "region": "The Rides to Lake Silberneherze first half",
     "requires": ""
   },
@@ -5959,7 +5959,7 @@
   },
   {
     "name": "RS-2 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
     "region": "The Rides to Lake Silberneherze first half",
     "requires": ""
   },
@@ -5971,7 +5971,7 @@
   },
   {
     "name": "RS-3 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
     "region": "The Rides to Lake Silberneherze first half",
     "requires": ""
   },
@@ -5983,13 +5983,13 @@
   },
   {
     "name": "RS-ST-2 read",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "reading"],
     "region": "The Rides to Lake Silberneherze second half",
     "requires": ""
   },
   {
     "name": "RS-4 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
     "region": "The Rides to Lake Silberneherze first half",
     "requires": ""
   },
@@ -6001,7 +6001,7 @@
   },
   {
     "name": "RS-5 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
     "region": "The Rides to Lake Silberneherze second half",
     "requires": ""
   },
@@ -6013,7 +6013,7 @@
   },
   {
     "name": "RS-6 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
     "region": "The Rides to Lake Silberneherze second half",
     "requires": ""
   },
@@ -6025,7 +6025,7 @@
   },
   {
     "name": "RS-7 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
     "region": "The Rides to Lake Silberneherze second half",
     "requires": ""
   },
@@ -6037,109 +6037,109 @@
   },
   {
     "name": "RS-8 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
     "region": "The Rides to Lake Silberneherze second half",
     "requires": "|@6 star|"
   },
   {
     "name": "RS-ST-3 read",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "reading"],
     "region": "The Rides to Lake Silberneherze second half",
     "requires": ""
   },
   {
     "name": "RS-EX-1 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage"],
     "region": "The Rides to Lake Silberneherze third half",
     "requires": ""
   },
   {
     "name": "RS-EX-1 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
     "region": "The Rides to Lake Silberneherze third half",
     "requires": ""
   },
   {
     "name": "RS-EX-2 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage"],
     "region": "The Rides to Lake Silberneherze third half",
     "requires": ""
   },
   {
     "name": "RS-EX-2 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
     "region": "The Rides to Lake Silberneherze third half",
     "requires": ""
   },
   {
     "name": "RS-EX-3 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage"],
     "region": "The Rides to Lake Silberneherze third half",
     "requires": ""
   },
   {
     "name": "RS-EX-3 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
     "region": "The Rides to Lake Silberneherze third half",
     "requires": ""
   },
   {
     "name": "RS-EX-4 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage"],
     "region": "The Rides to Lake Silberneherze third half",
     "requires": ""
   },
   {
     "name": "RS-EX-4 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
     "region": "The Rides to Lake Silberneherze third half",
     "requires": ""
   },
   {
     "name": "RS-EX-5 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage"],
     "region": "The Rides to Lake Silberneherze fourth half",
     "requires": ""
   },
   {
     "name": "RS-EX-5 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
     "region": "The Rides to Lake Silberneherze fourth half",
     "requires": ""
   },
   {
     "name": "RS-EX-6 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage"],
     "region": "The Rides to Lake Silberneherze fourth half",
     "requires": ""
   },
   {
     "name": "RS-EX-6 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
     "region": "The Rides to Lake Silberneherze fourth half",
     "requires": ""
   },
   {
     "name": "RS-EX-7 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage"],
     "region": "The Rides to Lake Silberneherze fourth half",
     "requires": ""
   },
   {
     "name": "RS-EX-7 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
     "region": "The Rides to Lake Silberneherze fourth half",
     "requires": ""
   },
   {
     "name": "RS-EX-8 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage"],
     "region": "The Rides to Lake Silberneherze fourth half",
     "requires": "|@6 star|"
   },
   {
     "name": "RS-EX-8 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
     "region": "The Rides to Lake Silberneherze fourth half",
     "requires": "|@6 star|"
   },
@@ -6151,7 +6151,7 @@
   },
   {
     "name": "IL-1 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan first half",
     "requires": ""
   },
@@ -6163,7 +6163,7 @@
   },
   {
     "name": "IL-2 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan first half",
     "requires": ""
   },
@@ -6175,7 +6175,7 @@
   },
   {
     "name": "IL-3 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan first half",
     "requires": ""
   },
@@ -6187,7 +6187,7 @@
   },
   {
     "name": "IL-4 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan first half",
     "requires": ""
   },
@@ -6199,7 +6199,7 @@
   },
   {
     "name": "IL-5 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan first half",
     "requires": ""
   },
@@ -6211,7 +6211,7 @@
   },
   {
     "name": "IL-6 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan second half",
     "requires": ""
   },
@@ -6223,7 +6223,7 @@
   },
   {
     "name": "IL-7 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan second half",
     "requires": ""
   },
@@ -6235,7 +6235,7 @@
   },
   {
     "name": "IL-8 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan second half",
     "requires": ""
   },
@@ -6247,7 +6247,7 @@
   },
   {
     "name": "IL-9 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan second half",
     "requires": ""
   },
@@ -6259,7 +6259,7 @@
   },
   {
     "name": "IL-10 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
     "region": "Il Siracusan second half",
     "requires": "|@6 star|"
   },
@@ -6289,157 +6289,157 @@
   },
   {
     "name": "IL-EX-1 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage"],
     "region": "Il Siracusan third half",
     "requires": ""
   },
   {
     "name": "IL-EX-1 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
     "region": "Il Siracusan third half",
     "requires": ""
   },
   {
     "name": "IL-EX-2 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage"],
     "region": "Il Siracusan third half",
     "requires": ""
   },
   {
     "name": "IL-EX-2 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
     "region": "Il Siracusan third half",
     "requires": ""
   },
   {
     "name": "IL-EX-3 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage"],
     "region": "Il Siracusan third half",
     "requires": ""
   },
   {
     "name": "IL-EX-3 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
     "region": "Il Siracusan third half",
     "requires": ""
   },
   {
     "name": "IL-EX-4 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage"],
     "region": "Il Siracusan third half",
     "requires": ""
   },
   {
     "name": "IL-EX-4 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
     "region": "Il Siracusan third half",
     "requires": ""
   },
   {
     "name": "IL-EX-5 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage"],
     "region": "Il Siracusan fourth half",
     "requires": ""
   },
   {
     "name": "IL-EX-5 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
     "region": "Il Siracusan fourth half",
     "requires": ""
   },
   {
     "name": "IL-EX-6 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage"],
     "region": "Il Siracusan fourth half",
     "requires": ""
   },
   {
     "name": "IL-EX-6 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
     "region": "Il Siracusan fourth half",
     "requires": ""
   },
   {
     "name": "IL-EX-7 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage"],
     "region": "Il Siracusan fourth half",
     "requires": ""
   },
   {
     "name": "IL-EX-7 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
     "region": "Il Siracusan fourth half",
     "requires": ""
   },
   {
     "name": "IL-EX-8 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage"],
     "region": "Il Siracusan fourth half",
     "requires": "|@6 star|"
   },
   {
     "name": "IL-EX-8 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
     "region": "Il Siracusan fourth half",
     "requires": "|@6 star|"
   },
   {
     "name": "IL-S-1 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
   {
     "name": "IL-S-1 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
   {
     "name": "IL-S-2 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
   {
     "name": "IL-S-2 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
   {
     "name": "IL-S-3 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
   {
     "name": "IL-S-3 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
   {
     "name": "IL-S-4 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
   {
     "name": "IL-S-4 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
   {
     "name": "IL-S-5 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
   {
     "name": "IL-S-5 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
     "region": "Il Siracusan fifth half",
     "requires": ""
   },
@@ -6451,7 +6451,7 @@
   },
   {
     "name": "MN-1 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
     "region": "Maria Nearl first half",
     "requires": ""
   },
@@ -6463,7 +6463,7 @@
   },
   {
     "name": "MN-2 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
     "region": "Maria Nearl first half",
     "requires": ""
   },
@@ -6475,7 +6475,7 @@
   },
   {
     "name": "MN-3 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
     "region": "Maria Nearl first half",
     "requires": ""
   },
@@ -6487,7 +6487,7 @@
   },
   {
     "name": "MN-4 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
     "region": "Maria Nearl first half",
     "requires": ""
   },
@@ -6499,7 +6499,7 @@
   },
   {
     "name": "MN-5 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
     "region": "Maria Nearl second half",
     "requires": ""
   },
@@ -6511,7 +6511,7 @@
   },
   {
     "name": "MN-6 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
     "region": "Maria Nearl second half",
     "requires": ""
   },
@@ -6523,7 +6523,7 @@
   },
   {
     "name": "MN-7 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
     "region": "Maria Nearl second half",
     "requires": ""
   },
@@ -6535,103 +6535,103 @@
   },
   {
     "name": "MN-8 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
     "region": "Maria Nearl second half",
     "requires": ""
   },
   {
     "name": "MN-EX-1 clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage"],
     "region": "Maria Nearl third half",
     "requires": ""
   },
   {
     "name": "MN-EX-1 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
     "region": "Maria Nearl third half",
     "requires": ""
   },
   {
     "name": "MN-EX-2 clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage"],
     "region": "Maria Nearl third half",
     "requires": ""
   },
   {
     "name": "MN-EX-2 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
     "region": "Maria Nearl third half",
     "requires": ""
   },
   {
     "name": "MN-EX-3 clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage"],
     "region": "Maria Nearl third half",
     "requires": ""
   },
   {
     "name": "MN-EX-3 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
     "region": "Maria Nearl third half",
     "requires": ""
   },
   {
     "name": "MN-EX-4 clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage"],
     "region": "Maria Nearl third half",
     "requires": ""
   },
   {
     "name": "MN-EX-4 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
     "region": "Maria Nearl third half",
     "requires": ""
   },
   {
     "name": "MN-EX-5 clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage"],
     "region": "Maria Nearl fourth half",
     "requires": ""
   },
   {
     "name": "MN-EX-5 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
     "region": "Maria Nearl fourth half",
     "requires": ""
   },
   {
     "name": "MN-EX-6 clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage"],
     "region": "Maria Nearl fourth half",
     "requires": ""
   },
   {
     "name": "MN-EX-6 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
     "region": "Maria Nearl fourth half",
     "requires": ""
   },
   {
     "name": "MN-EX-7 clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage"],
     "region": "Maria Nearl fourth half",
     "requires": ""
   },
   {
     "name": "MN-EX-7 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
     "region": "Maria Nearl fourth half",
     "requires": ""
   },
   {
     "name": "MN-EX-8 clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage"],
     "region": "Maria Nearl fourth half",
     "requires": ""
   },
   {
     "name": "MN-EX-8 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
     "region": "Maria Nearl fourth half",
     "requires": ""
   },
@@ -6661,7 +6661,7 @@
   },
   {
     "name": "NL-1 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light first half",
     "requires": ""
   },
@@ -6673,7 +6673,7 @@
   },
   {
     "name": "NL-2 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light first half",
     "requires": ""
   },
@@ -6685,7 +6685,7 @@
   },
   {
     "name": "NL-3 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light first half",
     "requires": ""
   },
@@ -6697,7 +6697,7 @@
   },
   {
     "name": "NL-4 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light first half",
     "requires": ""
   },
@@ -6709,7 +6709,7 @@
   },
   {
     "name": "NL-5 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light first half",
     "requires": ""
   },
@@ -6721,7 +6721,7 @@
   },
   {
     "name": "NL-6 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light second half",
     "requires": ""
   },
@@ -6733,7 +6733,7 @@
   },
   {
     "name": "NL-7 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light second half",
     "requires": ""
   },
@@ -6745,7 +6745,7 @@
   },
   {
     "name": "NL-8 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light second half",
     "requires": ""
   },
@@ -6757,7 +6757,7 @@
   },
   {
     "name": "NL-9 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light second half",
     "requires": ""
   },
@@ -6769,7 +6769,7 @@
   },
   {
     "name": "NL-10 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "3-star clear"],
     "region": "Near Light second half",
     "requires": ""
   },
@@ -6799,157 +6799,157 @@
   },
   {
     "name": "NL-EX-1 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage"],
     "region": "Near Light third half",
     "requires": ""
   },
   {
     "name": "NL-EX-1 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
     "region": "Near Light third half",
     "requires": ""
   },
   {
     "name": "NL-EX-2 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage"],
     "region": "Near Light third half",
     "requires": ""
   },
   {
     "name": "NL-EX-2 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
     "region": "Near Light third half",
     "requires": ""
   },
   {
     "name": "NL-EX-3 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage"],
     "region": "Near Light third half",
     "requires": ""
   },
   {
     "name": "NL-EX-3 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
     "region": "Near Light third half",
     "requires": ""
   },
   {
     "name": "NL-EX-4 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage"],
     "region": "Near Light third half",
     "requires": ""
   },
   {
     "name": "NL-EX-4 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
     "region": "Near Light third half",
     "requires": ""
   },
   {
     "name": "NL-EX-5 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage"],
     "region": "Near Light fourth half",
     "requires": ""
   },
   {
     "name": "NL-EX-5 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
     "region": "Near Light fourth half",
     "requires": ""
   },
   {
     "name": "NL-EX-6 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage"],
     "region": "Near Light fourth half",
     "requires": ""
   },
   {
     "name": "NL-EX-6 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
     "region": "Near Light fourth half",
     "requires": ""
   },
   {
     "name": "NL-EX-7 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage"],
     "region": "Near Light fourth half",
     "requires": ""
   },
   {
     "name": "NL-EX-7 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
     "region": "Near Light fourth half",
     "requires": ""
   },
   {
     "name": "NL-EX-8 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage"],
     "region": "Near Light fourth half",
     "requires": ""
   },
   {
     "name": "NL-EX-8 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
     "region": "Near Light fourth half",
     "requires": ""
   },
   {
     "name": "NL-S-1 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage"],
     "region": "Near Light fifth half",
     "requires": ""
   },
   {
     "name": "NL-S-1 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
     "region": "Near Light fifth half",
     "requires": ""
   },
   {
     "name": "NL-S-2 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage"],
     "region": "Near Light fifth half",
     "requires": ""
   },
   {
     "name": "NL-S-2 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
     "region": "Near Light fifth half",
     "requires": ""
   },
   {
     "name": "NL-S-3 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage"],
     "region": "Near Light fifth half",
     "requires": ""
   },
   {
     "name": "NL-S-3 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
     "region": "Near Light fifth half",
     "requires": ""
   },
   {
     "name": "NL-S-4 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage"],
     "region": "Near Light fifth half",
     "requires": ""
   },
   {
     "name": "NL-S-4 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
     "region": "Near Light fifth half",
     "requires": ""
   },
   {
     "name": "NL-S-5 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage"],
     "region": "Near Light fifth half",
     "requires": ""
   },
   {
     "name": "NL-S-5 3-star clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
     "region": "Near Light fifth half",
     "requires": ""
   },
@@ -6961,7 +6961,7 @@
   },
   {
     "name": "WR-1 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real first half",
     "requires": ""
   },
@@ -6973,7 +6973,7 @@
   },
   {
     "name": "WR-2 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real first half",
     "requires": ""
   },
@@ -6985,7 +6985,7 @@
   },
   {
     "name": "WR-3 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real first half",
     "requires": ""
   },
@@ -6997,7 +6997,7 @@
   },
   {
     "name": "WR-4 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real first half",
     "requires": ""
   },
@@ -7009,7 +7009,7 @@
   },
   {
     "name": "WR-5 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real first half",
     "requires": ""
   },
@@ -7021,7 +7021,7 @@
   },
   {
     "name": "WR-6 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real second half",
     "requires": ""
   },
@@ -7033,7 +7033,7 @@
   },
   {
     "name": "WR-7 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real second half",
     "requires": ""
   },
@@ -7045,7 +7045,7 @@
   },
   {
     "name": "WR-8 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real second half",
     "requires": ""
   },
@@ -7057,7 +7057,7 @@
   },
   {
     "name": "WR-9 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real second half",
     "requires": ""
   },
@@ -7069,7 +7069,7 @@
   },
   {
     "name": "WR-10 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "3-star clear"],
     "region": "Who is Real second half",
     "requires": ""
   },
@@ -7093,97 +7093,97 @@
   },
   {
     "name": "WR-EX-1 clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage"],
     "region": "Who is Real third half",
     "requires": ""
   },
   {
     "name": "WR-EX-1 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
     "region": "Who is Real third half",
     "requires": ""
   },
   {
     "name": "WR-EX-2 clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage"],
     "region": "Who is Real third half",
     "requires": ""
   },
   {
     "name": "WR-EX-2 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
     "region": "Who is Real third half",
     "requires": ""
   },
   {
     "name": "WR-EX-3 clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage"],
     "region": "Who is Real third half",
     "requires": ""
   },
   {
     "name": "WR-EX-3 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
     "region": "Who is Real third half",
     "requires": ""
   },
   {
     "name": "WR-EX-4 clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage"],
     "region": "Who is Real third half",
     "requires": ""
   },
   {
     "name": "WR-EX-4 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
     "region": "Who is Real third half",
     "requires": ""
   },
   {
     "name": "WR-EX-5 clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage"],
     "region": "Who is Real fourth half",
     "requires": ""
   },
   {
     "name": "WR-EX-5 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
     "region": "Who is Real fourth half",
     "requires": ""
   },
   {
     "name": "WR-EX-6 clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage"],
     "region": "Who is Real fourth half",
     "requires": ""
   },
   {
     "name": "WR-EX-6 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
     "region": "Who is Real fourth half",
     "requires": ""
   },
   {
     "name": "WR-EX-7 clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage"],
     "region": "Who is Real fourth half",
     "requires": ""
   },
   {
     "name": "WR-EX-7 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
     "region": "Who is Real fourth half",
     "requires": ""
   },
   {
     "name": "WR-EX-8 clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage"],
     "region": "Who is Real fourth half",
     "requires": ""
   },
   {
     "name": "WR-EX-8 3-star clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
     "region": "Who is Real fourth half",
     "requires": ""
   },
@@ -7195,7 +7195,7 @@
   },
   {
     "name": "IW-1 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
     "region": "Invitation to Wine first half",
     "requires": ""
   },
@@ -7207,7 +7207,7 @@
   },
   {
     "name": "IW-2 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
     "region": "Invitation to Wine first half",
     "requires": ""
   },
@@ -7219,7 +7219,7 @@
   },
   {
     "name": "IW-3 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
     "region": "Invitation to Wine first half",
     "requires": ""
   },
@@ -7231,7 +7231,7 @@
   },
   {
     "name": "IW-4 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
     "region": "Invitation to Wine first half",
     "requires": ""
   },
@@ -7243,7 +7243,7 @@
   },
   {
     "name": "IW-5 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
     "region": "Invitation to Wine second half",
     "requires": ""
   },
@@ -7255,7 +7255,7 @@
   },
   {
     "name": "IW-6 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
     "region": "Invitation to Wine second half",
     "requires": ""
   },
@@ -7267,7 +7267,7 @@
   },
   {
     "name": "IW-7 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
     "region": "Invitation to Wine second half",
     "requires": ""
   },
@@ -7279,7 +7279,7 @@
   },
   {
     "name": "IW-8 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
     "region": "Invitation to Wine second half",
     "requires": ""
   },
@@ -7291,7 +7291,7 @@
   },
   {
     "name": "IW-9 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
     "region": "Invitation to Wine second half",
     "requires": ""
   },
@@ -7315,97 +7315,97 @@
   },
   {
     "name": "IW-EX-1 clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage"],
     "region": "Invitation to Wine third half",
     "requires": ""
   },
   {
     "name": "IW-EX-1 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
     "region": "Invitation to Wine third half",
     "requires": ""
   },
   {
     "name": "IW-EX-2 clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage"],
     "region": "Invitation to Wine third half",
     "requires": ""
   },
   {
     "name": "IW-EX-2 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
     "region": "Invitation to Wine third half",
     "requires": ""
   },
   {
     "name": "IW-EX-3 clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage"],
     "region": "Invitation to Wine third half",
     "requires": ""
   },
   {
     "name": "IW-EX-3 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
     "region": "Invitation to Wine third half",
     "requires": ""
   },
   {
     "name": "IW-EX-4 clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage"],
     "region": "Invitation to Wine third half",
     "requires": ""
   },
   {
     "name": "IW-EX-4 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
     "region": "Invitation to Wine third half",
     "requires": ""
   },
   {
     "name": "IW-EX-5 clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage"],
     "region": "Invitation to Wine fourth half",
     "requires": ""
   },
   {
     "name": "IW-EX-5 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
     "region": "Invitation to Wine fourth half",
     "requires": ""
   },
   {
     "name": "IW-EX-6 clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage"],
     "region": "Invitation to Wine fourth half",
     "requires": ""
   },
   {
     "name": "IW-EX-6 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
     "region": "Invitation to Wine fourth half",
     "requires": ""
   },
   {
     "name": "IW-EX-7 clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage"],
     "region": "Invitation to Wine fourth half",
     "requires": ""
   },
   {
     "name": "IW-EX-7 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
     "region": "Invitation to Wine fourth half",
     "requires": ""
   },
   {
     "name": "IW-EX-8 clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage"],
     "region": "Invitation to Wine fourth half",
     "requires": ""
   },
   {
     "name": "IW-EX-8 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
     "region": "Invitation to Wine fourth half",
     "requires": ""
   },

@@ -23,6 +23,22 @@
         "yaml_option": ["challenge sanity"],
         "hidden": true
     },
+    "H-stage": {
+        "yaml_option": ["enable H-stages"],
+        "hidden": true
+    },
+    "ex-stage": {
+        "yaml_option": ["enable_EX_stages"],
+        "hidden": true
+    },
+    "s-stage": {
+        "yaml_option": ["enable_S_stages"],
+        "hidden": true
+    },
+    "mo-stage": {
+        "yaml_option": ["enable_MO_stages"],
+        "hidden": true
+    },
     "3-stars clear": {
         "yaml_option": ["3-star sanity"],
         "hidden": true
