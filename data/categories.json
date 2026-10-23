@@ -19,10 +19,6 @@
         "yaml_option": ["challenge sanity"],
         "hidden": true
     },
-    "extreme operations": {
-        "yaml_option": ["challenge sanity"],
-        "hidden": true
-    },
     "H-stage": {
         "yaml_option": ["enable H-stages"],
         "hidden": true
@@ -32,15 +28,27 @@
         "hidden": true
     },
     "s-stage": {
-        "yaml_option": ["enable_S_stages"],
+        "yaml_option": ["enable_S_stages", "enable_EX_stages"],
         "hidden": true
     },
     "mo-stage": {
-        "yaml_option": ["enable_MO_stages"],
+        "yaml_option": ["enable_MO_stages", "enable_EX_stages"],
         "hidden": true
     },
     "3-stars clear": {
         "yaml_option": ["3-star sanity"],
+        "hidden": true
+    },
+    "class traps": {
+        "yaml_option": ["enable class traps"],
+        "hidden": true
+    },
+    "squad traps": {
+        "yaml_option": ["enable squad traps"],
+        "hidden": true
+    },
+    "deployment traps": {
+        "yaml_option": ["enable deployment traps"],
         "hidden": true
     }
 }

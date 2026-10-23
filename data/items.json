@@ -4636,7 +4636,8 @@
     "count": "1",
     "name": "-2 deployment limit",
     "category": [
-      "trap"
+      "trap",
+      "deployment trap"
     ],
     "trap": true
   },
@@ -4644,7 +4645,8 @@
     "count": "1",
     "name": "-2 squad size",
     "category": [
-      "trap"
+      "trap",
+      "squad trap"
     ],
     "trap": true
   },
@@ -4982,7 +4984,7 @@
     "progression": true
   },
   {
-    "count": 4,
+    "count": 5,
     "name": "progressive Heart of Surging Flame unlock",
     "category": [
       "chapter unlock",

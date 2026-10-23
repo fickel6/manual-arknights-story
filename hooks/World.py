@@ -188,6 +188,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    logging.info("these are the included chapters")
+    logging.info(included_chapters)
     return item_config
 
 # The item pool before place_item(_category) are processed, in case you want to see the raw item pool at that stage
@@ -204,12 +206,13 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     max_amount_bosses = 17
     max_op = 100
     if victory_name == "collect OP":
-        max_op = int((max_op-world.options.originium_prime_hunt.value))
+        max_op = max_op - int(world.options.originium_prime_hunt.value)
         for _ in range(max_op):
             item_pool.remove(next(i for i in item_pool if i.name == "Originium Prime"))
 
     # remove the amount of random unlockable items
     max_amount_random_unlock = 20
+    print(get_option_value(multiworld, player, "include_random_operators"))
     for _ in range(max_amount_random_unlock - world.options.include_random_operators):
         item_pool.remove(next(i for i in item_pool if i.name == "random unit unlock"))
 
@@ -330,33 +333,9 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to modify the access rules for a given location
 
-    global victory_name 
     # actx bosses are done with 'defeat boss' item. 
     # this means that we only need to force this item to the correct boss
     # and we don't have to change the requirement
-    # print("victory name: " + victory_name)
-    victory_location = multiworld.get_location(victory_name, player)
-    if victory_name != "beat x bosses":
-        return None
-    total = get_option_value(multiworld, player, "originium_prime_hunt")
-    extra = get_option_value(multiworld, player, "extra_OP")
-    goal_amount = 0
-    if isinstance(total, int) and isinstance(extra, int):
-        goal_amount = int(total*extra/100)
-
-    def check_boss_amount(state: CollectionState):
-        #really simple. just check how many boss amount is collected
-        return state.has_group("boss clear", player, world.options.amount_boss)
-    def check_OP_amount(state: CollectionState):
-        return state.has_group("Originium Prime", player, goal_amount)
-    match victory_name:
-        #really simple. just check how many items is collected
-        #also made this a match case statement, because there are 2 different conditions need to be changed
-        #doesn't seem to work. just make an function in rules and call that for goaling. 
-        case "beat x bosses":
-            victory_location.access_rule = lambda state: check_boss_amount(state)
-        case "collect OP":
-            victory_location.access_rule = lambda state: check_OP_amount(state)
 
     # def Example_Rule(state: CollectionState) -> bool:
     #     # Calculated rules take a CollectionState object and return a boolean
@@ -373,6 +352,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     # location.access_rule = lambda state: old_rule(state) and Example_Rule(state)
     # OR
     # location.access_rule = lambda state: old_rule(state) or Example_Rule(state)
+    pass
 
 # The item name to create is provided before the item is created, in case you want to make changes to it
 def before_create_item(item_name: str, world: World, multiworld: MultiWorld, player: int) -> str:

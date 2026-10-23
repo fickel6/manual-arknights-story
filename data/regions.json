@@ -467,13 +467,13 @@
     }
   },
   "A Walk in the Dust second part": {
-    "connects_to": ["Darknights' memoir third part"],
+    "connects_to": ["A Walk in the Dust third part"],
     "exit_requires": {
       "A Walk in the Dust third part": "|progressive A Walk in the Dust unlock:3|"
     }
   },
   "A Walk in the Dust third part": {
-    "connects_to": ["Darknights' memoir fourth part"],
+    "connects_to": ["A Walk in the Dust fourth part"],
     "exit_requires": {
       "A Walk in the Dust fourth part": "|progressive A Walk in the Dust unlock:4|"
     }
@@ -919,7 +919,7 @@
       "Under Tides fourth part": "|progressive Under Tides unlock:4|"
     }
   },
-  "Under Tides fifth part": {},
+  "Under Tides fourth part": {},
   "Stultifera Navis first part": {
     "starting": true,
     "requires": "|progressive Stultifera Navis unlock|",
@@ -1129,10 +1129,16 @@
   "Heart of Surging Flame third part": {
     "connects_to": ["Heart of Surging Flame fourth part"],
     "exit_requires": {
-      "Heart of Surging Flame third part": "|progressive Heart of Surging Flame unlock:4|"
+      "Heart of Surging Flame fourth part": "|progressive Heart of Surging Flame unlock:4|"
     }
   },
-  "Heart of Surging Flame fourth part": {},
+  "Heart of Surging Flame fourth part": {
+    "connects_to": ["Heart of Surging Flame fifth part"],
+    "exit_requires": {
+      "Heart of Surging Flame fifth part": "|progressive Heart of Surging Flame unlock:5|"
+    }
+  },
+  "Heart of Surging Flame fifth part": {},
   "Gavial the Great Chief Returns first part": {
     "starting": true,
     "requires": "|progressive Gavial the Great Chief Returns unlock|",
@@ -1159,7 +1165,7 @@
     "requires": "|progressive Dossoles Holiday unlock|",
     "connects_to": ["Dossoles Holiday second part"],
     "exit_requires": {
-      "Babel second part": "|progressive Dossoles Holiday unlock:2|"
+      "Dossoles Holiday second part": "|progressive Dossoles Holiday unlock:2|"
     }
   },
   "Dossoles Holiday second part": {
@@ -1175,7 +1181,7 @@
     }
   },
   "Dossoles Holiday fourth part": {
-    "connects_to": ["Dossoles Holiday fourth part"],
+    "connects_to": ["Dossoles Holiday fifth part"],
     "exit_requires": {
       "Dossoles Holiday fifth part": "|progressive Dossoles Holiday unlock:5|"
     }

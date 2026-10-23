@@ -34,7 +34,7 @@ class TotalCharactersToWinWith(Range):
 
 class chapters(OptionSet):
     """list for enabling/disabling chapters"""  # Description of the yaml option in the template
-    display_name = "included chapters"           # Name of the option in the spoiler
+    display_name = "included chapters"          # Name of the option in the spoiler
     valid_keys = {  #define my own list to choose included chapters
         "chapter 0", "chapter 1", "chapter 2", "chapter 3", "chapter 4", 
         "chapter 5", "chapter 6", "chapter 7", "chapter 8", "chapter 9",
@@ -45,12 +45,12 @@ class chapters(OptionSet):
 
 
 class events(OptionSet):
-    """list for enabling/disabling chapters"""  # Description of the yaml option in the template
-    display_name = "included chapters"           # Name of the option in the spoiler
+    """list for enabling/disabling events"""  # Description of the yaml option in the template
+    display_name = "included events"          # Name of the option in the spoiler
     valid_keys = {  #define my own list to choose included chapters
-        "progressive Darknights' memoir", "A Walk in the Dust", "Babel", "Ending a Grand Overture", 
+        "Darknights' memoir", "A Walk in the Dust", "Babel", "Ending a Grand Overture", 
         "Guide Ahead", "Hortus de Escapismo", 
-        "Break the Ice", "progressive The Rides to Lake Silberneherze", 
+        "Break the Ice", "The Rides to Lake Silberneherze", 
         "Il Siracusan", 
         "Maria Nearl", "Near Light", 
         "Who is Real", "Invitation to Wine", "Where the Vernal Winds Will Never Blow", "Here a People Sows", "Such is the Joy of Our Reunion",
@@ -102,7 +102,7 @@ class BlackOrWhite(Toggle):
     """how to include the listed characters. 
     if this value is true, then the listed operators will be whitelisted.
     if this value is false, then the listed operators will be blacklisted."""
-    display_name = "blacklist  or whitelist operators"
+    display_name = "blacklist or whitelist operators"
     default = True
 
 class randomChapters(Range):
@@ -111,15 +111,45 @@ class randomChapters(Range):
     display_name = "Amount of random chapters"
     range_start = 1
     range_end = len(chapters.valid_keys) + len(events.valid_keys)
-    default = range_end/2
+    default = int(range_end/2)
 
 class enableEX(Toggle):
+    display_name = "enable ex-stages"
+    """include all the EX-stages from the event."""
     default = False
 
 class enableS(Toggle):
+    display_name = "enable s-stages"
+    """include all the S-stages from some events.
+    this option won't do anything if ex-stages aren't enabled"""
     default = False
 
 class enableMO(Toggle):
+    display_name = "enable mo-stages"
+    """include all the MO-stages from some events.
+    this option won't do anything if ex-stages aren't enabled"""
+    default = False
+
+class enableH(Toggle):
+    display_name = "enable h-stages"
+    """include all the H-stages from the story."""
+    default = False
+
+class enableStory(Toggle):
+    display_name = "enable story"
+    """reading all the story is also a check
+    "you may NOT skip, but speeding is allowed"""
+    default = False
+
+class enableFixed(Toggle):
+    display_name = "enable fixed squad operations"
+    """include stages where the squad is already chosen."""
+    default = False
+    
+class enableFullClear(Toggle):
+    display_name = "enable 3-star clears"
+    """besides just beating the operation (possibly with leaks),
+    "you also have to beat a operation without leaking"""
     default = False
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
@@ -138,6 +168,10 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["enable_EX_stages"] = enableEX
     options["enable_S_stages"] = enableS
     options["enable_MO_stages"] = enableMO
+    options["enable_H"] = enableH
+    options["enable_story"] = enableStory
+    options["enable_fixed"] = enableFixed
+    options["enable_3_star"] = enableFullClear
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
@@ -156,7 +190,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     # groupname must be different then the options in the json file.
-    groups["chapter selection"] = [chapters, randomChapters, events, enableEX, enableS, enableMO]
+    groups["chapter selection"] = [chapters, randomChapters, events, enableEX, enableS, enableMO, enableH, enableStory, enableFixed, enableFullClear]
     groups["operator lists"] = [BlackOrWhite, Enabled6Star, Enabled5Star, Enabled4Star, Enabled3Star, Enabled2Star, Enabled1Star]
     return groups
 
