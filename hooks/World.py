@@ -46,13 +46,21 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     global victory_name
     global included_chapters
     included_chapters = []
-    enabled_chapters = world.options.enabled_chapters
     included_chapters.extend(world.options.enabled_chapters)
     included_chapters.extend(world.options.enabled_events)
+    if world.options.goal == 0:
+        #this works for chapters, but not for the event. What is the best way to do this?
+        #use the world.options.option_name thing and then slice +lowercase the needed text?
+        goal_chapter = f"chapter {get_option_value(multiworld, player, "chapter_boss_clear")}"
+        included_chapters.remove(goal_chapter)
+    elif world.options.goal == 1:
+        goal_chapter = next(name for name in included_chapters if name == f"chapter {world.options.chapter_boss_clear + 5}")
+        included_chapters.remove(goal_chapter)
 
-    amount_chapters = world.options.included_random_chapters
+    #since the goal chapter is removed earlier, we need to repeat 1 less time
+    amount_chapters = world.options.included_random_chapters - 1
     if amount_chapters < len(included_chapters):
-        amount_chapters = len(included_chapters)-amount_chapters
+        amount_chapters = len(included_chapters)
         for _ in range(0, amount_chapters):
             remove_chapter = world.random.choice(included_chapters)
             match remove_chapter:
@@ -190,6 +198,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
     logging.info("these are the included chapters")
     logging.info(included_chapters)
+    print(get_option_value(multiworld, player, "chapter_boss_clear"))
+    print(world.options.included_random_chapters - 1)
     return item_config
 
 # The item pool before place_item(_category) are processed, in case you want to see the raw item pool at that stage
@@ -212,7 +222,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
     # remove the amount of random unlockable items
     max_amount_random_unlock = 20
-    print(get_option_value(multiworld, player, "include_random_operators"))
+    # print(get_option_value(multiworld, player, "include_random_operators"))
     for _ in range(max_amount_random_unlock - world.options.include_random_operators):
         item_pool.remove(next(i for i in item_pool if i.name == "random unit unlock"))
 
