@@ -48,19 +48,33 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     included_chapters = []
     included_chapters.extend(world.options.enabled_chapters)
     included_chapters.extend(world.options.enabled_events)
-    if world.options.goal == 0:
-        #this works for chapters, but not for the event. What is the best way to do this?
-        #use the world.options.option_name thing and then slice +lowercase the needed text?
-        goal_chapter = f"chapter {get_option_value(multiworld, player, "chapter_boss_clear")}"
-        included_chapters.remove(goal_chapter)
-    elif world.options.goal == 1:
-        goal_chapter = next(name for name in included_chapters if name == f"chapter {world.options.chapter_boss_clear + 5}")
+    chapter_dict = {
+        0:"chapter 0", 1:"chapter 1", 2:"chapter 2", 3:"chapter 3", 4:"chapter 4", 
+        5:"chapter 5", 6:"chapter 6", 7:"chapter 7", 8:"chapter 8", 9:"chapter 9",
+        10:"chapter 10", 11:"chapter 11", 12:"chapter 12", 13:"chapter 13",
+        14:"chapter 14", 15:"chapter 15", 16:"chapter 16",
+        100: "Darknights' memoir", 101: "A Walk in the Dust", 102:"Babel", 103:"Ending a Grand Overture", 
+        150:"Guide Ahead", 151:"Hortus de Escapismo", 
+        200:"Break the Ice", 201:"The Rides to Lake Silberneherze", 
+        250:"Il Siracusan", 
+        300:"Maria Nearl", 301:"Near Light", 
+        350:"Who is Real", 351:"Invitation to Wine", 352:"Where the Vernal Winds Will Never Blow", 353:"Here a People Sows", 354:"Such is the Joy of Our Reunion",
+        400:"Mansfield Break", 401:"Dorothy's Vision", 402:"Lonetrail",
+        450:"Grani And The Knights' Treasure", 451:"Under Tides", 452:"Stultifera Navis", 453:"Path of Life", 454:"Exodus From the Pale Sea", 
+        500:"Twilight of Wolumonde", 501:"Lingering Echoes", 502:"Zwillingstürme im Herbst", 
+        550:"When the Fireflights Casts", 551:"When Elegies Are Ashes", 
+        600:"Heart of Surging Flame", 601:"the Great Chief Returns", 602:"Dossoles Holiday", 603:"Ideal City", 604:"So long Adele", 605:"Adventure That Cannot Wait for the Sun"}
+    # add the goal for the other events in this list (tuple?)
+    if world.options.goal in (0, 1):
+        goal_chapter = get_option_value(multiworld, player, "chapter_boss_clear")
+        #if option is an dict (or not defined value?) just make chapter 0 the goal
+        goal_chapter = chapter_dict.get(goal_chapter, "chapter 0") if isinstance(goal_chapter, int) else "chapter 0"
         included_chapters.remove(goal_chapter)
 
     #since the goal chapter is removed earlier, we need to repeat 1 less time
     amount_chapters = world.options.included_random_chapters - 1
     if amount_chapters < len(included_chapters):
-        amount_chapters = len(included_chapters)
+        amount_chapters = len(included_chapters) - amount_chapters
         for _ in range(0, amount_chapters):
             remove_chapter = world.random.choice(included_chapters)
             match remove_chapter:
@@ -98,8 +112,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
                     included_chapters.remove("chapter 15")
                 case "chapter 16":
                     included_chapters.remove("chapter 16")
-                case "progressive Darknights' memoir":
-                    included_chapters.remove("progressive Darknights' memoir")
+                case "Darknights' memoir":
+                    included_chapters.remove("Darknights' memoir")
                 case "A Walk in the Dust":
                     included_chapters.remove("A Walk in the Dust")
                 case "Babel":
@@ -112,8 +126,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
                     included_chapters.remove("Hortus de Escapismo")
                 case "Break the Ice":
                     included_chapters.remove("Break the Ice")
-                case "progressive The Rides to Lake Silberneherze":
-                    included_chapters.remove("progressive The Rides to Lake Silberneherze")
+                case "The Rides to Lake Silberneherze":
+                    included_chapters.remove("The Rides to Lake Silberneherze")
                 case "Il Siracusan":
                     included_chapters.remove("Il Siracusan")
                 case "Maria Nearl":
@@ -158,8 +172,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
                     included_chapters.remove("When Elegies Are Ashes")
                 case "Heart of Surging Flame":
                     included_chapters.remove("Heart of Surging Flame")
-                case "Gavial the Great Chief Returns":
-                    included_chapters.remove("Gavial the Great Chief Returns")
+                case "the Great Chief Returns":
+                    included_chapters.remove("the Great Chief Returns")
                 case "Dossoles Holiday":
                     included_chapters.remove("Dossoles Holiday")
                 case "Ideal City":
@@ -168,6 +182,11 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
                     included_chapters.remove("So long Adele")
                 case "Adventure That Cannot Wait for the Sun":
                     included_chapters.remove("Adventure That Cannot Wait for the Sun")
+                case _:
+                    raise AssertionError(f"the chapter/event: {remove_chapter} isn't in the list")
+
+    #done with removing the excess chapters/events. add the goal area back in the pool
+    included_chapters.append(goal_chapter)
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -198,8 +217,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
     logging.info("these are the included chapters")
     logging.info(included_chapters)
-    print(get_option_value(multiworld, player, "chapter_boss_clear"))
-    print(world.options.included_random_chapters - 1)
     return item_config
 
 # The item pool before place_item(_category) are processed, in case you want to see the raw item pool at that stage

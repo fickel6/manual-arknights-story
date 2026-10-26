@@ -1139,27 +1139,27 @@
     }
   },
   "Heart of Surging Flame fifth part": {},
-  "Gavial the Great Chief Returns first part": {
+  "the Great Chief Returns first part": {
     "starting": true,
-    "requires": "|progressive Gavial the Great Chief Returns unlock|",
-    "connects_to": ["Gavial the Great Chief Returns second part"],
+    "requires": "|progressive the Great Chief Returns unlock|",
+    "connects_to": ["the Great Chief Returns second part"],
     "exit_requires": {
-      "Gavial the Great Chief Returns second part": "|progressive Gavial the Great Chief Returns unlock:2|"
+      "the Great Chief Returns second part": "|progressive the Great Chief Returns unlock:2|"
     }
   },
-  "Gavial the Great Chief Returns second part": {
-    "connects_to": ["Gavial the Great Chief Returns third part"],
+  "the Great Chief Returns second part": {
+    "connects_to": ["the Great Chief Returns third part"],
     "exit_requires": {
-      "Gavial the Great Chief Returns third part": "|progressive Gavial the Great Chief Returns unlock:3|"
+      "the Great Chief Returns third part": "|progressive the Great Chief Returns unlock:3|"
     }
   },
-  "Gavial the Great Chief Returns third part": {
-    "connects_to": ["Gavial the Great Chief Returns fourth part"],
+  "the Great Chief Returns third part": {
+    "connects_to": ["the Great Chief Returns fourth part"],
     "exit_requires": {
-      "Gavial the Great Chief Returns fourth part": "|progressive Gavial the Great Chief Returns unlock:4|"
+      "the Great Chief Returns fourth part": "|progressive the Great Chief Returns unlock:4|"
     }
   },
-  "Gavial the Great Chief Returns fourth part": {},
+  "the Great Chief Returns fourth part": {},
   "Dossoles Holiday first part": {
     "starting": true,
     "requires": "|progressive Dossoles Holiday unlock|",

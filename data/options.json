@@ -38,18 +38,39 @@
         "chapter boss clear": {
             "description": [
                 "choose what boss you need to defeat to win this manual.",
-                "if the chosen chapter isn't included in the manual,",
-                "the gen will crash.",
+                "the chosen chapter or event will always be present in the manual, even if the chapter/event is excluded in another option",
                 "if a different goal is chosen, this option won't do anything."
             ],
             "type": "Choice",
             "default": 0,
             "values": {
-                "chapter 0": 0,
-                "chapter 1": 1,
-                "chapter 2": 2,
-                "chapter 3": 3,
-                "chapter 4": 4,
+                "chapter 0": 0, "chapter 1": 1, "chapter 2": 2, "chapter 3": 3,
+                "chapter 4": 4, "chapter 5": 5, "chapter 6": 6, "chapter 7": 7, "chapter 8": 8,
+                "chapter 9": 9, "chapter 10": 10, "chapter 11": 11, "chapter 12": 12, "chapter 13": 13,
+                "chapter 14": 14, "chapter 15": 15, "chapter 16": 16,
+                "Darknights' memoir":100, "A Walk in the Dust":101, "Babel":102, "Ending a Grand Overture":103, 
+                "Guide Ahead":150, "Hortus de Escapismo":151, 
+                "Break the Ice":200, "The Rides to Lake Silberneherze":201, 
+                "Il Siracusan":250, 
+                "Maria Nearl":300, "Near Light":301, 
+                "Who is Real":350, "Invitation to Wine":351, "Where the Vernal Winds Will Never Blow":352, "Here a People Sows":353, "Such is the Joy of Our Reunion":354,
+                "Mansfield Break":400, "Dorothy's Vision":401, "Lonetrail":402,
+                "Grani And The Knights' Treasure":450, "Under Tides":451, "Stultifera Navis":452, "Path of Life":453, "Exodus From the Pale Sea":454, 
+                "Twilight of Wolumonde":500, "Lingering Echoes":501, "Zwillingstürme im Herbst":502, 
+                "When the Fireflights Casts":550, "When Elegies Are Ashes":551, 
+                "Heart of Surging Flame":600, "the Great Chief Returns":601, "Dossoles Holiday":602, "Ideal City":603, "So long Adele":604, "Adventure That Cannot Wait for the Sun":605 
+            },
+            "group": "goal options"
+        },
+        "H stage clear": {
+            "description": [
+                "choose what H-stage you need to clear to win this manual.",
+                "the chosen chapter will always be present in the manual, even if the chapter is excluded in another option",
+                "if a different goal is chosen, this option won't do anything."
+            ],
+            "type": "Choice",
+            "default": 5,
+            "values": {
                 "chapter 5": 5,
                 "chapter 6": 6,
                 "chapter 7": 7,
@@ -65,28 +86,49 @@
             },
             "group": "goal options"
         },
-        "H stage clear": {
+        "EX stage clear": {
             "description": [
                 "choose what H-stage you need to clear to win this manual.",
-                "if the chosen chapter isn't included in the manual,",
-                "the gen will crash.",
+                "the chosen event will always be present in the manual, even if the event is excluded in another option",
                 "if a different goal is chosen, this option won't do anything."
             ],
             "type": "Choice",
-            "default": 0,
+            "default": 100,
             "values": {
-                "chapter 5": 0,
-                "chapter 6": 1,
-                "chapter 7": 2,
-                "chapter 8": 3,
-                "chapter 9": 4,
-                "chapter 10": 5,
-                "chapter 11": 6,
-                "chapter 12": 7,
-                "chapter 13": 8,
-                "chapter 14": 9,
-                "chapter 15": 10,
-                "chapter 16": 11
+                "Darknights' memoir":100, "A Walk in the Dust":101, "Babel":102, "Ending a Grand Overture":103, 
+                "Guide Ahead":150, "Hortus de Escapismo":151, 
+                "Break the Ice":200, "The Rides to Lake Silberneherze":201, 
+                "Il Siracusan":250, 
+                "Maria Nearl":300, "Near Light":301, 
+                "Who is Real":350, "Invitation to Wine":351, "Where the Vernal Winds Will Never Blow":352, "Here a People Sows":353, "Such is the Joy of Our Reunion":354,
+                "Mansfield Break":400, "Dorothy's Vision":401, "Lonetrail":402,
+                "Grani And The Knights' Treasure":450, "Under Tides":451, "Stultifera Navis":452, "Path of Life":453, "Exodus From the Pale Sea":454, 
+                "Twilight of Wolumonde":500, "Lingering Echoes":501, "Zwillingstürme im Herbst":502, 
+                "When the Fireflights Casts":550, "When Elegies Are Ashes":551, 
+                "Heart of Surging Flame":600, "the Great Chief Returns":601, "Dossoles Holiday":602, "Ideal City":603, "So long Adele":604, "Adventure That Cannot Wait for the Sun":605 
+            },
+            "group": "goal options"
+        },
+        "S stage clear": {
+            "description": [
+                "choose what S-stage you need to clear to win this manual.",
+                "the chosen event will always be present in the manual, even if the event is excluded in another option",
+                "if a different goal is chosen, this option won't do anything."
+            ],
+            "type": "Choice",
+            "default": 100,
+            "values": {
+                "Darknights' memoir":100, "A Walk in the Dust":101, "Babel":102, "Ending a Grand Overture":103, 
+                "Guide Ahead":150, "Hortus de Escapismo":151, 
+                "Break the Ice":200, "The Rides to Lake Silberneherze":201, 
+                "Il Siracusan":250, 
+                "Maria Nearl":300, "Near Light":301, 
+                "Who is Real":350, "Invitation to Wine":351, "Where the Vernal Winds Will Never Blow":352, "Here a People Sows":353, "Such is the Joy of Our Reunion":354,
+                "Mansfield Break":400, "Dorothy's Vision":401, "Lonetrail":402,
+                "Grani And The Knights' Treasure":450, "Under Tides":451, "Stultifera Navis":452, "Path of Life":453, "Exodus From the Pale Sea":454, 
+                "Twilight of Wolumonde":500, "Lingering Echoes":501, "Zwillingstürme im Herbst":502, 
+                "When the Fireflights Casts":550, "When Elegies Are Ashes":551, 
+                "Heart of Surging Flame":600, "the Great Chief Returns":601, "Dossoles Holiday":602, "Ideal City":603, "So long Adele":604, "Adventure That Cannot Wait for the Sun":605 
             },
             "group": "goal options"
         },
@@ -99,7 +141,7 @@
             "type": "Range",
             "default": 5,
             "range_start": 1,
-            "range_end": 17,
+            "range_end": 52,
             "group": "goal options"
         },
         "total Originium Prime amount": {

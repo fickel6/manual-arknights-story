@@ -58,7 +58,7 @@ class events(OptionSet):
         "Grani And The Knights' Treasure", "Under Tides", "Stultifera Navis", "Path of Life", "Exodus From the Pale Sea", 
         "Twilight of Wolumonde", "Lingering Echoes", "Zwillingstürme im Herbst", 
         "When the Fireflights Casts", "When Elegies Are Ashes", 
-        "Heart of Surging Flame", "Gavial the Great Chief Returns", "Dossoles Holiday", "Ideal City", "So long Adele", "Adventure That Cannot Wait for the Sun", 
+        "Heart of Surging Flame", "the Great Chief Returns", "Dossoles Holiday", "Ideal City", "So long Adele", "Adventure That Cannot Wait for the Sun", 
     }
     default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
 
