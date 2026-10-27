@@ -9,46 +9,30 @@
     },
     "reading": {
         "hidden": true,
-        "yaml_option": ["include story"]
+        "yaml_option": ["include_story"]
     },
     "fixed squad": {
         "hidden": true,
-        "yaml_option": ["include fixed operations"]
-    },
-    "challenge operations": {
-        "yaml_option": ["challenge sanity"],
-        "hidden": true
+        "yaml_option": ["include_fixed_squad"]
     },
     "H-stage": {
-        "yaml_option": ["enable H-stages"],
+        "yaml_option": ["include H-stages"],
         "hidden": true
     },
     "ex-stage": {
-        "yaml_option": ["enable_EX_stages"],
+        "yaml_option": ["include_EX_stages"],
         "hidden": true
     },
     "s-stage": {
-        "yaml_option": ["enable_S_stages", "enable_EX_stages"],
+        "yaml_option": ["include_S_stages", "include_EX_stages"],
         "hidden": true
     },
     "mo-stage": {
-        "yaml_option": ["enable_MO_stages", "enable_EX_stages"],
+        "yaml_option": ["include_MO_stages", "include_EX_stages"],
         "hidden": true
     },
     "3-stars clear": {
-        "yaml_option": ["3-star sanity"],
-        "hidden": true
-    },
-    "class traps": {
-        "yaml_option": ["enable class traps"],
-        "hidden": true
-    },
-    "squad traps": {
-        "yaml_option": ["enable squad traps"],
-        "hidden": true
-    },
-    "deployment traps": {
-        "yaml_option": ["enable deployment traps"],
+        "yaml_option": ["include_3_star"],
         "hidden": true
     }
 }

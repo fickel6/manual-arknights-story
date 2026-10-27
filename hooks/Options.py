@@ -114,40 +114,40 @@ class randomChapters(Range):
     default = int(range_end/2)
 
 class enableEX(Toggle):
-    display_name = "enable ex-stages"
+    display_name = "include ex-stages"
     """include all the EX-stages from the event."""
     default = False
 
 class enableS(Toggle):
-    display_name = "enable s-stages"
+    display_name = "include s-stages"
     """include all the S-stages from some events.
     this option won't do anything if ex-stages aren't enabled"""
     default = False
 
 class enableMO(Toggle):
-    display_name = "enable mo-stages"
+    display_name = "include mo-stages"
     """include all the MO-stages from some events.
     this option won't do anything if ex-stages aren't enabled"""
     default = False
 
 class enableH(Toggle):
-    display_name = "enable h-stages"
+    display_name = "include h-stages"
     """include all the H-stages from the story."""
     default = False
 
 class enableStory(Toggle):
-    display_name = "enable story"
+    display_name = "include story"
     """reading all the story is also a check
     "you may NOT skip, but speeding is allowed"""
     default = False
 
 class enableFixed(Toggle):
-    display_name = "enable fixed squad operations"
+    display_name = "include fixed squad operations"
     """include stages where the squad is already chosen."""
     default = False
     
 class enableFullClear(Toggle):
-    display_name = "enable 3-star clears"
+    display_name = "include 3-star clears"
     """besides just beating the operation (possibly with leaks),
     "you also have to beat a operation without leaking"""
     default = False
@@ -165,13 +165,13 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["list_2_star"] = Enabled2Star  # This registers the yaml option as `listing_4_star`
     options["list_1_star"] = Enabled1Star  # This registers the yaml option as `listing_3_star`
     options["enabled_events"] = events
-    options["enable_EX_stages"] = enableEX
-    options["enable_S_stages"] = enableS
-    options["enable_MO_stages"] = enableMO
-    options["enable_H"] = enableH
-    options["enable_story"] = enableStory
-    options["enable_fixed"] = enableFixed
-    options["enable_3_star"] = enableFullClear
+    options["include_EX_stages"] = enableEX
+    options["include_S_stages"] = enableS
+    options["include_MO_stages"] = enableMO
+    options["include_H_stages"] = enableH
+    options["include_story"] = enableStory
+    options["include_fixed_squad"] = enableFixed
+    options["include_3_star"] = enableFullClear
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

@@ -140,18 +140,6 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
     # logging.info(included_chapters)
     # Remove unwanted champions from the item pool
     from ..Helpers import get_option_value
-    if "6 star" == item["name"] and get_option_value(multiworld, player, "include_6_stars") != 1:
-        return False
-    if "5 star" == item["name"] and get_option_value(multiworld, player, "include_5_stars") != 1:
-        return False
-    if "4 star" == item["name"] and get_option_value(multiworld, player, "include_4_stars") != 1:
-        return False
-    if "3 star" == item["name"] and get_option_value(multiworld, player, "include_3_stars") == 1:
-        return False
-    if "2 star" == item["name"] and get_option_value(multiworld, player, "include_2_stars") == 1:
-        return False
-    if "1 star" == item["name"] and get_option_value(multiworld, player, "include_1_stars") == 1:
-        return False
     from .World import included_chapters
     if "chapter 0" == item["category"] and "chapter 0" not in included_chapters:
         return False
@@ -258,6 +246,13 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
     if "Adventure That Cannot Wait for the Sun" == item["category"] and "Adventure That Cannot Wait for the Sun" not in included_chapters:
         return False
 
+    if "defeated bosses" == item["name"] and get_option_value(multiworld, player, "goal") not in (0, 1, 4, 5):
+        return False
+    if "beaten stage" == item["category"] and get_option_value(multiworld, player, "goal") != 2:
+        return False
+    if "OP hunt" == item["category"] and get_option_value(multiworld, player, "goal") != 3:
+        return False
+
     #remove the operator
     if "6 star" in item["category"]:
         if get_option_value(multiworld, player, "include_6_stars") != 0:
@@ -289,7 +284,20 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
             return False
         list_1_star = get_option_value(multiworld, player, "list_1_star")
         return item["name"] in list_1_star if get_option_value(multiworld, player, "black_or_whitelist") else not item["name"] in list_1_star
-    
+    if "progressive 6 star" == item["name"] and get_option_value(multiworld, player, "include_6_stars") != 1:
+        return False
+    if "progressive 5 star" == item["name"] and get_option_value(multiworld, player, "include_5_stars") != 1:
+        return False
+    if "progressive 4 star" == item["name"] and get_option_value(multiworld, player, "include_4_stars") != 1:
+        return False
+    if "progressive 3 star" == item["name"] and get_option_value(multiworld, player, "include_3_stars") != 1:
+        return False
+    if "progressive 2 star" == item["name"] and get_option_value(multiworld, player, "include_2_stars") != 1:
+        return False
+    if "progressive 1 star" == item["name"] and get_option_value(multiworld, player, "include_1_stars") != 1:
+        return False
+    if "Originium Prime" == item["name"] and get_option_value(multiworld, player, "goal") != 3:
+        return False
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled

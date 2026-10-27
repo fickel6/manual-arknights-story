@@ -1192,49 +1192,49 @@
   },
   {
     "name": "H5-1 clear",
-    "category": ["H operations", "H stage"],
+    "category": ["H-stage", "H stage"],
     "region": "chapter 5 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H5-1 3-star clear",
-    "category": ["H operations", "H stage"],
+    "category": ["H-stage", "H stage"],
     "region": "chapter 5 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H5-2 clear",
-    "category": ["H operations", "H stage"],
+    "category": ["H-stage", "H stage"],
     "region": "chapter 5 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H5-2 3-star clear",
-    "category": ["H operations", "H stage"],
+    "category": ["H-stage", "H stage"],
     "region": "chapter 5 H-stages",
     "requires": "|@block:2|"
   },
   {
     "name": "H5-3 clear",
-    "category": ["H operations", "H stage"],
+    "category": ["H-stage", "H stage"],
     "region": "chapter 5 H-stages",
     "requires": "|@block:2| AND |@medic:2|"
   },
   {
     "name": "H5-3 3-star clear",
-    "category": ["H operations", "H stage"],
+    "category": ["H-stage", "H stage"],
     "region": "chapter 5 H-stages",
     "requires": "|@block:2| AND |@medic:2|"
   },
   {
     "name": "H5-4 clear",
-    "category": ["H operations", "H stage", "last H stage"],
+    "category": ["H-stage", "H stage", "last H stage"],
     "region": "chapter 5 H-stages",
     "requires": "|@block:2| AND |@medic:1|"
   },
   {
     "name": "H5-4 3-star clear",
-    "category": ["H operations", "H stage"],
+    "category": ["H-stage", "H stage"],
     "region": "chapter 5 H-stages",
     "requires": "|@block:2| AND |@medic:1|"
   },

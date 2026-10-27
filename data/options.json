@@ -6,9 +6,8 @@
             "_comment": [
                 "Using 'goal' as the name of an option let you override some of the generated goal parameters"
             ],
-            "display_name": "The End Objective",
             "description": [
-                "How to End your Randomized playthrough."
+                "How to beat the Randomized playthrough."
         ],
             "aliases": {},
             "hidden": false
@@ -20,7 +19,7 @@
                 "when receiving death links, end your current operation."
             ]
         },
-        "filler_traps": {
+        "_filler_traps": {
             "description": [
                 "percentage of how many fillers will be replaced with traps.", 
                 "0 means no additional traps and 100 means all filler are traps"
@@ -396,34 +395,6 @@
                 "adverse environment are also included as 'challenge operations'."
             ],
             "group": "operations options"
-        },
-        "enable class traps": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "enable class traps. When receiving this trap, you must play 1 operation with only that class of operators. Doesn't matter if you win or lose the operation",
-                "this option enables traps for all eight classes."
-            ],
-            "group": "trap options"
-        },
-        "enable deployment traps": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "enable deployment traps.",
-                "When receiving this trap, you must play 1 operation 2 less deployment slots. Doesn't matter if you win or lose the operation, the trap will go away."
-            ],
-            "group": "trap options"
-        },
-        "enable squad traps": {
-            "type": "Toggle",
-            "default": true,
-            "description": [
-                "enable squad traps.",
-                "When receiving this trap, you must play 1 operation 2 less squad slots. Doesn't matter if you win or lose the operation, the trap will go away.",
-                "this option enables traps for all eight classes."
-            ],
-            "group": "trap options"
         }
     }
 }

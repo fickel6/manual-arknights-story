@@ -338,6 +338,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             amount_operators -= remove_amount(random_character)
         finally:
             possible_characters.remove(random_character)
+            
     return item_pool
 
     # Some other useful hook options:
@@ -507,6 +508,7 @@ def after_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, 
 
 # This is called right at the end, in case you want to write stuff to the spoiler log
 def before_write_spoiler(world: World, multiworld: MultiWorld, spoiler_handle) -> None:
+    #write the included chapters in the spoiler log. I'ts important to know what chapters are and what chapters aren't included
     pass
 
 # This is called when you want to add information to the hint text

@@ -4447,7 +4447,7 @@
     "category": [
       "character unlock"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "17",
@@ -4631,96 +4631,6 @@
       "chapter 16"
     ],
     "progression": true
-  },
-  {
-    "count": "1",
-    "name": "-2 deployment limit",
-    "category": [
-      "trap",
-      "deployment trap"
-    ],
-    "trap": true
-  },
-  {
-    "count": "1",
-    "name": "-2 squad size",
-    "category": [
-      "trap",
-      "squad trap"
-    ],
-    "trap": true
-  },
-  {
-    "count": "1",
-    "name": "vanguard only",
-    "category": [
-      "trap",
-      "class traps"
-    ],
-    "trap": true
-  },
-  {
-    "count": "1",
-    "name": "guards only",
-    "category": [
-      "trap",
-      "class traps"
-    ],
-    "trap": true
-  },
-  {
-    "count": "1",
-    "name": "casters only",
-    "category": [
-      "trap",
-      "class traps"
-    ],
-    "trap": true
-  },
-  {
-    "count": "1",
-    "name": "defenders only",
-    "category": [
-      "trap",
-      "class traps"
-    ],
-    "trap": true
-  },
-  {
-    "count": "1",
-    "name": "medics only",
-    "category": [
-      "trap",
-      "class traps"
-    ],
-    "trap": true
-  },
-  {
-    "count": "1",
-    "name": "snipers only",
-    "category": [
-      "trap",
-      "class traps"
-    ],
-    "trap": true
-  },
-  {
-    "count": "1",
-    "name": "supporters only",
-    "category": [
-      "trap",
-      "class traps"
-    ],
-    "trap": true
-  },
-  {
-    "count": "1",
-    "name": "specialist only",
-    "category": [
-      "trap",
-      "class traps"
-    ],
-    "trap": true
   },
   {
     "count": 5,
