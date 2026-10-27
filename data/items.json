@@ -4473,6 +4473,7 @@
     "name": "progressive chapter 0",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 0"
     ],
     "progression": true
@@ -4482,6 +4483,7 @@
     "name": "progressive chapter 1",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 1"
     ],
     "progression": true
@@ -4491,6 +4493,7 @@
     "name": "progressive chapter 2",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 2"
     ],
     "progression": true
@@ -4500,6 +4503,7 @@
     "name": "progressive chapter 3",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 3"
     ],
     "progression": true
@@ -4509,6 +4513,7 @@
     "name": "progressive chapter 4",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 4"
     ],
     "progression": true
@@ -4527,6 +4532,7 @@
     "name": "progressive chapter 6",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 6"
     ],
     "progression": true
@@ -4536,6 +4542,7 @@
     "name": "progressive chapter 7",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 7"
     ],
     "progression": true
@@ -4546,6 +4553,7 @@
     "name": "progressive chapter 8 past",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 8"
     ],
     "progression": true
@@ -4556,6 +4564,7 @@
     "name": "progressive chapter 8 present",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 8"
     ],
     "progression": true
@@ -4565,6 +4574,7 @@
     "name": "progressive chapter 9",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 9"
     ],
     "progression": true
@@ -4574,6 +4584,7 @@
     "name": "progressive chapter 10",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 10"
     ],
     "progression": true
@@ -4583,6 +4594,7 @@
     "name": "progressive chapter 11",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 11"
     ],
     "progression": true
@@ -4592,6 +4604,7 @@
     "name": "progressive chapter 12",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 12"
     ],
     "progression": true
@@ -4601,6 +4614,7 @@
     "name": "progressive chapter 13",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 13"
     ],
     "progression": true
@@ -4610,6 +4624,7 @@
     "name": "progressive chapter 14",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 14"
     ],
     "progression": true
@@ -4619,6 +4634,7 @@
     "name": "progressive chapter 15",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 15"
     ],
     "progression": true
@@ -4628,16 +4644,18 @@
     "name": "progressive chapter 16",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "chapter 16"
     ],
     "progression": true
   },
   {
     "count": 5,
-    "name": "progressive Darknights' memoir unlock",
+    "name": "progressive Darknights memoir unlock",
     "category": [
       "chapter unlock",
-      "Darknights' memoir"
+      "starting chapter unlock",
+      "Darknights memoir"
     ],
     "progression": true
   },
@@ -4646,6 +4664,7 @@
     "name": "progressive A Walk in the Dust unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "A Walk in the Dust"
     ],
     "progression": true
@@ -4655,6 +4674,7 @@
     "name": "progressive Babel unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Babel"
     ],
     "progression": true
@@ -4664,6 +4684,7 @@
     "name": "progressive Ending a Grand Overture unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Ending a Grand Overture"
     ],
     "progression": true
@@ -4673,6 +4694,7 @@
     "name": "progressive Guide Ahead unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Guide Ahead"
     ],
     "progression": true
@@ -4682,6 +4704,7 @@
     "name": "progressive Hortus de Escapismo unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Hortus de Escapismo"
     ],
     "progression": true
@@ -4691,6 +4714,7 @@
     "name": "progressive Break the Ice unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Break the Ice"
     ],
     "progression": true
@@ -4700,6 +4724,7 @@
     "name": "progressive The Rides to Lake Silberneherze unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "The Rides to Lake Silberneherze"
     ],
     "progression": true
@@ -4709,6 +4734,7 @@
     "name": "progressive Il Siracusan unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Il Siracusan"
     ],
     "progression": true
@@ -4718,6 +4744,7 @@
     "name": "progressive Maria Nearl unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Maria Nearl"
     ],
     "progression": true
@@ -4727,6 +4754,7 @@
     "name": "progressive Near Light unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Near Light"
     ],
     "progression": true
@@ -4736,6 +4764,7 @@
     "name": "progressive Who is Real unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Who is Real"
     ],
     "progression": true
@@ -4745,6 +4774,7 @@
     "name": "progressive Invitation to Wine unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Invitation to Wine"
     ],
     "progression": true
@@ -4754,6 +4784,7 @@
     "name": "progressive Where the Vernal Winds Will Never Blow unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Where the Vernal Winds Will Never Blow"
     ],
     "progression": true
@@ -4763,6 +4794,7 @@
     "name": "progressive Here a People Sows unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Here a People Sows"
     ],
     "progression": true
@@ -4772,6 +4804,7 @@
     "name": "progressive Such is the Joy of Our Reunion unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Such is the Joy of Our Reunion"
     ],
     "progression": true
@@ -4781,6 +4814,7 @@
     "name": "progressive Mansfield Break unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Mansfield Break"
     ],
     "progression": true
@@ -4790,6 +4824,7 @@
     "name": "progressive Dorothy's Vision unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Dorothy's Vision"
     ],
     "progression": true
@@ -4799,6 +4834,7 @@
     "name": "progressive Lonetrail unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Lonetrail"
     ],
     "progression": true
@@ -4808,6 +4844,7 @@
     "name": "progressive Grani And The Knights' Treasure unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Grani And The Knights' Treasure"
     ],
     "progression": true
@@ -4817,6 +4854,7 @@
     "name": "progressive Under Tides unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Under Tides"
     ],
     "progression": true
@@ -4826,6 +4864,7 @@
     "name": "progressive Stultifera Navis unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Stultifera Navis"
     ],
     "progression": true
@@ -4835,6 +4874,7 @@
     "name": "progressive Path of Life unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Path of Life"
     ],
     "progression": true
@@ -4844,6 +4884,7 @@
     "name": "progressive Exodus From the Pale Sea unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Exodus From the Pale Sea"
     ],
     "progression": true
@@ -4853,6 +4894,7 @@
     "name": "progressive Twilight of Wolumonde unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Twilight of Wolumonde"
     ],
     "progression": true
@@ -4862,6 +4904,7 @@
     "name": "progressive Lingering Echoes unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Lingering Echoes"
     ],
     "progression": true
@@ -4871,6 +4914,7 @@
     "name": "progressive Zwillingstürme im Herbst unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Zwillingstürme im Herbst"
     ],
     "progression": true
@@ -4880,7 +4924,8 @@
     "name": "progressive When the Fireflights Casts unlock",
     "category": [
       "chapter unlock",
-      "Babel"
+      "starting chapter unlock",
+      "When the Fireflights Casts"
     ],
     "progression": true
   },
@@ -4889,6 +4934,7 @@
     "name": "progressive When Elegies Are Ashes unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "When Elegies Are Ashes"
     ],
     "progression": true
@@ -4898,6 +4944,7 @@
     "name": "progressive Heart of Surging Flame unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Heart of Surging Flame"
     ],
     "progression": true
@@ -4907,7 +4954,8 @@
     "name": "progressive the Great Chief Returns unlock",
     "category": [
       "chapter unlock",
-      "Gavial the Great Chief Returns"
+      "starting chapter unlock",
+      "the Great Chief Returns"
     ],
     "progression": true
   },
@@ -4916,6 +4964,7 @@
     "name": "progressive Dossoles Holiday unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Dossoles Holiday"
     ],
     "progression": true
@@ -4925,6 +4974,7 @@
     "name": "progressive Ideal City unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Ideal City"
     ],
     "progression": true
@@ -4934,6 +4984,7 @@
     "name": "progressive So long Adele unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "So long Adele"
     ],
     "progression": true
@@ -4943,6 +4994,7 @@
     "name": "progressive Adventure That Cannot Wait for the Sun unlock",
     "category": [
       "chapter unlock",
+      "starting chapter unlock",
       "Adventure That Cannot Wait for the Sun"
     ],
     "progression": true

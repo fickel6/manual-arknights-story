@@ -260,6 +260,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    logging.info(multiworld.precollected_items)
     possible_characters = []
     possible_characters.extend(
         name for name, i in world.item_name_to_item.items() if "character" in i.get("category", [])
@@ -339,6 +340,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         finally:
             possible_characters.remove(random_character)
             
+    logging.info(multiworld.precollected_items)
     return item_pool
 
     # Some other useful hook options:

@@ -133,13 +133,13 @@
   },
   {
     "name": "1-1 clear",
-    "category": ["chapter 0"],
+    "category": ["chapter 1"],
     "region": "chapter 1 first part",
     "requires": "|@block:1|"
   },
   {
     "name": "1-1 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 first part",
     "requires": "|@block:1|"
   },
@@ -155,97 +155,97 @@
   },
   {
     "name": "1-3 clear",
-    "category": ["chapter 0"],
+    "category": ["chapter 1"],
     "region": "chapter 1 first part",
     "requires": "|@block:2|"
   },
   {
     "name": "1-3 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 first part",
     "requires": "|@block:2|"
   },
   {
     "name": "1-4 clear",
-    "category": ["chapter 0"],
+    "category": ["chapter 1"],
     "region": "chapter 1 first part",
     "requires": "|@block:3|"
   },
   {
     "name": "1-4 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 first part",
     "requires": "|@block:3|"
   },
   {
     "name": "1-5 clear",
-    "category": ["chapter 0"],
+    "category": ["chapter 1"],
     "region": "chapter 1 first part",
     "requires": "|@block:4|"
   },
   {
     "name": "1-5 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 first part",
     "requires": "|@block:4|"
   },
   {
     "name": "1-6 clear",
-    "category": ["chapter 0"],
+    "category": ["chapter 1"],
     "region": "chapter 1 second part",
     "requires": "|@block:1|"
   },
   {
     "name": "1-6 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 second part",
     "requires": "|@block:1|"
   },
   {
     "name": "1-7 clear",
-    "category": ["chapter 0"],
+    "category": ["chapter 1"],
     "region": "chapter 1 second part",
     "requires": ""
   },
   {
     "name": "1-7 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 second part",
     "requires": ""
   },
   {
     "name": "1-8 clear",
-    "category": ["chapter 0"],
+    "category": ["chapter 1"],
     "region": "chapter 1 second part",
     "requires": "|@character:5| AND |@block:2|"
   },
   {
     "name": "1-8 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 second part",
     "requires": "|@character:5| AND |@block:1|"
   },
   {
     "name": "1-9 clear",
-    "category": ["chapter 0"],
+    "category": ["chapter 1"],
     "region": "chapter 1 third part",
     "requires": ""
   },
   {
     "name": "1-9 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 third part",
     "requires": ""
   },
   {
     "name": "1-10 clear",
-    "category": ["chapter 0"],
+    "category": ["chapter 1"],
     "region": "chapter 1 third part",
     "requires": "|@block:2|"
   },
   {
     "name": "1-10 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 third part",
     "requires": "|@ranged:1| AND |@block:2|"
   },
@@ -267,7 +267,7 @@
   },
   {
     "name": "1-12 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 1", "3-stars"],
     "region": "chapter 1 third part",
     "requires": "|@character:7| AND |@ranged:3| AND |@block:1|"
   },
@@ -4484,205 +4484,205 @@
   {
     "name": "DM-1 clear",
     "category": ["The Ark", "Darknights memoir"],
-    "region": "Darknights' memoir first part",
+    "region": "Darknights memoir first part",
     "requires": ""
   },
   {
     "name": "DM-1 3-star clear",
     "category": ["The Ark", "Darknights memoir", "3-stars clear"],
-    "region": "Darknights' memoir first part",
+    "region": "Darknights memoir first part",
     "requires": ""
   },
   {
     "name": "DM-2 clear",
     "category": ["The Ark", "Darknights memoir"],
-    "region": "Darknights' memoir first part",
+    "region": "Darknights memoir first part",
     "requires": ""
   },
   {
     "name": "DM-2 3-star clear",
     "category": ["The Ark", "Darknights memoir", "3-stars clear"],
-    "region": "Darknights' memoir first part",
+    "region": "Darknights memoir first part",
     "requires": ""
   },
   {
     "name": "DM-3 clear",
     "category": ["The Ark", "Darknights memoir"],
-    "region": "Darknights' memoir first part",
+    "region": "Darknights memoir first part",
     "requires": ""
   },
   {
     "name": "DM-3 3-star clear",
     "category": ["The Ark", "Darknights memoir", "3-stars clear"],
-    "region": "Darknights' memoir first part",
+    "region": "Darknights memoir first part",
     "requires": ""
   },
   {
     "name": "DM-4 clear",
     "category": ["The Ark", "Darknights memoir"],
-    "region": "Darknights' memoir first part",
+    "region": "Darknights memoir first part",
     "requires": ""
   },
   {
     "name": "DM-4 3-star clear",
     "category": ["The Ark", "Darknights memoir", "3-stars clear"],
-    "region": "Darknights' memoir first part",
+    "region": "Darknights memoir first part",
     "requires": ""
   },
   {
     "name": "DM-5 clear",
     "category": ["The Ark", "Darknights memoir"],
-    "region": "Darknights' memoir second part",
+    "region": "Darknights memoir second part",
     "requires": ""
   },
   {
     "name": "DM-5 3-star clear",
     "category": ["The Ark", "Darknights memoir", "3-stars clear"],
-    "region": "Darknights' memoir second part",
+    "region": "Darknights memoir second part",
     "requires": ""
   },
   {
     "name": "DM-6 clear",
     "category": ["The Ark", "Darknights memoir"],
-    "region": "Darknights' memoir second part",
+    "region": "Darknights memoir second part",
     "requires": ""
   },
   {
     "name": "DM-6 3-star clear",
     "category": ["The Ark", "Darknights memoir", "3-stars clear"],
-    "region": "Darknights' memoir second part",
+    "region": "Darknights memoir second part",
     "requires": ""
   },
   {
     "name": "DM-7 clear",
     "category": ["The Ark", "Darknights memoir"],
-    "region": "Darknights' memoir second part",
+    "region": "Darknights memoir second part",
     "requires": ""
   },
   {
     "name": "DM-7 3-star clear",
     "category": ["The Ark", "Darknights memoir", "3-stars clear"],
-    "region": "Darknights' memoir second part",
+    "region": "Darknights memoir second part",
     "requires": ""
   },
   {
     "name": "DM-8 clear",
     "category": ["The Ark", "Darknights memoir"],
-    "region": "Darknights' memoir second part",
+    "region": "Darknights memoir second part",
     "requires": ""
   },
   {
     "name": "DM-8 3-star clear",
     "category": ["The Ark", "Darknights memoir", "3-stars clear"],
-    "region": "Darknights' memoir second part",
+    "region": "Darknights memoir second part",
     "requires": ""
   },
   {
     "name": "DM-EX-1 clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
-    "region": "Darknights' memoir third part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage"],
+    "region": "Darknights memoir third part",
     "requires": ""
   },
   {
     "name": "DM-EX-1 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
-    "region": "Darknights' memoir third part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage", "3-stars clear"],
+    "region": "Darknights memoir third part",
     "requires": ""
   },
   {
     "name": "DM-EX-2 clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
-    "region": "Darknights' memoir third part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage"],
+    "region": "Darknights memoir third part",
     "requires": ""
   },
   {
     "name": "DM-EX-2 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
-    "region": "Darknights' memoir third part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage", "3-stars clear"],
+    "region": "Darknights memoir third part",
     "requires": ""
   },
   {
     "name": "DM-EX-3 clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
-    "region": "Darknights' memoir third part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage"],
+    "region": "Darknights memoir third part",
     "requires": ""
   },
   {
     "name": "DM-EX-3 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
-    "region": "Darknights' memoir third part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage", "3-stars clear"],
+    "region": "Darknights memoir third part",
     "requires": ""
   },
   {
     "name": "DM-EX-4 clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
-    "region": "Darknights' memoir third part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage"],
+    "region": "Darknights memoir third part",
     "requires": ""
   },
   {
     "name": "DM-EX-4 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
-    "region": "Darknights' memoir third part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage", "3-stars clear"],
+    "region": "Darknights memoir third part",
     "requires": ""
   },
   {
     "name": "DM-EX-5 clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
-    "region": "Darknights' memoir fourth part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage"],
+    "region": "Darknights memoir fourth part",
     "requires": ""
   },
   {
     "name": "DM-EX-5 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
-    "region": "Darknights' memoir fourth part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage", "3-stars clear"],
+    "region": "Darknights memoir fourth part",
     "requires": ""
   },
   {
     "name": "DM-EX-6 clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
-    "region": "Darknights' memoir fourth part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage"],
+    "region": "Darknights memoir fourth part",
     "requires": ""
   },
   {
     "name": "DM-EX-6 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
-    "region": "Darknights' memoir fourth part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage", "3-stars clear"],
+    "region": "Darknights memoir fourth part",
     "requires": ""
   },
   {
     "name": "DM-EX-7 clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
-    "region": "Darknights' memoir fourth part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage"],
+    "region": "Darknights memoir fourth part",
     "requires": ""
   },
   {
     "name": "DM-EX-7 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
-    "region": "Darknights' memoir fourth part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage", "3-stars clear"],
+    "region": "Darknights memoir fourth part",
     "requires": ""
   },
   {
     "name": "DM-EX-8 clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages"],
-    "region": "Darknights' memoir fourth part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage"],
+    "region": "Darknights memoir fourth part",
     "requires": "|@6 star:1|"
   },
   {
     "name": "DM-EX-8 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stages", "3-stars clear"],
-    "region": "Darknights' memoir fourth part",
+    "category": ["The Ark", "Darknights memoir", "ex-stage", "3-stars clear"],
+    "region": "Darknights memoir fourth part",
     "requires": "|@6 star:1|"
   },
   {
     "name": "DM-MO-1 clear",
-    "category": ["The Ark", "Darknights memoir", "mo-stages"],
-    "region": "Darknights' memoir fifth part",
+    "category": ["The Ark", "Darknights memoir", "mo-stage"],
+    "region": "Darknights memoir fifth part",
     "requires": "|@vanguard:1|"
   },
   {
     "name": "DM-MO-1 3-star clear",
-    "category": ["The Ark", "Darknights memoir", "mo-stages", "3-stars clear"],
-    "region": "Darknights' memoir fifth part",
+    "category": ["The Ark", "Darknights memoir", "mo-stage", "3-stars clear"],
+    "region": "Darknights memoir fifth part",
     "requires": "|@vanguard:1|"
   },
   {
@@ -7555,97 +7555,97 @@
   },
   {
     "name": "WB-EX-1 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage"],
     "region": "Where the Vernal Winds Will Never Blow third part",
     "requires": ""
   },
   {
     "name": "WB-EX-1 3-star clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage", "3-stars clear"],
     "region": "Where the Vernal Winds Will Never Blow third part",
     "requires": ""
   },
   {
     "name": "WB-EX-2 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage"],
     "region": "Where the Vernal Winds Will Never Blow third part",
     "requires": ""
   },
   {
     "name": "WB-EX-2 3-star clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage", "3-stars clear"],
     "region": "Where the Vernal Winds Will Never Blow third part",
     "requires": ""
   },
   {
     "name": "WB-EX-3 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage"],
     "region": "Where the Vernal Winds Will Never Blow third part",
     "requires": ""
   },
   {
     "name": "WB-EX-3 3-star clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage", "3-stars clear"],
     "region": "Where the Vernal Winds Will Never Blow third part",
     "requires": ""
   },
   {
     "name": "WB-EX-4 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage"],
     "region": "Where the Vernal Winds Will Never Blow third part",
     "requires": ""
   },
   {
     "name": "WB-EX-4 3-star clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage", "3-stars clear"],
     "region": "Where the Vernal Winds Will Never Blow third part",
     "requires": ""
   },
   {
     "name": "WB-EX-5 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage"],
     "region": "Where the Vernal Winds Will Never Blow fourth part",
     "requires": ""
   },
   {
     "name": "WB-EX-5 3-star clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage", "3-stars clear"],
     "region": "Where the Vernal Winds Will Never Blow fourth part",
     "requires": ""
   },
   {
     "name": "WB-EX-6 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage"],
     "region": "Where the Vernal Winds Will Never Blow fourth part",
     "requires": ""
   },
   {
     "name": "WB-EX-6 3-star clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage", "3-stars clear"],
     "region": "Where the Vernal Winds Will Never Blow fourth part",
     "requires": ""
   },
   {
     "name": "WB-EX-7 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage"],
     "region": "Where the Vernal Winds Will Never Blow fourth part",
     "requires": ""
   },
   {
     "name": "WB-EX-7 3-star clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage", "3-stars clear"],
     "region": "Where the Vernal Winds Will Never Blow fourth part",
     "requires": ""
   },
   {
     "name": "WB-EX-8 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage"],
     "region": "Where the Vernal Winds Will Never Blow fourth part",
     "requires": ""
   },
   {
     "name": "WB-EX-8 3-star clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage", "3-stars clear"],
     "region": "Where the Vernal Winds Will Never Blow fourth part",
     "requires": ""
   },
@@ -7777,157 +7777,157 @@
   },
   {
     "name": "HS-EX-1 clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage"],
     "region": "Here a People Sows third part",
     "requires": ""
   },
   {
     "name": "HS-EX-1 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage", "3-stars clear"],
     "region": "Here a People Sows third part",
     "requires": ""
   },
   {
     "name": "HS-EX-2 clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage"],
     "region": "Here a People Sows third part",
     "requires": ""
   },
   {
     "name": "HS-EX-2 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage", "3-stars clear"],
     "region": "Here a People Sows third part",
     "requires": ""
   },
   {
     "name": "HS-EX-3 clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage"],
     "region": "Here a People Sows third part",
     "requires": ""
   },
   {
     "name": "HS-EX-3 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage", "3-stars clear"],
     "region": "Here a People Sows third part",
     "requires": ""
   },
   {
     "name": "HS-EX-4 clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage"],
     "region": "Here a People Sows third part",
     "requires": ""
   },
   {
     "name": "HS-EX-4 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage", "3-stars clear"],
     "region": "Here a People Sows third part",
     "requires": ""
   },
   {
     "name": "HS-EX-5 clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage"],
     "region": "Here a People Sows fourth part",
     "requires": ""
   },
   {
     "name": "HS-EX-5 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage", "3-stars clear"],
     "region": "Here a People Sows fourth part",
     "requires": ""
   },
   {
     "name": "HS-EX-6 clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage"],
     "region": "Here a People Sows fourth part",
     "requires": ""
   },
   {
     "name": "HS-EX-6 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage", "3-stars clear"],
     "region": "Here a People Sows fourth part",
     "requires": ""
   },
   {
     "name": "HS-EX-7 clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage"],
     "region": "Here a People Sows fourth part",
     "requires": ""
   },
   {
     "name": "HS-EX-7 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage", "3-stars clear"],
     "region": "Here a People Sows fourth part",
     "requires": ""
   },
   {
     "name": "HS-EX-8 clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage"],
     "region": "Here a People Sows fourth part",
     "requires": ""
   },
   {
     "name": "HS-EX-8 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage", "3-stars clear"],
     "region": "Here a People Sows fourth part",
     "requires": ""
   },
   {
     "name": "HS-S-1 clear",
-    "category": ["Through the Ages", "Here a People Sows", "s-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stage"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
   {
     "name": "HS-S-1 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "s-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stage", "3-stars clear"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
   {
     "name": "HS-S-2 clear",
-    "category": ["Through the Ages", "Here a People Sows", "s-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stage"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
   {
     "name": "HS-S-2 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "s-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stage", "3-stars clear"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
   {
     "name": "HS-S-3 clear",
-    "category": ["Through the Ages", "Here a People Sows", "s-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stage"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
   {
     "name": "HS-S-3 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "s-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stage", "3-stars clear"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
   {
     "name": "HS-S-4 clear",
-    "category": ["Through the Ages", "Here a People Sows", "s-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stage"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
   {
     "name": "HS-S-4 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "s-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stage", "3-stars clear"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
   {
     "name": "HS-MO-1 clear",
-    "category": ["Through the Ages", "Here a People Sows", "mo-stages"],
+    "category": ["Through the Ages", "Here a People Sows", "mo-stage"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
   {
     "name": "HS-MO-1 3-star clear",
-    "category": ["Through the Ages", "Here a People Sows", "mo-stages", "3-stars clear"],
+    "category": ["Through the Ages", "Here a People Sows", "mo-stage", "3-stars clear"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
@@ -10460,97 +10460,97 @@
   },
   {
     "name": "LE-EX-1 clear",
-    "category": ["Spire Mirages", "Lingering Echoes"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage"],
     "region": "Lingering Echoes third part",
     "requires": ""
   },
   {
     "name": "LE-EX-1 3-star clear",
-    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage", "3-stars clear"],
     "region": "Lingering Echoes third part",
     "requires": ""
   },
   {
     "name": "LE-EX-2 clear",
-    "category": ["Spire Mirages", "Lingering Echoes"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage"],
     "region": "Lingering Echoes third part",
     "requires": ""
   },
   {
     "name": "LE-EX-2 3-star clear",
-    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage", "3-stars clear"],
     "region": "Lingering Echoes third part",
     "requires": ""
   },
   {
     "name": "LE-EX-3 clear",
-    "category": ["Spire Mirages", "Lingering Echoes"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage"],
     "region": "Lingering Echoes third part",
     "requires": ""
   },
   {
     "name": "LE-EX-3 3-star clear",
-    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage", "3-stars clear"],
     "region": "Lingering Echoes third part",
     "requires": ""
   },
   {
     "name": "LE-EX-4 clear",
-    "category": ["Spire Mirages", "Lingering Echoes"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage"],
     "region": "Lingering Echoes third part",
     "requires": ""
   },
   {
     "name": "LE-EX-4 3-star clear",
-    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage", "3-stars clear"],
     "region": "Lingering Echoes third part",
     "requires": ""
   },
   {
     "name": "LE-EX-5 clear",
-    "category": ["Spire Mirages", "Lingering Echoes"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage"],
     "region": "Lingering Echoes fourth part",
     "requires": ""
   },
   {
     "name": "LE-EX-5 3-star clear",
-    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage", "3-stars clear"],
     "region": "Lingering Echoes fourth part",
     "requires": ""
   },
   {
     "name": "LE-EX-6 clear",
-    "category": ["Spire Mirages", "Lingering Echoes"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage"],
     "region": "Lingering Echoes fourth part",
     "requires": ""
   },
   {
     "name": "LE-EX-6 3-star clear",
-    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage", "3-stars clear"],
     "region": "Lingering Echoes fourth part",
     "requires": ""
   },
   {
     "name": "LE-EX-7 clear",
-    "category": ["Spire Mirages", "Lingering Echoes"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage"],
     "region": "Lingering Echoes fourth part",
     "requires": ""
   },
   {
     "name": "LE-EX-7 3-star clear",
-    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage", "3-stars clear"],
     "region": "Lingering Echoes fourth part",
     "requires": ""
   },
   {
     "name": "LE-EX-8 clear",
-    "category": ["Spire Mirages", "Lingering Echoes"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage"],
     "region": "Lingering Echoes fourth part",
     "requires": ""
   },
   {
     "name": "LE-EX-8 3-star clear",
-    "category": ["Spire Mirages", "Lingering Echoes", "3-stars clear"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage", "3-stars clear"],
     "region": "Lingering Echoes fourth part",
     "requires": ""
   },

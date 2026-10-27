@@ -7,110 +7,163 @@ import logging
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
     from .World import included_chapters
+    
     #seems like this function is only called for the locations. 
     if category_name == "chapter 0" and "chapter 0" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 1" and "chapter 1" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 2" and "chapter 2" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 3" and "chapter 3" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 4" and "chapter 4" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 5" and "chapter 5" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 6" and "chapter 6" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 7" and "chapter 7" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 8" and "chapter 8" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 9" and "chapter 9" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 10" and "chapter 10" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 11" and "chapter 11" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 12" and "chapter 12" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 13" and "chapter 13" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 14" and "chapter 14" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 15" and "chapter 15" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 16" and "chapter 16" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
-    if category_name == "Darknights' memoir" and "Darknights' memoir" not in included_chapters:
+    if category_name == "Darknights memoir" and "Darknights memoir" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "A Walk in the Dust" and "A Walk in the Dust" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Babel" and "Babel" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Ending a Grand Overture" and "Ending a Grand Overture" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Guide Ahead" and "Guide Ahead" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Hortus de Escapismo" and "Hortus de Escapismo" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Break the Ice" and "Break the Ice" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "The Rides to Lake Silberneherze" and "The Rides to Lake Silberneherze" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Il Siracusan" and "Il Siracusan" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Maria Nearl" and "Maria Nearl" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Near Light" and "Near Light" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Who is Real" and "Who is Real" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Invitation to Wine" and "Invitation to Wine" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Where the Vernal Winds Will Never Blow" and "Where the Vernal Winds Will Never Blow" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Here a People Sows" and "Here a People Sows" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Such is the Joy of Our Reunion" and "Such is the Joy of Our Reunion" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Mansfield Break" and "Mansfield Break" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Dorothy's Vision" and "Dorothy's Vision" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Lonetrail" and "Lonetrail" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Grani And The Knights' Treasure" and "Grani And The Knights' Treasure" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Under Tides" and "Under Tides" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Stultifera Navis" and "Stultifera Navis" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Path of Life" and "Path of Life" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Exodus From the Pale Sea" and "Exodus From the Pale Sea" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Twilight of Wolumonde" and "Twilight of Wolumonde" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Lingering Echoes" and "Lingering Echoes" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Zwillingstürme im Herbst" and "Zwillingstürme im Herbst" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "When the Fireflights Casts" and "When the Fireflights Casts" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "When Elegies Are Ashes" and "When Elegies Are Ashes" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Heart of Surging Flame" and "Heart of Surging Flame" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Gavial the Great Chief Returns" and "Gavial the Great Chief Returns" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Dossoles Holiday" and "Dossoles Holiday" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Ideal City" and "Ideal City" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "So long Adele" and "So long Adele" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     if category_name == "Adventure That Cannot Wait for the Sun" and "Adventure That Cannot Wait for the Sun" not in included_chapters:
+        logging.info(f"{category_name} is being removed")
         return False
     # items can't be removed from this hook
     # if "6 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
@@ -175,7 +228,7 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
         return False
     if "chapter 16" == item["category"] and "chapter 16" not in included_chapters:
         return False
-    if "Darknights' memoir"  == item["category"]and "Darknights' memoir" not in included_chapters:
+    if "Darknights memoir"  == item["category"]and "Darknights memoir" not in included_chapters:
         return False
     if "A Walk in the Dust" == item["category"] and "A Walk in the Dust" not in included_chapters:
         return False

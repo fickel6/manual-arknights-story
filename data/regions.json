@@ -431,33 +431,33 @@
     }
   },
   "chapter 16 H-stages": {},
-  "Darknights' memoir first part": {
+  "Darknights memoir first part": {
     "starting": true,
-    "requires": "|progressive Darknights' memoir unlock|",
-    "connects_to": ["Darknights' memoir second part"],
+    "requires": "|progressive Darknights memoir unlock|",
+    "connects_to": ["Darknights memoir second part"],
     "exit_requires": {
-      "Darknights' memoir second part": "|progressive Darknights' memoir unlock:2|"
+      "Darknights memoir second part": "|progressive Darknights memoir unlock:2|"
     }
   },
-  "Darknights' memoir second part": {
-    "connects_to": ["Darknights' memoir third part"],
+  "Darknights memoir second part": {
+    "connects_to": ["Darknights memoir third part"],
     "exit_requires": {
-      "Darknights' memoir third part": "|progressive Darknights' memoir unlock:3|"
+      "Darknights memoir third part": "|progressive Darknights memoir unlock:3|"
     }
   },
-  "Darknights' memoir third part": {
-    "connects_to": ["Darknights' memoir fourth part"],
+  "Darknights memoir third part": {
+    "connects_to": ["Darknights memoir fourth part"],
     "exit_requires": {
-      "Darknights' memoir fourth part": "|progressive Darknights' memoir unlock:4|"
+      "Darknights memoir fourth part": "|progressive Darknights memoir unlock:4|"
     }
   },
-  "Darknights' memoir fourth part": {
-    "connects_to": ["Darknights' memoir fifth part"],
+  "Darknights memoir fourth part": {
+    "connects_to": ["Darknights memoir fifth part"],
     "exit_requires": {
-      "Darknights' memoir fifth part": "|progressive Darknights' memoir unlock:5|"
+      "Darknights memoir fifth part": "|progressive Darknights memoir unlock:5|"
     }
   },
-  "Darknights' memoir fifth part": {},
+  "Darknights memoir fifth part": {},
   "A Walk in the Dust first part": {
     "starting": true,
     "requires": "|progressive A Walk in the Dust unlock|",
