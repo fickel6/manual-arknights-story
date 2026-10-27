@@ -51,7 +51,7 @@ class events(OptionSet):
         "Darknights' memoir", "A Walk in the Dust", "Babel", "Ending a Grand Overture", 
         "Guide Ahead", "Hortus de Escapismo", 
         "Break the Ice", "The Rides to Lake Silberneherze", 
-        "Il Siracusan", 
+        "Il Siracusan", "I Portatori Dei Velluti",
         "Maria Nearl", "Near Light", 
         "Who is Real", "Invitation to Wine", "Where the Vernal Winds Will Never Blow", "Here a People Sows", "Such is the Joy of Our Reunion",
         "Mansfield Break", "Dorothy's Vision", "Lonetrail",

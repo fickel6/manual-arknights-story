@@ -56,7 +56,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         100: "Darknights' memoir", 101: "A Walk in the Dust", 102:"Babel", 103:"Ending a Grand Overture", 
         150:"Guide Ahead", 151:"Hortus de Escapismo", 
         200:"Break the Ice", 201:"The Rides to Lake Silberneherze", 
-        250:"Il Siracusan", 
+        250:"Il Siracusan", 251: "I Portatori Dei Velluti",
         300:"Maria Nearl", 301:"Near Light", 
         350:"Who is Real", 351:"Invitation to Wine", 352:"Where the Vernal Winds Will Never Blow", 353:"Here a People Sows", 354:"Such is the Joy of Our Reunion",
         400:"Mansfield Break", 401:"Dorothy's Vision", 402:"Lonetrail",
@@ -130,6 +130,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
                     included_chapters.remove("The Rides to Lake Silberneherze")
                 case "Il Siracusan":
                     included_chapters.remove("Il Siracusan")
+                case "I Portatori Dei Velluti":
+                    included_chapters.remove("I Portatori Dei Velluti")
                 case "Maria Nearl":
                     included_chapters.remove("Maria Nearl")
                 case "Near Light":
@@ -260,7 +262,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    logging.info(multiworld.precollected_items)
     possible_characters = []
     possible_characters.extend(
         name for name, i in world.item_name_to_item.items() if "character" in i.get("category", [])
@@ -340,7 +341,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         finally:
             possible_characters.remove(random_character)
             
-    logging.info(multiworld.precollected_items)
+    # logging.info(multiworld.precollected_items)
     return item_pool
 
     # Some other useful hook options:
@@ -432,6 +433,78 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                     boss_locations.append("15-20 clear")
                 case 16:
                     boss_locations.append("16-16 clear")
+                case 100:
+                    boss_locations.append("DM-8 clear")
+                case 101:
+                    boss_locations.append("WD-8 clear")
+                case 102:
+                    boss_locations.append("BB-10 clear")
+                case 103:
+                    boss_locations.append("GO-9 clear")
+                case 150:
+                    boss_locations.append("GA-8 clear")
+                case 151:
+                    boss_locations.append("HE-8 clear")
+                case 200:
+                    boss_locations.append("BI-8 clear")
+                case 201:
+                    boss_locations.append("RS-8 clear")
+                case 250:
+                    boss_locations.append("IS-10 clear")
+                case 251:
+                    boss_locations.append("PV-10 clear")
+                case 300:
+                    boss_locations.append("MN-8 clear")
+                case 301:
+                    boss_locations.append("NL-10 clear")
+                case 350:
+                    boss_locations.append("WR-10 clear")
+                case 351:
+                    boss_locations.append("IW-9 clear")
+                case 352:
+                    boss_locations.append("WB-9 clear")
+                case 353:
+                    boss_locations.append("HS-9 clear")
+                case 354:
+                    boss_locations.append("OR-9 clear")
+                case 400:
+                    boss_locations.append("MB-8 clear")
+                case 401:
+                    boss_locations.append("DV-8 clear")
+                case 402:
+                    boss_locations.append("CW-10 clear")
+                case 450:
+                    boss_locations.append("GT-6 clear")
+                case 451:
+                    boss_locations.append("SV-9 clear")
+                case 452:
+                    boss_locations.append("SN-10 clear")
+                case 453:
+                    boss_locations.append("BP-8 clear")
+                case 454:
+                    boss_locations.append("EP-8 clear")
+                case 500:
+                    boss_locations.append("TW-8 clear")
+                case 501:
+                    boss_locations.append("LE-8 clear")
+                case 502:
+                    boss_locations.append("ZT-10 clear")
+                case 550:
+                    boss_locations.append("FC-8 clear")
+                case 551:
+                    boss_locations.append("EA-8 clear")
+                case 600:
+                    boss_locations.append("OF-8 clear")
+                case 601:
+                    boss_locations.append("RI-8 clear")
+                case 602:
+                    boss_locations.append("DH-9 clear")
+                case 603:
+                    boss_locations.append("IC-9 clear")
+                case 604:
+                    boss_locations.append("SL-8 clear")
+                case 605:
+                    boss_locations.append("AS-9 clear")
         case "H-stages cleared":
             match world.options.H_stage_clear.value:
                 case 0:
@@ -463,10 +536,109 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
         case "collect OP":
             #no need to force place items in collect runs. only needs to remove items, which is done in a different hook (before_create_items_filler)
             return
-
+        case "EX-stage cleared":
+            match world.options.ex_stage_clear.value:
+                case 100:
+                    boss_locations.append("DM-EX-8 clear")
+                case 101:
+                    boss_locations.append("WD-EX-8 clear")
+                case 102:
+                    boss_locations.append("BB-EX-8 clear")
+                case 103:
+                    boss_locations.append("GO-EX-8 clear")
+                case 150:
+                    boss_locations.append("GA-EX-8 clear")
+                case 151:
+                    boss_locations.append("HE-EX-8 clear")
+                case 200:
+                    boss_locations.append("BI-EX-8 clear")
+                case 201:
+                    boss_locations.append("RS-EX-8 clear")
+                case 250:
+                    boss_locations.append("IS-EX-8 clear")
+                case 251:
+                    boss_locations.append("PV-EX-8 clear")
+                case 300:
+                    boss_locations.append("MN-EX-8 clear")
+                case 301:
+                    boss_locations.append("NL-EX-8 clear")
+                case 350:
+                    boss_locations.append("WR-EX-8 clear")
+                case 351:
+                    boss_locations.append("IW-EX-8 clear")
+                case 352:
+                    boss_locations.append("WB-EX-8 clear")
+                case 353:
+                    boss_locations.append("HS-EX-8 clear")
+                case 354:
+                    boss_locations.append("OR-EX-8 clear")
+                case 400:
+                    boss_locations.append("MB-EX-8 clear")
+                case 401:
+                    boss_locations.append("DV-EX-8 clear")
+                case 402:
+                    boss_locations.append("CW-EX-8 clear")
+                case 450:
+                    boss_locations.append("GT-HX-3 clear")
+                case 451:
+                    boss_locations.append("SV-EX-8 clear")
+                case 452:
+                    boss_locations.append("SN-EX-8 clear")
+                case 453:
+                    boss_locations.append("BP-EX-8 clear")
+                case 454:
+                    boss_locations.append("EP-EX-8 clear")
+                case 500:
+                    boss_locations.append("TW-EX-8 clear")
+                case 501:
+                    boss_locations.append("LE-EX-8 clear")
+                case 502:
+                    boss_locations.append("ZT-EX-8 clear")
+                case 550:
+                    boss_locations.append("FC-EX-8 clear")
+                case 551:
+                    boss_locations.append("EA-EX-8 clear")
+                case 600:
+                    boss_locations.append("OF-EX-8 clear")
+                case 601:
+                    boss_locations.append("RI-EX-8 clear")
+                case 602:
+                    boss_locations.append("DH-EX-8 clear")
+                case 603:
+                    boss_locations.append("IC-EX-8 clear")
+                case 604:
+                    boss_locations.append("SL-EX-8 clear")
+                case 605:
+                    boss_locations.append("AS-EX-8 clear")
+        case "S-stage cleared":
+            match world.options.ex_stage_clear.value:
+                case 102:
+                    boss_locations.append("BB-S-4 clear")
+                case 250:
+                    boss_locations.append("IS-S-5 clear")
+                case 251:
+                    boss_locations.append("PV-S-5 clear")
+                case 301:
+                    boss_locations.append("NL-S-5 clear")
+                case 353:
+                    boss_locations.append("HS-S-4 clear")
+                case 354:
+                    boss_locations.append("OR-S-4 clear")
+                case 402:
+                    boss_locations.append("CW-S-4 clear")
+                case 502:
+                    boss_locations.append("ZT-S-5 clear")
+                case 602:
+                    boss_locations.append("DH-S-4 clear")
+                case 603:
+                    boss_locations.append("IC-S-4 clear")
+                case 604:
+                    boss_locations.append("SL-S-5 clear")
+                case 605:
+                    boss_locations.append("AS-S-4 clear")
     # print("boss locations: [%s]" % ", ".join(boss_locations))
     #Force place the 'defeated boss' or 'stage clear' in the boss_locations just found.
-    if victory_name in ("H-stages cleared", "boss chapter cleared"):
+    if victory_name in ("H-stages cleared", "boss chapter cleared", "event cleared", "EX-stage cleared", "S-stage cleared"):
         #there will always be only one stage here, so we don't have to call random.choice
         placed_item = next(i for i in multiworld.get_items() if i.player == player and "beaten stage" == i.name)
         placed_location = multiworld.get_location(boss_locations[0], player)

@@ -4567,7 +4567,7 @@
   },
   {
     "name": "DM-8 clear",
-    "category": ["The Ark", "Darknights memoir"],
+    "category": ["The Ark", "Darknights memoir", "boss stage"],
     "region": "Darknights memoir second part",
     "requires": ""
   },
@@ -4663,7 +4663,7 @@
   },
   {
     "name": "DM-EX-8 clear",
-    "category": ["The Ark", "Darknights memoir", "ex-stage"],
+    "category": ["The Ark", "Darknights memoir", "ex-stage", "boss stage"],
     "region": "Darknights memoir fourth part",
     "requires": "|@6 star:1|"
   },
@@ -4771,7 +4771,7 @@
   },
   {
     "name": "WD-8 clear",
-    "category": ["The Ark", "A Walk in the Dust"],
+    "category": ["The Ark", "A Walk in the Dust", "boss stage"],
     "region": "A Walk in the Dust second part",
     "requires": "|@6 star:1|"
   },
@@ -4987,7 +4987,7 @@
   },
   {
     "name": "BB-10 clear",
-    "category": ["The Ark", "Babel"],
+    "category": ["The Ark", "Babel", "boss stage"],
     "region": "Babel second part",
     "requires": "|@6 star:1|"
   },
@@ -5143,7 +5143,7 @@
   },
   {
     "name": "BB-S-4 clear",
-    "category": ["The Ark", "Babel", "s-stage"],
+    "category": ["The Ark", "Babel", "s-stage", "boss stage"],
     "region": "Babel fifth part",
     "requires": ""
   },
@@ -5251,7 +5251,7 @@
   },
   {
     "name": "GO-9 clear",
-    "category": ["The Ark", "Ending a Grand Overture"],
+    "category": ["The Ark", "Ending a Grand Overture", "boss stage"],
     "region": "Ending a Grand Overture second part",
     "requires": "|@6 star:1|"
   },
@@ -5443,7 +5443,7 @@
   },
   {
     "name": "GA-8 clear",
-    "category": ["The Blessed", "Guide Ahead"],
+    "category": ["The Blessed", "Guide Ahead", "boss stage"],
     "region": "Guide Ahead second part",
     "requires": ""
   },
@@ -5539,7 +5539,7 @@
   },
   {
     "name": "GA-EX-8 clear",
-    "category": ["The Blessed", "Guide Ahead", "ex-stage"],
+    "category": ["The Blessed", "Guide Ahead", "ex-stage", "boss stage"],
     "region": "Guide Ahead fourth part",
     "requires": ""
   },
@@ -5635,7 +5635,7 @@
   },
   {
     "name": "HE-8 clear",
-    "category": ["The Blessed", "Hortus de Escapismo"],
+    "category": ["The Blessed", "Hortus de Escapismo", "boss stage"],
     "region": "Hortus de Escapismo second part",
     "requires": ""
   },
@@ -5749,7 +5749,7 @@
   },
   {
     "name": "HE-EX-8 clear",
-    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage"],
+    "category": ["The Blessed", "Hortus de Escapismo", "ex-stage", "boss stage"],
     "region": "Hortus de Escapismo fourth part",
     "requires": ""
   },
@@ -5845,7 +5845,7 @@
   },
   {
     "name": "BI-8 clear",
-    "category": ["Snow and silver Steel", "Break the Ice"],
+    "category": ["Snow and silver Steel", "Break the Ice", "boss stage"],
     "region": "Break the Ice second part",
     "requires": ""
   },
@@ -5941,7 +5941,7 @@
   },
   {
     "name": "BI-EX-8 clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "boss stage"],
     "region": "Break the Ice fourth part",
     "requires": ""
   },
@@ -6049,7 +6049,7 @@
   },
   {
     "name": "RS-8 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "boss stage"],
     "region": "The Rides to Lake Silberneherze second part",
     "requires": "|@6 star|"
   },
@@ -6151,7 +6151,7 @@
   },
   {
     "name": "RS-EX-8 clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "boss stage"],
     "region": "The Rides to Lake Silberneherze fourth part",
     "requires": "|@6 star|"
   },
@@ -6271,7 +6271,7 @@
   },
   {
     "name": "IL-10 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "boss stage"],
     "region": "Il Siracusan second part",
     "requires": "|@6 star|"
   },
@@ -6391,7 +6391,7 @@
   },
   {
     "name": "IL-EX-8 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "boss stage"],
     "region": "Il Siracusan fourth part",
     "requires": "|@6 star|"
   },
@@ -6451,7 +6451,7 @@
   },
   {
     "name": "IL-S-5 clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "boss stage"],
     "region": "Il Siracusan fifth part",
     "requires": ""
   },
@@ -6459,6 +6459,306 @@
     "name": "IL-S-5 3-star clear",
     "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
     "region": "Il Siracusan fifth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-1 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-1 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-2 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-2 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-3 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-3 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-4 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-4 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-5 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-5 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-6 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-6 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-7 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-7 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-8 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-8 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-9 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-9 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-10 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "boss stage"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-10 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-ST-1 read",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "reading"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-ST-2 read",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "read"],
+    "region": "I Portatori Dei Velluti first part",
+    "requires": ""
+  },
+  {
+    "name": "PV-ST-3 read",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "read"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-ST-4 read",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "read"],
+    "region": "I Portatori Dei Velluti second part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-1 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-1 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-2 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-2 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-3 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-3 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-4 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-4 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-5 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-5 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-6 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-6 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-7 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-7 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-8 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "boss stage"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-EX-8 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "region": "I Portatori Dei Velluti third part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-1 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage"],
+    "region": "I Portatori Dei Velluti fourth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-1 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "region": "I Portatori Dei Velluti fourth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-2 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage"],
+    "region": "I Portatori Dei Velluti fourth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-2 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "region": "I Portatori Dei Velluti fourth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-3 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage"],
+    "region": "I Portatori Dei Velluti fourth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-3 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "region": "I Portatori Dei Velluti fourth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-4 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage"],
+    "region": "I Portatori Dei Velluti fourth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-4 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "region": "I Portatori Dei Velluti fourth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-5 clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage", "boss stage"],
+    "region": "I Portatori Dei Velluti fourth part",
+    "requires": ""
+  },
+  {
+    "name": "PV-S-5 3-star clear",
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
@@ -6547,7 +6847,7 @@
   },
   {
     "name": "MN-8 clear",
-    "category": ["Under the Neon", "Maria Nearl"],
+    "category": ["Under the Neon", "Maria Nearl", "boss stage"],
     "region": "Maria Nearl second part",
     "requires": ""
   },
@@ -6643,7 +6943,7 @@
   },
   {
     "name": "MN-EX-8 clear",
-    "category": ["Under the Neon", "Maria Nearl", "ex-stage"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "boss stage"],
     "region": "Maria Nearl fourth part",
     "requires": ""
   },
@@ -6781,7 +7081,7 @@
   },
   {
     "name": "NL-10 clear",
-    "category": ["Under the Neon", "Near Light"],
+    "category": ["Under the Neon", "Near Light", "boss stage"],
     "region": "Near Light second part",
     "requires": ""
   },
@@ -6901,7 +7201,7 @@
   },
   {
     "name": "NL-EX-8 clear",
-    "category": ["Under the Neon", "Near Light", "ex-stage"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "boss stage"],
     "region": "Near Light fourth part",
     "requires": ""
   },
@@ -6961,7 +7261,7 @@
   },
   {
     "name": "NL-S-5 clear",
-    "category": ["Under the Neon", "Near Light", "s-stage"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "boss stage"],
     "region": "Near Light fifth part",
     "requires": ""
   },
@@ -7081,7 +7381,7 @@
   },
   {
     "name": "WR-10 clear",
-    "category": ["Through the Ages", "Who is Real"],
+    "category": ["Through the Ages", "Who is Real", "boss stage"],
     "region": "Who is Real second part",
     "requires": ""
   },
@@ -7195,7 +7495,7 @@
   },
   {
     "name": "WR-EX-8 clear",
-    "category": ["Through the Ages", "Who is Real", "ex-stage"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "boss stage"],
     "region": "Who is Real fourth part",
     "requires": ""
   },
@@ -7303,7 +7603,7 @@
   },
   {
     "name": "IW-9 clear",
-    "category": ["Through the Ages", "Invitation to Wine"],
+    "category": ["Through the Ages", "Invitation to Wine", "boss stage"],
     "region": "Invitation to Wine second part",
     "requires": ""
   },
@@ -7417,7 +7717,7 @@
   },
   {
     "name": "IW-EX-8 clear",
-    "category": ["Through the Ages", "Invitation to Wine", "ex-stage"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "boss stage"],
     "region": "Invitation to Wine fourth part",
     "requires": ""
   },
@@ -7525,7 +7825,7 @@
   },
   {
     "name": "WB-9 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "boss stage"],
     "region": "Where the Vernal Winds Will Never Blow second part",
     "requires": ""
   },
@@ -7639,7 +7939,7 @@
   },
   {
     "name": "WB-EX-8 clear",
-    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage"],
+    "category": ["Through the Ages", "Where the Vernal Winds Will Never Blow", "ex-stage", "boss stage"],
     "region": "Where the Vernal Winds Will Never Blow fourth part",
     "requires": ""
   },
@@ -7747,7 +8047,7 @@
   },
   {
     "name": "HS-9 clear",
-    "category": ["Through the Ages", "Here a People Sows"],
+    "category": ["Through the Ages", "Here a People Sows", "boss stage"],
     "region": "Here a People Sows second part",
     "requires": ""
   },
@@ -7861,7 +8161,7 @@
   },
   {
     "name": "HS-EX-8 clear",
-    "category": ["Through the Ages", "Here a People Sows", "ex-stage"],
+    "category": ["Through the Ages", "Here a People Sows", "ex-stage", "boss stage"],
     "region": "Here a People Sows fourth part",
     "requires": ""
   },
@@ -7909,7 +8209,7 @@
   },
   {
     "name": "HS-S-4 clear",
-    "category": ["Through the Ages", "Here a People Sows", "s-stage"],
+    "category": ["Through the Ages", "Here a People Sows", "s-stage", "boss stage"],
     "region": "Here a People Sows fifth part",
     "requires": ""
   },
@@ -8029,7 +8329,7 @@
   },
   {
     "name": "OR-9 clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "boss stage"],
     "region": "Such is the Joy of Our Reunion second part",
     "requires": ""
   },
@@ -8143,7 +8443,7 @@
   },
   {
     "name": "OR-EX-8 clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "ex-stage", "boss stage"],
     "region": "Such is the Joy of Our Reunion fourth part",
     "requires": ""
   },
@@ -8191,7 +8491,7 @@
   },
   {
     "name": "OR-S-4 clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "boss stage"],
     "region": "Such is the Joy of Our Reunion fifth part",
     "requires": ""
   },
@@ -8299,7 +8599,7 @@
   },
   {
     "name": "MB-8 clear",
-    "category": ["Those Who Take The Future", "Mansfield Break"],
+    "category": ["Those Who Take The Future", "Mansfield Break", "boss stage"],
     "region": "Mansfield Break second part",
     "requires": ""
   },
@@ -8401,7 +8701,7 @@
   },
   {
     "name": "MB-EX-8 clear",
-    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage"],
+    "category": ["Those Who Take The Future", "Mansfield Break", "ex-stage", "boss stage"],
     "region": "Mansfield Break fourth part",
     "requires": ""
   },
@@ -8497,7 +8797,7 @@
   },
   {
     "name": "DV-8 clear",
-    "category": ["Those Who Take The Future", "Dorothy's Vision"],
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "boss stage"],
     "region": "Dorothy's Vision second part",
     "requires": ""
   },
@@ -8605,7 +8905,7 @@
   },
   {
     "name": "DV-EX-8 clear",
-    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage"],
+    "category": ["Those Who Take The Future", "Dorothy's Vision", "ex-stage", "boss stage"],
     "region": "Dorothy's Vision fourth part",
     "requires": ""
   },
@@ -8725,7 +9025,7 @@
   },
   {
     "name": "CW-10 clear",
-    "category": ["Those Who Take The Future", "Lonetrail"],
+    "category": ["Those Who Take The Future", "Lonetrail", "boss stage"],
     "region": "Lonetrail second part",
     "requires": ""
   },
@@ -8845,7 +9145,7 @@
   },
   {
     "name": "CW-EX-8 clear",
-    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage"],
+    "category": ["Those Who Take The Future", "Lonetrail", "ex-stage", "boss stage"],
     "region": "Lonetrail fourth part",
     "requires": ""
   },
@@ -8929,7 +9229,7 @@
   },
   {
     "name": "CW-S-4 clear",
-    "category": ["Those Who Take The Future", "Lonetrail", "s-stage"],
+    "category": ["Those Who Take The Future", "Lonetrail", "s-stage", "boss stage"],
     "region": "Lonetrail sixth part",
     "requires": ""
   },
@@ -9001,7 +9301,7 @@
   },
   {
     "name": "GT-6 clear",
-    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure"],
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "boss stage"],
     "region": "Grani And The Knights' Treasure second part",
     "requires": ""
   },
@@ -9073,7 +9373,7 @@
   },
   {
     "name": "GT-HX-3 clear",
-    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage"],
+    "category": ["Glimpse of the Depths", "Grani And The Knights' Treasure", "ex-stage", "boss stage"],
     "region": "Grani And The Knights' Treasure fourth part",
     "requires": ""
   },
@@ -9181,7 +9481,7 @@
   },
   {
     "name": "SV-9 clear",
-    "category": ["Glimpse of the Depths", "Under Tides"],
+    "category": ["Glimpse of the Depths", "Under Tides", "boss stage"],
     "region": "Under Tides second part",
     "requires": ""
   },
@@ -9289,7 +9589,7 @@
   },
   {
     "name": "SV-EX-8 clear",
-    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage"],
+    "category": ["Glimpse of the Depths", "Under Tides", "ex-stage", "boss stage"],
     "region": "Under Tides fourth part",
     "requires": ""
   },
@@ -9410,7 +9710,7 @@
   },
   {
     "name": "SN-10 clear",
-    "category": ["Glimpse of the Depths", "Stultifera Navis"],
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "boss stage"],
     "region": "Stultifera Navis third part",
     "requires": ""
   },
@@ -9578,7 +9878,7 @@
   },
   {
     "name": "SN-EX-8 clear",
-    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage"],
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "ex-stage", "boss stage"],
     "region": "Stultifera Navis fifth part",
     "requires": ""
   },
@@ -9686,7 +9986,7 @@
   },
   {
     "name": "SN-S-5 clear",
-    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage"],
+    "category": ["Glimpse of the Depths", "Stultifera Navis", "s-stage", "boss stage"],
     "region": "Stultifera Navis seventh part",
     "requires": ""
   },
@@ -9782,7 +10082,7 @@
   },
   {
     "name": "BP-8 clear",
-    "category": ["Glimpse of the Depths", "Path of Life"],
+    "category": ["Glimpse of the Depths", "Path of Life", "boss stage"],
     "region": "Path of Life second part",
     "requires": ""
   },
@@ -9908,7 +10208,7 @@
   },
   {
     "name": "BP-EX-8 clear",
-    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage"],
+    "category": ["Glimpse of the Depths", "Path of Life", "ex-stage", "boss stage"],
     "region": "Path of Life fourth part",
     "requires": ""
   },
@@ -10004,7 +10304,7 @@
   },
   {
     "name": "EP-8 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "boss stage"],
     "region": "Exodus From the Pale Sea second part",
     "requires": ""
   },
@@ -10118,7 +10418,7 @@
   },
   {
     "name": "EP-EX-8 clear",
-    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage"],
+    "category": ["Glimpse of the Depths", "Exodus From the Pale Sea", "ex-stage", "boss stage"],
     "region": "Exodus From the Pale Sea fourth part",
     "requires": ""
   },
@@ -10214,7 +10514,7 @@
   },
   {
     "name": "TW-8 clear",
-    "category": ["Spire Mirages", "Twilight of Wolumonde"],
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "boss stage"],
     "region": "Twilight of Wolumonde second part",
     "requires": ""
   },
@@ -10322,7 +10622,7 @@
   },
   {
     "name": "TW-EX-8 clear",
-    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage"],
+    "category": ["Spire Mirages", "Twilight of Wolumonde", "ex-stage", "boss stage"],
     "region": "Twilight of Wolumonde fourth part",
     "requires": ""
   },
@@ -10430,7 +10730,7 @@
   },
   {
     "name": "LE-8 clear",
-    "category": ["Spire Mirages", "Lingering Echoes"],
+    "category": ["Spire Mirages", "Lingering Echoes", "boss stage"],
     "region": "Lingering Echoes second part",
     "requires": ""
   },
@@ -10544,7 +10844,7 @@
   },
   {
     "name": "LE-EX-8 clear",
-    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage"],
+    "category": ["Spire Mirages", "Lingering Echoes", "ex-stage", "boss stage"],
     "region": "Lingering Echoes fourth part",
     "requires": ""
   },
@@ -10664,7 +10964,7 @@
   },
   {
     "name": "ZT-10 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "boss stage"],
     "region": "Zwillingstürme im Herbst second part",
     "requires": ""
   },
@@ -10778,7 +11078,7 @@
   },
   {
     "name": "ZT-EX-8 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "boss stage"],
     "region": "Zwillingstürme im Herbst fourth part",
     "requires": ""
   },
@@ -10838,7 +11138,7 @@
   },
   {
     "name": "ZT-S-5 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
+    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "boss stage"],
     "region": "Zwillingstürme im Herbst fifth part",
     "requires": ""
   },
@@ -10934,7 +11234,7 @@
   },
   {
     "name": "FC-8 clear",
-    "category": ["Rekindled Flame", "When the Fireflights Casts"],
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "boss stage"],
     "region": "When the Fireflights Casts second part",
     "requires": ""
   },
@@ -11048,7 +11348,7 @@
   },
   {
     "name": "FC-EX-8 clear",
-    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage"],
+    "category": ["Rekindled Flame", "When the Fireflights Casts", "ex-stage", "boss stage"],
     "region": "When the Fireflights Casts fourth part",
     "requires": ""
   },
@@ -11144,7 +11444,7 @@
   },
   {
     "name": "EA-8 clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "boss stage"],
     "region": "When Elegies Are Ashes second part",
     "requires": ""
   },
@@ -11174,97 +11474,97 @@
   },
   {
     "name": "EA-EX-1 clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage"],
     "region": "When Elegies Are Ashes third part",
     "requires": ""
   },
   {
     "name": "EA-EX-1 3-star clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage", "3-stars clear"],
     "region": "When Elegies Are Ashes third part",
     "requires": ""
   },
   {
     "name": "EA-EX-2 clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage"],
     "region": "When Elegies Are Ashes third part",
     "requires": ""
   },
   {
     "name": "EA-EX-2 3-star clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage", "3-stars clear"],
     "region": "When Elegies Are Ashes third part",
     "requires": ""
   },
   {
     "name": "EA-EX-3 clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage"],
     "region": "When Elegies Are Ashes third part",
     "requires": ""
   },
   {
     "name": "EA-EX-3 3-star clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage", "3-stars clear"],
     "region": "When Elegies Are Ashes third part",
     "requires": ""
   },
   {
     "name": "EA-EX-4 clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage"],
     "region": "When Elegies Are Ashes third part",
     "requires": ""
   },
   {
     "name": "EA-EX-4 3-star clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage", "3-stars clear"],
     "region": "When Elegies Are Ashes third part",
     "requires": ""
   },
   {
     "name": "EA-EX-5 clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage"],
     "region": "When Elegies Are Ashes fourth part",
     "requires": ""
   },
   {
     "name": "EA-EX-5 3-star clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage", "3-stars clear"],
     "region": "When Elegies Are Ashes fourth part",
     "requires": ""
   },
   {
     "name": "EA-EX-6 clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage"],
     "region": "When Elegies Are Ashes fourth part",
     "requires": ""
   },
   {
     "name": "EA-EX-6 3-star clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage", "3-stars clear"],
     "region": "When Elegies Are Ashes fourth part",
     "requires": ""
   },
   {
     "name": "EA-EX-7 clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage"],
     "region": "When Elegies Are Ashes fourth part",
     "requires": ""
   },
   {
     "name": "EA-EX-7 3-star clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage", "3-stars clear"],
     "region": "When Elegies Are Ashes fourth part",
     "requires": ""
   },
   {
     "name": "EA-EX-8 clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage", "boss stage"],
     "region": "When Elegies Are Ashes fourth part",
     "requires": ""
   },
   {
     "name": "EA-EX-8 3-star clear",
-    "category": ["Rekindled Flame", "When Elegies Are Ashes", "reading", "3-stars clear"],
+    "category": ["Rekindled Flame", "When Elegies Are Ashes", "ex-stage", "3-stars clear"],
     "region": "When Elegies Are Ashes fourth part",
     "requires": ""
   },
@@ -11354,7 +11654,7 @@
   },
   {
     "name": "OF-8 clear",
-    "category": ["Summertime Beats", "Heart of Surging Flame"],
+    "category": ["Summertime Beats", "Heart of Surging Flame", "boss stage"],
     "region": "Heart of Surging Flame second part",
     "requires": ""
   },
@@ -11528,7 +11828,7 @@
   },
   {
     "name": "OF-EX-8 clear",
-    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage"],
+    "category": ["Summertime Beats", "Heart of Surging Flame", "ex-stage", "boss stage"],
     "region": "Heart of Surging Flame fifth part",
     "requires": ""
   },
@@ -11624,7 +11924,7 @@
   },
   {
     "name": "RI-8 clear",
-    "category": ["Summertime Beats", "the Great Chief Returns"],
+    "category": ["Summertime Beats", "the Great Chief Returns", "boss stage"],
     "region": "the Great Chief Returns second part",
     "requires": ""
   },
@@ -11732,7 +12032,7 @@
   },
   {
     "name": "RI-EX-8 clear",
-    "category": ["Summertime Beats", "the Great Chief Returns", "ex-stage"],
+    "category": ["Summertime Beats", "the Great Chief Returns", "ex-stage", "boss stage"],
     "region": "the Great Chief Returns fourth part",
     "requires": ""
   },
@@ -11840,7 +12140,7 @@
   },
   {
     "name": "DH-9 clear",
-    "category": ["Summertime Beats", "Dossoles Holiday"],
+    "category": ["Summertime Beats", "Dossoles Holiday", "boss stage"],
     "region": "Dossoles Holiday second part",
     "requires": ""
   },
@@ -11960,7 +12260,7 @@
   },
   {
     "name": "DH-EX-8 clear",
-    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage"],
+    "category": ["Summertime Beats", "Dossoles Holiday", "ex-stage", "boss stage"],
     "region": "Dossoles Holiday fourth part",
     "requires": ""
   },
@@ -12008,7 +12308,7 @@
   },
   {
     "name": "DH-S-4 clear",
-    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage"],
+    "category": ["Summertime Beats", "Dossoles Holiday", "s-stage", "boss stage"],
     "region": "Dossoles Holiday fifth part",
     "requires": ""
   },
@@ -12128,7 +12428,7 @@
   },
   {
     "name": "IC-9 clear",
-    "category": ["Summertime Beats", "Ideal City"],
+    "category": ["Summertime Beats", "Ideal City", "boss stage"],
     "region": "Ideal City second part",
     "requires": ""
   },
@@ -12236,7 +12536,7 @@
   },
   {
     "name": "IC-EX-8 clear",
-    "category": ["Summertime Beats", "Ideal City", "ex-stage"],
+    "category": ["Summertime Beats", "Ideal City", "ex-stage", "boss stage"],
     "region": "Ideal City fourth part",
     "requires": ""
   },
@@ -12284,7 +12584,7 @@
   },
   {
     "name": "IC-S-4 clear",
-    "category": ["Summertime Beats", "Ideal City", "s-stage"],
+    "category": ["Summertime Beats", "Ideal City", "s-stage", "boss stage"],
     "region": "Ideal City fifth part",
     "requires": ""
   },
@@ -12392,7 +12692,7 @@
   },
   {
     "name": "SL-8 clear",
-    "category": ["Summertime Beats", "So long Adele"],
+    "category": ["Summertime Beats", "So long Adele", "boss stage"],
     "region": "So long Adele second part",
     "requires": ""
   },
@@ -12506,7 +12806,7 @@
   },
   {
     "name": "SL-EX-8 clear",
-    "category": ["Summertime Beats", "So long Adele", "ex-stage"],
+    "category": ["Summertime Beats", "So long Adele", "ex-stage", "boss stage"],
     "region": "So long Adele fourth part",
     "requires": ""
   },
@@ -12566,7 +12866,7 @@
   },
   {
     "name": "SL-S-5 clear",
-    "category": ["Summertime Beats", "So long Adele", "s-stage"],
+    "category": ["Summertime Beats", "So long Adele", "s-stage", "boss stage"],
     "region": "So long Adele fifth part",
     "requires": ""
   },
@@ -12686,7 +12986,7 @@
   },
   {
     "name": "AS-9 clear",
-    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun"],
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "boss stage"],
     "region": "Adventure That Cannot Wait for the Sun second part",
     "requires": ""
   },
@@ -12800,7 +13100,7 @@
   },
   {
     "name": "AS-EX-8 clear",
-    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage"],
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "ex-stage", "boss stage"],
     "region": "Adventure That Cannot Wait for the Sun fourth part",
     "requires": ""
   },
@@ -12848,7 +13148,7 @@
   },
   {
     "name": "AS-S-4 clear",
-    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage"],
+    "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "s-stage", "boss stage"],
     "region": "Adventure That Cannot Wait for the Sun fifth part",
     "requires": ""
   },
@@ -12869,6 +13169,12 @@
     "category": ["Summertime Beats", "Adventure That Cannot Wait for the Sun", "mo-stage", "3-stars clear"],
     "region": "Adventure That Cannot Wait for the Sun fifth part",
     "requires": ""
+  },
+  {
+    "name": "event cleared",
+    "category": ["goal"],
+    "requires": "|beaten stage|",
+    "victory": true
   },
   {
     "name": "EX-stage cleared",

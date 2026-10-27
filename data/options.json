@@ -87,7 +87,7 @@
         },
         "EX stage clear": {
             "description": [
-                "choose what H-stage you need to clear to win this manual.",
+                "choose what EX-stage you need to clear to win this manual.",
                 "the chosen event will always be present in the manual, even if the event is excluded in another option",
                 "if a different goal is chosen, this option won't do anything."
             ],
@@ -115,19 +115,16 @@
                 "if a different goal is chosen, this option won't do anything."
             ],
             "type": "Choice",
-            "default": 100,
+            "default": 102,
             "values": {
-                "Darknights' memoir":100, "A Walk in the Dust":101, "Babel":102, "Ending a Grand Overture":103, 
-                "Guide Ahead":150, "Hortus de Escapismo":151, 
-                "Break the Ice":200, "The Rides to Lake Silberneherze":201, 
-                "Il Siracusan":250, 
-                "Maria Nearl":300, "Near Light":301, 
-                "Who is Real":350, "Invitation to Wine":351, "Where the Vernal Winds Will Never Blow":352, "Here a People Sows":353, "Such is the Joy of Our Reunion":354,
-                "Mansfield Break":400, "Dorothy's Vision":401, "Lonetrail":402,
-                "Grani And The Knights' Treasure":450, "Under Tides":451, "Stultifera Navis":452, "Path of Life":453, "Exodus From the Pale Sea":454, 
-                "Twilight of Wolumonde":500, "Lingering Echoes":501, "Zwillingstürme im Herbst":502, 
-                "When the Fireflights Casts":550, "When Elegies Are Ashes":551, 
-                "Heart of Surging Flame":600, "the Great Chief Returns":601, "Dossoles Holiday":602, "Ideal City":603, "So long Adele":604, "Adventure That Cannot Wait for the Sun":605 
+                "Babel":102,
+                "Il Siracusan":250, "I Portatori Dei Velluti":251,
+                "Near Light":301, 
+                "Here a People Sows":353, "Such is the Joy of Our Reunion":354,
+                "Lonetrail":402,
+                "Stultifera Navis":452,
+                "Zwillingstürme im Herbst":502, 
+                "Dossoles Holiday":602, "Ideal City":603, "So long Adele":604, "Adventure That Cannot Wait for the Sun":605 
             },
             "group": "goal options"
         },
@@ -138,9 +135,9 @@
                 "then this option won't do anything"
             ],
             "type": "Range",
-            "default": 5,
+            "default": 17,
             "range_start": 1,
-            "range_end": 52,
+            "range_end": 106,
             "group": "goal options"
         },
         "total Originium Prime amount": {
