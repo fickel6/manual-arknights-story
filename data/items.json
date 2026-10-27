@@ -4741,6 +4741,16 @@
   },
   {
     "count": 4,
+    "name": "progressive I Portatori Dei Velluti unlock",
+    "category": [
+      "chapter unlock",
+      "starting chapter unlock",
+      "I Portatori Dei Velluti"
+    ],
+    "progression": true
+  },
+  {
+    "count": 4,
     "name": "progressive Maria Nearl unlock",
     "category": [
       "chapter unlock",

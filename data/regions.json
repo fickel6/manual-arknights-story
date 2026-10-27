@@ -638,6 +638,27 @@
     }
   },
   "Il Siracusan fifth part": {},
+  "I Portatori Dei Velluti first part": {
+    "starting": true,
+    "requires": "|progressive I Portatori Dei Velluti unlock|",
+    "connects_to": ["I Portatori Dei Velluti second part"],
+    "exit_requires": {
+      "I Portatori Dei Velluti second part": "|progressive I Portatori Dei Velluti unlock:2|"
+    }
+  },
+  "I Portatori Dei Velluti second part": {
+    "connects_to": ["I Portatori Dei Velluti third part"],
+    "exit_requires": {
+      "I Portatori Dei Velluti third part": "|progressive I Portatori Dei Velluti unlock:3|"
+    }
+  },
+  "I Portatori Dei Velluti third part": {
+    "connects_to": ["I Portatori Dei Velluti fourth part"],
+    "exit_requires": {
+      "I Portatori Dei Velluti fourth part": "|progressive I Portatori Dei Velluti unlock:4|"
+    }
+  },
+  "I Portatori Dei Velluti fourth part": {},
   "Maria Nearl first part": {
     "starting": true,
     "requires": "|progressive Maria Nearl unlock|",
