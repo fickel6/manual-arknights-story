@@ -341,7 +341,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         finally:
             possible_characters.remove(random_character)
             
-    # logging.info(multiworld.precollected_items)
+    logging.info(multiworld.precollected_items)
     return item_pool
 
     # Some other useful hook options:

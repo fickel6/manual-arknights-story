@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.categories.schema.json",
     "character": {
-        "hidden": false
+        "hidden": true
     },
     "squad size": {
         "hidden": false,
@@ -33,6 +33,27 @@
     },
     "3-stars clear": {
         "yaml_option": ["include_3_star"],
+        "hidden": true
+    },
+    "boss stage": {
+        "hidden": true
+    },
+    "chapter unlock": {
+        "hidden": true
+    },
+    "random character unlock": {
+        "hidden": true
+    },
+    "stage clear": {
+        "hidden": true
+    },
+    "starting chapter unlock": {
+        "hidden": true
+    },
+    "block": {
+        "hidden": true
+    },
+    "ranged": {
         "hidden": true
     }
 }

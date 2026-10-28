@@ -7,7 +7,7 @@
   },
   {
     "name": "0-1 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 first part",
     "requires": ""
   },
@@ -19,7 +19,7 @@
   },
   {
     "name": "0-2 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 first part",
     "requires": ""
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "0-3 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 first part",
     "requires": "|@ranged:1|"
   },
@@ -43,7 +43,7 @@
   },
   {
     "name": "0-4 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 first part",
     "requires": "|@ranged:1|"
   },
@@ -55,7 +55,7 @@
   },
   {
     "name": "0-5 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 first part",
     "requires": "|@ranged:1|"
   },
@@ -67,7 +67,7 @@
   },
   {
     "name": "0-6 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 second part",
     "requires": "|@ranged:1| AND |@block:1|"
   },
@@ -79,7 +79,7 @@
   },
   {
     "name": "0-7 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 second part",
     "requires": ""
   },
@@ -91,7 +91,7 @@
   },
   {
     "name": "0-8 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 second part",
     "requires": ""
   },
@@ -103,7 +103,7 @@
   },
   {
     "name": "0-9 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 second part",
     "requires": ""
   },
@@ -115,7 +115,7 @@
   },
   {
     "name": "0-10 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 second part",
     "requires": "|@ranged:1| AND |@block:1|"
   },
@@ -127,7 +127,7 @@
   },
   {
     "name": "0-11 3-star clear",
-    "category": ["chapter 0", "3-stars"],
+    "category": ["chapter 0", "3-stars clear"],
     "region": "chapter 0 second part",
     "requires": "|@character:5|"
   },
@@ -139,7 +139,7 @@
   },
   {
     "name": "1-1 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 first part",
     "requires": "|@block:1|"
   },
@@ -150,7 +150,7 @@
   },
   {
     "name": "1-2 3-star clear",
-    "category": ["chapter 0", "fixed squad", "3-stars"],
+    "category": ["chapter 0", "fixed squad", "3-stars clear"],
     "region": "chapter 1 first part"
   },
   {
@@ -161,7 +161,7 @@
   },
   {
     "name": "1-3 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 first part",
     "requires": "|@block:2|"
   },
@@ -173,7 +173,7 @@
   },
   {
     "name": "1-4 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 first part",
     "requires": "|@block:3|"
   },
@@ -185,7 +185,7 @@
   },
   {
     "name": "1-5 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 first part",
     "requires": "|@block:4|"
   },
@@ -197,7 +197,7 @@
   },
   {
     "name": "1-6 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 second part",
     "requires": "|@block:1|"
   },
@@ -209,7 +209,7 @@
   },
   {
     "name": "1-7 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 second part",
     "requires": ""
   },
@@ -221,7 +221,7 @@
   },
   {
     "name": "1-8 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 second part",
     "requires": "|@character:5| AND |@block:1|"
   },
@@ -233,7 +233,7 @@
   },
   {
     "name": "1-9 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 third part",
     "requires": ""
   },
@@ -245,7 +245,7 @@
   },
   {
     "name": "1-10 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 third part",
     "requires": "|@ranged:1| AND |@block:2|"
   },
@@ -256,7 +256,7 @@
   },
   {
     "name": "1-11 3-star clear",
-    "category": ["chapter 1", "fixed squad", "3-stars"],
+    "category": ["chapter 1", "fixed squad", "3-stars clear"],
     "region": "chapter 1 third part"
   },
   {
@@ -267,7 +267,7 @@
   },
   {
     "name": "1-12 3-star clear",
-    "category": ["chapter 1", "3-stars"],
+    "category": ["chapter 1", "3-stars clear"],
     "region": "chapter 1 third part",
     "requires": "|@character:7| AND |@ranged:3| AND |@block:1|"
   },
@@ -279,7 +279,7 @@
   },
   {
     "name": "2-1 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 first part",
     "requires": ""
   },
@@ -291,7 +291,7 @@
   },
   {
     "name": "2-2 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 first part",
     "requires": "|@block:1|"
   },
@@ -304,7 +304,7 @@
   },
   {
     "name": "2-3 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 first part",
     "requires": "|@block:1| AND |@ranged:1|"
   },
@@ -316,7 +316,7 @@
   },
   {
     "name": "2-4 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 second part",
     "requires": ""
   },
@@ -328,7 +328,7 @@
   },
   {
     "name": "2-5 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 second part",
     "requires": "|@block:1|"
   },
@@ -340,7 +340,7 @@
   },
   {
     "name": "2-6 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 third part",
     "requires": "|@block:2|"
   },
@@ -352,7 +352,7 @@
   },
   {
     "name": "2-7 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 third part",
     "requires": "|@ranged:2|"
   },
@@ -364,7 +364,7 @@
   },
   {
     "name": "2-8 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 third part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -376,7 +376,7 @@
   },
   {
     "name": "2-9 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 fourth part",
     "requires": ""
   },
@@ -388,7 +388,7 @@
   },
   {
     "name": "2-10 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 fourth part",
     "requires": "|@character:6| AND |@ranged:1| AND |@block:2|"
   },
@@ -396,25 +396,25 @@
     "name": "S2-1 clear",
     "category": ["chapter 2"],
     "region": "chapter 2 first part",
-    "requires": "|@ranged:1|"
+    "requires": "|@block:1|"
   },
   {
     "name": "S2-1 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 first part",
-    "requires": "|@ranged:1|"
+    "requires": "|@block:1|"
   },
   {
     "name": "S2-2 clear",
     "category": ["chapter 2"],
     "region": "chapter 2 first part",
-    "requires": "|@ranged:2|"
+    "requires": "|@block:2|"
   },
   {
     "name": "S2-2 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 first part",
-    "requires": "|@ranged:2|"
+    "requires": "|@block:2|"
   },
   {
     "name": "S2-3 clear",
@@ -424,7 +424,7 @@
   },
   {
     "name": "S2-3 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 first part",
     "requires": "|@block:1|"
   },
@@ -436,7 +436,7 @@
   },
   {
     "name": "S2-4 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 first part",
     "requires": "|@block:1|"
   },
@@ -448,7 +448,7 @@
   },
   {
     "name": "S2-5 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 second part",
     "requires": ""
   },
@@ -460,7 +460,7 @@
   },
   {
     "name": "S2-6 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -473,7 +473,7 @@
   },
   {
     "name": "S2-7 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -485,7 +485,7 @@
   },
   {
     "name": "S2-8 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 third part",
     "requires": "|@ranged:1| AND |@block:2|"
   },
@@ -497,7 +497,7 @@
   },
   {
     "name": "S2-9 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 third part",
     "requires": "|@ranged:1| AND |@block:2|"
   },
@@ -509,7 +509,7 @@
   },
   {
     "name": "S2-10 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 fourth part",
     "requires": "|@ranged:1| AND |@block:2|"
   },
@@ -521,7 +521,7 @@
   },
   {
     "name": "S2-11 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 fourth part",
     "requires": "|@ranged:1| AND |@block:3|"
   },
@@ -533,7 +533,7 @@
   },
   {
     "name": "S2-12 3-star clear",
-    "category": ["chapter 2", "3-stars"],
+    "category": ["chapter 2", "3-stars clear"],
     "region": "chapter 2 fourth part",
     "requires": "|@ranged:2| AND |@block:2|"
   },
@@ -541,25 +541,25 @@
     "name": "3-1 clear",
     "category": ["chapter 3"],
      "region": "chapter 3 first part",
-    "requires": "|@block:1| AND |@ranged:2|"
+    "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "3-1 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 first part",
-    "requires": "|@block:1| AND |@ranged:2|"
+    "requires": "|@block:1| AND |@ranged:1|"
   },
   {
     "name": "3-2 clear",
     "category": ["chapter 3"],
      "region": "chapter 3 first part",
-    "requires": "|@block:3|"
+    "requires": "|@block:2|"
   },
   {
     "name": "3-2 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 first part",
-    "requires": "|@block:3|"
+    "requires": "|@block:2|"
   },
   {
     "name": "3-3 clear",
@@ -569,7 +569,7 @@
   },
   {
     "name": "3-3 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 first part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -577,13 +577,13 @@
     "name": "3-4 clear",
     "category": ["chapter 3"],
      "region": "chapter 3 first part",
-    "requires": "|@vanguard:1| AND |@block:4| AND |@ranged:2|"
+    "requires": "|@block:3| AND |@ranged:2|"
   },
   {
     "name": "3-4 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 first part",
-    "requires": "|@vanguard:1| AND |@block:4| AND |@ranged:2| AND |@medic:1|"
+    "requires": "|@block:3| AND |@ranged:2| AND |@medic:1|"
   },
   {
     "name": "3-5 clear",
@@ -593,7 +593,7 @@
   },
   {
     "name": "3-5 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -605,7 +605,7 @@
   },
   {
     "name": "3-6 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 second part",
     "requires": "|@block:2|"
   },
@@ -617,7 +617,7 @@
   },
   {
     "name": "3-7 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 second part",
     "requires": "|@block:1| AND |@ranged:1|"
   },
@@ -629,7 +629,7 @@
   },
   {
     "name": "3-8 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 second part",
     "requires": "|@block:2| AND |@ranged:2| AND |@medic:1|"
   },
@@ -641,7 +641,7 @@
   },
   {
     "name": "S3-1 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 first part",
     "requires": "|@block:1|"
   },
@@ -653,7 +653,7 @@
   },
   {
     "name": "S3-2 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 first part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -665,7 +665,7 @@
   },
   {
     "name": "S3-3 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 second part",
     "requires": "|@block:2|"
   },
@@ -677,7 +677,7 @@
   },
   {
     "name": "S3-4 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 second part",
     "requires": "|@block:4|"
   },
@@ -689,7 +689,7 @@
   },
   {
     "name": "S3-5 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 second part",
     "requires": "|@block:1| AND |@ranged:2|"
   },
@@ -701,7 +701,7 @@
   },
   {
     "name": "S3-6 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 second part",
     "requires": "|@block:2|"
   },
@@ -713,7 +713,7 @@
   },
   {
     "name": "S3-7 3-star clear",
-    "category": ["chapter 3", "3-stars"],
+    "category": ["chapter 3", "3-stars clear"],
      "region": "chapter 3 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -725,7 +725,7 @@
   },
   {
     "name": "4-1 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 first part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -737,7 +737,7 @@
   },
   {
     "name": "4-2 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 first part",
     "requires": "|@block:1|"
   },
@@ -749,7 +749,7 @@
   },
   {
     "name": "4-3 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 first part",
     "requires": "|@block:2|"
   },
@@ -761,7 +761,7 @@
   },
   {
     "name": "4-4 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 first part",
     "requires": "|@block:2|"
   },
@@ -773,7 +773,7 @@
   },
   {
     "name": "4-5 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 second part",
     "requires": "|@block:2|"
   },
@@ -785,7 +785,7 @@
   },
   {
     "name": "4-6 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 second part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -797,7 +797,7 @@
   },
   {
     "name": "4-7 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 second part",
     "requires": "|@block:2| AND |@ranged:1| AND (|@block:3| OR |@ranged:2|)"
   },
@@ -809,7 +809,7 @@
   },
   {
     "name": "4-8 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@character:4|"
   },
@@ -821,7 +821,7 @@
   },
   {
     "name": "4-9 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@medic:2| AND |@character:6|"
   },
@@ -833,7 +833,7 @@
   },
   {
     "name": "4-10 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@6 star:1|"
   },
@@ -845,7 +845,7 @@
   },
   {
     "name": "S4-1 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 first part",
     "requires": "|@block:2|"
   },
@@ -857,7 +857,7 @@
   },
   {
     "name": "S4-2 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 first part",
     "requires": "|@block:1|"
   },
@@ -869,7 +869,7 @@
   },
   {
     "name": "S4-3 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 first part",
     "requires": "|@block:2|"
   },
@@ -881,7 +881,7 @@
   },
   {
     "name": "S4-4 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 second part",
     "requires": "|@block:1| AND (|@ranged:1| OR |@block:3| OR |@medic:1|)"
   },
@@ -893,7 +893,7 @@
   },
   {
     "name": "S4-5 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 second part",
     "requires": "|@block:1| AND |@ranged:1|"
   },
@@ -905,7 +905,7 @@
   },
   {
     "name": "S4-6 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 second part",
     "requires": "|@block:2|"
   },
@@ -917,7 +917,7 @@
   },
   {
     "name": "S4-7 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@character:4|"
   },
@@ -929,7 +929,7 @@
   },
   {
     "name": "S4-8 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@character:4|"
   },
@@ -941,7 +941,7 @@
   },
   {
     "name": "S4-9 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 third part",
     "requires": "|@block:2| AND |@ranged:2| AND |@character:6|"
   },
@@ -953,7 +953,7 @@
   },
   {
     "name": "S4-10 3-star clear",
-    "category": ["chapter 4", "3-stars"],
+    "category": ["chapter 4", "3-stars clear"],
     "region": "chapter 4 third part",
     "requires": "|@block:3| AND |@character:6|"
   },
@@ -965,7 +965,7 @@
   },
   {
     "name": "5-1 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 first part",
     "requires": "|@block:3|"
   },
@@ -977,7 +977,7 @@
   },
   {
     "name": "5-2 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 first part",
     "requires": "|@block:2|"
   },
@@ -989,7 +989,7 @@
   },
   {
     "name": "5-3 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 first part",
     "requires": "|@block:2| AND (|@ranged:2| OR |@block:3|)"
   },
@@ -1001,7 +1001,7 @@
   },
   {
     "name": "5-4 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 second part",
     "requires": "|@block:2| AND |@ranged:2| AND |@character:4|"
   },
@@ -1013,7 +1013,7 @@
   },
   {
     "name": "5-5 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 second part",
     "requires": "|@block:2| AND |@ranged:2|"
   },
@@ -1025,7 +1025,7 @@
   },
   {
     "name": "5-6 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 second part",
     "requires": "|@block:2| AND |@ranged:1|"
   },
@@ -1037,7 +1037,7 @@
   },
   {
     "name": "5-7 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 second part",
     "requires": "|@block:2| AND |@ranged:3|"
   },
@@ -1049,7 +1049,7 @@
   },
   {
     "name": "5-8 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 third part",
     "requires": "|@block:3|"
   },
@@ -1061,7 +1061,7 @@
   },
   {
     "name": "5-9 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 third part",
     "requires": "|@block:3|"
   },
@@ -1073,7 +1073,7 @@
   },
   {
     "name": "5-10 3-star clear",
-    "category": ["chapter 5", "3-stars"],
+    "category": ["chapter 5", "3-stars clear"],
     "region": "chapter 5 third part",
     "requires": "|@block:2| AND |@6 star:1|"
   },
@@ -1278,13 +1278,13 @@
     "name": "6-4 clear",
     "category": ["chapter 6"],
     "region": "chapter 6 first part",
-    "requires": "|@block:1|"
+    "requires": "|@block:1| AND |@character:2|"
   },
   {
     "name": "6-4 3-star clear",
     "category": ["chapter 6"],
     "region": "chapter 6 first part",
-    "requires": "|@block:1|"
+    "requires": "|@block:1| AND |@character:2|"
   },
   {
     "name": "6-5 clear",
@@ -1305,15 +1305,15 @@
   },
   {
     "name": "6-7 clear",
-    "category": ["chapter 6"],
+    "category": ["chapter 6", "fixed squad"],
     "region": "chapter 6 first part",
-    "requires": "|@block:3| AND |@medic:1|"
+    "requires": ""
   },
   {
     "name": "6-7 3-star clear",
-    "category": ["chapter 6"],
+    "category": ["chapter 6", "fixed squad"],
     "region": "chapter 6 first part",
-    "requires": "|@block:3| AND |@medic:1|"
+    "requires": ""
   },
   {
     "name": "6-8 clear",
@@ -5767,7 +5767,7 @@
   },
   {
     "name": "BI-1 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-stars clear"],
     "region": "Break the Ice first part",
     "requires": ""
   },
@@ -5779,7 +5779,7 @@
   },
   {
     "name": "BI-2 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-stars clear"],
     "region": "Break the Ice first part",
     "requires": ""
   },
@@ -5791,7 +5791,7 @@
   },
   {
     "name": "BI-3 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-stars clear"],
     "region": "Break the Ice first part",
     "requires": ""
   },
@@ -5803,7 +5803,7 @@
   },
   {
     "name": "BI-4 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-stars clear"],
     "region": "Break the Ice first part",
     "requires": ""
   },
@@ -5815,7 +5815,7 @@
   },
   {
     "name": "BI-5 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-stars clear"],
     "region": "Break the Ice second part",
     "requires": ""
   },
@@ -5827,7 +5827,7 @@
   },
   {
     "name": "BI-6 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-stars clear"],
     "region": "Break the Ice second part",
     "requires": ""
   },
@@ -5839,7 +5839,7 @@
   },
   {
     "name": "BI-7 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-stars clear"],
     "region": "Break the Ice second part",
     "requires": ""
   },
@@ -5851,7 +5851,7 @@
   },
   {
     "name": "BI-8 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "3-stars clear"],
     "region": "Break the Ice second part",
     "requires": ""
   },
@@ -5863,7 +5863,7 @@
   },
   {
     "name": "BI-EX-1 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-stars clear"],
     "region": "Break the Ice third part",
     "requires": ""
   },
@@ -5875,7 +5875,7 @@
   },
   {
     "name": "BI-EX-2 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-stars clear"],
     "region": "Break the Ice third part",
     "requires": ""
   },
@@ -5887,7 +5887,7 @@
   },
   {
     "name": "BI-EX-3 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-stars clear"],
     "region": "Break the Ice third part",
     "requires": ""
   },
@@ -5899,7 +5899,7 @@
   },
   {
     "name": "BI-EX-4 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-stars clear"],
     "region": "Break the Ice third part",
     "requires": ""
   },
@@ -5911,7 +5911,7 @@
   },
   {
     "name": "BI-EX-5 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-stars clear"],
     "region": "Break the Ice fourth part",
     "requires": ""
   },
@@ -5923,7 +5923,7 @@
   },
   {
     "name": "BI-EX-6 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-stars clear"],
     "region": "Break the Ice fourth part",
     "requires": ""
   },
@@ -5935,7 +5935,7 @@
   },
   {
     "name": "BI-EX-7 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-stars clear"],
     "region": "Break the Ice fourth part",
     "requires": ""
   },
@@ -5947,7 +5947,7 @@
   },
   {
     "name": "BI-EX-8 3-star clear",
-    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "Break the Ice", "ex-stage", "3-stars clear"],
     "region": "Break the Ice fourth part",
     "requires": ""
   },
@@ -5965,7 +5965,7 @@
   },
   {
     "name": "RS-1 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze first part",
     "requires": ""
   },
@@ -5977,7 +5977,7 @@
   },
   {
     "name": "RS-2 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze first part",
     "requires": ""
   },
@@ -5989,7 +5989,7 @@
   },
   {
     "name": "RS-3 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze first part",
     "requires": ""
   },
@@ -6007,7 +6007,7 @@
   },
   {
     "name": "RS-4 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze first part",
     "requires": ""
   },
@@ -6019,7 +6019,7 @@
   },
   {
     "name": "RS-5 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze second part",
     "requires": ""
   },
@@ -6031,7 +6031,7 @@
   },
   {
     "name": "RS-6 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze second part",
     "requires": ""
   },
@@ -6043,7 +6043,7 @@
   },
   {
     "name": "RS-7 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze second part",
     "requires": ""
   },
@@ -6055,7 +6055,7 @@
   },
   {
     "name": "RS-8 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze second part",
     "requires": "|@6 star|"
   },
@@ -6073,7 +6073,7 @@
   },
   {
     "name": "RS-EX-1 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze third part",
     "requires": ""
   },
@@ -6085,7 +6085,7 @@
   },
   {
     "name": "RS-EX-2 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze third part",
     "requires": ""
   },
@@ -6097,7 +6097,7 @@
   },
   {
     "name": "RS-EX-3 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze third part",
     "requires": ""
   },
@@ -6109,7 +6109,7 @@
   },
   {
     "name": "RS-EX-4 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze third part",
     "requires": ""
   },
@@ -6121,7 +6121,7 @@
   },
   {
     "name": "RS-EX-5 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze fourth part",
     "requires": ""
   },
@@ -6133,7 +6133,7 @@
   },
   {
     "name": "RS-EX-6 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze fourth part",
     "requires": ""
   },
@@ -6145,7 +6145,7 @@
   },
   {
     "name": "RS-EX-7 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze fourth part",
     "requires": ""
   },
@@ -6157,7 +6157,7 @@
   },
   {
     "name": "RS-EX-8 3-star clear",
-    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-star clear"],
+    "category": ["Snow and silver Steel", "The Rides to Lake Silberneherze", "ex-stage", "3-stars clear"],
     "region": "The Rides to Lake Silberneherze fourth part",
     "requires": "|@6 star|"
   },
@@ -6169,7 +6169,7 @@
   },
   {
     "name": "IL-1 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan first part",
     "requires": ""
   },
@@ -6181,7 +6181,7 @@
   },
   {
     "name": "IL-2 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan first part",
     "requires": ""
   },
@@ -6193,7 +6193,7 @@
   },
   {
     "name": "IL-3 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan first part",
     "requires": ""
   },
@@ -6205,7 +6205,7 @@
   },
   {
     "name": "IL-4 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan first part",
     "requires": ""
   },
@@ -6217,7 +6217,7 @@
   },
   {
     "name": "IL-5 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan first part",
     "requires": ""
   },
@@ -6229,7 +6229,7 @@
   },
   {
     "name": "IL-6 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan second part",
     "requires": ""
   },
@@ -6241,7 +6241,7 @@
   },
   {
     "name": "IL-7 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan second part",
     "requires": ""
   },
@@ -6253,7 +6253,7 @@
   },
   {
     "name": "IL-8 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan second part",
     "requires": ""
   },
@@ -6265,7 +6265,7 @@
   },
   {
     "name": "IL-9 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan second part",
     "requires": ""
   },
@@ -6277,7 +6277,7 @@
   },
   {
     "name": "IL-10 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "3-stars clear"],
     "region": "Il Siracusan second part",
     "requires": "|@6 star|"
   },
@@ -6313,7 +6313,7 @@
   },
   {
     "name": "IL-EX-1 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-stars clear"],
     "region": "Il Siracusan third part",
     "requires": ""
   },
@@ -6325,7 +6325,7 @@
   },
   {
     "name": "IL-EX-2 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-stars clear"],
     "region": "Il Siracusan third part",
     "requires": ""
   },
@@ -6337,7 +6337,7 @@
   },
   {
     "name": "IL-EX-3 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-stars clear"],
     "region": "Il Siracusan third part",
     "requires": ""
   },
@@ -6349,7 +6349,7 @@
   },
   {
     "name": "IL-EX-4 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-stars clear"],
     "region": "Il Siracusan third part",
     "requires": ""
   },
@@ -6361,7 +6361,7 @@
   },
   {
     "name": "IL-EX-5 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-stars clear"],
     "region": "Il Siracusan fourth part",
     "requires": ""
   },
@@ -6373,7 +6373,7 @@
   },
   {
     "name": "IL-EX-6 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-stars clear"],
     "region": "Il Siracusan fourth part",
     "requires": ""
   },
@@ -6385,7 +6385,7 @@
   },
   {
     "name": "IL-EX-7 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-stars clear"],
     "region": "Il Siracusan fourth part",
     "requires": ""
   },
@@ -6397,7 +6397,7 @@
   },
   {
     "name": "IL-EX-8 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "ex-stage", "3-stars clear"],
     "region": "Il Siracusan fourth part",
     "requires": "|@6 star|"
   },
@@ -6409,7 +6409,7 @@
   },
   {
     "name": "IL-S-1 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-stars clear"],
     "region": "Il Siracusan fifth part",
     "requires": ""
   },
@@ -6421,7 +6421,7 @@
   },
   {
     "name": "IL-S-2 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-stars clear"],
     "region": "Il Siracusan fifth part",
     "requires": ""
   },
@@ -6433,7 +6433,7 @@
   },
   {
     "name": "IL-S-3 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-stars clear"],
     "region": "Il Siracusan fifth part",
     "requires": ""
   },
@@ -6445,7 +6445,7 @@
   },
   {
     "name": "IL-S-4 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-stars clear"],
     "region": "Il Siracusan fifth part",
     "requires": ""
   },
@@ -6457,7 +6457,7 @@
   },
   {
     "name": "IL-S-5 3-star clear",
-    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "Il Siracusan", "s-stage", "3-stars clear"],
     "region": "Il Siracusan fifth part",
     "requires": ""
   },
@@ -6469,7 +6469,7 @@
   },
   {
     "name": "PV-1 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti first part",
     "requires": ""
   },
@@ -6481,7 +6481,7 @@
   },
   {
     "name": "PV-2 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti first part",
     "requires": ""
   },
@@ -6493,7 +6493,7 @@
   },
   {
     "name": "PV-3 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti first part",
     "requires": ""
   },
@@ -6505,7 +6505,7 @@
   },
   {
     "name": "PV-4 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti first part",
     "requires": ""
   },
@@ -6517,7 +6517,7 @@
   },
   {
     "name": "PV-5 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti first part",
     "requires": ""
   },
@@ -6529,7 +6529,7 @@
   },
   {
     "name": "PV-6 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti second part",
     "requires": ""
   },
@@ -6541,7 +6541,7 @@
   },
   {
     "name": "PV-7 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti second part",
     "requires": ""
   },
@@ -6553,7 +6553,7 @@
   },
   {
     "name": "PV-8 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti second part",
     "requires": ""
   },
@@ -6565,7 +6565,7 @@
   },
   {
     "name": "PV-9 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti second part",
     "requires": ""
   },
@@ -6577,7 +6577,7 @@
   },
   {
     "name": "PV-10 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti second part",
     "requires": ""
   },
@@ -6589,19 +6589,19 @@
   },
   {
     "name": "PV-ST-2 read",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "read"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "reading"],
     "region": "I Portatori Dei Velluti first part",
     "requires": ""
   },
   {
     "name": "PV-ST-3 read",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "read"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "reading"],
     "region": "I Portatori Dei Velluti second part",
     "requires": ""
   },
   {
     "name": "PV-ST-4 read",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "read"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "reading"],
     "region": "I Portatori Dei Velluti second part",
     "requires": ""
   },
@@ -6613,7 +6613,7 @@
   },
   {
     "name": "PV-EX-1 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti third part",
     "requires": ""
   },
@@ -6625,7 +6625,7 @@
   },
   {
     "name": "PV-EX-2 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti third part",
     "requires": ""
   },
@@ -6637,7 +6637,7 @@
   },
   {
     "name": "PV-EX-3 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti third part",
     "requires": ""
   },
@@ -6649,7 +6649,7 @@
   },
   {
     "name": "PV-EX-4 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti third part",
     "requires": ""
   },
@@ -6661,7 +6661,7 @@
   },
   {
     "name": "PV-EX-5 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti third part",
     "requires": ""
   },
@@ -6673,7 +6673,7 @@
   },
   {
     "name": "PV-EX-6 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti third part",
     "requires": ""
   },
@@ -6685,7 +6685,7 @@
   },
   {
     "name": "PV-EX-7 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti third part",
     "requires": ""
   },
@@ -6697,67 +6697,67 @@
   },
   {
     "name": "PV-EX-8 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "3-stars clear"],
     "region": "I Portatori Dei Velluti third part",
     "requires": ""
   },
   {
     "name": "PV-S-1 clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
     "name": "PV-S-1 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage",  "3-stars clear"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
     "name": "PV-S-2 clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
     "name": "PV-S-2 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage",  "3-stars clear"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
     "name": "PV-S-3 clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
     "name": "PV-S-3 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage",  "3-stars clear"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
     "name": "PV-S-4 clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
     "name": "PV-S-4 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage",  "3-stars clear"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
     "name": "PV-S-5 clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage", "boss stage"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage", "boss stage"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
   {
     "name": "PV-S-5 3-star clear",
-    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "S-stage",  "3-star clear"],
+    "category": ["Sette Colli's Sprouts", "I Portatori Dei Velluti", "s-stage",  "3-stars clear"],
     "region": "I Portatori Dei Velluti fourth part",
     "requires": ""
   },
@@ -6769,7 +6769,7 @@
   },
   {
     "name": "MN-1 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "3-stars clear"],
     "region": "Maria Nearl first part",
     "requires": ""
   },
@@ -6781,7 +6781,7 @@
   },
   {
     "name": "MN-2 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "3-stars clear"],
     "region": "Maria Nearl first part",
     "requires": ""
   },
@@ -6793,7 +6793,7 @@
   },
   {
     "name": "MN-3 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "3-stars clear"],
     "region": "Maria Nearl first part",
     "requires": ""
   },
@@ -6805,7 +6805,7 @@
   },
   {
     "name": "MN-4 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "3-stars clear"],
     "region": "Maria Nearl first part",
     "requires": ""
   },
@@ -6817,7 +6817,7 @@
   },
   {
     "name": "MN-5 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "3-stars clear"],
     "region": "Maria Nearl second part",
     "requires": ""
   },
@@ -6829,7 +6829,7 @@
   },
   {
     "name": "MN-6 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "3-stars clear"],
     "region": "Maria Nearl second part",
     "requires": ""
   },
@@ -6841,7 +6841,7 @@
   },
   {
     "name": "MN-7 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "3-stars clear"],
     "region": "Maria Nearl second part",
     "requires": ""
   },
@@ -6853,7 +6853,7 @@
   },
   {
     "name": "MN-8 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "3-stars clear"],
     "region": "Maria Nearl second part",
     "requires": ""
   },
@@ -6865,7 +6865,7 @@
   },
   {
     "name": "MN-EX-1 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-stars clear"],
     "region": "Maria Nearl third part",
     "requires": ""
   },
@@ -6877,7 +6877,7 @@
   },
   {
     "name": "MN-EX-2 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-stars clear"],
     "region": "Maria Nearl third part",
     "requires": ""
   },
@@ -6889,7 +6889,7 @@
   },
   {
     "name": "MN-EX-3 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-stars clear"],
     "region": "Maria Nearl third part",
     "requires": ""
   },
@@ -6901,7 +6901,7 @@
   },
   {
     "name": "MN-EX-4 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-stars clear"],
     "region": "Maria Nearl third part",
     "requires": ""
   },
@@ -6913,7 +6913,7 @@
   },
   {
     "name": "MN-EX-5 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-stars clear"],
     "region": "Maria Nearl fourth part",
     "requires": ""
   },
@@ -6925,7 +6925,7 @@
   },
   {
     "name": "MN-EX-6 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-stars clear"],
     "region": "Maria Nearl fourth part",
     "requires": ""
   },
@@ -6937,7 +6937,7 @@
   },
   {
     "name": "MN-EX-7 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-stars clear"],
     "region": "Maria Nearl fourth part",
     "requires": ""
   },
@@ -6949,7 +6949,7 @@
   },
   {
     "name": "MN-EX-8 3-star clear",
-    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Maria Nearl", "ex-stage", "3-stars clear"],
     "region": "Maria Nearl fourth part",
     "requires": ""
   },
@@ -6979,7 +6979,7 @@
   },
   {
     "name": "NL-1 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light first part",
     "requires": ""
   },
@@ -6991,7 +6991,7 @@
   },
   {
     "name": "NL-2 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light first part",
     "requires": ""
   },
@@ -7003,7 +7003,7 @@
   },
   {
     "name": "NL-3 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light first part",
     "requires": ""
   },
@@ -7015,7 +7015,7 @@
   },
   {
     "name": "NL-4 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light first part",
     "requires": ""
   },
@@ -7027,7 +7027,7 @@
   },
   {
     "name": "NL-5 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light first part",
     "requires": ""
   },
@@ -7039,7 +7039,7 @@
   },
   {
     "name": "NL-6 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light second part",
     "requires": ""
   },
@@ -7051,7 +7051,7 @@
   },
   {
     "name": "NL-7 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light second part",
     "requires": ""
   },
@@ -7063,7 +7063,7 @@
   },
   {
     "name": "NL-8 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light second part",
     "requires": ""
   },
@@ -7075,7 +7075,7 @@
   },
   {
     "name": "NL-9 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light second part",
     "requires": ""
   },
@@ -7087,7 +7087,7 @@
   },
   {
     "name": "NL-10 3-star clear",
-    "category": ["Under the Neon", "Near Light", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "3-stars clear"],
     "region": "Near Light second part",
     "requires": ""
   },
@@ -7123,7 +7123,7 @@
   },
   {
     "name": "NL-EX-1 3-star clear",
-    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-stars clear"],
     "region": "Near Light third part",
     "requires": ""
   },
@@ -7135,7 +7135,7 @@
   },
   {
     "name": "NL-EX-2 3-star clear",
-    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-stars clear"],
     "region": "Near Light third part",
     "requires": ""
   },
@@ -7147,7 +7147,7 @@
   },
   {
     "name": "NL-EX-3 3-star clear",
-    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-stars clear"],
     "region": "Near Light third part",
     "requires": ""
   },
@@ -7159,7 +7159,7 @@
   },
   {
     "name": "NL-EX-4 3-star clear",
-    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-stars clear"],
     "region": "Near Light third part",
     "requires": ""
   },
@@ -7171,7 +7171,7 @@
   },
   {
     "name": "NL-EX-5 3-star clear",
-    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-stars clear"],
     "region": "Near Light fourth part",
     "requires": ""
   },
@@ -7183,7 +7183,7 @@
   },
   {
     "name": "NL-EX-6 3-star clear",
-    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-stars clear"],
     "region": "Near Light fourth part",
     "requires": ""
   },
@@ -7195,7 +7195,7 @@
   },
   {
     "name": "NL-EX-7 3-star clear",
-    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-stars clear"],
     "region": "Near Light fourth part",
     "requires": ""
   },
@@ -7207,7 +7207,7 @@
   },
   {
     "name": "NL-EX-8 3-star clear",
-    "category": ["Under the Neon", "Near Light", "ex-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "ex-stage", "3-stars clear"],
     "region": "Near Light fourth part",
     "requires": ""
   },
@@ -7219,7 +7219,7 @@
   },
   {
     "name": "NL-S-1 3-star clear",
-    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-stars clear"],
     "region": "Near Light fifth part",
     "requires": ""
   },
@@ -7231,7 +7231,7 @@
   },
   {
     "name": "NL-S-2 3-star clear",
-    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-stars clear"],
     "region": "Near Light fifth part",
     "requires": ""
   },
@@ -7243,7 +7243,7 @@
   },
   {
     "name": "NL-S-3 3-star clear",
-    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-stars clear"],
     "region": "Near Light fifth part",
     "requires": ""
   },
@@ -7255,7 +7255,7 @@
   },
   {
     "name": "NL-S-4 3-star clear",
-    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-stars clear"],
     "region": "Near Light fifth part",
     "requires": ""
   },
@@ -7267,7 +7267,7 @@
   },
   {
     "name": "NL-S-5 3-star clear",
-    "category": ["Under the Neon", "Near Light", "s-stage", "3-star clear"],
+    "category": ["Under the Neon", "Near Light", "s-stage", "3-stars clear"],
     "region": "Near Light fifth part",
     "requires": ""
   },
@@ -7279,7 +7279,7 @@
   },
   {
     "name": "WR-1 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real first part",
     "requires": ""
   },
@@ -7291,7 +7291,7 @@
   },
   {
     "name": "WR-2 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real first part",
     "requires": ""
   },
@@ -7303,7 +7303,7 @@
   },
   {
     "name": "WR-3 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real first part",
     "requires": ""
   },
@@ -7315,7 +7315,7 @@
   },
   {
     "name": "WR-4 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real first part",
     "requires": ""
   },
@@ -7327,7 +7327,7 @@
   },
   {
     "name": "WR-5 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real first part",
     "requires": ""
   },
@@ -7339,7 +7339,7 @@
   },
   {
     "name": "WR-6 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real second part",
     "requires": ""
   },
@@ -7351,7 +7351,7 @@
   },
   {
     "name": "WR-7 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real second part",
     "requires": ""
   },
@@ -7363,7 +7363,7 @@
   },
   {
     "name": "WR-8 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real second part",
     "requires": ""
   },
@@ -7375,7 +7375,7 @@
   },
   {
     "name": "WR-9 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real second part",
     "requires": ""
   },
@@ -7387,7 +7387,7 @@
   },
   {
     "name": "WR-10 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "3-stars clear"],
     "region": "Who is Real second part",
     "requires": ""
   },
@@ -7417,7 +7417,7 @@
   },
   {
     "name": "WR-EX-1 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-stars clear"],
     "region": "Who is Real third part",
     "requires": ""
   },
@@ -7429,7 +7429,7 @@
   },
   {
     "name": "WR-EX-2 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-stars clear"],
     "region": "Who is Real third part",
     "requires": ""
   },
@@ -7441,7 +7441,7 @@
   },
   {
     "name": "WR-EX-3 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-stars clear"],
     "region": "Who is Real third part",
     "requires": ""
   },
@@ -7453,7 +7453,7 @@
   },
   {
     "name": "WR-EX-4 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-stars clear"],
     "region": "Who is Real third part",
     "requires": ""
   },
@@ -7465,7 +7465,7 @@
   },
   {
     "name": "WR-EX-5 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-stars clear"],
     "region": "Who is Real fourth part",
     "requires": ""
   },
@@ -7477,7 +7477,7 @@
   },
   {
     "name": "WR-EX-6 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-stars clear"],
     "region": "Who is Real fourth part",
     "requires": ""
   },
@@ -7489,7 +7489,7 @@
   },
   {
     "name": "WR-EX-7 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-stars clear"],
     "region": "Who is Real fourth part",
     "requires": ""
   },
@@ -7501,7 +7501,7 @@
   },
   {
     "name": "WR-EX-8 3-star clear",
-    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Who is Real", "ex-stage", "3-stars clear"],
     "region": "Who is Real fourth part",
     "requires": ""
   },
@@ -7513,7 +7513,7 @@
   },
   {
     "name": "IW-1 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-stars clear"],
     "region": "Invitation to Wine first part",
     "requires": ""
   },
@@ -7525,7 +7525,7 @@
   },
   {
     "name": "IW-2 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-stars clear"],
     "region": "Invitation to Wine first part",
     "requires": ""
   },
@@ -7537,7 +7537,7 @@
   },
   {
     "name": "IW-3 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-stars clear"],
     "region": "Invitation to Wine first part",
     "requires": ""
   },
@@ -7549,7 +7549,7 @@
   },
   {
     "name": "IW-4 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-stars clear"],
     "region": "Invitation to Wine first part",
     "requires": ""
   },
@@ -7561,7 +7561,7 @@
   },
   {
     "name": "IW-5 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-stars clear"],
     "region": "Invitation to Wine second part",
     "requires": ""
   },
@@ -7573,7 +7573,7 @@
   },
   {
     "name": "IW-6 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-stars clear"],
     "region": "Invitation to Wine second part",
     "requires": ""
   },
@@ -7585,7 +7585,7 @@
   },
   {
     "name": "IW-7 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-stars clear"],
     "region": "Invitation to Wine second part",
     "requires": ""
   },
@@ -7597,7 +7597,7 @@
   },
   {
     "name": "IW-8 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-stars clear"],
     "region": "Invitation to Wine second part",
     "requires": ""
   },
@@ -7609,7 +7609,7 @@
   },
   {
     "name": "IW-9 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "3-stars clear"],
     "region": "Invitation to Wine second part",
     "requires": ""
   },
@@ -7639,7 +7639,7 @@
   },
   {
     "name": "IW-EX-1 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-stars clear"],
     "region": "Invitation to Wine third part",
     "requires": ""
   },
@@ -7651,7 +7651,7 @@
   },
   {
     "name": "IW-EX-2 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-stars clear"],
     "region": "Invitation to Wine third part",
     "requires": ""
   },
@@ -7663,7 +7663,7 @@
   },
   {
     "name": "IW-EX-3 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-stars clear"],
     "region": "Invitation to Wine third part",
     "requires": ""
   },
@@ -7675,7 +7675,7 @@
   },
   {
     "name": "IW-EX-4 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-stars clear"],
     "region": "Invitation to Wine third part",
     "requires": ""
   },
@@ -7687,7 +7687,7 @@
   },
   {
     "name": "IW-EX-5 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-stars clear"],
     "region": "Invitation to Wine fourth part",
     "requires": ""
   },
@@ -7699,7 +7699,7 @@
   },
   {
     "name": "IW-EX-6 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-stars clear"],
     "region": "Invitation to Wine fourth part",
     "requires": ""
   },
@@ -7711,7 +7711,7 @@
   },
   {
     "name": "IW-EX-7 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-stars clear"],
     "region": "Invitation to Wine fourth part",
     "requires": ""
   },
@@ -7723,7 +7723,7 @@
   },
   {
     "name": "IW-EX-8 3-star clear",
-    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-star clear"],
+    "category": ["Through the Ages", "Invitation to Wine", "ex-stage", "3-stars clear"],
     "region": "Invitation to Wine fourth part",
     "requires": ""
   },
@@ -8455,49 +8455,49 @@
   },
   {
     "name": "OR-S-1 clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "s-stage"],
     "region": "Such is the Joy of Our Reunion fifth part",
     "requires": ""
   },
   {
     "name": "OR-S-1 3-star clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "3-stars clear"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "s-stage", "3-stars clear"],
     "region": "Such is the Joy of Our Reunion fifth part",
     "requires": ""
   },
   {
     "name": "OR-S-2 clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "s-stage"],
     "region": "Such is the Joy of Our Reunion fifth part",
     "requires": ""
   },
   {
     "name": "OR-S-2 3-star clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "3-stars clear"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "s-stage", "3-stars clear"],
     "region": "Such is the Joy of Our Reunion fifth part",
     "requires": ""
   },
   {
     "name": "OR-S-3 clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "s-stage"],
     "region": "Such is the Joy of Our Reunion fifth part",
     "requires": ""
   },
   {
     "name": "OR-S-3 3-star clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "3-stars clear"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "s-stage", "3-stars clear"],
     "region": "Such is the Joy of Our Reunion fifth part",
     "requires": ""
   },
   {
     "name": "OR-S-4 clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "boss stage"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "s-stage", "boss stage"],
     "region": "Such is the Joy of Our Reunion fifth part",
     "requires": ""
   },
   {
     "name": "OR-S-4 3-star clear",
-    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "S-stage", "3-stars clear"],
+    "category": ["Through the Ages", "Such is the Joy of Our Reunion", "s-stage", "3-stars clear"],
     "region": "Such is the Joy of Our Reunion fifth part",
     "requires": ""
   },

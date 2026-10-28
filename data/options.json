@@ -131,8 +131,11 @@
         "amount boss": {
             "description": [
                 "choose how many bosses you need to defeat to win the manual",
-                "if the chosen goal isn't beat x amount of bosses",
-                "then this option won't do anything"
+                "if the chosen goal isn't beat x amount of bosses, then this option won't do anything.",
+                "17 is the max if only chapters are included, 29 if the h-stages are also included.",
+                "32 is the max if only the events are included and ex-stages and s-stages are off.",
+                "64 is the max if only the events and ex-stages are enabled.",
+                "77 is the max if the all the events, ex-stages and s-stages are enabled."
             ],
             "type": "Range",
             "default": 17,

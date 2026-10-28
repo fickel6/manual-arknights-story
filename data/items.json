@@ -156,7 +156,7 @@
     "count": "1",
     "name": "Ch'en the Dawntreak",
     "category": [
-      "operator",
+      "character",
       "6 star",
       "guard",
       "block"
@@ -768,7 +768,7 @@
     "count": "1",
     "name": "Nasti",
     "category": [
-      "operator",
+      "character",
       "6 star",
       "supporter",
       "block"
@@ -1193,7 +1193,7 @@
     "count": "1",
     "name": "Titi",
     "category": [
-      "operator",
+      "character",
       "6 star",
       "medic"
     ],
@@ -1205,8 +1205,7 @@
     "category": [
       "6 star", 
       "guard",
-      "block",
-      "limited"
+      "block"
     ],
     "progression": true
   },
@@ -1683,7 +1682,7 @@
     "count": "1",
     "name": "Cairn",
     "category": [
-      "operator",
+      "character",
       "5 star",
       "defender",
       "block"
@@ -2524,8 +2523,7 @@
     "category": [
       "5 star", 
       "supporter",
-      "ranged",
-      "limited"
+      "ranged"
     ],
     "progression": true
   },
@@ -2650,7 +2648,7 @@
     "count": "1",
     "name": "Perfumer the Distilled",
     "category": [
-      "operator",
+      "character",
       "5 star",
       "supporter"
     ],
@@ -2952,7 +2950,7 @@
     "count": "1",
     "name": "Skybox",
     "category": [
-      "operator",
+      "character",
       "5 star",
       "sniper",
       "ranged"
@@ -2976,7 +2974,6 @@
     "category": [
       "character",
       "5 star",
-      "hunter",
       "ranged"
     ],
     "progression": true
@@ -3061,7 +3058,7 @@
     "count": "1",
     "name": "Taraxacum",
     "category": [
-      "operator",
+      "character",
       "5 star",
       "medic"
     ],
@@ -3190,7 +3187,7 @@
     "count": "1",
     "name": "Varkáris",
     "category": [
-      "operator",
+      "character",
       "5 star",
       "medic"
     ],
@@ -3212,7 +3209,7 @@
     "category": [
       "character",
       "5 star",
-      "Defender",
+      "defender",
       "block"
     ],
     "progression": true
@@ -3245,8 +3242,7 @@
     "category": [
       "5 star", 
       "specialist",
-      "block",
-      "limited"
+      "block"
     ],
     "progression": true
   },
@@ -3361,8 +3357,7 @@
     "count": 1,
     "category": [
       "5 star", 
-      "specialist",
-      "limited"
+      "specialist"
     ],
     "progression": true
   },
@@ -3372,8 +3367,7 @@
     "category": [
       "5 star", 
       "guard",
-      "block",
-      "limited"
+      "block"
     ],
     "progression": true
   },
@@ -4445,14 +4439,14 @@
     "count": "20",
     "name": "random unit unlock",
     "category": [
-      "character unlock"
+      "random character unlock"
     ],
     "useful": true
   },
   {
     "count": "17",
     "name": "defeated bosses",
-    "category": ["defeated bosses goal"],
+    "category": ["defeated bosses"],
     "progression": true
   },
   {
@@ -4584,7 +4578,6 @@
     "name": "progressive chapter 10",
     "category": [
       "chapter unlock",
-      "starting chapter unlock",
       "chapter 10"
     ],
     "progression": true
