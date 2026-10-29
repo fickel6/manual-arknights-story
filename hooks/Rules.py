@@ -98,8 +98,8 @@ def checkAmountxStars(state: CollectionState, category_name: str, required: str)
 
 def checkClassAmount(state: CollectionState, player: int, class_name: str, required: str):
     total = 0
-    for item_group_name in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
-        amount_progressive = state.count(f"progressive {item_group_name}", player)
+    for item_group_name in ["progressive 6 star", "progressive 5 star", "progressive 4 star", "progressive 3 star", "progressive 2 star", "progressive 1 star"]:
+        amount_progressive = state.count(item_group_name, player)
         total += amount_progressive
         if total > int(required):
             return True

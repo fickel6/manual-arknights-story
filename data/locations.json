@@ -1070,13 +1070,13 @@
     "name": "5-10 clear",
     "category": ["chapter 5", "boss stage"],
     "region": "chapter 5 third part",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "5-10 3-star clear",
     "category": ["chapter 5", "3-star sanity"],
     "region": "chapter 5 third part",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "5-11 read",
@@ -1231,13 +1231,13 @@
     "name": "H5-4 clear",
     "category": ["H operations", "H stage", "last H stage"],
     "region": "chapter 5 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H5-4 3-star clear",
     "category": ["H operations", "H stage", "3-star sanity"],
     "region": "chapter 5 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "6-1 clear",
@@ -1409,13 +1409,13 @@
     "name": "6-16 clear",
     "category": ["chapter 6", "boss stage"],
     "region": "chapter 6 third part",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "6-16 3-star clear",
     "category": ["chapter 6","3-star sanity"],
     "region": "chapter 6 third part",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "6-17 clear",
@@ -1522,13 +1522,13 @@
     "name": "H6-4 clear",
     "category": ["extreme operations", "chapter 6", "last H stage"],
     "region": "chapter 6 H-stages",
-    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H6-4 3-star clear",
     "category": ["extreme operations", "3-star sanity"],
     "region": "chapter 6 H-stages",
-    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "7-1 read",
@@ -1726,13 +1726,13 @@
     "name": "7-18 clear",
     "category": ["chapter 7", "boss stage"],
     "region": "chapter 7 fifth part",
-    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "7-18 3-star clear",
     "category": ["chapter 7", "3-star sanity"],
     "region": "chapter 7 fifth part",
-    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "7-19 read",
@@ -1786,13 +1786,13 @@
     "name": "H7-4 clear",
     "category": ["extreme operations", "chapter 7", "last H stage"],
     "region": "chapter 7 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H7-4 3-star clear",
     "category": ["extreme operations", "chapter 7", "3-star sanity"],
     "region": "chapter 7 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "S7-1 clear",
@@ -2008,13 +2008,13 @@
     "name": "M8-8 clear",
     "category": ["chapter 8"],
     "region": "chapter 8 present",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "M8-8 3-star clear",
     "category": ["chapter 8","3-star sanity"],
     "region": "chapter 8 present",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "JT8-1 clear",
@@ -2032,25 +2032,25 @@
     "name": "JT8-2 clear",
     "category": ["chapter 8"],
     "region": "chapter 8 last part",
-    "requires": "{requiredOperators(3, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "JT8-2 3-star clear",
     "category": ["chapter 8","3-star sanity"],
     "region": "chapter 8 last part",
-    "requires": "{requiredOperators(3, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "JT8-3 clear",
     "category": ["chapter 8", "boss stage"],
     "region": "chapter 8 last part",
-    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "JT8-3 3-star clear",
     "category": ["chapter 8","3-star sanity"],
     "region": "chapter 8 last part",
-    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "END8-1 read",
@@ -2074,37 +2074,37 @@
     "name": "H8-2 clear",
     "category": ["extreme operations", "chapter 8"],
     "region": "chapter 8 H-stages",
-    "requires": "{requiredOperators(1, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H8-2 3-star clear",
     "category": ["extreme operations", "chapter 8","3-star sanity"],
     "region": "chapter 8 H-stages",
-    "requires": "{requiredOperators(1, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H8-3 clear",
     "category": ["extreme operations", "chapter 8"],
     "region": "chapter 8 H-stages",
-    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H8-3 3-star clear",
     "category": ["extreme operations", "chapter 8","3-star sanity"],
     "region": "chapter 8 H-stages",
-    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H8-4 clear",
     "category": ["extreme operations", "chapter 8", "last H stage"],
     "region": "chapter 8 H-stages",
-    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H8-4 3-star clear",
     "category": ["extreme operations", "chapter 8","3-star sanity"],
     "region": "chapter 8 H-stages",
-    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "EG-1 read",
@@ -2346,13 +2346,13 @@
     "name": "9-19 clear",
     "category": ["chapter 9", "boss stage"],
     "region": "chapter 9 fourth part",
-    "requires": "{requiredOperators(2, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "9-19 3-star clear",
     "category": ["chapter 9","3-star sanity"],
     "region": "chapter 9 fourth part",
-    "requires": "{requiredOperators(2, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "9-20 read",
@@ -2478,13 +2478,13 @@
     "name": "H9-6 clear",
     "category": ["extreme operations", "chapter 9", "last H stage"],
     "region": "chapter 9 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H9-6 3-star clear",
     "category": ["extreme operations", "chapter 9", "3-star sanity"],
     "region": "chapter 9 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "10-1 read",
@@ -2670,13 +2670,13 @@
     "name": "10-17 clear",
     "category": ["chapter 10", "boss stage"],
     "region": "chapter 10 fifth part",
-    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "10-17 3-star clear",
     "category": ["chapter 10", "3-star sanity"],
     "region": "chapter 10 fifth part",
-    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "10-18 read",
@@ -2694,37 +2694,37 @@
     "name": "H10-1 clear",
     "category": ["extreme operations", "chapter 10"],
     "region": "chapter 10 H-stages",
-    "requires": "{requiredOperators(3, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H10-1 3-star clear",
     "category": ["extreme operations", "chapter 10", "3-star sanity"],
     "region": "chapter 10 H-stages",
-    "requires": "{requiredOperators(3, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H10-2 clear",
     "category": ["extreme operations", "chapter 10"],
     "region": "chapter 10 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H10-2 3-star clear",
     "category": ["extreme operations", "chapter 10", "3-star sanity"],
     "region": "chapter 10 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H10-3 clear",
     "category": ["extreme operations", "chapter 10", "last H stage"],
     "region": "chapter 10 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H10-3 3-star clear",
     "category": ["extreme operations", "chapter 10", "3-star sanity"],
     "region": "chapter 10 H-stages",
-    "requires": "{requiredOperators(2, 0)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "11-1 clear",
@@ -2946,13 +2946,13 @@
     "name": "11-20 clear",
     "category": ["chapter 11", "boss stage"],
     "region": "chapter 11 fifth part",
-    "requires": "|@block:2| AND |@character:5| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "11-20 3-star clear",
     "category": ["chapter 11", "3-star sanity"],
     "region": "chapter 11 fifth part",
-    "requires": "|@block:2| AND |@character:5| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "11-21 read",
@@ -2976,13 +2976,13 @@
     "name": "H11-2 clear",
     "category": ["extreme operations", "chapter 11"],
     "region": "chapter 11 H-stages",
-    "requires": "|@block:2| AND |@character:5| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H11-2 3-star clear",
     "category": ["extreme operations", "chapter 11"],
     "region": "chapter 11 H-stages",
-    "requires": "|@block:2| AND |@character:5| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H11-3 clear",
@@ -3000,13 +3000,13 @@
     "name": "H11-4 clear",
     "category": ["extreme operations", "chapter 11", "last H stage"],
     "region": "chapter 11 H-stages",
-    "requires": "|@block:2| AND |@character:5| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H11-4 3-star clear",
     "category": ["extreme operations", "chapter 11"],
     "region": "chapter 11 H-stages",
-    "requires": "|@block:2| AND |@character:5| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "12-1 read",
@@ -3042,13 +3042,13 @@
     "name": "12-4 clear",
     "category": ["chapter 12"],
     "region": "chapter 12 first part",
-    "requires": "|@block:2| AND |@character:3|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(3)}"
   },
   {
     "name": "12-4 3-star clear",
     "category": ["chapter 12"],
     "region": "chapter 12 first part",
-    "requires": "|@block:2| AND |@character:3|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(3)}"
   },
   {
     "name": "12-5 clear",
@@ -3144,13 +3144,13 @@
     "name": "12-13 clear",
     "category": ["chapter 12"],
     "region": "chapter 12 third part",
-    "requires": "|@block:2| AND |@character:3|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(3)}"
   },
   {
     "name": "12-13 3-star clear",
     "category": ["chapter 12"],
     "region": "chapter 12 third part",
-    "requires": "|@block:2| AND |@character:3|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(3)}"
   },
   {
     "name": "12-14 clear",
@@ -3228,13 +3228,13 @@
     "name": "12-20 clear",
     "category": ["chapter 12", "boss stage"],
     "region": "chapter 12 fifth part",
-    "requires": "|@block:4| AND {checkClassAmount(vanguard, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(4, 0)} AND {checkClassAmount(vanguard, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "12-20 3-star clear",
     "category": ["chapter 12"],
     "region": "chapter 12 fifth part",
-    "requires": "|@block:4| AND {checkClassAmount(vanguard, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(4, 0)} AND {checkClassAmount(vanguard, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "12-21 read",
@@ -3246,13 +3246,13 @@
     "name": "H12-1 clear",
     "category": ["extreme operations", "chapter 12"],
     "region": "chapter 12 H-stages",
-    "requires": "|@block:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H12-1 3-star clear",
     "category": ["extreme operations", "chapter 12"],
     "region": "chapter 12 H-stages",
-    "requires": "|@block:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H12-2 clear",
@@ -3270,25 +3270,25 @@
     "name": "H12-3 clear",
     "category": ["extreme operations", "chapter 12"],
     "region": "chapter 12 H-stages",
-    "requires": "|@block:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H12-3 3-star clear",
     "category": ["extreme operations", "chapter 12"],
     "region": "chapter 12 H-stages",
-    "requires": "|@block:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H12-4 clear",
     "category": ["extreme operations", "chapter 12", "last H stage"],
     "region": "chapter 12 H-stages",
-    "requires": "|@block:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H12-4 3-star clear",
     "category": ["extreme operations", "chapter 12"],
     "region": "chapter 12 H-stages",
-    "requires": "|@block:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "13-1 read",
@@ -3300,13 +3300,13 @@
     "name": "13-2 clear",
     "category": ["chapter 13"],
     "region": "chapter 13 first part",
-    "requires": "|@block:2| AND |@character:4|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(4)}"
   },
   {
     "name": "13-2 3-star clear",
     "category": ["chapter 13"],
     "region": "chapter 13 first part",
-    "requires": "|@block:2| AND |@character:4|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(4)}"
   },
   {
     "name": "13-3 clear",
@@ -3324,25 +3324,25 @@
     "name": "13-4 clear",
     "category": ["chapter 13"],
     "region": "chapter 13 first part",
-    "requires": "|@block:2| AND |@character:4|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(4)}"
   },
   {
     "name": "13-4 3-star clear",
     "category": ["chapter 13"],
     "region": "chapter 13 first part",
-    "requires": "|@block:2| AND |@character:4|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(4)}"
   },
   {
     "name": "13-5 clear",
     "category": ["chapter 13"],
     "region": "chapter 13 first part",
-    "requires": "|@block:2| AND |@character:4|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(4)}"
   },
   {
     "name": "13-5 3-star clear",
     "category": ["chapter 13"],
     "region": "chapter 13 first part",
-    "requires": "|@block:2| AND |@character:4|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(4)}"
   },
   {
     "name": "13-6 clear",
@@ -3450,13 +3450,13 @@
     "name": "13-15 clear",
     "category": ["chapter 13"],
     "region": "chapter 13 third part",
-    "requires": "|@block:2| AND |@character:5|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)}"
   },
   {
     "name": "13-15 3-star clear",
     "category": ["chapter 13"],
     "region": "chapter 13 third part",
-    "requires": "|@block:2| AND |@character:5|"
+    "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)}"
   },
   {
     "name": "13-16 clear",
@@ -3522,13 +3522,13 @@
     "name": "13-21 clear",
     "category": ["chapter 13", "boss stage"],
     "region": "chapter 13 fifth part",
-    "requires": "|@block:2| AND |@ranged:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 3)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "13-21 3-star clear",
     "category": ["chapter 13"],
     "region": "chapter 13 fifth part",
-    "requires": "|@block:2| AND |@ranged:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 3)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "13-22 read",
@@ -3552,37 +3552,37 @@
     "name": "H13-2 clear",
     "category": ["extreme operations", "chapter 13"],
     "region": "chapter 13 H-stages",
-    "requires": "|@block:3| AND |@ranged:2|"
+    "requires": "{requiredOperators(3, 2)}"
   },
   {
     "name": "H13-2 3-star clear",
     "category": ["extreme operations", "chapter 13"],
     "region": "chapter 13 H-stages",
-    "requires": "|@block:3| AND |@ranged:2|"
+    "requires": "{requiredOperators(3, 2)}"
   },
   {
     "name": "H13-3 clear",
     "category": ["extreme operations", "chapter 13"],
     "region": "chapter 13 H-stages",
-    "requires": "|@block:1| AND |@ranged:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 3)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H13-3 3-star clear",
     "category": ["extreme operations", "chapter 13"],
     "region": "chapter 13 H-stages",
-    "requires": "|@block:1| AND |@ranged:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 3)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H13-4 clear",
     "category": ["extreme operations", "chapter 13", "last H stage"],
     "region": "chapter 13 H-stages",
-    "requires": "|@block:3| AND |@ranged:2| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H13-4 3-star clear",
     "category": ["extreme operations", "chapter 13"],
     "region": "chapter 13 H-stages",
-    "requires": "|@block:3| AND |@ranged:2| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "14-1 read",
@@ -3630,7 +3630,7 @@
     "name": "14-5 clear",
     "category": ["chapter 14"],
     "region": "chapter 14 first part",
-    "requires": "|@block:1| "
+    "requires": "{requiredOperators(1, 0)}"
   },
   {
     "name": "14-5 3-star clear",
@@ -3702,13 +3702,13 @@
     "name": "14-11 clear",
     "category": ["chapter 14"],
     "region": "chapter 14 third part",
-    "requires": "|@block:3| AND |@ranged:2|"
+    "requires": "{requiredOperators(3, 2)}"
   },
   {
     "name": "14-11 3-star clear",
     "category": ["chapter 14"],
     "region": "chapter 14 third part",
-    "requires": "|@block:3| AND |@ranged:2|"
+    "requires": "{requiredOperators(3, 2)}"
   },
   {
     "name": "14-12 clear",
@@ -3732,13 +3732,13 @@
     "name": "14-14 clear",
     "category": ["chapter 14"],
     "region": "chapter 14 third part",
-    "requires": "|@block:1| AND |@character:2|"
+    "requires": "{requiredOperators(1, 0)}"
   },
   {
     "name": "14-14 3-star clear",
     "category": ["chapter 14"],
     "region": "chapter 14 third part",
-    "requires": "|@block:1| AND |@character:2|"
+    "requires": "{requiredOperators(1, 0)}"
   },
   {
     "name": "14-15 clear",
@@ -3780,13 +3780,13 @@
     "name": "14-18 clear",
     "category": ["chapter 14"],
     "region": "chapter 14 fifth part",
-    "requires": "|@block:2| AND |@ranged:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 3)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "14-18 3-star clear",
     "category": ["chapter 14"],
     "region": "chapter 14 fifth part",
-    "requires": "|@block:2| AND |@ranged:3| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 3)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "14-19 clear",
@@ -3804,25 +3804,25 @@
     "name": "14-20 clear",
     "category": ["chapter 14"],
     "region": "chapter 14 fifth part",
-    "requires": "|@block:1| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "14-20 3-star clear",
     "category": ["chapter 14"],
     "region": "chapter 14 fifth part",
-    "requires": "|@block:1| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "14-21 clear",
     "category": ["chapter 14", "boss stage"],
     "region": "chapter 14 fifth part",
-    "requires": "|@block:1| AND {checkAmountxStars(6 star, 2}"
+    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 2}"
   },
   {
     "name": "14-21 3-star clear",
     "category": ["chapter 14"],
     "region": "chapter 14 fifth part",
-    "requires": "|@block:1| AND {checkAmountxStars(6 star, 2}"
+    "requires": "{requiredOperators(1, 0)} AND {checkAmountxStars(6 star, 2}"
   },
   {
     "name": "14-22 clear",
@@ -3864,37 +3864,37 @@
     "name": "H14-2 clear",
     "category": ["extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": "|@block:3| AND |@ranged:2|"
+    "requires": "{requiredOperators(3, 2)}"
   },
   {
     "name": "H14-2 3-star clear",
     "category": ["extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": "|@block:3| AND |@ranged:2|"
+    "requires": "{requiredOperators(3, 2)}"
   },
   {
     "name": "H14-3 clear",
     "category": ["extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": "|@block:1| AND |@ranged:2| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H14-3 3-star clear",
     "category": ["extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": "|@block:1| AND |@ranged:2| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H14-4 clear",
     "category": ["extreme operations", "chapter 14", "last H stage"],
     "region": "chapter 14 H-stages",
-    "requires": "|@block:2| AND |@ranged:3| AND {checkAmountxStars(6 star, 2}"
+    "requires": "{requiredOperators(2, 3)} AND {checkAmountxStars(6 star, 2}"
   },
   {
     "name": "H14-4 3-star clear",
     "category": ["extreme operations", "chapter 14"],
     "region": "chapter 14 H-stages",
-    "requires": "|@block:2| AND |@ranged:3| AND {checkAmountxStars(6 star, 2}"
+    "requires": "{requiredOperators(2, 3)} AND {checkAmountxStars(6 star, 2}"
   },
   {
     "name": "15-1 read",
@@ -3954,13 +3954,13 @@
     "name": "15-6 clear",
     "category": ["chapter 15"],
     "region": "chapter 15 second part",
-    "requires": "|@block:2| OR (|@block:1| AND |@ranged:1|)"
+    "requires": "{requiredOperators(3, 0)} OR {requiredOperators(2, 1)}"
   },
   {
     "name": "15-6 3-star clear",
     "category": ["chapter 15"],
     "region": "chapter 15 second part",
-    "requires": "|@block:2| OR (|@block:1| AND |@ranged:1|)"
+    "requires": "{requiredOperators(3, 0)} OR {requiredOperators(2, 1)}"
   },
   {
     "name": "15-7 clear",
@@ -3978,13 +3978,13 @@
     "name": "15-8 clear",
     "category": ["chapter 15"],
     "region": "chapter 15 second part",
-    "requires": "|@block:2| AND {checkClassAmount(vanguard, 1)}"
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(vanguard, 1)}"
   },
   {
     "name": "15-8 3-star clear",
     "category": ["chapter 15"],
     "region": "chapter 15 second part",
-    "requires": "|@block:2| AND {checkClassAmount(vanguard, 1)}"
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(vanguard, 1)}"
   },
   {
     "name": "15-9 clear",
@@ -4002,13 +4002,13 @@
     "name": "15-10 clear",
     "category": ["chapter 15"],
     "region": "chapter 15 second part",
-    "requires": "|@block:2| AND |@ranged:1| AND {checkClassAmount(vanguard, 1)}"
+    "requires": "{requiredOperators(2, 1)} AND {checkClassAmount(vanguard, 1)}"
   },
   {
     "name": "15-10 3-star clear",
     "category": ["chapter 15"],
     "region": "chapter 15 second part",
-    "requires": "|@block:2| AND |@ranged:1| AND {checkClassAmount(vanguard, 1)}"
+    "requires": "{requiredOperators(2, 1)} AND {checkClassAmount(vanguard, 1)}"
   },
   {
     "name": "15-11 clear",
@@ -4080,13 +4080,13 @@
     "name": "15-17 clear",
     "category": ["chapter 15"],
     "region": "chapter 15 fourth part",
-    "requires": "|@block:5| AND |@ranged:2| AND {checkClassAmount(vanguard, 1)}"
+    "requires": "{requiredOperators(5, 2)} AND {checkClassAmount(vanguard, 1)}"
   },
   {
     "name": "15-17 3-star clear",
     "category": ["chapter 15"],
     "region": "chapter 15 fourth part",
-    "requires": "|@block:5| AND |@ranged:2| AND {checkClassAmount(vanguard, 1)}"
+    "requires": "{requiredOperators(5, 2)} AND {checkClassAmount(vanguard, 1)}"
   },
   {
     "name": "15-18 clear",
@@ -4110,13 +4110,13 @@
     "name": "15-20 clear",
     "category": ["chapter 15", "boss stage"],
     "region": "chapter 15 fourth part",
-    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "15-20 3-star clear",
     "category": ["chapter 15"],
     "region": "chapter 15 fourth part",
-    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "15-21 read",
@@ -4140,13 +4140,13 @@
     "name": "H15-2 clear",
     "category": ["extreme operations", "chapter 15"],
     "region": "chapter 15 H-stages",
-    "requires": "|@block:3| AND {checkClassAmount(vanguard, 1)}"
+    "requires": "{requiredOperators(3, 0)} AND {checkClassAmount(vanguard, 1)}"
   },
   {
     "name": "H15-2 3-star clear",
     "category": ["extreme operations", "chapter 15"],
     "region": "chapter 15 H-stages",
-    "requires": "|@block:3| AND {checkClassAmount(vanguard, 1)}"
+    "requires": "{requiredOperators(3, 0)} AND {checkClassAmount(vanguard, 1)}"
   },
   {
     "name": "H15-3 clear",
@@ -4164,13 +4164,13 @@
     "name": "H15-4 clear",
     "category": ["extreme operations", "chapter 15", "last H stage"],
     "region": "chapter 15 H-stages",
-    "requires": "|@block:3| AND |@ranged:3| AND {checkClassAmount(vanguard, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 3)} AND {checkClassAmount(vanguard, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H15-4 3-star clear",
     "category": ["extreme operations", "chapter 15"],
     "region": "chapter 15 H-stages",
-    "requires": "|@block:3| AND |@ranged:3| AND {checkClassAmount(vanguard, 1)} AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 3)} AND {checkClassAmount(vanguard, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "16-1 read",
@@ -4242,13 +4242,13 @@
     "name": "16-7 clear",
     "category": ["chapter 16"],
     "region": "chapter 16 second part",
-    "requires": "|@block:4| AND |@ranged:1|"
+    "requires": "{requiredOperators(4, 1)}"
   },
   {
     "name": "16-7 3-star clear",
     "category": ["chapter 16"],
     "region": "chapter 16 second part",
-    "requires": "|@block:4| AND |@ranged:1|"
+    "requires": "{requiredOperators(4, 1)}"
   },
   {
     "name": "16-8 clear",
@@ -4302,13 +4302,13 @@
     "name": "16-12 clear",
     "category": ["chapter 16"],
     "region": "chapter 16 third part",
-    "requires": "|@block:1| AND |@character:5| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "16-12 3-star clear",
     "category": ["chapter 16"],
     "region": "chapter 16 third part",
-    "requires": "|@block:1| AND |@character:5| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "16-13 clear",
@@ -4350,25 +4350,25 @@
     "name": "16-16 clear",
     "category": ["chapter 16", "boss stage"],
     "region": "chapter 16 fourth part",
-    "requires": "|@block:1| AND |@ranged:2| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "16-16 3-star clear",
     "category": ["chapter 16"],
     "region": "chapter 16 fourth part",
-    "requires": "|@block:1| AND |@ranged:2| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(1, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "16-17 clear",
     "category": ["chapter 16"],
     "region": "chapter 16 fourth part",
-    "requires": "|@block:3| AND |@ranged:2|"
+    "requires": "{requiredOperators(3, 2)}"
   },
   {
     "name": "16-17 3-star clear",
     "category": ["chapter 16"],
     "region": "chapter 16 fourth part",
-    "requires": "|@block:3| AND |@ranged:2|"
+    "requires": "{requiredOperators(3, 2)}"
   },
   {
     "name": "16-18 clear",
@@ -4428,13 +4428,13 @@
     "name": "H16-2 clear",
     "category": ["extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": "|@block:3| AND |@character:6| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H16-2 3-star clear",
     "category": ["extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": "|@block:3| AND |@character:6| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 0)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H16-3 clear",
@@ -4452,13 +4452,13 @@
     "name": "H16-4 clear",
     "category": ["extreme operations", "chapter 16", "last H stage"],
     "region": "chapter 16 H-stages",
-    "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 2)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "H16-4 3-star clear",
     "category": ["extreme operations", "chapter 16"],
     "region": "chapter 16 H-stages",
-    "requires": "|@block:3| AND |@ranged:2| AND |@character:6| AND {checkAmountxStars(6 star, 1}"
+    "requires": "{requiredOperators(3, 2)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
     "name": "boss chapter cleared",
