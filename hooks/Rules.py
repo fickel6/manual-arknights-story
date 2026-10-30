@@ -46,10 +46,14 @@ def fill_progressive_operator_dictionary(multiworld: MultiWorld, player: int):
 #function for checking if 3 and 4 is excluded or not
 # if it is excluded, it should return true. This way, if someone excluded 3 and 4 stars, all the stages will always be open
 # 1 and 2 stars aren't included, because they are basically useless (sorry not sorry)
-def enabledOperators(multiworld: MultiWorld, player: int):
-    four_stars = get_option_value(multiworld, player, "include 4 stars")
-    three_stars = get_option_value(multiworld, player, "include 3 stars")
-    if four_stars == 2 and three_stars == 2:
+def enabledOperators(world: World, player: int):
+    six_stars = get_option_value(world.multiworld, player, "include 6 stars")
+    five_stars = get_option_value(world.multiworld, player, "include 5 stars")
+    four_stars = get_option_value(world.multiworld, player, "include 4 stars")
+    three_stars = get_option_value(world.multiworld, player, "include 3 stars")
+    if six_stars == 2 or five_stars == 2:
+        return True
+    if four_stars == 2 and three_stars == 2:#check ingame if there are enough characters in 4 and 3 stars to beat most stages. 
         return True
 
     return False
@@ -68,21 +72,47 @@ def requiredOperators(multiworld: MultiWorld, state: CollectionState, player: in
     standing_units = 0
     ranged_units = 0
     for item_group_name in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
-        if standing_units >= int(blocked) and ranged_units >= int(ranged):
-            return True
-        
         #can I check per item group? that would save a lot of coding (and probably time)
         #first do only blocking units
-        amount_progresive = state.count(f"progressive {item_group_name}", player)
+        amount_progressive = state.count(f"progressive {item_group_name}", player)
         #if the included limit is smaller than 12, we need to calculate how many slots can be used. 
         progressive_limit = progressive_operators_settings[item_group_name] 
         if progressive_operators_settings[item_group_name] <12:
             amount_progressive = int(amount_progressive * (12/progressive_limit))
             
-        standing_units += amount_progresive + state.count(f"{item_group_name}", player) #this must count the amount of x stars collected, see if there is a known function to do this, otherwise I will need to make a function for it
-        standing_units += amount_operators
+        standing_units += amount_progressive
         #now we do ranged units
-        amount_operators += amount_progresive + state.count(f"{item_group_name}", player) #this must count the amount of x stars collected, see if there is a known function to do this, otherwise I will need to make a function for it
+        amount_operators += amount_progressive
+
+        if standing_units >= int(blocked) and ranged_units >= int(ranged):
+            return True
+
+    return f"|@blocked:{int(blocked) - standing_units}| AND |@ranged:{int(ranged) - ranged_units}|"
+
+#be sure that category name is a valid name!!
+def checkAmountxStars(state: CollectionState, category_name: str, required: str):
+    progressive_amount = state.count(f"progressive {category_name}")
+    if progressive_amount >= int(required):
+        return True
+    return f"|@{category_name}: {required-progressive_amount}"
+
+def checkClassAmount(state: CollectionState, player: int, class_name: str, required: str):
+    total = 0
+    for item_group_name in ["progressive 6 star", "progressive 5 star", "progressive 4 star", "progressive 3 star", "progressive 2 star", "progressive 1 star"]:
+        amount_progressive = state.count(item_group_name, player)
+        total += amount_progressive
+        if total > int(required):
+            return True
+    return f"|@{class_name}: {required-total}|"
+
+def totalOperators(state: CollectionState, player: int, amount_needed):
+    total = 0
+    for item_group_name in ["progressive 6 star", "progressive 5 star", "progressive 4 star", "progressive 3 star", "progressive 2 star", "progressive 1 star"]:
+        total += state.count(item_group_name, player)
+        if total >= int(amount_needed):
+            return True
+
+    return f"!@character:{amount_needed-total}|"        amount_operators += amount_progresive + state.count(f"{item_group_name}", player) #this must count the amount of x stars collected, see if there is a known function to do this, otherwise I will need to make a function for it
     return False
 
 def OPAmount(multiworld: MultiWorld, state:CollectionState, player: int):
