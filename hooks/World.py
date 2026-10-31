@@ -507,30 +507,18 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                     boss_locations.append("AS-9 clear")
         case "H-stages cleared":
             match world.options.H_stage_clear.value:
-                case 0:
-                    boss_locations.append("H5-4 clear")
-                case 1:
-                    boss_locations.append("H6-4 clear")
-                case 2:
-                    boss_locations.append("H7-4 clear")
-                case 3:
-                    boss_locations.append("H8-4 clear")
-                case 4:
-                    boss_locations.append("H9-6 clear")
-                case 5:
-                    boss_locations.append("H10-3 clear")
-                case 6:
-                    boss_locations.append("H11-4 clear")
-                case 7:
-                    boss_locations.append("H12-4 clear")
-                case 8:
-                    boss_locations.append("H13-4 clear")
-                case 9:
-                    boss_locations.append("H14-4 clear")
-                case 10:
-                    boss_locations.append("H15-4 clear")
-                case 11:
-                    boss_locations.append("H16-4 clear")
+                case  0: boss_locations.append("H5-4 clear")
+                case  1: boss_locations.append("H6-4 clear")
+                case  2: boss_locations.append("H7-4 clear")
+                case  3: boss_locations.append("H8-4 clear")
+                case  4: boss_locations.append("H9-6 clear")
+                case  5: boss_locations.append("H10-3 clear")
+                case  6: boss_locations.append("H11-4 clear")
+                case  7: boss_locations.append("H12-4 clear")
+                case  8: boss_locations.append("H13-4 clear")
+                case  9: boss_locations.append("H14-4 clear")
+                case 10: boss_locations.append("H15-4 clear")
+                case 11: boss_locations.append("H16-4 clear")
         case "beat multiple boss stages":
             boss_locations.extend([name for name, i in world.location_name_to_location.items() if "boss stage" in i.get("category", [])])
         case "collect OP":
@@ -538,107 +526,59 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
             return
         case "EX-stage cleared":
             match world.options.ex_stage_clear.value:
-                case 100:
-                    boss_locations.append("DM-EX-8 clear")
-                case 101:
-                    boss_locations.append("WD-EX-8 clear")
-                case 102:
-                    boss_locations.append("BB-EX-8 clear")
-                case 103:
-                    boss_locations.append("GO-EX-8 clear")
-                case 150:
-                    boss_locations.append("GA-EX-8 clear")
-                case 151:
-                    boss_locations.append("HE-EX-8 clear")
-                case 200:
-                    boss_locations.append("BI-EX-8 clear")
-                case 201:
-                    boss_locations.append("RS-EX-8 clear")
-                case 250:
-                    boss_locations.append("IS-EX-8 clear")
-                case 251:
-                    boss_locations.append("PV-EX-8 clear")
-                case 300:
-                    boss_locations.append("MN-EX-8 clear")
-                case 301:
-                    boss_locations.append("NL-EX-8 clear")
-                case 350:
-                    boss_locations.append("WR-EX-8 clear")
-                case 351:
-                    boss_locations.append("IW-EX-8 clear")
-                case 352:
-                    boss_locations.append("WB-EX-8 clear")
-                case 353:
-                    boss_locations.append("HS-EX-8 clear")
-                case 354:
-                    boss_locations.append("OR-EX-8 clear")
-                case 400:
-                    boss_locations.append("MB-EX-8 clear")
-                case 401:
-                    boss_locations.append("DV-EX-8 clear")
-                case 402:
-                    boss_locations.append("CW-EX-8 clear")
-                case 450:
-                    boss_locations.append("GT-HX-3 clear")
-                case 451:
-                    boss_locations.append("SV-EX-8 clear")
-                case 452:
-                    boss_locations.append("SN-EX-8 clear")
-                case 453:
-                    boss_locations.append("BP-EX-8 clear")
-                case 454:
-                    boss_locations.append("EP-EX-8 clear")
-                case 500:
-                    boss_locations.append("TW-EX-8 clear")
-                case 501:
-                    boss_locations.append("LE-EX-8 clear")
-                case 502:
-                    boss_locations.append("ZT-EX-8 clear")
-                case 550:
-                    boss_locations.append("FC-EX-8 clear")
-                case 551:
-                    boss_locations.append("EA-EX-8 clear")
-                case 600:
-                    boss_locations.append("OF-EX-8 clear")
-                case 601:
-                    boss_locations.append("RI-EX-8 clear")
-                case 602:
-                    boss_locations.append("DH-EX-8 clear")
-                case 603:
-                    boss_locations.append("IC-EX-8 clear")
-                case 604:
-                    boss_locations.append("SL-EX-8 clear")
-                case 605:
-                    boss_locations.append("AS-EX-8 clear")
+                case 100: boss_locations.append("DM-EX-8 clear")
+                case 101: boss_locations.append("WD-EX-8 clear")
+                case 102: boss_locations.append("BB-EX-8 clear")
+                case 103: boss_locations.append("GO-EX-8 clear")
+                case 150: boss_locations.append("GA-EX-8 clear")
+                case 151: boss_locations.append("HE-EX-8 clear")
+                case 200: boss_locations.append("BI-EX-8 clear")
+                case 201: boss_locations.append("RS-EX-8 clear")
+                case 250: boss_locations.append("IS-EX-8 clear")
+                case 251: boss_locations.append("PV-EX-8 clear")
+                case 300: boss_locations.append("MN-EX-8 clear")
+                case 301: boss_locations.append("NL-EX-8 clear")
+                case 350: boss_locations.append("WR-EX-8 clear")
+                case 351: boss_locations.append("IW-EX-8 clear")
+                case 352: boss_locations.append("WB-EX-8 clear")
+                case 353: boss_locations.append("HS-EX-8 clear")
+                case 354: boss_locations.append("OR-EX-8 clear")
+                case 400: boss_locations.append("MB-EX-8 clear")
+                case 401: boss_locations.append("DV-EX-8 clear")
+                case 402: boss_locations.append("CW-EX-8 clear")
+                case 450: boss_locations.append("GT-HX-3 clear")
+                case 451: boss_locations.append("SV-EX-8 clear")
+                case 452: boss_locations.append("SN-EX-8 clear")
+                case 453: boss_locations.append("BP-EX-8 clear")
+                case 454: boss_locations.append("EP-EX-8 clear")
+                case 500: boss_locations.append("TW-EX-8 clear")
+                case 501: boss_locations.append("LE-EX-8 clear")
+                case 502: boss_locations.append("ZT-EX-8 clear")
+                case 550: boss_locations.append("FC-EX-8 clear")
+                case 551: boss_locations.append("EA-EX-8 clear")
+                case 600: boss_locations.append("OF-EX-8 clear")
+                case 601: boss_locations.append("RI-EX-8 clear")
+                case 602: boss_locations.append("DH-EX-8 clear")
+                case 603: boss_locations.append("IC-EX-8 clear")
+                case 604: boss_locations.append("SL-EX-8 clear")
+                case 605: boss_locations.append("AS-EX-8 clear")
         case "S-stage cleared":
             match world.options.ex_stage_clear.value:
-                case 102:
-                    boss_locations.append("BB-S-4 clear")
-                case 250:
-                    boss_locations.append("IS-S-5 clear")
-                case 251:
-                    boss_locations.append("PV-S-5 clear")
-                case 301:
-                    boss_locations.append("NL-S-5 clear")
-                case 353:
-                    boss_locations.append("HS-S-4 clear")
-                case 354:
-                    boss_locations.append("OR-S-4 clear")
-                case 402:
-                    boss_locations.append("CW-S-4 clear")
-                case 502:
-                    boss_locations.append("ZT-S-5 clear")
-                case 602:
-                    boss_locations.append("DH-S-4 clear")
-                case 603:
-                    boss_locations.append("IC-S-4 clear")
-                case 604:
-                    boss_locations.append("SL-S-5 clear")
-                case 605:
-                    boss_locations.append("AS-S-4 clear")
+                case 102: boss_locations.append("BB-S-4 clear")
+                case 250: boss_locations.append("IS-S-5 clear")
+                case 251: boss_locations.append("PV-S-5 clear")
+                case 301: boss_locations.append("NL-S-5 clear")
+                case 353: boss_locations.append("HS-S-4 clear")
+                case 354: boss_locations.append("OR-S-4 clear")
+                case 402: boss_locations.append("CW-S-4 clear")
+                case 502: boss_locations.append("ZT-S-5 clear")
+                case 602: boss_locations.append("DH-S-4 clear")
+                case 603: boss_locations.append("IC-S-4 clear")
+                case 604: boss_locations.append("SL-S-5 clear")
+                case 605: boss_locations.append("AS-S-4 clear")
     # print("boss locations: [%s]" % ", ".join(boss_locations))
     #Force place the 'defeated boss' or 'stage clear' in the boss_locations just found.
-    if victory_name in ("H-stages cleared", "boss chapter cleared", "event cleared", "EX-stage cleared", "S-stage cleared"):
+    if victory_name != "beat multiple boss stages":
         #there will always be only one stage here, so we don't have to call random.choice
         placed_item = next(i for i in multiworld.get_items() if i.player == player and "beaten stage" == i.name)
         placed_location = multiworld.get_location(boss_locations[0], player)
@@ -683,6 +623,7 @@ def after_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, 
 # This is called right at the end, in case you want to write stuff to the spoiler log
 def before_write_spoiler(world: World, multiworld: MultiWorld, spoiler_handle) -> None:
     #write the included chapters in the spoiler log. I'ts important to know what chapters are and what chapters aren't included
+    #how do you write stuff to the spoiler log?
     pass
 
 # This is called when you want to add information to the hint text

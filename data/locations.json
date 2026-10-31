@@ -1229,7 +1229,7 @@
   },
   {
     "name": "H5-4 clear",
-    "category": ["chapter 5", "H stage", "last H stage"],
+    "category": ["chapter 5", "H stage", "boss stage"],
     "region": "chapter 5 H-stages",
     "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -1520,7 +1520,7 @@
   },
   {
     "name": "H6-4 clear",
-    "category": ["H-stage", "chapter 6", "last H stage"],
+    "category": ["H-stage", "chapter 6", "boss stage"],
     "region": "chapter 6 H-stages",
     "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -1784,7 +1784,7 @@
   },
   {
     "name": "H7-4 clear",
-    "category": ["H-stage", "chapter 7", "last H stage"],
+    "category": ["H-stage", "chapter 7", "boss stage"],
     "region": "chapter 7 H-stages",
     "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -2096,7 +2096,7 @@
   },
   {
     "name": "H8-4 clear",
-    "category": ["H-stage", "chapter 8", "last H stage"],
+    "category": ["H-stage", "chapter 8", "boss stage"],
     "region": "chapter 8 H-stages",
     "requires": "{requiredOperators(2, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -2476,7 +2476,7 @@
   },
   {
     "name": "H9-6 clear",
-    "category": ["H-stage", "chapter 9", "last H stage"],
+    "category": ["H-stage", "chapter 9", "boss stage"],
     "region": "chapter 9 H-stages",
     "requires": "{requiredOperators(2, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -2716,7 +2716,7 @@
   },
   {
     "name": "H10-3 clear",
-    "category": ["H-stage", "chapter 10", "last H stage"],
+    "category": ["H-stage", "chapter 10", "boss stage"],
     "region": "chapter 10 H-stages",
     "requires": "{requiredOperators(2, 0)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -2998,7 +2998,7 @@
   },
   {
     "name": "H11-4 clear",
-    "category": ["H-stage", "chapter 11", "last H stage"],
+    "category": ["H-stage", "chapter 11", "boss stage"],
     "region": "chapter 11 H-stages",
     "requires": "{requiredOperators(2, 0)} AND {totalOperators(5)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -3280,7 +3280,7 @@
   },
   {
     "name": "H12-4 clear",
-    "category": ["H-stage", "chapter 12", "last H stage"],
+    "category": ["H-stage", "chapter 12", "boss stage"],
     "region": "chapter 12 H-stages",
     "requires": "{requiredOperators(3, 0)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -3574,7 +3574,7 @@
   },
   {
     "name": "H13-4 clear",
-    "category": ["H-stage", "chapter 13", "last H stage"],
+    "category": ["H-stage", "chapter 13", "boss stage"],
     "region": "chapter 13 H-stages",
     "requires": "{requiredOperators(3, 2)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -3886,7 +3886,7 @@
   },
   {
     "name": "H14-4 clear",
-    "category": ["H-stage", "chapter 14", "last H stage"],
+    "category": ["H-stage", "chapter 14", "boss stage"],
     "region": "chapter 14 H-stages",
     "requires": "{requiredOperators(2, 3)} AND {checkAmountxStars(6 star, 2}"
   },
@@ -4168,7 +4168,7 @@
   },
   {
     "name": "H15-4 clear",
-    "category": ["H-stage", "chapter 15", "last H stage"],
+    "category": ["H-stage", "chapter 15", "boss stage"],
     "region": "chapter 15 H-stages",
     "requires": "{requiredOperators(3, 3)} AND {checkClassAmount(vanguard, 1)} AND {checkAmountxStars(6 star, 1)}"
   },
@@ -4456,7 +4456,7 @@
   },
   {
     "name": "H16-4 clear",
-    "category": ["H-stage", "chapter 16", "last H stage"],
+    "category": ["H-stage", "chapter 16", "boss stage"],
     "region": "chapter 16 H-stages",
     "requires": "{requiredOperators(3, 2)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1)}"
   },

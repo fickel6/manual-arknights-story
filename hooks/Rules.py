@@ -1,9 +1,7 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value, get_option_value
+from ..Helpers import clamp, get_items_with_value, get_option_value, is_option_enabled
 from BaseClasses import MultiWorld, CollectionState
-
-import re
 
 # Sometimes you have a requirement that is just too messy or repetitive to write out with boolean logic.
 # Define a function here, and you can use it in a requires string with {function_name()}.
@@ -14,20 +12,6 @@ def overfishedAnywhere(world: World, state: CollectionState, player: int):
             return True
     return False
 
-# You can also pass an argument to your function, like {function_name(15)}
-# Note that all arguments are strings, so you'll need to convert them to ints if you want to do math.
-def anyClassLevel(state: CollectionState, player: int, level: str):
-    """Has the player reached the given level in any class?"""
-    for item in ["Figher Level", "Black Belt Level", "Thief Level", "Red Mage Level", "White Mage Level", "Black Mage Level"]:
-        if state.count(item, player) >= int(level):
-            return True
-    return False
-
-# You can also return a string from your function, and it will be evaluated as a requires string.
-def requiresMelee():
-    """Returns a requires string that checks if the player has unlocked the tank."""
-    return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
-
 #to speed things up, I'm making a look-up table for the progressive characters. 
 #the functions requiresBlock and requiresranged will check this look-up table if its filled or not
 #maybe fill this dictionary with squad limits?
@@ -36,24 +20,19 @@ progressive_operators_settings = dict() #could be replaced with curly braces, th
 def fill_progressive_operator_dictionary(multiworld: MultiWorld, player: int):
     #forgot to delimit the get_option_value outputs! search how to do it
     for stars in range(1, 7):
-        settings = get_option_value(multiworld, player, f"amount progressive {stars} stars")
-        progressive_operators_settings[f"{stars} star"] = settings
+        progressive_operators_settings[f"{stars} star"] = get_option_value(multiworld, player, f"include_{stars}_stars")
+        progressive_operators_settings[f"amount {stars}"] = get_option_value(multiworld, player, f"amount_progressive_{stars}_stars")
 
-    settings = get_option_value(multiworld, player, "squad_size")
-    if settings != 0:
-        progressive_operators_settings["squad size"] = settings
+    progressive_operators_settings["squad sanity"] = is_option_enabled(multiworld, player, "squad_size_sanity")
 
-#function for checking if 3 and 4 is excluded or not
-# if it is excluded, it should return true. This way, if someone excluded 3 and 4 stars, all the stages will always be open
-# 1 and 2 stars aren't included, because they are basically useless (sorry not sorry)
+# if even 3 or 4 stars is excluded, then most basic levels should be beatable, so check if even these options are disabled or not. 
+# 1 and 2 stars aren't included, because they are basically useless
 def enabledOperators(world: World, player: int):
     six_stars = get_option_value(world.multiworld, player, "include 6 stars")
     five_stars = get_option_value(world.multiworld, player, "include 5 stars")
     four_stars = get_option_value(world.multiworld, player, "include 4 stars")
     three_stars = get_option_value(world.multiworld, player, "include 3 stars")
-    if six_stars == 2 or five_stars == 2:
-        return True
-    if four_stars == 2 and three_stars == 2:#check ingame if there are enough characters in 4 and 3 stars to beat most stages. 
+    if six_stars == 2 or five_stars == 2 or four_stars == 2 or three_stars == 2:
         return True
 
     return False
@@ -63,43 +42,48 @@ def requiredOperators(multiworld: MultiWorld, state: CollectionState, player: in
         fill_progressive_operator_dictionary(multiworld, player)
 
     #check the squad size first. if this isn't bigger than the required amount of blocking and ranged units, then we can return false immediately
-    if progressive_operators_settings["squad size"] != 0 and progressive_operators_settings["squad size"] < state.count("increased squad size", player):
-        return False
-    #also check for the enabled operators. if this 3 and 4 stars aren't enabled, they are using them, just not randomised
+    print(progressive_operators_settings)
+    #return early if minimum amount of block and ranged can't be taken with the unlocked squad size
+    if progressive_operators_settings["squad size"]:
+        total_block = int(blocked) + int(ranged)
+        if total_block > 12 and state.count("increased squad size", player) <12:
+            return False
+        if state.count("increased squad size", player) < total_block:
+            return False
+    #check for the enabled operators. if the any category isn't enabled, they are using them, just not randomised, there for beatable (most of the time)
     if not enabledOperators(multiworld, player):
         return False
     
     standing_units = 0
     ranged_units = 0
-    for item_group_name in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
+    for item_name, amount in [("6 star", "amount 6 star"), ("5 star", "amount 5 star"), ("4 star", "amount 4 star"), ("3 star", "amount 3 star"), ("2 star", "amount 2 star"), ("1 star", "amount 1 star")]:
         #can I check per item group? that would save a lot of coding (and probably time)
         #first do only blocking units
-        amount_progressive = state.count(f"progressive {item_group_name}", player)
-        #if the included limit is smaller than 12, we need to calculate how many slots can be used. 
-        progressive_limit = progressive_operators_settings[item_group_name] 
-        if progressive_operators_settings[item_group_name] <12:
-            amount_progressive = int(amount_progressive * (12/progressive_limit))
-            
+        amount_progressive = state.count(f"progressive {item_name}", player)
+        #if the included limit is smaller than 12, we need to calculate how many slots can be used.
+        if progressive_operators_settings[item_name] == 1:
+            amount_progressive = amount_progressive * 12/progressive_operators_settings[amount]
         standing_units += amount_progressive
-        #now we do ranged units
         amount_operators += amount_progressive
-
+        #if there are enough blocking units and ranged units, then we can return early
         if standing_units >= int(blocked) and ranged_units >= int(ranged):
             return True
 
+    #to check the normal list, just use the normal ap approach with the || things. 
     return f"|@blocked:{int(blocked) - standing_units}| AND |@ranged:{int(ranged) - ranged_units}|"
 
 #be sure that category name is a valid name!!
-def checkAmountxStars(state: CollectionState, category_name: str, required: str):
-    progressive_amount = state.count(f"progressive {category_name}")
-    if progressive_amount >= int(required):
-        return True
-    return f"|@{category_name}: {required-progressive_amount}"
+def checkAmountxStars(state: CollectionState, player: int, category_name: str, required: str):
+    progressive_amount = state.count(f"progressive {category_name}", player)
+    if progressive_operators_settings[category_name] == 1:
+        progressive_amount = progressive_amount * 12/progressive_operators_settings[f"amount {category_name}"]
+
+    return f"|@{category_name}:{required-progressive_amount}|" if progressive_amount < int(required) else False
 
 def checkClassAmount(state: CollectionState, player: int, class_name: str, required: str):
     total = 0
-    for item_group_name in ["progressive 6 star", "progressive 5 star", "progressive 4 star", "progressive 3 star", "progressive 2 star", "progressive 1 star"]:
-        amount_progressive = state.count(item_group_name, player)
+    for item_group_name in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
+        amount_progressive = state.count(f"progressive {item_group_name}", player)
         total += amount_progressive
         if total > int(required):
             return True
@@ -107,13 +91,12 @@ def checkClassAmount(state: CollectionState, player: int, class_name: str, requi
 
 def totalOperators(state: CollectionState, player: int, amount_needed):
     total = 0
-    for item_group_name in ["progressive 6 star", "progressive 5 star", "progressive 4 star", "progressive 3 star", "progressive 2 star", "progressive 1 star"]:
-        total += state.count(item_group_name, player)
+    for item_group_name in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
+        total += state.count(f"progressive {item_group_name}", player)
         if total >= int(amount_needed):
             return True
 
-    return f"!@character:{amount_needed-total}|"        amount_operators += amount_progresive + state.count(f"{item_group_name}", player) #this must count the amount of x stars collected, see if there is a known function to do this, otherwise I will need to make a function for it
-    return False
+    return f"|@character:{amount_needed-total}|"        
 
 def OPAmount(multiworld: MultiWorld, state:CollectionState, player: int):
     total = get_option_value(multiworld, player, "originium_prime_hunt")
