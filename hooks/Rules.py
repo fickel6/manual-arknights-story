@@ -5,6 +5,7 @@ from BaseClasses import MultiWorld, CollectionState
 
 # Sometimes you have a requirement that is just too messy or repetitive to write out with boolean logic.
 # Define a function here, and you can use it in a requires string with {function_name()}.
+import logging
 def overfishedAnywhere(world: World, state: CollectionState, player: int):
     """Has the player collected all fish from any fishing log?"""
     for cat, items in world.item_name_groups:
@@ -28,10 +29,10 @@ def fill_progressive_operator_dictionary(multiworld: MultiWorld, player: int):
 # if even 3 or 4 stars is excluded, then most basic levels should be beatable, so check if even these options are disabled or not. 
 # 1 and 2 stars aren't included, because they are basically useless
 def enabledOperators(multiworld: MultiWorld, player: int):
-    six_stars = get_option_value(multiworld, player, "include 6 stars")
-    five_stars = get_option_value(multiworld, player, "include 5 stars")
-    four_stars = get_option_value(multiworld, player, "include 4 stars")
-    three_stars = get_option_value(multiworld, player, "include 3 stars")
+    six_stars = get_option_value(multiworld, player, "include_6_stars")
+    five_stars = get_option_value(multiworld, player, "include_5_stars")
+    four_stars = get_option_value(multiworld, player, "include_4_stars")
+    three_stars = get_option_value(multiworld, player, "include_3_stars")
     if six_stars == 2 or five_stars == 2 or four_stars == 2 or three_stars == 2:
         return True
 
@@ -42,7 +43,6 @@ def requiredOperators(multiworld: MultiWorld, state: CollectionState, player: in
         fill_progressive_operator_dictionary(multiworld, player)
 
     #check the squad size first. if this isn't bigger than the required amount of blocking and ranged units, then we can return false immediately
-    # print(progressive_operators_settings)
     #return early if minimum amount of block and ranged can't be taken with the unlocked squad size
     if progressive_operators_settings["squad size"]:
         total_block = int(blocked) + int(ranged)
@@ -51,8 +51,7 @@ def requiredOperators(multiworld: MultiWorld, state: CollectionState, player: in
         if state.count("increased squad size", player) < total_block:
             return False
     #check for the enabled operators. if the any category isn't enabled, they are using them, just not randomised, there for beatable (most of the time)
-    if not enabledOperators(multiworld, player):
-        return False
+    if enabledOperators(multiworld, player): return True
     
     standing_units = 0
     ranged_units = 0
@@ -64,12 +63,15 @@ def requiredOperators(multiworld: MultiWorld, state: CollectionState, player: in
         if progressive_operators_settings[item_name] == 1:
             amount_progressive = amount_progressive * 12/progressive_operators_settings[amount]
         standing_units += amount_progressive
-        amount_operators += amount_progressive
+        ranged_units += amount_progressive
         #if there are enough blocking units and ranged units, then we can return early
         if standing_units >= int(blocked) and ranged_units >= int(ranged):
+            logging.info("requirements are met")
             return True
-
+    
+    logging.info(progressive_operators_settings)
     #to check the normal list, just use the normal ap approach with the || things. 
+    # something is wrong with the return of this function. it seems like it can't parse through || pipes
     return f"|@blocked:{int(blocked) - standing_units}| AND |@ranged:{int(ranged) - ranged_units}|"
 
 #be sure that category name is a valid name!!
