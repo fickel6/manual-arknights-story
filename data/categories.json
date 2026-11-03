@@ -86,7 +86,7 @@
     "block": {
         "hidden": true
     },
-    "ranged": {
+    "range": {
         "hidden": true
     }
 }
