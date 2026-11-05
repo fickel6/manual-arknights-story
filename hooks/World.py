@@ -53,7 +53,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         10:"chapter 10", 11:"chapter 11", 12:"chapter 12", 13:"chapter 13",
         14:"chapter 14", 15:"chapter 15", 16:"chapter 16",
         100: "Darknights' memoir", 101: "A Walk in the Dust", 102:"Babel", 103:"Ending a Grand Overture", 
-        150:"Guide Ahead", 151:"Hortus de Escapismo", 
+        150:"Guide Ahead", 151:"Hortus de Escapismo", 152:"The Masses' Travels",
         200:"Break the Ice", 201:"The Rides to Lake Silberneherze", 
         250:"Il Siracusan", 251: "I Portatori Dei Velluti",
         300:"Maria Nearl", 301:"Near Light", 
@@ -123,6 +123,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
                     included_chapters[player].remove("Guide Ahead")
                 case "Hortus de Escapismo":
                     included_chapters[player].remove("Hortus de Escapismo")
+                case "The Masses' Travels":
+                    included_chapters[player].remove("The Masses' Travels")
                 case "Break the Ice":
                     included_chapters[player].remove("Break the Ice")
                 case "The Rides to Lake Silberneherze":
@@ -399,112 +401,60 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
     match victory_name:
         case "boss chapter cleared":
             match world.options.chapter_boss_clear.value:
-                case 0:
-                    boss_locations.append("0-11 clear")
-                case 1:
-                    boss_locations.append("1-12 clear")
-                case 2:
-                    boss_locations.append("2-10 clear")
-                case 3:
-                    boss_locations.append("3-8 clear")
-                case 4:
-                    boss_locations.append("4-10 clear")
-                case 5:
-                    boss_locations.append("5-10 clear")
-                case 6:
-                    boss_locations.append("6-16 clear")
-                case 7:
-                    boss_locations.append("7-18 clear")
-                case 8:
-                    boss_locations.append("JT8-3 clear")
-                case 9:
-                    boss_locations.append("9-19 clear")
-                case 10:
-                    boss_locations.append("10-17 clear")
-                case 11:
-                    boss_locations.append("11-20 clear")
-                case 12:
-                    boss_locations.append("12-20 clear")
-                case 13:
-                    boss_locations.append("13-21 clear")
-                case 14:
-                    boss_locations.append("14-21 clear")
-                case 15:
-                    boss_locations.append("15-20 clear")
-                case 16:
-                    boss_locations.append("16-16 clear")
-                case 100:
-                    boss_locations.append("DM-8 clear")
-                case 101:
-                    boss_locations.append("WD-8 clear")
-                case 102:
-                    boss_locations.append("BB-10 clear")
-                case 103:
-                    boss_locations.append("GO-9 clear")
-                case 150:
-                    boss_locations.append("GA-8 clear")
-                case 151:
-                    boss_locations.append("HE-8 clear")
-                case 200:
-                    boss_locations.append("BI-8 clear")
-                case 201:
-                    boss_locations.append("RS-8 clear")
-                case 250:
-                    boss_locations.append("IS-10 clear")
-                case 251:
-                    boss_locations.append("PV-10 clear")
-                case 300:
-                    boss_locations.append("MN-8 clear")
-                case 301:
-                    boss_locations.append("NL-10 clear")
-                case 350:
-                    boss_locations.append("WR-10 clear")
-                case 351:
-                    boss_locations.append("IW-9 clear")
-                case 352:
-                    boss_locations.append("WB-9 clear")
-                case 353:
-                    boss_locations.append("HS-9 clear")
-                case 354:
-                    boss_locations.append("OR-9 clear")
-                case 400:
-                    boss_locations.append("MB-8 clear")
-                case 401:
-                    boss_locations.append("DV-8 clear")
-                case 402:
-                    boss_locations.append("CW-10 clear")
-                case 450:
-                    boss_locations.append("GT-6 clear")
-                case 451:
-                    boss_locations.append("SV-9 clear")
-                case 452:
-                    boss_locations.append("SN-10 clear")
-                case 453:
-                    boss_locations.append("BP-8 clear")
-                case 454:
-                    boss_locations.append("EP-8 clear")
-                case 500:
-                    boss_locations.append("TW-8 clear")
-                case 501:
-                    boss_locations.append("LE-8 clear")
-                case 502:
-                    boss_locations.append("ZT-10 clear")
-                case 550:
-                    boss_locations.append("FC-8 clear")
-                case 551:
-                    boss_locations.append("EA-8 clear")
-                case 600:
-                    boss_locations.append("OF-8 clear")
-                case 601:
-                    boss_locations.append("RI-8 clear")
-                case 602:
-                    boss_locations.append("DH-9 clear")
-                case 603:
-                    boss_locations.append("IC-9 clear")
-                case 604:
-                    boss_locations.append("SL-8 clear")
-                case 605:
-                    boss_locations.append("AS-9 clear")
+                case 0:   boss_locations.append("0-11 clear")
+                case 1:   boss_locations.append("1-12 clear")
+                case 2:   boss_locations.append("2-10 clear")
+                case 3:   boss_locations.append("3-8 clear")
+                case 4:   boss_locations.append("4-10 clear")
+                case 5:   boss_locations.append("5-10 clear")
+                case 6:   boss_locations.append("6-16 clear")
+                case 7:   boss_locations.append("7-18 clear")
+                case 8:   boss_locations.append("JT8-3 clear")
+                case 9:   boss_locations.append("9-19 clear")
+                case 10:  boss_locations.append("10-17 clear")
+                case 11:  boss_locations.append("11-20 clear")
+                case 12:  boss_locations.append("12-20 clear")
+                case 13:  boss_locations.append("13-21 clear")
+                case 14:  boss_locations.append("14-21 clear")
+                case 15:  boss_locations.append("15-20 clear")
+                case 16:  boss_locations.append("16-16 clear")
+                case 100: boss_locations.append("DM-8 clear")
+                case 101: boss_locations.append("WD-8 clear")
+                case 102: boss_locations.append("BB-10 clear")
+                case 103: boss_locations.append("GO-9 clear")
+                case 150: boss_locations.append("GA-8 clear")
+                case 151: boss_locations.append("HE-8 clear")
+                case 152: boss_locations.append("MT-10 clear")
+                case 200: boss_locations.append("BI-8 clear")
+                case 201: boss_locations.append("RS-8 clear")
+                case 250: boss_locations.append("IS-10 clear")
+                case 251: boss_locations.append("PV-10 clear")
+                case 300: boss_locations.append("MN-8 clear")
+                case 301: boss_locations.append("NL-10 clear")
+                case 350: boss_locations.append("WR-10 clear")
+                case 351: boss_locations.append("IW-9 clear")
+                case 352: boss_locations.append("WB-9 clear")
+                case 353: boss_locations.append("HS-9 clear")
+                case 354: boss_locations.append("OR-9 clear")
+                case 400: boss_locations.append("MB-8 clear")
+                case 401: boss_locations.append("DV-8 clear")
+                case 402: boss_locations.append("CW-10 clear")
+                case 450: boss_locations.append("GT-6 clear")
+                case 451: boss_locations.append("SV-9 clear")
+                case 452: boss_locations.append("SN-10 clear")
+                case 453: boss_locations.append("BP-8 clear")
+                case 454: boss_locations.append("EP-8 clear")
+                case 500: boss_locations.append("TW-8 clear")
+                case 501: boss_locations.append("LE-8 clear")
+                case 502: boss_locations.append("ZT-10 clear")
+                case 550: boss_locations.append("FC-8 clear")
+                case 551: boss_locations.append("EA-8 clear")
+                case 600: boss_locations.append("OF-8 clear")
+                case 601: boss_locations.append("RI-8 clear")
+                case 602: boss_locations.append("DH-9 clear")
+                case 603: boss_locations.append("IC-9 clear")
+                case 604: boss_locations.append("SL-8 clear")
+                case 605: boss_locations.append("AS-9 clear")
         case "H-stages cleared":
             match world.options.H_stage_clear.value:
                 case  0: boss_locations.append("H5-4 clear")
@@ -532,6 +482,7 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                 case 103: boss_locations.append("GO-EX-8 clear")
                 case 150: boss_locations.append("GA-EX-8 clear")
                 case 151: boss_locations.append("HE-EX-8 clear")
+                case 152: boss_locations.append("MT-EX-8 clear")
                 case 200: boss_locations.append("BI-EX-8 clear")
                 case 201: boss_locations.append("RS-EX-8 clear")
                 case 250: boss_locations.append("IS-EX-8 clear")
@@ -565,6 +516,7 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
         case "S-stage cleared":
             match world.options.ex_stage_clear.value:
                 case 102: boss_locations.append("BB-S-4 clear")
+                case 152: boss_locations.append("MT-S-5 clear")
                 case 250: boss_locations.append("IS-S-5 clear")
                 case 251: boss_locations.append("PV-S-5 clear")
                 case 301: boss_locations.append("NL-S-5 clear")

@@ -48,7 +48,7 @@
                 "chapter 9": 9, "chapter 10": 10, "chapter 11": 11, "chapter 12": 12, "chapter 13": 13,
                 "chapter 14": 14, "chapter 15": 15, "chapter 16": 16,
                 "Darknights' memoir":100, "A Walk in the Dust":101, "Babel":102, "Ending a Grand Overture":103, 
-                "Guide Ahead":150, "Hortus de Escapismo":151, 
+                "Guide Ahead":150, "Hortus de Escapismo":151, "The Masses' Travels":152,
                 "Break the Ice":200, "The Rides to Lake Silberneherze":201, 
                 "Il Siracusan":250, 
                 "Maria Nearl":300, "Near Light":301, 
@@ -95,7 +95,7 @@
             "default": 100,
             "values": {
                 "Darknights' memoir":100, "A Walk in the Dust":101, "Babel":102, "Ending a Grand Overture":103, 
-                "Guide Ahead":150, "Hortus de Escapismo":151, 
+                "Guide Ahead":150, "Hortus de Escapismo":151, "The Masses' Travels":152,
                 "Break the Ice":200, "The Rides to Lake Silberneherze":201, 
                 "Il Siracusan":250, 
                 "Maria Nearl":300, "Near Light":301, 
@@ -118,6 +118,7 @@
             "default": 102,
             "values": {
                 "Babel":102,
+                "The Masses' Travels":152,
                 "Il Siracusan":250, "I Portatori Dei Velluti":251,
                 "Near Light":301, 
                 "Here a People Sows":353, "Such is the Joy of Our Reunion":354,

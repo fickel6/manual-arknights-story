@@ -5769,6 +5769,306 @@
     "requires": ""
   },
   {
+    "name": "MT-1 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-1 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-2 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-2 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-3 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-3 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-4 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-4 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-5 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-5 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-6 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-6 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-7 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-7 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-8 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-8 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-9 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-9 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-10 clear",
+    "category": ["The Blessed", "The Masses' Travels", "boss stage"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-10 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-ST-1 read",
+    "category": ["The Blessed", "The Masses' Travels", "reading"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-ST-2 read",
+    "category": ["The Blessed", "The Masses' Travels", "reading"],
+    "region": "The Masses' Travels first part",
+    "requires": ""
+  },
+  {
+    "name": "MT-ST-3 read",
+    "category": ["The Blessed", "The Masses' Travels", "reading"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-ST-4 read",
+    "category": ["The Blessed", "The Masses' Travels", "reading"],
+    "region": "The Masses' Travels second part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-1 clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage"],
+    "region": "The Masses' Travels third part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-1 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage", "3-stars clear"],
+    "region": "The Masses' Travels third part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-2 clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage"],
+    "region": "The Masses' Travels third part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-2 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage", "3-stars clear"],
+    "region": "The Masses' Travels third part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-3 clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage"],
+    "region": "The Masses' Travels third part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-3 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage", "3-stars clear"],
+    "region": "The Masses' Travels third part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-4 clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage"],
+    "region": "The Masses' Travels third part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-4 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage", "3-stars clear"],
+    "region": "The Masses' Travels third part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-5 clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage"],
+    "region": "The Masses' Travels fourth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-5 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage", "3-stars clear"],
+    "region": "The Masses' Travels fourth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-6 clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage"],
+    "region": "The Masses' Travels fourth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-6 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage", "3-stars clear"],
+    "region": "The Masses' Travels fourth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-7 clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage"],
+    "region": "The Masses' Travels fourth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-7 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage", "3-stars clear"],
+    "region": "The Masses' Travels fourth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-8 clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage", "boss stage"],
+    "region": "The Masses' Travels fourth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-EX-8 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "ex-stage", "3-stars clear"],
+    "region": "The Masses' Travels fourth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-1 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-1 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-2 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-2 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-3 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-3 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-4 clear",
+    "category": ["The Blessed", "The Masses' Travels"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-4 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-5 clear",
+    "category": ["The Blessed", "The Masses' Travels", "boss stage"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
+    "name": "MT-S-5 3-star clear",
+    "category": ["The Blessed", "The Masses' Travels", "3-stars clear"],
+    "region": "The Masses' Travels fifth part",
+    "requires": ""
+  },
+  {
     "name": "BI-1 clear",
     "category": ["Snow and silver Steel", "Break the Ice"],
     "region": "Break the Ice first part",

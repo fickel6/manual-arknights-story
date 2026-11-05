@@ -78,6 +78,8 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     if category_name == "Hortus de Escapismo" and "Hortus de Escapismo" not in included_chapters[player]:
         # logging.info(f"{category_name} is being removed")
         return False
+    if category_name == "The Masses' Travels" and "The Masses' Travels" not in included_chapters[player]:
+        return False
     if category_name == "Break the Ice" and "Break the Ice" not in included_chapters[player]:
         # logging.info(f"{category_name} is being removed")
         return False

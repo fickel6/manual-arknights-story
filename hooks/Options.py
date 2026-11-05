@@ -49,7 +49,7 @@ class events(OptionSet):
     display_name = "included events"          # Name of the option in the spoiler
     valid_keys = {  #define my own list to choose included chapters
         "Darknights' memoir", "A Walk in the Dust", "Babel", "Ending a Grand Overture", 
-        "Guide Ahead", "Hortus de Escapismo", 
+        "Guide Ahead", "Hortus de Escapismo", "The Masses' Travels"
         "Break the Ice", "The Rides to Lake Silberneherze", 
         "Il Siracusan", "I Portatori Dei Velluti",
         "Maria Nearl", "Near Light", 
