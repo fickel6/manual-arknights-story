@@ -32,6 +32,7 @@ import itertools
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
+included_chapters = {}
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
@@ -45,9 +46,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     # using this hook to make some global variables 
     global victory_name
     global included_chapters
-    included_chapters = []
-    included_chapters.extend(world.options.enabled_chapters)
-    included_chapters.extend(world.options.enabled_events)
+    included_chapters[player] = list(world.options.enabled_chapters.value) + list(world.options.enabled_events.value)
     chapter_dict = {
         0:"chapter 0", 1:"chapter 1", 2:"chapter 2", 3:"chapter 3", 4:"chapter 4", 
         5:"chapter 5", 6:"chapter 6", 7:"chapter 7", 8:"chapter 8", 9:"chapter 9",
@@ -69,126 +68,128 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         goal_chapter = get_option_value(multiworld, player, "chapter_boss_clear")
         #if option is an dict (or not defined value?) just make chapter 0 the goal
         goal_chapter = chapter_dict.get(goal_chapter, "chapter 0") if isinstance(goal_chapter, int) else "chapter 0"
-        included_chapters.remove(goal_chapter)
+        included_chapters[player].remove(goal_chapter)
 
     #since the goal chapter is removed earlier, we need to repeat 1 less time
     amount_chapters = world.options.included_random_chapters - 1
-    if amount_chapters < len(included_chapters):
-        amount_chapters = len(included_chapters) - amount_chapters
+    if amount_chapters < len(included_chapters[player]):
+        amount_chapters = len(included_chapters[player]) - amount_chapters
         for _ in range(0, amount_chapters):
-            remove_chapter = world.random.choice(included_chapters)
+            remove_chapter = world.random.choice(included_chapters[player])
             match remove_chapter:
                 case "chapter 0":
-                    included_chapters.remove("chapter 0")
+                    included_chapters[player].remove("chapter 0")
                 case "chapter 1":
-                    included_chapters.remove("chapter 1")
+                    included_chapters[player].remove("chapter 1")
                 case "chapter 2":
-                    included_chapters.remove("chapter 2")
+                    included_chapters[player].remove("chapter 2")
                 case "chapter 3":
-                    included_chapters.remove("chapter 3")
+                    included_chapters[player].remove("chapter 3")
                 case "chapter 4":
-                    included_chapters.remove("chapter 4")
+                    included_chapters[player].remove("chapter 4")
                 case "chapter 5":
-                    included_chapters.remove("chapter 5")
+                    included_chapters[player].remove("chapter 5")
                 case "chapter 6":
-                    included_chapters.remove("chapter 6")
+                    included_chapters[player].remove("chapter 6")
                 case "chapter 7":
-                    included_chapters.remove("chapter 7")
+                    included_chapters[player].remove("chapter 7")
                 case "chapter 8":
-                    included_chapters.remove("chapter 8")
+                    included_chapters[player].remove("chapter 8")
                 case "chapter 9":
-                    included_chapters.remove("chapter 9")
+                    included_chapters[player].remove("chapter 9")
                 case "chapter 10":
-                    included_chapters.remove("chapter 10")
+                    included_chapters[player].remove("chapter 10")
                 case "chapter 11":
-                    included_chapters.remove("chapter 11")
+                    included_chapters[player].remove("chapter 11")
                 case "chapter 12":
-                    included_chapters.remove("chapter 12")
+                    included_chapters[player].remove("chapter 12")
                 case "chapter 13":
-                    included_chapters.remove("chapter 13")
+                    included_chapters[player].remove("chapter 13")
                 case "chapter 14":
-                    included_chapters.remove("chapter 14")
+                    included_chapters[player].remove("chapter 14")
                 case "chapter 15":
-                    included_chapters.remove("chapter 15")
+                    included_chapters[player].remove("chapter 15")
                 case "chapter 16":
-                    included_chapters.remove("chapter 16")
+                    included_chapters[player].remove("chapter 16")
                 case "Darknights' memoir":
-                    included_chapters.remove("Darknights' memoir")
+                    included_chapters[player].remove("Darknights' memoir")
                 case "A Walk in the Dust":
-                    included_chapters.remove("A Walk in the Dust")
+                    included_chapters[player].remove("A Walk in the Dust")
                 case "Babel":
-                    included_chapters.remove("Babel")
+                    included_chapters[player].remove("Babel")
                 case "Ending a Grand Overture":
-                    included_chapters.remove("Ending a Grand Overture")
+                    included_chapters[player].remove("Ending a Grand Overture")
                 case "Guide Ahead":
-                    included_chapters.remove("Guide Ahead")
+                    included_chapters[player].remove("Guide Ahead")
                 case "Hortus de Escapismo":
-                    included_chapters.remove("Hortus de Escapismo")
+                    included_chapters[player].remove("Hortus de Escapismo")
                 case "Break the Ice":
-                    included_chapters.remove("Break the Ice")
+                    included_chapters[player].remove("Break the Ice")
                 case "The Rides to Lake Silberneherze":
-                    included_chapters.remove("The Rides to Lake Silberneherze")
+                    included_chapters[player].remove("The Rides to Lake Silberneherze")
                 case "Il Siracusan":
-                    included_chapters.remove("Il Siracusan")
+                    included_chapters[player].remove("Il Siracusan")
                 case "I Portatori Dei Velluti":
-                    included_chapters.remove("I Portatori Dei Velluti")
+                    included_chapters[player].remove("I Portatori Dei Velluti")
                 case "Maria Nearl":
-                    included_chapters.remove("Maria Nearl")
+                    included_chapters[player].remove("Maria Nearl")
                 case "Near Light":
-                    included_chapters.remove("Near Light")
+                    included_chapters[player].remove("Near Light")
                 case "Who is Real":
-                    included_chapters.remove("Who is Real")
+                    included_chapters[player].remove("Who is Real")
                 case "Invitation to Wine":
-                    included_chapters.remove("Invitation to Wine")
+                    included_chapters[player].remove("Invitation to Wine")
                 case "Where the Vernal Winds Will Never Blow":
-                    included_chapters.remove("Where the Vernal Winds Will Never Blow")
+                    included_chapters[player].remove("Where the Vernal Winds Will Never Blow")
                 case "Here a People Sows":
-                    included_chapters.remove("Here a People Sows")
+                    included_chapters[player].remove("Here a People Sows")
                 case "Such is the Joy of Our Reunion":
-                    included_chapters.remove("Such is the Joy of Our Reunion")
+                    included_chapters[player].remove("Such is the Joy of Our Reunion")
                 case "Mansfield Break":
-                    included_chapters.remove("Mansfield Break")
+                    included_chapters[player].remove("Mansfield Break")
                 case "Dorothy's Vision":
-                    included_chapters.remove("Dorothy's Vision")
+                    included_chapters[player].remove("Dorothy's Vision")
                 case "Lonetrail":
-                    included_chapters.remove("Lonetrail")
+                    included_chapters[player].remove("Lonetrail")
                 case "Grani And The Knights' Treasure":
-                    included_chapters.remove("Grani And The Knights' Treasure")
+                    included_chapters[player].remove("Grani And The Knights' Treasure")
                 case "Under Tides":
-                    included_chapters.remove("Under Tides")
+                    included_chapters[player].remove("Under Tides")
                 case "Stultifera Navis":
-                    included_chapters.remove("Stultifera Navis")
+                    included_chapters[player].remove("Stultifera Navis")
                 case "Path of Life":
-                    included_chapters.remove("Path of Life")
+                    included_chapters[player].remove("Path of Life")
                 case "Exodus From the Pale Sea":
-                    included_chapters.remove("Exodus From the Pale Sea")
+                    included_chapters[player].remove("Exodus From the Pale Sea")
                 case "Twilight of Wolumonde":
-                    included_chapters.remove("Twilight of Wolumonde")
+                    included_chapters[player].remove("Twilight of Wolumonde")
                 case "Lingering Echoes":
-                    included_chapters.remove("Lingering Echoes")
+                    included_chapters[player].remove("Lingering Echoes")
                 case "Zwillingstürme im Herbst":
-                    included_chapters.remove("Zwillingstürme im Herbst")
+                    included_chapters[player].remove("Zwillingstürme im Herbst")
                 case "When the Fireflights Casts":
-                    included_chapters.remove("When the Fireflights Casts")
+                    included_chapters[player].remove("When the Fireflights Casts")
                 case "When Elegies Are Ashes":
-                    included_chapters.remove("When Elegies Are Ashes")
+                    included_chapters[player].remove("When Elegies Are Ashes")
                 case "Heart of Surging Flame":
-                    included_chapters.remove("Heart of Surging Flame")
+                    included_chapters[player].remove("Heart of Surging Flame")
                 case "the Great Chief Returns":
-                    included_chapters.remove("the Great Chief Returns")
+                    included_chapters[player].remove("the Great Chief Returns")
                 case "Dossoles Holiday":
-                    included_chapters.remove("Dossoles Holiday")
+                    included_chapters[player].remove("Dossoles Holiday")
                 case "Ideal City":
-                    included_chapters.remove("Ideal City")
+                    included_chapters[player].remove("Ideal City")
                 case "So long Adele":
-                    included_chapters.remove("So long Adele")
+                    included_chapters[player].remove("So long Adele")
                 case "Adventure That Cannot Wait for the Sun":
-                    included_chapters.remove("Adventure That Cannot Wait for the Sun")
+                    included_chapters[player].remove("Adventure That Cannot Wait for the Sun")
                 case _:
                     raise AssertionError(f"the chapter/event: {remove_chapter} isn't in the list")
 
     #done with removing the excess chapters/events. add the goal area back in the pool
-    included_chapters.append(goal_chapter)
+    included_chapters[player].append(goal_chapter)
+    logging.info("these are the included chapters")
+    logging.info(included_chapters[player])
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -217,8 +218,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
-    logging.info("these are the included chapters")
-    logging.info(included_chapters)
     return item_config
 
 # The item pool before place_item(_category) are processed, in case you want to see the raw item pool at that stage
@@ -341,7 +340,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         finally:
             possible_characters.remove(random_character)
             
-    logging.info(multiworld.precollected_items)
+    logging.info(multiworld.precollected_items[player])
     return item_pool
 
     # Some other useful hook options:
@@ -395,7 +394,7 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
-    logging.info(f"amount of locations: {len(multiworld.regions.location_cache[player])}")
+    logging.info(f"amount of locations: {len(multiworld.regions.location_cache[player])} from player number {player}")
     boss_locations = []
     match victory_name:
         case "boss chapter cleared":
