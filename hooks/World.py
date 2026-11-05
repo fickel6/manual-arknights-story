@@ -395,6 +395,7 @@ def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, pl
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs
 def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
+    logging.info(f"amount of locations: {len(multiworld.regions.location_cache[player])}")
     boss_locations = []
     match victory_name:
         case "boss chapter cleared":
