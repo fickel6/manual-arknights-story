@@ -60,6 +60,9 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     if category_name == "chapter 16" and "chapter 16" not in included_chapters[player]:
         # logging.info(f"{category_name} is being removed")
         return False
+    if category_name == "chapter 17" and "chapter 17" not in included_chapters[player]:
+        # logging.info(f"{category_name} is being removed")
+        return False
     if category_name == "Darknights memoir" and "Darknights memoir" not in included_chapters[player]:
         # logging.info(f"{category_name} is being removed")
         return False
@@ -233,6 +236,8 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
         return False
     if "chapter 16" == item["category"] and "chapter 16" not in included_chapters[player]:
         return False
+    if "chapter 17" == item["category"] and "chapter 17" not in included_chapters[player]:
+        return False
     if "Darknights memoir"  == item["category"]and "Darknights memoir" not in included_chapters[player]:
         return False
     if "A Walk in the Dust" == item["category"] and "A Walk in the Dust" not in included_chapters[player]:
@@ -244,6 +249,8 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
     if "Guide Ahead" == item["category"] and "Guide Ahead" not in included_chapters[player]:
         return False
     if "Hortus de Escapismo" == item["category"] and "Hortus de Escapismo" not in included_chapters[player]:
+        return False
+    if "The Masses' Travels" == item["category"] and "The Masses' Travels" not in included_chapters[player]:
         return False
     if "Break the Ice" == item["category"] and "Break the Ice" not in included_chapters[player]:
         return False

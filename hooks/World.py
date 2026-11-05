@@ -51,7 +51,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         0:"chapter 0", 1:"chapter 1", 2:"chapter 2", 3:"chapter 3", 4:"chapter 4", 
         5:"chapter 5", 6:"chapter 6", 7:"chapter 7", 8:"chapter 8", 9:"chapter 9",
         10:"chapter 10", 11:"chapter 11", 12:"chapter 12", 13:"chapter 13",
-        14:"chapter 14", 15:"chapter 15", 16:"chapter 16",
+        14:"chapter 14", 15:"chapter 15", 16:"chapter 16", 17: "chapter 17",
         100: "Darknights' memoir", 101: "A Walk in the Dust", 102:"Babel", 103:"Ending a Grand Overture", 
         150:"Guide Ahead", 151:"Hortus de Escapismo", 152:"The Masses' Travels",
         200:"Break the Ice", 201:"The Rides to Lake Silberneherze", 
@@ -111,6 +111,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
                     included_chapters[player].remove("chapter 15")
                 case "chapter 16":
                     included_chapters[player].remove("chapter 16")
+                case "chapter 17":
+                    included_chapters[player].remove("chapter 17")
                 case "Darknights' memoir":
                     included_chapters[player].remove("Darknights' memoir")
                 case "A Walk in the Dust":
@@ -418,6 +420,7 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                 case 14:  boss_locations.append("14-21 clear")
                 case 15:  boss_locations.append("15-20 clear")
                 case 16:  boss_locations.append("16-16 clear")
+                case 17:  boss_locations.append("17-18 clear")
                 case 100: boss_locations.append("DM-8 clear")
                 case 101: boss_locations.append("WD-8 clear")
                 case 102: boss_locations.append("BB-10 clear")
@@ -457,18 +460,19 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                 case 605: boss_locations.append("AS-9 clear")
         case "H-stages cleared":
             match world.options.H_stage_clear.value:
-                case  0: boss_locations.append("H5-4 clear")
-                case  1: boss_locations.append("H6-4 clear")
-                case  2: boss_locations.append("H7-4 clear")
-                case  3: boss_locations.append("H8-4 clear")
-                case  4: boss_locations.append("H9-6 clear")
-                case  5: boss_locations.append("H10-3 clear")
-                case  6: boss_locations.append("H11-4 clear")
-                case  7: boss_locations.append("H12-4 clear")
-                case  8: boss_locations.append("H13-4 clear")
-                case  9: boss_locations.append("H14-4 clear")
-                case 10: boss_locations.append("H15-4 clear")
-                case 11: boss_locations.append("H16-4 clear")
+                case  5: boss_locations.append("H5-4 clear")
+                case  6: boss_locations.append("H6-4 clear")
+                case  7: boss_locations.append("H7-4 clear")
+                case  8: boss_locations.append("H8-4 clear")
+                case  9: boss_locations.append("H9-6 clear")
+                case 10: boss_locations.append("H10-3 clear")
+                case 11: boss_locations.append("H11-4 clear")
+                case 12: boss_locations.append("H12-4 clear")
+                case 13: boss_locations.append("H13-4 clear")
+                case 14: boss_locations.append("H14-4 clear")
+                case 15: boss_locations.append("H15-4 clear")
+                case 16: boss_locations.append("H16-4 clear")
+                case 17: boss_locations.append("H17-4 clear")
         case "beat multiple boss stages":
             boss_locations.extend([name for name, i in world.location_name_to_location.items() if "boss stage" in i.get("category", [])])
         case "collect OP":

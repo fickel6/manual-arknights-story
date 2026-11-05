@@ -39,7 +39,7 @@ class chapters(OptionSet):
         "chapter 0", "chapter 1", "chapter 2", "chapter 3", "chapter 4", 
         "chapter 5", "chapter 6", "chapter 7", "chapter 8", "chapter 9",
         "chapter 10", "chapter 11", "chapter 12", "chapter 13",
-        "chapter 14", "chapter 15", "chapter 16",
+        "chapter 14", "chapter 15", "chapter 16", "chapter 17"
     }
     default = frozenset(valid_keys)              # This makes the default value list all of them.  It's easier for a player to delete ones they don't have than it is to guess what should be added.
 

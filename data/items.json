@@ -4643,6 +4643,16 @@
     "progression": true
   },
   {
+    "count": "5",
+    "name": "progressive chapter 17",
+    "category": [
+      "chapter unlock",
+      "starting chapter unlock",
+      "chapter 17"
+    ],
+    "progression": true
+  },
+  {
     "count": 5,
     "name": "progressive Darknights memoir unlock",
     "category": [
@@ -4699,6 +4709,16 @@
       "chapter unlock",
       "starting chapter unlock",
       "Hortus de Escapismo"
+    ],
+    "progression": true
+  },
+  {
+    "count": 5,
+    "name": "progressive The Masses' Travels unlock",
+    "category": [
+      "chapter unlock",
+      "starting chapter unlock",
+      "The Masses' Travels"
     ],
     "progression": true
   },

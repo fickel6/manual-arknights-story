@@ -431,6 +431,33 @@
     }
   },
   "chapter 16 H-stages": {},
+  "chapter 17 first part": {
+    "starting": true,
+    "requires": "|progressive chapter 17|",
+    "connects_to": ["chapter 17 second part"],
+    "exit_requires": {
+      "chapter 17 second part": "|progressive chapter 17:2|"
+    }
+  },
+  "chapter 17 second part": {
+    "connects_to": ["chapter 17 third part"],
+    "exit_requires": {
+      "chapter 17 third part": "|progressive chapter 17:3|"
+    }
+  },
+  "chapter 17 third part": {
+    "connects_to": ["chapter 17 fourth part"],
+    "exit_requires": {
+      "chapter 17 fourth part": "|progressive chapter 17:4|"
+    }
+  },
+  "chapter 17 fourth part": {
+    "connects_to": ["chapter 17 fifth part"],
+    "exit_requires": {
+      "chapter 17 fifth part": "|progressive chapter 17:5|"
+    }
+  },
+  "chapter 17 fifth part": {},
   "Darknights memoir first part": {
     "starting": true,
     "requires": "|progressive Darknights memoir unlock|",
@@ -569,6 +596,33 @@
     }
   },
   "Hortus de Escapismo fourth part": {},
+  "The Masses' Travels first part": {
+    "starting": true,
+    "requires": "|progressive The Masses' Travels|",
+    "connects_to": ["The Masses' Travels second part"],
+    "exit_requires": {
+      "chapter 16 second part": "|progressive The Masses' Travels:2|"
+    }
+  },
+  "The Masses' Travels second part": {
+    "connects_to": ["The Masses' Travels third part"],
+    "exit_requires": {
+      "The Masses' Travels third part": "|progressive The Masses' Travels:3|"
+    }
+  },
+  "The Masses' Travels third part": {
+    "connects_to": ["The Masses' Travels fourth part"],
+    "exit_requires": {
+      "The Masses' Travels fourth part": "|progressive The Masses' Travels:4|"
+    }
+  },
+  "The Masses' Travels fourth part": {
+    "connects_to": ["The Masses' Travels fifth part"],
+    "exit_requires": {
+      "The Masses' Travels fifth part": "|progressive The Masses' Travels:5|"
+    }
+  },
+  "The Masses' Travels fifth part": {},
   "Break the Ice first part": {
     "starting": true,
     "requires": "|progressive Break the Ice unlock|",

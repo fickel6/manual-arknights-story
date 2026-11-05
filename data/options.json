@@ -46,7 +46,7 @@
                 "chapter 0": 0, "chapter 1": 1, "chapter 2": 2, "chapter 3": 3,
                 "chapter 4": 4, "chapter 5": 5, "chapter 6": 6, "chapter 7": 7, "chapter 8": 8,
                 "chapter 9": 9, "chapter 10": 10, "chapter 11": 11, "chapter 12": 12, "chapter 13": 13,
-                "chapter 14": 14, "chapter 15": 15, "chapter 16": 16,
+                "chapter 14": 14, "chapter 15": 15, "chapter 16": 16, "chapter 17": 17,
                 "Darknights' memoir":100, "A Walk in the Dust":101, "Babel":102, "Ending a Grand Overture":103, 
                 "Guide Ahead":150, "Hortus de Escapismo":151, "The Masses' Travels":152,
                 "Break the Ice":200, "The Rides to Lake Silberneherze":201, 
@@ -81,7 +81,8 @@
                 "chapter 13": 13,
                 "chapter 14": 14,
                 "chapter 15": 15,
-                "chapter 16": 16
+                "chapter 16": 16,
+                "chapter 17": 17
             },
             "group": "goal options"
         },
