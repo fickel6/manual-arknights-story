@@ -19,6 +19,9 @@
         "yaml_option": ["include H-stages"],
         "hidden": true
     },
+    "h-stage": {
+        "yaml_option": ["challenge sanity"],
+    },
     "ex-stage": {
         "yaml_option": ["include_EX_stages"],
         "hidden": true
@@ -33,6 +36,14 @@
     },
     "3-stars clear": {
         "yaml_option": ["include_3_star"],
+        "hidden": true
+    },
+    "challenge mode": {
+        "yaml_option": ["challenge sanity"],
+        "hidden": true
+    },
+    "simulation mode": {
+        "yaml_option": ["challenge sanity", "simulation sanity"],
         "hidden": true
     },
     "boss stage": {

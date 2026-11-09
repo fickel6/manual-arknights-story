@@ -56,7 +56,7 @@ class events(OptionSet):
         "Who is Real", "Invitation to Wine", "Where the Vernal Winds Will Never Blow", "Here a People Sows", "Such is the Joy of Our Reunion",
         "Mansfield Break", "Dorothy's Vision", "Lonetrail",
         "Grani And The Knights' Treasure", "Under Tides", "Stultifera Navis", "Path of Life", "Exodus From the Pale Sea", 
-        "Twilight of Wolumonde", "Lingering Echoes", "ZwillingstÃ¼rme im Herbst", 
+        "Twilight of Wolumonde", "Lingering Echoes", "Zwillingstürme im Herbst", 
         "When the Fireflights Casts", "When Elegies Are Ashes", 
         "Heart of Surging Flame", "the Great Chief Returns", "Dossoles Holiday", "Ideal City", "So long Adele", "Adventure That Cannot Wait for the Sun", 
     }

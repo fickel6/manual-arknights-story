@@ -1118,33 +1118,33 @@
     }
   },
   "Lingering Echoes fourth part": {},
-  "ZwillingstÃ¼rme im Herbst first part": {
+  "Zwillingstürme im Herbst first part": {
     "starting": true,
-    "requires": "|progressive ZwillingstÃ¼rme im Herbst unlock|",
-    "connects_to": ["ZwillingstÃ¼rme im Herbst second part"],
+    "requires": "|progressive Zwillingstürme im Herbst unlock|",
+    "connects_to": ["Zwillingstürme im Herbst second part"],
     "exit_requires": {
-      "ZwillingstÃ¼rme im Herbst second part": "|progressive ZwillingstÃ¼rme im Herbst unlock:2|"
+      "Zwillingstürme im Herbst second part": "|progressive Zwillingstürme im Herbst unlock:2|"
     }
   },
-  "ZwillingstÃ¼rme im Herbst second part": {
-    "connects_to": ["ZwillingstÃ¼rme im Herbst third part"],
+  "Zwillingstürme im Herbst second part": {
+    "connects_to": ["Zwillingstürme im Herbst third part"],
     "exit_requires": {
-      "ZwillingstÃ¼rme im Herbst third part": "|progressive ZwillingstÃ¼rme im Herbst unlock:3|"
+      "Zwillingstürme im Herbst third part": "|progressive Zwillingstürme im Herbst unlock:3|"
     }
   },
-  "ZwillingstÃ¼rme im Herbst third part": {
-    "connects_to": ["ZwillingstÃ¼rme im Herbst fourth part"],
+  "Zwillingstürme im Herbst third part": {
+    "connects_to": ["Zwillingstürme im Herbst fourth part"],
     "exit_requires": {
-      "ZwillingstÃ¼rme im Herbst fourth part": "|progressive ZwillingstÃ¼rme im Herbst unlock:4|"
+      "Zwillingstürme im Herbst fourth part": "|progressive Zwillingstürme im Herbst unlock:4|"
     }
   },
-  "ZwillingstÃ¼rme im Herbst fourth part": {
-    "connects_to": ["ZwillingstÃ¼rme im Herbst fifth part"],
+  "Zwillingstürme im Herbst fourth part": {
+    "connects_to": ["Zwillingstürme im Herbst fifth part"],
     "exit_requires": {
-      "ZwillingstÃ¼rme im Herbst fifth part": "|progressive ZwillingstÃ¼rme im Herbst unlock:5|"
+      "Zwillingstürme im Herbst fifth part": "|progressive Zwillingstürme im Herbst unlock:5|"
     }
   },
-  "ZwillingstÃ¼rme im Herbst fifth part": {},
+  "Zwillingstürme im Herbst fifth part": {},
   "When the Fireflights Casts first part": {
     "starting": true,
     "requires": "|progressive When the Fireflights Casts unlock|",

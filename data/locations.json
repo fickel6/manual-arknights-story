@@ -4467,142 +4467,268 @@
     "requires": "{requiredOperators(3, 2)} AND {totalOperators(6)} AND {checkAmountxStars(6 star, 1)}"
   },
   {
-    "name": "17-1 read",
-    "category": ["chapter 17"],
-    "region": "chapter 17 first part",
-    "requires": ""
-  },
-  {
     "name": "17-2 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(1, 0)}"
   },
   {
     "name": "17-2 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(1, 0)}"
+  },
+  {
+    "name": "17-2 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(1, 0)}"
+  },
+  {
+    "name": "17-2 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(1, 0)}"
   },
   {
     "name": "17-3 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(1, 0)}"
   },
   {
     "name": "17-3 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(1, 0)}"
+  },
+  {
+    "name": "17-3 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(1, 0)}"
+  },
+  {
+    "name": "17-3 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(1, 0)}"
   },
   {
     "name": "17-4 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(2, 0)}"
   },
   {
     "name": "17-4 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(2, 0)}"
+  },
+  {
+    "name": "17-4 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(2, 0)}"
+  },
+  {
+    "name": "17-4 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(2, 0)}"
   },
   {
     "name": "17-5 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(3, 1)}"
   },
   {
     "name": "17-5 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(3, 1)}"
+  },
+  {
+    "name": "17-5 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(3, 1)}"
+  },
+  {
+    "name": "17-5 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(3, 1)}"
   },
   {
     "name": "17-6 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(3, 1)}"
   },
   {
     "name": "17-6 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 first part",
-    "requires": ""
+    "requires": "{requiredOperators(3, 1)}"
+  },
+  {
+    "name": "17-6 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(3, 1)}"
+  },
+  {
+    "name": "17-6 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 first part",
+    "requires": "{requiredOperators(3, 1)}"
   },
   {
     "name": "17-7 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
   },
   {
     "name": "17-7 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
+  },
+  {
+    "name": "17-7 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 second part",
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
+  },
+  {
+    "name": "17-7 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 second part",
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
   },
   {
     "name": "17-8 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
   },
   {
     "name": "17-8 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
+  },
+  {
+    "name": "17-8 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 second part",
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
+  },
+  {
+    "name": "17-8 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 second part",
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
   },
   {
     "name": "17-9 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
   },
   {
     "name": "17-9 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
+  },
+  {
+    "name": "17-9 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 second part",
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
+  },
+  {
+    "name": "17-9 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 second part",
+    "requires": "{requiredOperators(2, 0)} AND {checkClassAmount(medic, 1)} "
   },
   {
     "name": "17-10 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "|@block:4| AND |@ranged:1|"
   },
   {
     "name": "17-10 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "|@block:4| AND |@ranged:1|"
+  },
+  {
+    "name": "17-10 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 second part",
+    "requires": "|@block:4| AND |@ranged:1|"
+  },
+  {
+    "name": "17-10 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 second part",
+    "requires": "|@block:4| AND |@ranged:1|"
   },
   {
     "name": "17-11 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "|@block:2| AND |@ranged:1|"
   },
   {
     "name": "17-11 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "|@block:2| AND |@ranged:1| AND (|@block:4| OR |@ranged:3|"
+  },
+  {
+    "name": "17-11 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 second part",
+    "requires": "|@block:2| AND |@ranged:1| AND (|@block:4| OR |@ranged:3|"
+  },
+  {
+    "name": "17-11 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 second part",
+    "requires": "|@block:2| AND |@ranged:1| AND (|@block:4| OR |@ranged:3|"
   },
   {
     "name": "17-12 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "|@block:4| AND |@medic:1|"
   },
   {
     "name": "17-12 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 second part",
-    "requires": ""
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 second part",
+    "requires": "|@block:4| AND |@medic:1|"
+  },
+  {
+    "name": "17-12 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 second part",
+    "requires": "|@block:4| AND |@medic:1|"
   },
   {
     "name": "17-13 clear",
@@ -4612,7 +4738,19 @@
   },
   {
     "name": "17-13 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 third part",
+    "requires": ""
+  },
+  {
+    "name": "17-13 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 third part",
+    "requires": ""
+  },
+  {
+    "name": "17-13 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
     "region": "chapter 17 third part",
     "requires": ""
   },
@@ -4624,7 +4762,7 @@
   },
   {
     "name": "17-14 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 third part",
     "requires": ""
   },
@@ -4632,13 +4770,28 @@
     "name": "17-15 clear",
     "category": ["chapter 17"],
     "region": "chapter 17 third part",
-    "requires": ""
+    "_comment": "leak the war caster. easiest way to beat the stage, so Wang or other 6 stars isn't necessary",
+    "requires": "{requiredOperators(2, 0)}"
   },
   {
     "name": "17-15 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
     "region": "chapter 17 third part",
-    "requires": ""
+    "_comment": "Caster or Wang or a really strong sniper. basically needs a 6 star",
+    "requires": "|@block:2| AND |@6 star:1|"
+  },
+  {
+    "name": "17-15 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 third part",
+    "_comment": "Caster or Wang or a really strong sniper. basically needs a 6 star",
+    "requires": "|@block:2| AND |@6 star:1|"
+  },
+  {
+    "name": "17-15 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 third part",
+    "requires": "|@block:2| AND |@6 star:1|"
   },
   {
     "name": "17-16 clear",
@@ -4648,7 +4801,19 @@
   },
   {
     "name": "17-16 3-star clear",
-    "category": ["chapter 17", "fixed squad", "3-stars clear"],
+    "category": ["chapter 17", "fixed squad", "3-star sanity"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-16 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-16 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
     "region": "chapter 17 fourth part",
     "requires": ""
   },
@@ -4660,19 +4825,163 @@
   },
   {
     "name": "17-17 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-17 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-17 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
     "region": "chapter 17 fourth part",
     "requires": ""
   },
   {
     "name": "17-18 clear",
-    "category": ["chapter 17", "boss stage"],
+    "category": ["chapter 17"],
     "region": "chapter 17 fourth part",
     "requires": ""
   },
   {
     "name": "17-18 3-star clear",
-    "category": ["chapter 17", "3-stars clear"],
+    "category": ["chapter 17", "3-star sanity"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-18 adverse mode clear",
+    "category": ["chapter 17", "challenge mode"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-18 simulation clear",
+    "category": ["chapter 17", "simulation mode"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-1 read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-2 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "TR-28 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-3 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-4 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-5 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-6 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 first part",
+    "requires": ""
+  },
+  {
+    "name": "17-7 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 second part",
+    "requires": ""
+  },
+  {
+    "name": "17-8 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 second part",
+    "requires": ""
+  },
+  {
+    "name": "17-9 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 second part",
+    "requires": ""
+  },
+  {
+    "name": "17-10 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 second part",
+    "requires": ""
+  },
+  {
+    "name": "17-11 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 second part",
+    "requires": ""
+  },
+  {
+    "name": "17-12 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 second part",
+    "requires": ""
+  },
+  {
+    "name": "17-13 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 third part",
+    "requires": ""
+  },
+  {
+    "name": "17-14 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 third part",
+    "requires": ""
+  },
+  {
+    "name": "17-15 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 third part",
+    "requires": ""
+  },
+  {
+    "name": "17-16 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-17 after read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-18 before read",
+    "category": ["chapter 17", "reading"],
+    "region": "chapter 17 fourth part",
+    "requires": ""
+  },
+  {
+    "name": "17-18 after read",
+    "category": ["chapter 17", "reading"],
     "region": "chapter 17 fourth part",
     "requires": ""
   },
@@ -11447,296 +11756,296 @@
   },
   {
     "name": "ZT-1 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-1 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-2 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-2 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-3 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-3 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-4 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-4 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-5 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-5 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-6 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-6 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-7 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-7 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-8 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-8 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-9 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-9 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-10 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "boss stage"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "boss stage"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-10 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-ST-1 read",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "reading"],
-    "region": "Zwillingstürme im Herbst first part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "reading"],
+    "region": "Zwillingst�rme im Herbst first part",
     "requires": ""
   },
   {
     "name": "ZT-ST-2 read",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "reading"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "reading"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-ST-3 read",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "reading"],
-    "region": "Zwillingstürme im Herbst second part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "reading"],
+    "region": "Zwillingst�rme im Herbst second part",
     "requires": ""
   },
   {
     "name": "ZT-EX-1 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
-    "region": "Zwillingstürme im Herbst third part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage"],
+    "region": "Zwillingst�rme im Herbst third part",
     "requires": ""
   },
   {
     "name": "ZT-EX-1 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst third part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst third part",
     "requires": ""
   },
   {
     "name": "ZT-EX-2 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
-    "region": "Zwillingstürme im Herbst third part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage"],
+    "region": "Zwillingst�rme im Herbst third part",
     "requires": ""
   },
   {
     "name": "ZT-EX-2 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst third part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst third part",
     "requires": ""
   },
   {
     "name": "ZT-EX-3 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
-    "region": "Zwillingstürme im Herbst third part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage"],
+    "region": "Zwillingst�rme im Herbst third part",
     "requires": ""
   },
   {
     "name": "ZT-EX-3 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst third part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst third part",
     "requires": ""
   },
   {
     "name": "ZT-EX-4 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
-    "region": "Zwillingstürme im Herbst third part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage"],
+    "region": "Zwillingst�rme im Herbst third part",
     "requires": ""
   },
   {
     "name": "ZT-EX-4 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst third part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst third part",
     "requires": ""
   },
   {
     "name": "ZT-EX-5 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
-    "region": "Zwillingstürme im Herbst fourth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage"],
+    "region": "Zwillingst�rme im Herbst fourth part",
     "requires": ""
   },
   {
     "name": "ZT-EX-5 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst fourth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst fourth part",
     "requires": ""
   },
   {
     "name": "ZT-EX-6 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
-    "region": "Zwillingstürme im Herbst fourth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage"],
+    "region": "Zwillingst�rme im Herbst fourth part",
     "requires": ""
   },
   {
     "name": "ZT-EX-6 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst fourth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst fourth part",
     "requires": ""
   },
   {
     "name": "ZT-EX-7 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage"],
-    "region": "Zwillingstürme im Herbst fourth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage"],
+    "region": "Zwillingst�rme im Herbst fourth part",
     "requires": ""
   },
   {
     "name": "ZT-EX-7 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst fourth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst fourth part",
     "requires": ""
   },
   {
     "name": "ZT-EX-8 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "boss stage"],
-    "region": "Zwillingstürme im Herbst fourth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage", "boss stage"],
+    "region": "Zwillingst�rme im Herbst fourth part",
     "requires": ""
   },
   {
     "name": "ZT-EX-8 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "ex-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst fourth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "ex-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst fourth part",
     "requires": ""
   },
   {
     "name": "ZT-S-1 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {
     "name": "ZT-S-1 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {
     "name": "ZT-S-2 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {
     "name": "ZT-S-2 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {
     "name": "ZT-S-3 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {
     "name": "ZT-S-3 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {
     "name": "ZT-S-4 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {
     "name": "ZT-S-4 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {
     "name": "ZT-S-5 clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "boss stage"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage", "boss stage"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {
     "name": "ZT-S-5 3-star clear",
-    "category": ["Spire Mirages", "Zwillingstürme im Herbst", "s-stage", "3-stars clear"],
-    "region": "Zwillingstürme im Herbst fifth part",
+    "category": ["Spire Mirages", "Zwillingst�rme im Herbst", "s-stage", "3-stars clear"],
+    "region": "Zwillingst�rme im Herbst fifth part",
     "requires": ""
   },
   {

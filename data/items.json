@@ -8,7 +8,7 @@
       "specialist",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -19,7 +19,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -30,7 +30,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -40,7 +40,7 @@
       "6 star",
       "specialist"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -51,7 +51,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -62,7 +62,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -73,7 +73,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -84,7 +84,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -95,7 +95,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -106,7 +106,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -117,7 +117,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -128,7 +128,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -139,7 +139,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -150,7 +150,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -161,7 +161,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -172,7 +172,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -183,7 +183,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -194,7 +194,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -205,7 +205,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -216,7 +216,7 @@
       "specialist",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -227,7 +227,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -238,7 +238,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -249,7 +249,7 @@
       "specialist",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -260,7 +260,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -271,7 +271,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -282,7 +282,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -293,7 +293,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -304,7 +304,7 @@
       "specialist",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -315,7 +315,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -325,7 +325,7 @@
       "6 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -336,7 +336,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -347,7 +347,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -358,7 +358,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -369,7 +369,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -380,7 +380,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -391,7 +391,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -402,7 +402,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -412,7 +412,7 @@
       "6 star",
       "supporter"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -423,7 +423,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -434,7 +434,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -445,7 +445,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -456,7 +456,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -467,7 +467,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -478,7 +478,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -488,7 +488,7 @@
       "6 star",
       "caster"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -499,7 +499,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -510,7 +510,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -521,7 +521,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -532,7 +532,7 @@
       "medic", 
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -543,7 +543,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -554,7 +554,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -565,7 +565,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -576,7 +576,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -587,7 +587,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -598,7 +598,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -609,7 +609,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -621,7 +621,7 @@
       "range",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -632,7 +632,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -642,7 +642,7 @@
       "6 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -653,7 +653,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -664,7 +664,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -675,7 +675,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -685,7 +685,7 @@
       "6 star",
       "specialist"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -695,7 +695,7 @@
       "6 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -706,7 +706,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -717,7 +717,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -728,7 +728,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -740,7 +740,7 @@
       "block",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -751,7 +751,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -762,7 +762,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -773,7 +773,7 @@
       "supporter",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -784,7 +784,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -795,7 +795,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -806,7 +806,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -816,7 +816,7 @@
       "6 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -827,7 +827,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -838,7 +838,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -849,7 +849,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -860,7 +860,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -871,7 +871,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -882,7 +882,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -893,7 +893,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -904,7 +904,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -915,7 +915,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -927,7 +927,7 @@
       "range",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -938,7 +938,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -949,7 +949,7 @@
       "medic",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -960,7 +960,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -970,7 +970,7 @@
       "6 star",
       "sniper"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -981,7 +981,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -992,7 +992,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1003,7 +1003,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1014,7 +1014,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1025,7 +1025,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1035,7 +1035,7 @@
       "6 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1046,7 +1046,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1056,7 +1056,7 @@
       "6 star",
       "supporter"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1067,7 +1067,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1078,7 +1078,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1089,7 +1089,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1100,7 +1100,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1111,7 +1111,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1121,7 +1121,7 @@
       "6 star",
       "supporter"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1132,7 +1132,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1143,7 +1143,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1154,7 +1154,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1165,7 +1165,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1176,7 +1176,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1187,7 +1187,7 @@
       "specialist",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1197,7 +1197,7 @@
       "6 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "name": "Togawa Sakiko",
@@ -1207,7 +1207,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1218,7 +1218,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1229,7 +1229,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1240,7 +1240,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1251,7 +1251,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1262,7 +1262,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1273,7 +1273,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1284,7 +1284,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1295,7 +1295,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1306,7 +1306,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1316,7 +1316,7 @@
       "6 star",
       "specialist"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1326,7 +1326,7 @@
       "6 star",
       "sniper"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1337,7 +1337,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1348,7 +1348,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1359,7 +1359,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1370,7 +1370,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1381,7 +1381,7 @@
       "supporter",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1392,7 +1392,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1403,7 +1403,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1414,7 +1414,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1425,7 +1425,7 @@
       "medic",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1436,7 +1436,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1447,7 +1447,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1458,7 +1458,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1468,7 +1468,7 @@
       "5 star", 
       "caster"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1479,7 +1479,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1490,7 +1490,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1501,7 +1501,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1512,7 +1512,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1523,7 +1523,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1534,7 +1534,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1545,7 +1545,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1556,7 +1556,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1567,7 +1567,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1578,7 +1578,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1589,7 +1589,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1600,7 +1600,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1611,7 +1611,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1622,7 +1622,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1633,7 +1633,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1643,7 +1643,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1654,7 +1654,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1665,7 +1665,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1676,7 +1676,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1698,7 +1698,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1709,7 +1709,7 @@
       "supporter",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1720,7 +1720,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1730,7 +1730,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1741,7 +1741,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1752,7 +1752,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1763,7 +1763,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1774,7 +1774,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1784,7 +1784,7 @@
       "5 star",
       "caster"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1795,7 +1795,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1806,7 +1806,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1817,7 +1817,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1828,7 +1828,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1839,7 +1839,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1850,7 +1850,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1861,7 +1861,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1872,7 +1872,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1883,7 +1883,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1894,7 +1894,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1905,7 +1905,7 @@
       "vanguard",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1916,7 +1916,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1927,7 +1927,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1938,7 +1938,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1949,7 +1949,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1960,7 +1960,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1971,7 +1971,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1981,7 +1981,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -1992,7 +1992,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2003,7 +2003,7 @@
       "specialist",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2014,7 +2014,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2025,7 +2025,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2036,7 +2036,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2047,7 +2047,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2058,7 +2058,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2069,7 +2069,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2079,7 +2079,7 @@
       "5 star", 
       "sniper"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2089,7 +2089,7 @@
       "5 star",
       "guard"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2100,7 +2100,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2110,7 +2110,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2121,7 +2121,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2132,7 +2132,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2143,7 +2143,7 @@
       "medic",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2153,7 +2153,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2164,7 +2164,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2175,7 +2175,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2186,7 +2186,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2197,7 +2197,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2208,7 +2208,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2219,7 +2219,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2230,7 +2230,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2241,7 +2241,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2252,7 +2252,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2263,7 +2263,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2274,7 +2274,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2285,7 +2285,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2295,7 +2295,7 @@
       "5 star",
       "specialist"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2306,7 +2306,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2317,7 +2317,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2328,7 +2328,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2339,7 +2339,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2350,7 +2350,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2361,7 +2361,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2372,7 +2372,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2383,7 +2383,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2394,7 +2394,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2405,7 +2405,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2416,7 +2416,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2427,7 +2427,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2437,7 +2437,7 @@
       "5 star",
       "specialist"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2448,7 +2448,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2460,7 +2460,7 @@
       "range",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2471,7 +2471,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2482,7 +2482,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2493,7 +2493,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2504,7 +2504,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2515,7 +2515,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "name": "Misumi Uika",
@@ -2525,7 +2525,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2537,7 +2537,7 @@
       "block",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2548,7 +2548,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2559,7 +2559,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2569,7 +2569,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2580,7 +2580,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2591,7 +2591,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2601,7 +2601,7 @@
       "5 star", 
       "supporter"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2611,7 +2611,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2622,7 +2622,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2632,7 +2632,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2642,7 +2642,7 @@
       "5 star", 
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2652,7 +2652,7 @@
       "5 star",
       "supporter"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2663,7 +2663,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2674,7 +2674,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2685,7 +2685,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2696,7 +2696,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2707,7 +2707,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2718,7 +2718,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2729,7 +2729,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2739,7 +2739,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2750,7 +2750,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2761,7 +2761,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2772,7 +2772,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2783,7 +2783,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2793,7 +2793,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2804,7 +2804,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2814,7 +2814,7 @@
       "5 star",
       "specialist"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2825,7 +2825,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2835,7 +2835,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2846,7 +2846,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2857,7 +2857,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2868,7 +2868,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2879,7 +2879,7 @@
       "supporter",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2890,7 +2890,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2901,7 +2901,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2912,7 +2912,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2923,7 +2923,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2934,7 +2934,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2944,7 +2944,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2955,7 +2955,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2966,7 +2966,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2976,7 +2976,7 @@
       "5 star",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2987,7 +2987,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -2997,7 +2997,7 @@
       "5 star",
       "supporter"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3008,7 +3008,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3019,7 +3019,7 @@
       "specialist",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3030,7 +3030,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3041,7 +3041,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3052,7 +3052,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3062,7 +3062,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3073,7 +3073,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3084,7 +3084,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3095,7 +3095,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3106,7 +3106,7 @@
       "specialist",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3117,7 +3117,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3128,7 +3128,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3139,7 +3139,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3149,7 +3149,7 @@
       "5 star",
       "specialist"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3159,7 +3159,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3170,7 +3170,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3181,7 +3181,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3191,7 +3191,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3201,7 +3201,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3212,7 +3212,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3223,7 +3223,7 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3234,7 +3234,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "name": "Wakaba Mutsumi",
@@ -3244,7 +3244,7 @@
       "specialist",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3255,7 +3255,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3265,7 +3265,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3276,7 +3276,7 @@
       "caster",
       "range"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3287,7 +3287,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3297,7 +3297,7 @@
       "5 star",
       "medic"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3308,7 +3308,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3319,7 +3319,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3330,7 +3330,7 @@
       "supporter",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3340,7 +3340,7 @@
       "5 star",
       "specialist"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3350,7 +3350,7 @@
       "5 star",
       "supporter"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "name": "Yahata Umiri",
@@ -3359,7 +3359,7 @@
       "5 star", 
       "specialist"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "name": "Yutenji Nyamu",
@@ -3369,7 +3369,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -3380,7 +3380,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "progression_skip_balancing": true
   },
   {
     "count": "1",
@@ -4293,7 +4293,7 @@
       "vanguard",
       "block"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "1",
@@ -4304,7 +4304,7 @@
       "guard",
       "block"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "1",
@@ -4315,7 +4315,17 @@
       "defender",
       "block"
     ],
-    "progression": true
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Gallus2",
+    "category": [
+      "character",
+      "1 star",
+      "caster"
+    ],
+    "useful": true
   },
   {
     "count": "1",
@@ -4326,7 +4336,7 @@
       "sniper",
       "range"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "1",
@@ -4336,7 +4346,7 @@
       "1 star",
       "medic"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "1",
@@ -4347,7 +4357,7 @@
       "supporter",
       "range"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "1",
@@ -4357,7 +4367,7 @@
       "1 star",
       "specialist"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "1",
@@ -4367,7 +4377,7 @@
       "1 star",
       "sniper"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "1",
@@ -4377,7 +4387,7 @@
       "1 star",
       "supporter"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "13",
@@ -4417,7 +4427,7 @@
     "category": [
       "progressive characters"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "13",
@@ -4425,7 +4435,7 @@
     "category": [
       "progressive characters"
     ],
-    "progression": true
+    "useful": true
   },
   {
     "count": "13",
