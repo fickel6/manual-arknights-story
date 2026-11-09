@@ -33,7 +33,7 @@ class TotalCharactersToWinWith(Range):
     default = 50
 
 class chapters(OptionSet):
-    """list for enabling/disabling chapters"""  # Description of the yaml option in the template
+    """list of enabled chapters."""  # Description of the yaml option in the template
     display_name = "included chapters"          # Name of the option in the spoiler
     valid_keys = {  #define my own list to choose included chapters
         "chapter 0", "chapter 1", "chapter 2", "chapter 3", "chapter 4", 
@@ -45,7 +45,7 @@ class chapters(OptionSet):
 
 
 class events(OptionSet):
-    """list for enabling/disabling events"""  # Description of the yaml option in the template
+    """list of enabling events"""  # Description of the yaml option in the template
     display_name = "included events"          # Name of the option in the spoiler
     valid_keys = {  #define my own list to choose included chapters
         "Darknights' memoir", "A Walk in the Dust", "Babel", "Ending a Grand Overture", 

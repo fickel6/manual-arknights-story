@@ -153,10 +153,10 @@
             "type": "Range",
             "default": 50,
             "range_start": 1,
-            "range_end": 100,
+            "range_end": 200,
             "group": "goal options"
         },
-        "percentage goal amount": {
+        "% Originium Prime amount goal": {
             "description": [
                 "percentage of originium prime that is needed to beat the manual."
             ],

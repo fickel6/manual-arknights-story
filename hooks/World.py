@@ -235,8 +235,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     global victory_name, included_chapters
     victory_name = victory_names[world.options.goal]
 
-    max_amount_bosses = 17
-    max_op = 100
+    max_op = 200
     if victory_name == "collect OP":
         max_op = max_op - int(world.options.originium_prime_hunt.value)
         for _ in range(max_op):
@@ -248,7 +247,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     for _ in range(max_amount_random_unlock - world.options.include_random_operators):
         item_pool.remove(next(i for i in item_pool if i.name == "random unit unlock"))
 
-    if is_option_enabled(multiworld, player, "include_support_unit"):
+    if is_option_enabled(multiworld, player, "squad_size_sanity") and is_option_enabled(multiworld, player, "include_support_unit"):
         item_pool.remove(next(i for i in item_pool if i.name == "progressive squad size"))
 
     import copy

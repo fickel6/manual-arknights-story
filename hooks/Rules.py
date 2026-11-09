@@ -96,11 +96,11 @@ def totalOperators(state: CollectionState, player: int, amount_needed):
 
     return f"|@character:{int(amount_needed)-total}|"        
 
-def OPAmount(multiworld: MultiWorld, state:CollectionState, player: int):
+def OPAmount(multiworld: MultiWorld, player: int, state:CollectionState):
     total = get_option_value(multiworld, player, "originium_prime_hunt")
     needed = get_option_value(multiworld, player, "percentage_goal_amount")
     if isinstance(total, int) and isinstance(needed, int):
         if state.count ("Originium Prime") >= total*needed/100:
             return True
-    # if the option isn't a int, then something else is wrong, so always return false just to be sure it doesn't work
+    #return false also if one of the options doesn't return an int (which should never happen).
     return False
