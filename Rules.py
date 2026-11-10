@@ -480,7 +480,6 @@ def set_rules(world: "ManualWorld", multiworld: MultiWorld, player: int):
                 world.set_rule(locFromWorld, rb_rule)
             else:
                 def checkLocation(state: CollectionState, location=location):
-                    logging.warning(f"location: {location['name']} can't be reached")
                     locationCheck = fullLocationOrRegionCheck(state, location)
                     return locationCheck
 
