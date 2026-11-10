@@ -598,28 +598,28 @@
   "Hortus de Escapismo fourth part": {},
   "The Masses' Travels first part": {
     "starting": true,
-    "requires": "|progressive The Masses' Travels|",
+    "requires": "|progressive The Masses' Travels unlock|",
     "connects_to": ["The Masses' Travels second part"],
     "exit_requires": {
-      "chapter 16 second part": "|progressive The Masses' Travels:2|"
+      "The Masses' Travels second part": "|progressive The Masses' Travels unlock:2|"
     }
   },
   "The Masses' Travels second part": {
     "connects_to": ["The Masses' Travels third part"],
     "exit_requires": {
-      "The Masses' Travels third part": "|progressive The Masses' Travels:3|"
+      "The Masses' Travels third part": "|progressive The Masses' Travels unlock:3|"
     }
   },
   "The Masses' Travels third part": {
     "connects_to": ["The Masses' Travels fourth part"],
     "exit_requires": {
-      "The Masses' Travels fourth part": "|progressive The Masses' Travels:4|"
+      "The Masses' Travels fourth part": "|progressive The Masses' Travels unlock:4|"
     }
   },
   "The Masses' Travels fourth part": {
     "connects_to": ["The Masses' Travels fifth part"],
     "exit_requires": {
-      "The Masses' Travels fifth part": "|progressive The Masses' Travels:5|"
+      "The Masses' Travels fifth part": "|progressive The Masses' Travels unlock:5|"
     }
   },
   "The Masses' Travels fifth part": {},
@@ -1118,33 +1118,33 @@
     }
   },
   "Lingering Echoes fourth part": {},
-  "Zwillingstürme im Herbst first part": {
+  "Zwillingsturme im Herbst first part": {
     "starting": true,
-    "requires": "|progressive Zwillingstürme im Herbst unlock|",
-    "connects_to": ["Zwillingstürme im Herbst second part"],
+    "requires": "|progressive Zwillingsturme im Herbst unlock|",
+    "connects_to": ["Zwillingsturme im Herbst second part"],
     "exit_requires": {
-      "Zwillingstürme im Herbst second part": "|progressive Zwillingstürme im Herbst unlock:2|"
+      "Zwillingsturme im Herbst second part": "|progressive Zwillingsturme im Herbst unlock:2|"
     }
   },
-  "Zwillingstürme im Herbst second part": {
-    "connects_to": ["Zwillingstürme im Herbst third part"],
+  "Zwillingsturme im Herbst second part": {
+    "connects_to": ["Zwillingsturme im Herbst third part"],
     "exit_requires": {
-      "Zwillingstürme im Herbst third part": "|progressive Zwillingstürme im Herbst unlock:3|"
+      "Zwillingsturme im Herbst third part": "|progressive Zwillingsturme im Herbst unlock:3|"
     }
   },
-  "Zwillingstürme im Herbst third part": {
-    "connects_to": ["Zwillingstürme im Herbst fourth part"],
+  "Zwillingsturme im Herbst third part": {
+    "connects_to": ["Zwillingsturme im Herbst fourth part"],
     "exit_requires": {
-      "Zwillingstürme im Herbst fourth part": "|progressive Zwillingstürme im Herbst unlock:4|"
+      "Zwillingsturme im Herbst fourth part": "|progressive Zwillingsturme im Herbst unlock:4|"
     }
   },
-  "Zwillingstürme im Herbst fourth part": {
-    "connects_to": ["Zwillingstürme im Herbst fifth part"],
+  "Zwillingsturme im Herbst fourth part": {
+    "connects_to": ["Zwillingsturme im Herbst fifth part"],
     "exit_requires": {
-      "Zwillingstürme im Herbst fifth part": "|progressive Zwillingstürme im Herbst unlock:5|"
+      "Zwillingsturme im Herbst fifth part": "|progressive Zwillingsturme im Herbst unlock:5|"
     }
   },
-  "Zwillingstürme im Herbst fifth part": {},
+  "Zwillingsturme im Herbst fifth part": {},
   "When the Fireflights Casts first part": {
     "starting": true,
     "requires": "|progressive When the Fireflights Casts unlock|",

@@ -55,7 +55,7 @@
                 "Who is Real":350, "Invitation to Wine":351, "Where the Vernal Winds Will Never Blow":352, "Here a People Sows":353, "Such is the Joy of Our Reunion":354,
                 "Mansfield Break":400, "Dorothy's Vision":401, "Lonetrail":402,
                 "Grani And The Knights' Treasure":450, "Under Tides":451, "Stultifera Navis":452, "Path of Life":453, "Exodus From the Pale Sea":454, 
-                "Twilight of Wolumonde":500, "Lingering Echoes":501, "Zwillingstürme im Herbst":502, 
+                "Twilight of Wolumonde":500, "Lingering Echoes":501, "Zwillingstï¿½rme im Herbst":502, 
                 "When the Fireflights Casts":550, "When Elegies Are Ashes":551, 
                 "Heart of Surging Flame":600, "the Great Chief Returns":601, "Dossoles Holiday":602, "Ideal City":603, "So long Adele":604, "Adventure That Cannot Wait for the Sun":605 
             },
@@ -103,7 +103,7 @@
                 "Who is Real":350, "Invitation to Wine":351, "Where the Vernal Winds Will Never Blow":352, "Here a People Sows":353, "Such is the Joy of Our Reunion":354,
                 "Mansfield Break":400, "Dorothy's Vision":401, "Lonetrail":402,
                 "Grani And The Knights' Treasure":450, "Under Tides":451, "Stultifera Navis":452, "Path of Life":453, "Exodus From the Pale Sea":454, 
-                "Twilight of Wolumonde":500, "Lingering Echoes":501, "Zwillingstürme im Herbst":502, 
+                "Twilight of Wolumonde":500, "Lingering Echoes":501, "Zwillingsturme im Herbst":502, 
                 "When the Fireflights Casts":550, "When Elegies Are Ashes":551, 
                 "Heart of Surging Flame":600, "the Great Chief Returns":601, "Dossoles Holiday":602, "Ideal City":603, "So long Adele":604, "Adventure That Cannot Wait for the Sun":605 
             },
@@ -125,7 +125,7 @@
                 "Here a People Sows":353, "Such is the Joy of Our Reunion":354,
                 "Lonetrail":402,
                 "Stultifera Navis":452,
-                "Zwillingstürme im Herbst":502, 
+                "Zwillingstï¿½rme im Herbst":502, 
                 "Dossoles Holiday":602, "Ideal City":603, "So long Adele":604, "Adventure That Cannot Wait for the Sun":605 
             },
             "group": "goal options"
@@ -156,7 +156,7 @@
             "range_end": 200,
             "group": "goal options"
         },
-        "% Originium Prime amount goal": {
+        "percentage Originium Prime amount goal": {
             "description": [
                 "percentage of originium prime that is needed to beat the manual."
             ],

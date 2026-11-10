@@ -49,14 +49,14 @@ class events(OptionSet):
     display_name = "included events"          # Name of the option in the spoiler
     valid_keys = {  #define my own list to choose included chapters
         "Darknights' memoir", "A Walk in the Dust", "Babel", "Ending a Grand Overture", 
-        "Guide Ahead", "Hortus de Escapismo", "The Masses' Travels"
+        "Guide Ahead", "Hortus de Escapismo", "The Masses' Travels",
         "Break the Ice", "The Rides to Lake Silberneherze", 
         "Il Siracusan", "I Portatori Dei Velluti",
         "Maria Nearl", "Near Light", 
         "Who is Real", "Invitation to Wine", "Where the Vernal Winds Will Never Blow", "Here a People Sows", "Such is the Joy of Our Reunion",
         "Mansfield Break", "Dorothy's Vision", "Lonetrail",
         "Grani And The Knights' Treasure", "Under Tides", "Stultifera Navis", "Path of Life", "Exodus From the Pale Sea", 
-        "Twilight of Wolumonde", "Lingering Echoes", "Zwillingstürme im Herbst", 
+        "Twilight of Wolumonde", "Lingering Echoes", "Zwillingsturme im Herbst", 
         "When the Fireflights Casts", "When Elegies Are Ashes", 
         "Heart of Surging Flame", "the Great Chief Returns", "Dossoles Holiday", "Ideal City", "So long Adele", "Adventure That Cannot Wait for the Sun", 
     }
@@ -171,7 +171,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["include_H_stages"] = enableH
     options["include_story"] = enableStory
     options["include_fixed_squad"] = enableFixed
-    options["include_3_star"] = enableFullClear
+    options["include_3_star_clears"] = enableFullClear
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

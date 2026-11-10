@@ -37,7 +37,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         # logging.info(f"{category_name} is being removed")
         return False
     if category_name == "chapter 9" and "chapter 9" not in included_chapters[player]:
-        logging.info(f"{category_name} is being removed for player number {player}")
+        # logging.info(f"{category_name} is being removed for player number {player}")
         return False
     if category_name == "chapter 10" and "chapter 10" not in included_chapters[player]:
         # logging.info(f"{category_name} is being removed")
@@ -146,7 +146,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     if category_name == "Lingering Echoes" and "Lingering Echoes" not in included_chapters[player]:
         # logging.info(f"{category_name} is being removed")
         return False
-    if category_name == "Zwillingstürme im Herbst" and "Zwillingstürme im Herbst" not in included_chapters[player]:
+    if category_name == "Zwillingsturme im Herbst" and "Zwillingsturme im Herbst" not in included_chapters[player]:
         # logging.info(f"{category_name} is being removed")
         return False
     if category_name == "When the Fireflights Casts" and "When the Fireflights Casts" not in included_chapters[player]:
@@ -292,7 +292,7 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
         return False
     if "Lingering Echoes" == item["category"] and "Lingering Echoes" not in included_chapters[player]:
         return False
-    if "Zwillingstürme im Herbst" == item["category"] and "Zwillingstürme im Herbst" not in included_chapters[player]:
+    if "Zwillingsturme im Herbst" == item["category"] and "Zwillingsturme im Herbst" not in included_chapters[player]:
         return False
     if "When the Fireflights Casts"  == item["category"] and "When the Fireflights Casts" not in included_chapters[player]:
         return False

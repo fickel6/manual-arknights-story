@@ -5,7 +5,7 @@ from BaseClasses import MultiWorld, CollectionState
 
 # Sometimes you have a requirement that is just too messy or repetitive to write out with boolean logic.
 # Define a function here, and you can use it in a requires string with {function_name()}.
-import logging
+
 def overfishedAnywhere(world: World, state: CollectionState, player: int):
     """Has the player collected all fish from any fishing log?"""
     for cat, items in world.item_name_groups:
@@ -37,6 +37,7 @@ def enabledOperators(multiworld: MultiWorld, player: int):
         return True
 
     return False
+
 #hook for combining normal operators and progressive characters
 def requiredOperators(multiworld: MultiWorld, state: CollectionState, player: int, block: str, range: str):
     if not bool(progressive_operators_settings):

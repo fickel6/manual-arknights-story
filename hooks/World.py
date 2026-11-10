@@ -60,7 +60,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         350:"Who is Real", 351:"Invitation to Wine", 352:"Where the Vernal Winds Will Never Blow", 353:"Here a People Sows", 354:"Such is the Joy of Our Reunion",
         400:"Mansfield Break", 401:"Dorothy's Vision", 402:"Lonetrail",
         450:"Grani And The Knights' Treasure", 451:"Under Tides", 452:"Stultifera Navis", 453:"Path of Life", 454:"Exodus From the Pale Sea", 
-        500:"Twilight of Wolumonde", 501:"Lingering Echoes", 502:"Zwillingstürme im Herbst", 
+        500:"Twilight of Wolumonde", 501:"Lingering Echoes", 502:"Zwillingsturme im Herbst", 
         550:"When the Fireflights Casts", 551:"When Elegies Are Ashes", 
         600:"Heart of Surging Flame", 601:"the Great Chief Returns", 602:"Dossoles Holiday", 603:"Ideal City", 604:"So long Adele", 605:"Adventure That Cannot Wait for the Sun"}
     # add the goal for the other events in this list (tuple?)
@@ -169,8 +169,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
                     included_chapters[player].remove("Twilight of Wolumonde")
                 case "Lingering Echoes":
                     included_chapters[player].remove("Lingering Echoes")
-                case "Zwillingstürme im Herbst":
-                    included_chapters[player].remove("Zwillingstürme im Herbst")
+                case "Zwillingsturme im Herbst":
+                    included_chapters[player].remove("Zwillingsturme im Herbst")
                 case "When the Fireflights Casts":
                     included_chapters[player].remove("When the Fireflights Casts")
                 case "When Elegies Are Ashes":

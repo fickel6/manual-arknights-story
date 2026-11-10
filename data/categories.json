@@ -21,6 +21,7 @@
     },
     "h-stage": {
         "yaml_option": ["challenge sanity"],
+        "hidden": true
     },
     "ex-stage": {
         "yaml_option": ["include_EX_stages"],
@@ -35,7 +36,7 @@
         "hidden": true
     },
     "3-stars clear": {
-        "yaml_option": ["include_3_star"],
+        "yaml_option": ["include_3_star_clears"],
         "hidden": true
     },
     "challenge mode": {
