@@ -1288,6 +1288,17 @@
   },
   {
     "count": "1",
+    "name": "Violet Mizutsune Orchid",
+    "category": [
+      "character",
+      "6 star",
+      "sniper",
+      "range"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": "1",
     "name": "Vulpisfoglia",
     "category": [
       "character",
@@ -3384,6 +3395,17 @@
   },
   {
     "count": "1",
+    "name": "Zinogre S Catapult",
+    "category": [
+      "character",
+      "5 star",
+      "Guard",
+      "block"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": "1",
     "name": "Aciddrop",
     "category": [
       "character",
@@ -4355,6 +4377,17 @@
       "character",
       "1 star",
       "supporter",
+      "range"
+    ],
+    "useful": true
+  },
+  {
+    "count": "1",
+    "name": "Rhodes Island Recon",
+    "category": [
+      "character",
+      "1 star",
+      "Vanguard",
       "range"
     ],
     "useful": true
