@@ -5031,5 +5031,25 @@
       "Adventure That Cannot Wait for the Sun"
     ],
     "progression": true
+  },
+  {
+    "count": 4,
+    "name": "progressive Code of Brawl unlock",
+    "category": [
+      "chapter unlock",
+      "starting chapter unlock",
+      "Code of Brawl"
+    ],
+    "progression": true
+  },
+  {
+    "count": 4,
+    "name": "progressive Come Catastrophes or Wakes of Vultures unlock",
+    "category": [
+      "chapter unlock",
+      "starting chapter unlock",
+      "Come Catastrophes or Wakes of Vultures"
+    ],
+    "progression": true
   }
 ]

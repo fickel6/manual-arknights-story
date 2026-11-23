@@ -1342,5 +1342,47 @@
       "Adventure That Cannot Wait for the Sun fifth part": "|progressive Adventure That Cannot Wait for the Sun unlock:5|"
     }
   },
-  "Adventure That Cannot Wait for the Sun fifth part": {}
+  "Adventure That Cannot Wait for the Sun fifth part": {},
+  "Code of Brawl first part": {
+    "starting": true,
+    "requires": "|progressive Code of Brawl unlock|",
+    "connects_to": ["Code of Brawl second part"],
+    "exit_requires": {
+      "Code of Brawl second part": "|progressive Code of Brawl:2|"
+    }
+  },
+  "Code of Brawl second part": {
+    "connects_to": ["Code of Brawl third part"],
+    "exit_requires": {
+      "Code of Brawl third part": "|progressive Code of Brawl unlock:3|"
+    }
+  },
+  "Code of Brawl third part": {
+    "connects_to": ["Code of Brawl fourth part"],
+    "exit_requires": {
+      "Code of Brawl fourth part": "|progressive Code of Brawl unlock:4|"
+    }
+  },
+  "Code of Brawl fourth part": {},
+  "Come Catastrophes or Wakes of Vultures first part": {
+    "starting": true,
+    "requires": "|progressive Come Catastrophes or Wakes of Vultures unlock|",
+    "connects_to": ["Come Catastrophes or Wakes of Vultures second part"],
+    "exit_requires": {
+      "Come Catastrophes or Wakes of Vultures second part": "|progressive Come Catastrophes or Wakes of Vultures unlock:2|"
+    }
+  },
+  "Come Catastrophes or Wakes of Vultures second part": {
+    "connects_to": ["Come Catastrophes or Wakes of Vultures third part"],
+    "exit_requires": {
+      "Come Catastrophes or Wakes of Vultures third part": "|progressive Come Catastrophes or Wakes of Vultures unlock:3|"
+    }
+  },
+  "Come Catastrophes or Wakes of Vultures third part": {
+    "connects_to": ["Come Catastrophes or Wakes of Vultures fourth part"],
+    "exit_requires": {
+      "Come Catastrophes or Wakes of Vultures fourth part": "|progressive Come Catastrophes or Wakes of Vultures unlock:4|"
+    }
+  },
+  "Come Catastrophes or Wakes of Vultures fourth part": {}
 }

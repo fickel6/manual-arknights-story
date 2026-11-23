@@ -14069,6 +14069,474 @@
     "requires": ""
   },
   {
+    "name": "CB-1 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-1 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-2 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-2 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-3 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-3 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-4 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-4 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-5 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-5 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-6 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-6 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-7 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-7 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-8 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-8 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-9 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-9 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-10 clear",
+    "category": ["Tales of Terra", "Code of Brawl"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-10 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "3-stars clear"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-ST-1 read",
+    "category": ["Tales of Terra", "Code of Brawl", "reading"],
+    "region": "Code of Brawl first part",
+    "requires": ""
+  },
+  {
+    "name": "CB-ST-2 read",
+    "category": ["Tales of Terra", "Code of Brawl", "reading"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-ST-3 read",
+    "category": ["Tales of Terra", "Code of Brawl", "reading"],
+    "region": "Code of Brawl second part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-1 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-1 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-1 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-1 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-1 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-1 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-2 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-2 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-3 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-3 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-4 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-4 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl third part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-5 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-5 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-6 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-6 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-7 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-7 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-8 clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "region": "Code of Brawl fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CB-EX-8 3-star clear",
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "3-stars clear"],
+    "region": "Code of Brawl fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CV-1 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-1 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-2 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-2 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-3 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-3 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-4 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-4 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-5 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures"],
+    "region": "Come Catastrophes or Wakes of Vultures second part",
+    "requires": ""
+  },
+  {
+    "name": "CV-5 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures second part",
+    "requires": ""
+  },
+  {
+    "name": "CV-6 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures"],
+    "region": "Come Catastrophes or Wakes of Vultures second part",
+    "requires": ""
+  },
+  {
+    "name": "CV-6 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures second part",
+    "requires": ""
+  },
+  {
+    "name": "CV-7 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures"],
+    "region": "Come Catastrophes or Wakes of Vultures second part",
+    "requires": ""
+  },
+  {
+    "name": "CV-7 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures second part",
+    "requires": ""
+  },
+  {
+    "name": "CV-8 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures"],
+    "region": "Come Catastrophes or Wakes of Vultures second part",
+    "requires": ""
+  },
+  {
+    "name": "CV-8 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures second part",
+    "requires": ""
+  },
+  {
+    "name": "CV-ST-1 read",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "reading"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-ST-2 read",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "reading"],
+    "region": "Come Catastrophes or Wakes of Vultures first part",
+    "requires": ""
+  },
+  {
+    "name": "CV-ST-3 read",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "reading"],
+    "region": "Come Catastrophes or Wakes of Vultures second part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-1 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage"],
+    "region": "Come Catastrophes or Wakes of Vultures third part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-1 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures third part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-2 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage"],
+    "region": "Come Catastrophes or Wakes of Vultures third part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-2 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures third part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-3 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage"],
+    "region": "Come Catastrophes or Wakes of Vultures third part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-3 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures third part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-4 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage"],
+    "region": "Come Catastrophes or Wakes of Vultures third part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-4 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures third part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-5 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage"],
+    "region": "Come Catastrophes or Wakes of Vultures fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-5 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-6 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage"],
+    "region": "Come Catastrophes or Wakes of Vultures fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-6 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-7 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage"],
+    "region": "Come Catastrophes or Wakes of Vultures fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-7 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-8 clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage"],
+    "region": "Come Catastrophes or Wakes of Vultures fourth part",
+    "requires": ""
+  },
+  {
+    "name": "CV-EX-8 3-star clear",
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage", "3-stars clear"],
+    "region": "Come Catastrophes or Wakes of Vultures fourth part",
+    "requires": ""
+  },
+  {
     "name": "event cleared",
     "category": ["goal"],
     "requires": "|beaten stage|",
