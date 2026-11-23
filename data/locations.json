@@ -14178,7 +14178,7 @@
   },
   {
     "name": "CB-10 clear",
-    "category": ["Tales of Terra", "Code of Brawl"],
+    "category": ["Tales of Terra", "Code of Brawl", "boss stage"],
     "region": "Code of Brawl second part",
     "requires": ""
   },
@@ -14316,7 +14316,7 @@
   },
   {
     "name": "CB-EX-8 clear",
-    "category": ["Tales of Terra", "Code of Brawl", "ex-stage"],
+    "category": ["Tales of Terra", "Code of Brawl", "ex-stage", "boss stage"],
     "region": "Code of Brawl fourth part",
     "requires": ""
   },
@@ -14412,7 +14412,7 @@
   },
   {
     "name": "CV-8 clear",
-    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures"],
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "boss stage"],
     "region": "Come Catastrophes or Wakes of Vultures second part",
     "requires": ""
   },
@@ -14526,7 +14526,7 @@
   },
   {
     "name": "CV-EX-8 clear",
-    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage"],
+    "category": ["Tales of Terra", "Come Catastrophes or Wakes of Vultures", "ex-stage", "boss stage"],
     "region": "Come Catastrophes or Wakes of Vultures fourth part",
     "requires": ""
   },

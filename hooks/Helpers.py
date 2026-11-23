@@ -173,6 +173,12 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
     if category_name == "Adventure That Cannot Wait for the Sun" and "Adventure That Cannot Wait for the Sun" not in included_chapters[player]:
         # logging.info(f"{category_name} is being removed")
         return False
+    if category_name == "Code of Brawl" and "Code of Brawl" not in included_chapters[player]:
+        # logging.info(f"{category_name} is being removed")
+        return False
+    if category_name == "Come Catastrophes or Wakes of Vultures" and "Come Catastrophes or Wakes of Vultures" not in included_chapters[player]:
+        # logging.info(f"{category_name} is being removed")
+        return False
     # items can't be removed from this hook
     # if "6 star" == category_name and get_option_value(multiworld, player, "include_6_stars") != 0:
     #     return False
@@ -309,6 +315,10 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
     if "So long Adele" == item["category"] and "So long Adele" not in included_chapters[player]:
         return False
     if "Adventure That Cannot Wait for the Sun" == item["category"] and "Adventure That Cannot Wait for the Sun" not in included_chapters[player]:
+        return False
+    if "Code of Brawl" == item["category"] and "Code of Brawl" not in included_chapters[player]:
+        return False
+    if "Come Catastrophes or Wakes of Vultures" == item["category"] and "Come Catastrophes or Wakes of Vultures" not in included_chapters[player]:
         return False
 
     if "defeated bosses" == item["name"] and get_option_value(multiworld, player, "goal") not in (0, 1, 4, 5):
