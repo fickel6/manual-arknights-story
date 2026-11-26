@@ -1039,6 +1039,16 @@
   },
   {
     "count": "1",
+    "name": "Shu",
+    "category": [
+      "character",
+      "6 star",
+      "defender"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": "1",
     "name": "Siege",
     "category": [
       "character",
