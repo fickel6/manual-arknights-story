@@ -5077,7 +5077,7 @@
   {
     "name": "collect OP",
     "category": ["goal"],
-    "requires": "{OPAmount()}",
+    "requires": "{OptionCountPercent(Originium Prime, percentage_goal_amount)}",
     "victory": true
   },
   {

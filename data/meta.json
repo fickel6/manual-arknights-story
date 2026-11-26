@@ -16,7 +16,7 @@
                 "for more info check github https://github.com/ArchipelagoMW/Archipelago/blob/main/docs/world%20api.md#webworld-class",
                 "is still work in progress"],
             "theme": "grass",
-            "bug_report_page": "https://discord.gg/T5bcsVHByx",
+            "bug_report_page": "https://github.com/fickel6/manual-arknights-story/issues",
             "tutorials": [
                 {
                     "name": "Multiworld Setup Guide",
