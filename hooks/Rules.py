@@ -17,27 +17,41 @@ def enabledOperators(multiworld: MultiWorld, player: int):
     four_stars = get_option_value(multiworld, player, "include_4_stars")
     three_stars = get_option_value(multiworld, player, "include_3_stars")
     if six_stars == 2 or five_stars == 2 or four_stars == 2 or three_stars == 2:
-        return "1"
+        return True
 
-    return "0"
+    return False
 
 #hook for combining normal operators and progressive characters
 def requiredOperators(multiworld: MultiWorld, state: CollectionState, player: int, block: str, range: str):
 
-    #check the squad size first. if this isn't bigger than the required amount of blocking and range units, then we can return "0" immediately
+    #check the squad size first. if this isn't bigger than the required amount of blocking and range units, then we can return false immediately
     #return early if minimum amount of block and range can't be taken with the unlocked squad size
     if is_option_enabled(multiworld, player, "squad_size_sanity"):
         total_block = int(block) + int(range)
         if total_block > 12:
             # logging.info("invalid block count")
-            return "0"
+            return False
         if state.count("progressive squad size", player) < total_block:
             # logging.info("squad size isn't big enough")
-            return "0"
+            return False
     #check for the enabled operators. if the any category isn't enabled, they are using them, just not randomised, there for beatable (most of the time)
     if enabledOperators(multiworld, player): 
             # logging.info("enough operators are not enabled for this run")
-            return "1"
+            return True
+
+if version_tuple >= (0, 6, 7):
+    @dataclasses.dataclass()
+    class requiredOperatorsRule(Rule["ManualWorld"], game=game_name):
+        # Naming a RB rule somethingRule let you keep the old non RB version for back compat since the Generator will use the version it prefer
+        targetRating:int
+        text: str
+        collect: bool = True
+        def _instantiate(self, world: "ManualWorld") -> Rule.Resolved:
+            if enabledOperators()
+            if self.collect:
+                return True_().resolve(world)
+            else:
+                return False_().resolve(world)
     
     standing_units = 0
     rangers = 0
@@ -58,7 +72,7 @@ def requiredOperators(multiworld: MultiWorld, state: CollectionState, player: in
         #if there are enough blocking units and range units, then we can return early
         if standing_units >= int(block) and rangers >= int(range):
             # logging.info("progressive characters are enough")
-            return "1"
+            return True
     #to check the normal list, just use the normal ap approach with the || things. 
     # logging.info("returning a normal require block")
     return f"|@block:{int(block) - standing_units}| AND |@range:{int(range) - rangers}|"
@@ -71,7 +85,7 @@ def checkAmountxStars(multiworld: MultiWorld, state: CollectionState, player: in
     if get_option_value(multiworld, player, f"include_{rarity}_stars") == 1:
         progressive_amount = progressive_amount * 12//get_option_value(multiworld, player, f"amount_progressive_{rarity}_stars")
 
-    return f"|@{category_name}:{int(required)-progressive_amount}|" if progressive_amount < int(required) else "0"
+    return f"|@{category_name}:{int(required)-progressive_amount}|" if progressive_amount < int(required) else False
 
 def checkClassAmount(state: CollectionState, player: int, class_name: str, required: str):
     # logging.info("checking class amount")
@@ -81,7 +95,7 @@ def checkClassAmount(state: CollectionState, player: int, class_name: str, requi
         amount_progressive = state.count(f"progressive {item_group_name}", player)
         total += amount_progressive
         if total > int(required):
-            return "1"
+            return True
     return f"|@{class_name}: {int(required)-total}|"
 
 def totalOperators(state: CollectionState, player: int, amount_needed):
@@ -90,6 +104,6 @@ def totalOperators(state: CollectionState, player: int, amount_needed):
     for item_group_name in ["6 star", "5 star", "4 star", "3 star", "2 star", "1 star"]:
         total += state.count(f"progressive {item_group_name}", player)
         if total >= int(amount_needed):
-            return "1"
+            return True
 
     return f"|@character:{int(amount_needed)-total}|" 
