@@ -1039,6 +1039,16 @@
   },
   {
     "count": "1",
+    "name": "Shu",
+    "category": [
+      "character",
+      "6 star",
+      "defender"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": "1",
     "name": "Siege",
     "category": [
       "character",
@@ -5062,6 +5072,26 @@
       "chapter unlock",
       "starting chapter unlock",
       "Adventure That Cannot Wait for the Sun"
+    ],
+    "progression": true
+  },
+  {
+    "count": 4,
+    "name": "progressive Code of Brawl unlock",
+    "category": [
+      "chapter unlock",
+      "starting chapter unlock",
+      "Code of Brawl"
+    ],
+    "progression": true
+  },
+  {
+    "count": 4,
+    "name": "progressive Come Catastrophes or Wakes of Vultures unlock",
+    "category": [
+      "chapter unlock",
+      "starting chapter unlock",
+      "Come Catastrophes or Wakes of Vultures"
     ],
     "progression": true
   }

@@ -62,7 +62,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         450:"Grani And The Knights' Treasure", 451:"Under Tides", 452:"Stultifera Navis", 453:"Path of Life", 454:"Exodus From the Pale Sea", 
         500:"Twilight of Wolumonde", 501:"Lingering Echoes", 502:"Zwillingsturme im Herbst", 
         550:"When the Fireflights Casts", 551:"When Elegies Are Ashes", 
-        600:"Heart of Surging Flame", 601:"the Great Chief Returns", 602:"Dossoles Holiday", 603:"Ideal City", 604:"So long Adele", 605:"Adventure That Cannot Wait for the Sun"}
+        600:"Heart of Surging Flame", 601:"the Great Chief Returns", 602:"Dossoles Holiday", 603:"Ideal City", 604:"So long Adele", 605:"Adventure That Cannot Wait for the Sun",
+        650:"Code of Brawl", 651:"Come Catastrophes or Wakes of Vultures"}
     # add the goal for the other events in this list (tuple?)
     if world.options.goal in (0, 1):
         goal_chapter = get_option_value(multiworld, player, "chapter_boss_clear")
@@ -187,6 +188,10 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
                     included_chapters[player].remove("So long Adele")
                 case "Adventure That Cannot Wait for the Sun":
                     included_chapters[player].remove("Adventure That Cannot Wait for the Sun")
+                case "Code of Brawl":
+                    included_chapters[player].remove("Code of Brawl")
+                case "Come Catastrophes or Wakes of Vultures":
+                    included_chapters[player].remove("Come Catastrophes or Wakes of Vultures")
                 case _:
                     raise AssertionError(f"the chapter/event: {remove_chapter} isn't in the list")
 
@@ -457,6 +462,8 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                 case 603: boss_locations.append("IC-9 clear")
                 case 604: boss_locations.append("SL-8 clear")
                 case 605: boss_locations.append("AS-9 clear")
+                case 650: boss_locations.append("CB-10 clear")
+                case 651: boss_locations.append("CV-8 clear")
         case "H-stages cleared":
             match world.options.H_stage_clear.value:
                 case  5: boss_locations.append("H5-4 clear")
@@ -516,6 +523,8 @@ def before_generate_basic(world: World, multiworld: MultiWorld, player: int):
                 case 603: boss_locations.append("IC-EX-8 clear")
                 case 604: boss_locations.append("SL-EX-8 clear")
                 case 605: boss_locations.append("AS-EX-8 clear")
+                case 650: boss_locations.append("CB-EX-8 clear")
+                case 651: boss_locations.append("CV-EX-8 clear")
         case "S-stage cleared":
             match world.options.ex_stage_clear.value:
                 case 102: boss_locations.append("BB-S-4 clear")
